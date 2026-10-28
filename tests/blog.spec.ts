@@ -6,7 +6,7 @@ test("nine theme/layout combinations on desktop and mobile", async ({
     await page.setViewportSize({ width, height: 900 });
     for (const route of ["build-a-space", "math-and-code", "slow-notes"]) {
       await page.goto("/posts/" + route + "/");
-      for (const theme of ["study", "editorial", "terminal"]) {
+      for (const theme of ["study", "editorial", "terminal", "workspace"]) {
         await page.evaluate(
           (t) => (document.documentElement.dataset.theme = t),
           theme,
@@ -23,6 +23,7 @@ test("nine theme/layout combinations on desktop and mobile", async ({
 });
 test("search, mode, diagram, image and keyboard", async ({ page }) => {
   await page.goto("/");
+  await expect(page.getByLabel("频率",{exact:true})).toBeEnabled();
   await page.getByRole("button", { name: "搜索文章" }).click();
   await page.getByRole("textbox", { name: "搜索关键词" }).fill("公式");
   await expect(page.locator(".search-results a").first()).toContainText("公式");
@@ -79,10 +80,10 @@ test("author fonts apply without visitor controls or JavaScript", async ({
     await page
       .locator("body")
       .evaluate((el) => getComputedStyle(el).fontFamily),
-  ).toContain("Blog Anthropic Serif");
+  ).toContain("Blog MiSans");
   expect(
     await page.locator("h1").evaluate((el) => getComputedStyle(el).fontFamily),
-  ).toContain("Blog Anthropic Sans");
+  ).toContain("Blog MiSans");
   expect(
     await page
       .locator(".prose pre code")
@@ -113,7 +114,7 @@ test("PingFang is available to author without loading by default", async ({
   page.on("request", (r) => requests.push(r.url()));
   await page.goto("/posts/");
   await page.evaluate(() => document.fonts.ready);
-  expect(requests.some((url) => url.includes("PingFang-"))).toBeFalsy();
+  expect(requests.some((url) => /PingFang-|OPPOSans4/.test(url))).toBeFalsy();
   await page.evaluate(() =>
     document.documentElement.style.setProperty(
       "--reader-body",
@@ -135,6 +136,76 @@ test("PingFang is available to author without loading by default", async ({
   ).toBeTruthy();
 });
 
-test('MiSans simplified subset renders Chinese and English',async({page})=>{await page.goto('/projects/');await expect(page.getByText('SELECTED WORK',{exact:true})).toHaveCount(0);await page.evaluate(()=>document.documentElement.style.setProperty('--reader-body','"Blog MiSans", sans-serif'));expect(await page.evaluate(async()=>{await document.fonts.load('400 16px "Blog MiSans"','中文阅读 Hello 123');return document.fonts.check('400 16px "Blog MiSans"','中文阅读 Hello 123')})).toBeTruthy();await page.screenshot({path:'test-results/misans-projects.png',fullPage:true});});
+test("MiSans simplified subset renders Chinese and English", async ({
+  page,
+}) => {
+  await page.goto("/projects/");
+  await expect(page.getByText("SELECTED WORK", { exact: true })).toHaveCount(0);
+  await page.evaluate(() =>
+    document.documentElement.style.setProperty(
+      "--reader-body",
+      '"Blog MiSans", sans-serif',
+    ),
+  );
+  expect(
+    await page.evaluate(async () => {
+      await document.fonts.load('400 16px "Blog MiSans"', "中文阅读 Hello 123");
+      return document.fonts.check(
+        '400 16px "Blog MiSans"',
+        "中文阅读 Hello 123",
+      );
+    }),
+  ).toBeTruthy();
+  await page.screenshot({
+    path: "test-results/misans-projects.png",
+    fullPage: true,
+  });
+});
 
-test('OPPO subset loads Chinese and Latin with variable weights',async({page})=>{await page.goto('/posts/');await page.evaluate(()=>document.documentElement.style.setProperty('--reader-body','"Blog OPPO Sans", sans-serif'));expect(await page.evaluate(async()=>{await document.fonts.load('500 16px "Blog OPPO Sans"','中文阅读 Hello 123');return document.fonts.check('500 16px "Blog OPPO Sans"','中文阅读 Hello 123')})).toBeTruthy();});
+test("OPPO subset loads Chinese and Latin with variable weights", async ({
+  page,
+}) => {
+  await page.goto("/posts/");
+  await page.evaluate(() =>
+    document.documentElement.style.setProperty(
+      "--reader-body",
+      '"Blog OPPO Sans", sans-serif',
+    ),
+  );
+  expect(
+    await page.evaluate(async () => {
+      await document.fonts.load(
+        '500 16px "Blog OPPO Sans"',
+        "中文阅读 Hello 123",
+      );
+      return document.fonts.check(
+        '500 16px "Blog OPPO Sans"',
+        "中文阅读 Hello 123",
+      );
+    }),
+  ).toBeTruthy();
+});
+
+test("TSX articles are searchable, static and interactive", async ({
+  page,
+  browser,
+}) => {
+  await page.goto("/posts/curve-lab/");
+  const range = page.getByLabel("频率", { exact: true });
+  await expect(range).toBeVisible();
+  await range.fill("3");
+  await expect(page.locator("output")).toContainText("3.0");
+  await page.getByRole("button", { name: "重置参数" }).click();
+  await expect(range).toHaveValue("2");
+  await page.getByRole("button", { name: "搜索文章" }).click();
+  await page.getByRole("textbox", { name: "搜索关键词" }).fill("波形");
+  await expect(page.locator(".search-results a").first()).toContainText("曲线");
+  const context = await browser.newContext({ javaScriptEnabled: false });
+  const staticPage = await context.newPage();
+  await staticPage.goto("http://127.0.0.1:4321/posts/curve-lab/");
+  await expect(staticPage.locator("#article-body")).toContainText(
+    "从图像理解参数",
+  );
+  await expect(staticPage.locator("svg")).toBeVisible();
+  await context.close();
+});

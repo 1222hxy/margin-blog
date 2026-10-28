@@ -1,0 +1,25 @@
+{
+  "title": "让曲线说话：一个可以动手的数学实验",
+  "description": "拖动一个参数，看抽象的函数如何变成眼前的形状。文字之外，也可以用交互讲清楚一个想法。",
+  "date": "2026-10-28",
+  "tags": ["技术", "数学", "实验"],
+  "template": "technical",
+  "searchText": "正弦函数 振幅 频率 曲线 波形 参数 数学实验 交互式可视化 sine wave",
+  "headings": [
+    {
+      "depth": 2,
+      "slug": "try",
+      "text": "先动手试试看"
+    },
+    {
+      "depth": 2,
+      "slug": "why",
+      "text": "从图像理解参数"
+    },
+    {
+      "depth": 2,
+      "slug": "build",
+      "text": "不局限于文字的表达"
+    }
+  ]
+}

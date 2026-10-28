@@ -1,0 +1,1 @@
+export default function DraftExample(){return <p>TSX_DRAFT_SENTINEL</p>}

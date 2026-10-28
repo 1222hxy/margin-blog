@@ -1,15 +1,18 @@
 ---
+import { site } from "../config";
 import { dateLabel } from "../lib/content";
 const { post, index = 0 } = Astro.props;
 ---
 
 <a class="post-card" href={"/posts/" + post.id + "/"}>
-  <div class:list={["card-art", "art-" + (index % 3)]} aria-hidden="true">
-    <span>{["∑", "↗", "◎"][index % 3]}</span>
-    <small>
-      {post.data.tags[0] || "NOTES"} / 0{index + 1}
-    </small>
-  </div>
+  {site.theme !== "workspace" && (
+    <div class:list={["card-art", "art-" + (index % 3)]} aria-hidden="true">
+      <span>{["∑", "↗", "◎"][index % 3]}</span>
+      <small>
+        {post.data.tags[0] || "NOTES"} / 0{index + 1}
+      </small>
+    </div>
+  )}
   <div class="card-meta">
     <span>{post.data.tags[0]}</span>
     <time datetime={post.data.date.toISOString()}>

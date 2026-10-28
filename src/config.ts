@@ -1,7 +1,7 @@
 import type { FontPreferences } from "./lib/fonts";
-export const themes = ["study", "editorial", "terminal"] as const;
+export const themes = ["study", "editorial", "terminal", "workspace"] as const;
 export const layouts = ["standard", "technical", "journal"] as const;
-const theme = import.meta.env.BLOG_THEME || "study";
+const theme = import.meta.env.BLOG_THEME || "workspace";
 if (!themes.includes(theme as (typeof themes)[number]))
   throw new Error("Invalid BLOG_THEME: " + theme);
 export const site = {
@@ -10,8 +10,8 @@ export const site = {
   author: "你的名字",
   theme,
   fonts: {
-    body: "anthropic-serif",
-    heading: "anthropic-sans",
+    body: "misans",
+    heading: "misans",
     code: "anthropic-mono",
   } satisfies FontPreferences,
   defaultLayout: "standard" as (typeof layouts)[number],

@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import "../styles/workspace.css";
 import "katex/dist/katex.min.css";
 import { site } from "../config";
 import Search from "../components/Search";
@@ -47,7 +48,22 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       <a href="/" class="brand">
         <span class="brand-icon">m.</span>页间
       </a>
+      {site.theme === "workspace" && (
+        <p class="sidebar-note">
+          一个持续更新的
+          <br />
+          个人创作空间。
+        </p>
+      )}
       <nav aria-label="主导航">
+        {site.theme === "workspace" && (
+          <a
+            href="/"
+            aria-current={Astro.url.pathname === "/" ? "page" : undefined}
+          >
+            工作台
+          </a>
+        )}
         {site.navigation.map((n) => (
           <a
             href={n.href}
@@ -66,6 +82,11 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
           ◐
         </button>
       </div>
+      {site.theme === "workspace" && (
+        <a class="sidebar-subscribe" href="/rss.xml">
+          通过 RSS 订阅
+        </a>
+      )}
     </header>
     <main id="main">
       <slot />

@@ -1047,4 +1047,8 @@ h3,
   font-display: swap;
 }
 
-.card-art small {font-family:inherit;letter-spacing:normal;font-size:12px;}
+.card-art small {
+  font-family: inherit;
+  letter-spacing: normal;
+  font-size: 12px;
+}

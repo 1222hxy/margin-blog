@@ -1,0 +1,101 @@
+---
+import { published, dateLabel } from "../lib/content";
+import { getCollection } from "astro:content";
+import TsxContent from "./TsxContent";
+const posts = await published();
+const projects = await getCollection("projects");
+const tags = [...new Set(posts.flatMap((p) => p.data.tags))];
+---
+
+<div class="workspace-home">
+  <header class="desk-intro">
+    <div>
+      <p class="desk-location">页间 / 创作与记录</p>
+      <h1>
+        想法在这里，
+        <br />
+        慢慢成为作品。
+      </h1>
+      <p>
+        写文章，做实验，也记录生活。
+        <br />
+        把探索的过程留在这里，与你分享。
+      </p>
+    </div>
+    <a href="/about/" class="desk-about">
+      认识这个空间 <span aria-hidden="true">↗</span>
+    </a>
+  </header>
+  <div class="desk-columns">
+    <div class="desk-main">
+      {posts.some((p) => p.id === "curve-lab") && (
+        <section class="featured-experiment">
+          <div class="feature-caption">
+            <span class="type-chip">交互实验</span>
+            <span>数学，可以动手理解</span>
+          </div>
+          <h2>
+            <a href="/posts/curve-lab/">给一个想法，画出它的形状。</a>
+          </h2>
+          <p>试着调整曲线的频率和振幅，看看会发生什么。</p>
+          <div class="desk-demo">
+            <TsxContent id="curve-lab" client:load />
+          </div>
+          <a class="feature-link" href="/posts/curve-lab/">
+            打开完整实验 <span aria-hidden="true">↗</span>
+          </a>
+        </section>
+      )}
+      <section class="desk-feed">
+        <div class="desk-section-title">
+          <h2>最近写下的</h2>
+          <a href="/posts/">全部文章</a>
+        </div>
+        {posts.map((post) => (
+          <a class="desk-entry" href={"/posts/" + post.id + "/"}>
+            <div class="desk-entry-meta">
+              <span>{post.data.tags[0]}</span>
+              <time datetime={post.data.date.toISOString()}>
+                {dateLabel(post.data.date)}
+              </time>
+            </div>
+            <h3>{post.data.title}</h3>
+            <p>{post.data.description}</p>
+            <span class="entry-format">
+              {post.kind === "tsx" ? "互动文章" : "阅读笔记"}
+            </span>
+          </a>
+        ))}
+      </section>
+    </div>
+    <aside class="desk-aside">
+      <section>
+        <h2>正在做的项目</h2>
+        {projects.map((p) => (
+          <a class="desk-project" href={"/projects/" + p.id + "/"}>
+            <span class="project-mark" aria-hidden="true">
+              m.
+            </span>
+            <h3>{p.data.title}</h3>
+            <p>{p.data.description}</p>
+            <span class="project-detail">查看项目</span>
+          </a>
+        ))}
+      </section>
+      <section class="desk-topics">
+        <h2>沿着话题探索</h2>
+        {tags.map((t) => (
+          <a href={"/tags/" + encodeURIComponent(t) + "/"}>
+            <span>{t}</span>
+            <span>{posts.filter((p) => p.data.tags.includes(t)).length}</span>
+          </a>
+        ))}
+      </section>
+      <section class="desk-subscribe">
+        <h2>偶尔来看看。</h2>
+        <p>新文章和新实验，都可以通过 RSS 收到。</p>
+        <a href="/rss.xml">订阅更新</a>
+      </section>
+    </aside>
+  </div>
+</div>

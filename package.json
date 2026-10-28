@@ -12,8 +12,10 @@
     "test:content": "node scripts/verify.mjs",
     "test": "playwright test",
     "fonts:build": "python scripts/subset-fonts.py",
-    "prebuild": "npm run fonts:build",
-    "predev": "npm run fonts:build"
+    "prebuild": "npm run content:generate && npm run fonts:build",
+    "predev": "npm run content:generate && npm run fonts:build",
+    "content:generate": "node scripts/generate-tsx.mjs",
+    "precheck": "npm run content:generate"
   },
   "keywords": [],
   "author": "",

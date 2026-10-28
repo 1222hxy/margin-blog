@@ -95,3 +95,17 @@ npx wrangler deploy --dry-run
 中文字体优化：运行前安装 Python 3 和 `pip install -r requirements-fonts.txt`。npm run dev/build 会先运行字体子集脚本，扫描 src 下文章与界面，保留其中字符及基本拉丁字母、扩展拉丁、数字与标点，生成苹方和 MiSans WOFF2。完整源文件保存在 assets/font-sources，不部署到站点。缺少的字形由系统字体回退。新增内容后重新构建即可更新。Cloudflare Builds 构建命令改为 `pip install -r requirements-fonts.txt && npm run build`，环境需提供 Python 3。
 
 站点所有者表示已沟通允许修改 OPPO 字体，现与苹方、MiSans 一起生成 WOFF2 子集，保留可变字重。原始 OPPO 文件约 22.7 MB，仅存放在构建源目录，不发给访客。所有字体使用 swap，不阻塞文字显示，不预加载未选择的字体。静态字体由浏览器缓存。
+
+## TSX 自定义文章
+
+在 src/content/tsx 下创建同名文件：`my-page.tsx` 默认导出 React 组件，`my-page.json` 写标题、摘要、日期、标签、template、draft、searchText 和 headings。参考 curve-lab 示例。支持 useState 等 React 交互；首次 HTML 已含正文，组件进入视口时激活。
+
+searchText 用于搜索和阅读时间估计，应包含文章正文或充分的文字描述；headings 使用 {depth:2,slug:"section-id",text:"章节标题"}，对应组件里的 h2 id。组件不要再放 h1，文章标题由外层统一渲染。
+
+运行 npm run dev/build/check 时自动生成组件注册表。开发中新增、删除文章或修改 draft 后重启开发服务器；编辑现有 TSX 有热更新。草稿不会注册进客户端代码，也不会进入列表、搜索或 RSS。文章 slug 与 Markdown 不能重复。要增加独立页面（不进入文章列表），可以建立 src/pages/example.astro，导入 Base 和自己的 TSX 组件，通过 client:visible 启用交互。
+
+## 创作者工作台主题
+
+默认使用 workspace，原主题仍可通过 BLOG_THEME=study/editorial/terminal 启用。作者字体继续由 src/config.ts 独立控制，当前使用 MiSans 正文和标题、Anthropic Mono 代码。设计说明在 design-system/workspace.md。
+
+TSX 在服务端预渲染：不要在模块顶层读取 window / document；浏览器 API 放在 useEffect 中。注册表仅导入已发布组件；目前 TSX 文章共用一个按需加载的 React 入口，适合个人博客，未来大量重型实验可进一步拆分入口。
