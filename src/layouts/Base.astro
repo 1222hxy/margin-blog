@@ -13,6 +13,8 @@ const {
   image,
   noindex = false,
 } = Astro.props;
+const readingFonts = [site.fonts.body, site.fonts.heading].join(" ");
+const preloadFonts = readingFonts.includes("misans") ? ["MiSans-Regular.woff2", "MiSans-Bold.woff2", "MiSans-Medium.woff2"] : [];
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 
@@ -20,6 +22,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 <html lang="zh-CN" data-theme={site.theme} style={fontStyles(site.fonts)}>
   <head>
     <meta charset="UTF-8" />
+    {preloadFonts.map(file => <link rel="preload" href={"/fonts/"+file} as="font" type="font/woff2" crossorigin="anonymous" />)}
     <meta name="viewport" content="width=device-width" />
     <title>{title===site.title?title:title+' · '+site.title}</title>
     <meta name="description" content={description} />

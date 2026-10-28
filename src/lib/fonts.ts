@@ -23,13 +23,13 @@ export const fontOptions = [
   },
   {
     id: "mono",
-    label: "系统等宽",
-    family: '"Cascadia Code", Consolas, monospace',
+    label: "Anthropic Mono（兼容 mono 配置）",
+    family: '"Blog Anthropic Mono", "Blog MiSans", sans-serif',
   },
   {
     id: "anthropic-mono",
     label: "Anthropic Mono",
-    family: '"Blog Anthropic Mono", "Cascadia Code", Consolas, monospace',
+    family: '"Blog Anthropic Mono", "Blog MiSans", sans-serif',
   },
   {
     id: "pingfang",

@@ -56,7 +56,7 @@
   --accent: #93e3c4;
   --surface: #1b2a34;
   --line: #354951;
-  --heading: "Cascadia Code", Consolas, monospace;
+  --heading: "Blog MiSans", sans-serif;
   color-scheme: dark;
 }
 :root[data-theme="terminal"]:not(.dark) {
@@ -167,7 +167,8 @@ footer {
   text-align: center;
 }
 .brand-sub {
-  font: 10px monospace;
+  font-size: 10px;
+  font-family: inherit;
   letter-spacing: 2px;
   margin-left: 1px;
   color: var(--muted);
@@ -196,7 +197,11 @@ nav [aria-current="page"] {
   font-size: 24px;
 }
 kbd {
-  font: 10px monospace;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: normal;
   border: 1px solid var(--line);
   padding: 3px 5px;
   border-radius: 4px;
@@ -312,7 +317,8 @@ kbd {
   position: absolute;
   bottom: 20px;
   left: 22px;
-  font: 9px monospace;
+  font-size: 9px;
+  font-family: inherit;
   letter-spacing: 1px;
 }
 .art-note {
@@ -343,7 +349,8 @@ kbd {
   font-size: 12px;
 }
 .count {
-  font: 13px monospace;
+  font-size: 13px;
+  font-family: inherit;
   color: var(--muted);
 }
 .post-grid {
@@ -368,7 +375,8 @@ kbd {
   position: absolute;
   left: 16px;
   bottom: 13px;
-  font: 9px monospace;
+  font-size: 9px;
+  font-family: inherit;
   letter-spacing: 2px;
 }
 .art-0 {
@@ -495,7 +503,8 @@ footer > div {
   margin-left: auto;
 }
 .archive time {
-  font: 12px monospace;
+  font-size: 12px;
+  font-family: inherit;
   color: var(--muted);
 }
 .archive h2 {
@@ -935,21 +944,21 @@ footer > div {
 @font-face {
   font-family: "Blog Anthropic Sans";
   src: url("/fonts/AnthropicSansWebText.ttf") format("truetype");
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "Blog Anthropic Serif";
   src: url("/fonts/AnthropicSerifWebText.ttf") format("truetype");
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "Blog Anthropic Mono";
   src: url("/fonts/AnthropicMonoVariable.ttf") format("truetype");
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 400;
 }
@@ -966,9 +975,10 @@ h3,
 .layout-journal .prose {
   font-family: var(--reader-body, var(--heading));
 }
-.prose pre,
-.prose code {
-  font-family: var(--reader-code, ui-monospace), Consolas, monospace;
+pre,
+code,
+samp {
+  font-family: var(--reader-code, "Blog Anthropic Mono"), "Blog MiSans", sans-serif;
 }
 
 @font-face {
@@ -976,7 +986,7 @@ h3,
   src: url("/fonts/PingFang-ExtraLight.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -984,7 +994,7 @@ h3,
   src: url("/fonts/PingFang-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -992,7 +1002,7 @@ h3,
   src: url("/fonts/PingFang-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -1000,7 +1010,7 @@ h3,
   src: url("/fonts/PingFang-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -1008,7 +1018,7 @@ h3,
   src: url("/fonts/PingFang-Bold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -1016,35 +1026,35 @@ h3,
   src: url("/fonts/PingFang-Heavy.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: "Blog MiSans";
   src: url("/fonts/MiSans-Regular.woff2") format("woff2");
   font-weight: 400;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: "Blog MiSans";
   src: url("/fonts/MiSans-Medium.woff2") format("woff2");
   font-weight: 500;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: "Blog MiSans";
   src: url("/fonts/MiSans-Bold.woff2") format("woff2");
   font-weight: 700;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: "Blog OPPO Sans";
   src: url("/fonts/OPPOSans4.woff2") format("woff2");
   font-weight: 100 700;
-  font-display: swap;
+  font-display: block;
 }
 
 .card-art small {
