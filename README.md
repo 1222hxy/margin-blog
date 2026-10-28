@@ -70,3 +70,9 @@ npx wrangler deploy --dry-run
 ## 授权
 
 代码采用 MIT，见 LICENSE。仓库内提供的示例文章和原创 SVG 也允许按 MIT 使用。你之后发布的个人文章、摄影和其他素材默认保留作者权利，请按需要另行标明授权。shadcn/ui 组件来源及许可见 THIRD_PARTY.md。
+
+## 字体选择
+
+字体由站点作者统一配置，访客没有字体选择入口。在 `src/config.ts` 的 `site.fonts` 中独立设置 body（正文）、heading（标题）、code（代码），提交并部署后所有访客看到同样的配置。默认依次为 anthropic-serif、anthropic-sans、anthropic-mono。可选值见 `src/lib/fonts.ts`，theme 恢复主题默认，sans / serif / mono 使用系统字体。未知标识阻止构建。字体直接输出到静态 HTML，禁用 JavaScript 也生效。中文回退到对应的系统中文字体，公式继续使用 KaTeX。
+
+字体来源：https://github.com/Isilsolme/dsh-anthropic-fonts 。Anthropic 字体不属于本项目 MIT 许可；站点所有者表示已与 Anthropic 沟通取得网页使用许可。该许可不自动授予本项目的复用者，复用时请取得适用授权或移除 public/fonts 下的字体文件与对应选项。

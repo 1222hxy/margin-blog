@@ -930,3 +930,42 @@ footer > div {
     bottom: 10px;
   }
 }
+
+@font-face {
+  font-family: "Blog Anthropic Sans";
+  src: url("/fonts/AnthropicSansWebText.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Blog Anthropic Serif";
+  src: url("/fonts/AnthropicSerifWebText.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Blog Anthropic Mono";
+  src: url("/fonts/AnthropicMonoVariable.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+body {
+  font-family:
+    var(--reader-body, Inter), "Segoe UI", "Microsoft YaHei", sans-serif;
+}
+h1,
+h2,
+h3,
+[data-theme="terminal"] .post-card h3 {
+  font-family: var(--reader-heading, var(--heading));
+}
+.layout-journal .prose {
+  font-family: var(--reader-body, var(--heading));
+}
+.prose pre,
+.prose code {
+  font-family: var(--reader-code, ui-monospace), Consolas, monospace;
+}

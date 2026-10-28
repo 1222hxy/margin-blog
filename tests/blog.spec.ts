@@ -67,3 +67,40 @@ test("homepage screenshot", async ({ page }) => {
     fullPage: true,
   });
 });
+
+test("author fonts apply without visitor controls or JavaScript", async ({
+  browser,
+}) => {
+  const context = await browser.newContext({ javaScriptEnabled: false });
+  const page = await context.newPage();
+  await page.goto("http://127.0.0.1:4321/posts/math-and-code/");
+  await expect(page.getByRole("button", { name: "字体设置" })).toHaveCount(0);
+  expect(
+    await page
+      .locator("body")
+      .evaluate((el) => getComputedStyle(el).fontFamily),
+  ).toContain("Blog Anthropic Serif");
+  expect(
+    await page.locator("h1").evaluate((el) => getComputedStyle(el).fontFamily),
+  ).toContain("Blog Anthropic Sans");
+  expect(
+    await page
+      .locator(".prose pre code")
+      .first()
+      .evaluate((el) => getComputedStyle(el).fontFamily),
+  ).toContain("Blog Anthropic Mono");
+  expect(
+    await page
+      .locator(".katex")
+      .first()
+      .evaluate((el) => getComputedStyle(el).fontFamily),
+  ).not.toContain("Blog Anthropic");
+  await page.setViewportSize({ width: 390, height: 844 });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBeTruthy();
+  await page.screenshot({ path: "test-results/author-fonts-mobile.png" });
+  await context.close();
+});
