@@ -255,3 +255,37 @@ test("search shows loading, retries errors and caches results", async ({
   await expect(page.locator(".search-results a")).toBeVisible();
   expect(calls).toBe(2);
 });
+
+test("article navigation, progress and sharing metadata", async ({ page }) => {
+  await page.goto("/posts/math-and-code/");
+  await expect(page.locator('meta[property="og:type"]')).toHaveAttribute(
+    "content",
+    "article",
+  );
+  const data = JSON.parse(
+    (await page.locator('script[type="application/ld+json"]').textContent()) ||
+      "{}",
+  );
+  expect(data["@type"]).toBe("BlogPosting");
+  expect(data.headline).toContain("公式");
+  const links = page.locator(".toc a");
+  await links.nth(1).click();
+  await expect(links.nth(1)).toHaveAttribute("aria-current", "location");
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await expect
+    .poll(() =>
+      page
+        .locator("#reading-progress")
+        .evaluate((el) => getComputedStyle(el).transform),
+    )
+    .toBe("matrix(1, 0, 0, 1, 0, 0)");
+  await page.goto("/posts/slow-notes/");
+  const zoom = page.getByRole("button", { name: "放大图片：抽象山景" });
+  await zoom.focus();
+  await page.keyboard.press("Enter");
+  await expect(
+    page.getByRole("dialog", { name: "图片预览：抽象山景" }),
+  ).toBeVisible();
+  await page.keyboard.press("Escape");
+  await expect(zoom).toBeFocused();
+});

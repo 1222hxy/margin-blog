@@ -1,15 +1,45 @@
 const article = document.querySelector("#article-body");
 if (article) {
+  const progress = document.querySelector<HTMLElement>("#reading-progress");
+  const links = [...document.querySelectorAll<HTMLAnchorElement>(".toc a")];
+  const sections = links
+    .map((link) => ({
+      link,
+      section: document.getElementById(decodeURIComponent(link.hash.slice(1))),
+    }))
+    .filter((item) => item.section);
+  let scheduled = false;
   const update = () => {
+    scheduled = false;
     const rect = article.getBoundingClientRect();
-    const distance = Math.max(1, article.scrollHeight - innerHeight);
-    const value = Math.max(0, Math.min(1, -rect.top / distance));
-    const bar = document.querySelector<HTMLElement>("#reading-progress");
-    if (bar) bar.style.width = value * 100 + "%";
+    const distance = article.scrollHeight - innerHeight;
+    const value =
+      distance <= 0
+        ? rect.bottom <= innerHeight
+          ? 1
+          : 0
+        : Math.max(0, Math.min(1, -rect.top / distance));
+    let current = sections[0];
+    for (const item of sections) {
+      if (item.section!.getBoundingClientRect().top <= 100) current = item;
+    }
+    if (progress) progress.style.transform = "scaleX(" + value + ")";
+    for (const item of sections) {
+      if (item === current) item.link.setAttribute("aria-current", "location");
+      else item.link.removeAttribute("aria-current");
+    }
   };
-  addEventListener("scroll", update, { passive: true });
-  addEventListener("resize", update);
-  update();
+  const schedule = () => {
+    if (!scheduled) {
+      scheduled = true;
+      requestAnimationFrame(update);
+    }
+  };
+  addEventListener("scroll", schedule, { passive: true });
+  addEventListener("resize", schedule);
+  new ResizeObserver(schedule).observe(article);
+  document.fonts.ready.then(schedule);
+  schedule();
   article.querySelectorAll("pre").forEach((pre) => {
     const code = pre.querySelector("code");
     if (!code) return;
@@ -23,6 +53,7 @@ if (article) {
     }
     const btn = document.createElement("button");
     btn.className = "copy-code";
+    btn.setAttribute("aria-live", "polite");
     btn.textContent = "复制代码";
     btn.addEventListener("click", async () => {
       try {
@@ -64,7 +95,8 @@ if (article) {
   article.querySelectorAll("img").forEach((img) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.style.display = "contents";
+    if (img.closest("a, button")) return;
+    button.className = "image-zoom";
     button.setAttribute("aria-label", "放大图片：" + img.alt);
     img.replaceWith(button);
     button.append(img);
@@ -79,6 +111,10 @@ if (article) {
     button.addEventListener("click", () => {
       const dialog = document.createElement("dialog");
       dialog.className = "image-dialog";
+      dialog.setAttribute(
+        "aria-label",
+        img.alt ? "图片预览：" + img.alt : "图片预览",
+      );
       const close = document.createElement("button");
       close.textContent = "关闭 ×";
       const clone = img.cloneNode(true);

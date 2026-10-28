@@ -1052,3 +1052,37 @@ h3,
   letter-spacing: normal;
   font-size: 12px;
 }
+
+#reading-progress {
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  pointer-events: none;
+}
+.toc a[aria-current="location"] {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.image-zoom {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  border-radius: 6px;
+  cursor: zoom-in;
+}
+.image-zoom:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 5px;
+}
+.image-dialog {
+  overscroll-behavior: contain;
+}
+.image-dialog button {
+  min-width: 44px;
+  min-height: 44px;
+}
