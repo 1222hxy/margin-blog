@@ -52,7 +52,7 @@ UI 组件源码在 `src/components/ui/`，通过官方 shadcn CLI 生成后按�
 
 本地手动部署：先 `npx wrangler login`，设置 SITE_URL 后执行 `npm run deploy`。PowerShell 示例：`$env:SITE_URL='https://你的域名'`。
 
-默认 example.com 仅供本地开发，上线必须替换 SITE_URL。不要把 production 的域名设为 localhost。普通页面由静态资源直接服务，不需要 Worker 脚本。Cloudflare 账户连接、GitHub 仓库与域名需由站点所有者提供。
+默认站点地址为 https://margin-blog.yhl-3ca.workers.dev，绑定自定义域名后请设置 SITE_URL。不要把 production 的域名设为 localhost。普通页面由静态资源直接服务，不需要 Worker 脚本。Cloudflare 账户连接、GitHub 仓库与域名需由站点所有者提供。
 
 ## 检查
 

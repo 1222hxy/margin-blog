@@ -8,7 +8,7 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 export default defineConfig({
   devToolbar: { enabled: false },
-  site: process.env.SITE_URL || "https://example.com",
+  site: process.env.SITE_URL || "https://margin-blog.yhl-3ca.workers.dev",
   integrations: [react(), mdx(), sitemap()],
   vite: { plugins: [tailwind()] },
   markdown: {
