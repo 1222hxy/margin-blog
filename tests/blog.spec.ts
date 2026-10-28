@@ -289,3 +289,52 @@ test("article navigation, progress and sharing metadata", async ({ page }) => {
   await page.keyboard.press("Escape");
   await expect(zoom).toBeFocused();
 });
+
+test("TSX code survives hydration and copies the current React state", async ({
+  page,
+}) => {
+  const errors: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  page.on("console", (message) => {
+    if (message.type() === "error") errors.push(message.text());
+  });
+  await page.addInitScript(() =>
+    Object.defineProperty(navigator, "clipboard", {
+      configurable: true,
+      value: {
+        writeText: async (text: string) => {
+          (window as any).__copied = text;
+        },
+      },
+    }),
+  );
+  await page.goto("/posts/curve-lab/");
+  const copy = page.locator("#article-body .copy-code");
+  await expect(copy).toHaveCount(1);
+  await expect(copy).toBeEnabled();
+  await page.getByLabel("频率", { exact: true }).fill("3");
+  await copy.click();
+  await expect(copy).toHaveText("已复制");
+  expect(await page.evaluate(() => (window as any).__copied)).toBe(
+    "y = 60 * Math.sin(x * 2 * Math.PI * 3)",
+  );
+  await page.getByLabel("振幅", { exact: true }).fill("80");
+  await expect(copy).toHaveText("复制代码");
+  await copy.click();
+  expect(await page.evaluate(() => (window as any).__copied)).toBe(
+    "y = 80 * Math.sin(x * 2 * Math.PI * 3)",
+  );
+  await page.evaluate(() =>
+    Object.defineProperty(navigator, "clipboard", {
+      configurable: true,
+      value: {
+        writeText: async () => {
+          throw Error("denied");
+        },
+      },
+    }),
+  );
+  await copy.click();
+  await expect(copy).toHaveText("复制失败");
+  expect(errors).toEqual([]);
+});

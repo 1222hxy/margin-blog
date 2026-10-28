@@ -41,6 +41,8 @@ if (article) {
   document.fonts.ready.then(schedule);
   schedule();
   article.querySelectorAll("pre").forEach((pre) => {
+    // React owns island descendants before and after hydration.
+    if (pre.closest("astro-island")) return;
     const code = pre.querySelector("code");
     if (!code) return;
     const text = code.textContent || "";
@@ -79,6 +81,7 @@ if (article) {
         for (const [i, el] of [
           ...article.querySelectorAll<HTMLElement>(".mermaid-diagram"),
         ].entries()) {
+          if (el.closest("astro-island")) continue;
           try {
             const { svg } = await mermaid.render(
               "diagram-" + i,
@@ -93,6 +96,7 @@ if (article) {
       .catch(() => {});
   }
   article.querySelectorAll("img").forEach((img) => {
+    if (img.closest("astro-island")) return;
     const button = document.createElement("button");
     button.type = "button";
     if (img.closest("a, button")) return;

@@ -1,7 +1,8 @@
 import { useState, useId, useEffect } from "react";
+import ArticleCode from "../../components/ArticleCode";
 export default function CurveLab() {
- const [ready,setReady]=useState(false);
- useEffect(()=>setReady(true),[]);
+  const [ready, setReady] = useState(false);
+  useEffect(() => setReady(true), []);
   const [frequency, setFrequency] = useState(2),
     [amplitude, setAmplitude] = useState(60);
   const id = useId();
@@ -51,7 +52,7 @@ export default function CurveLab() {
             <input
               id={id + "f"}
               disabled={!ready}
- type="range"
+              type="range"
               min="1"
               max="5"
               step="0.1"
@@ -84,6 +85,10 @@ export default function CurveLab() {
         </button>
       </div>
       <h2 id="why">从图像理解参数</h2>
+      <ArticleCode
+        language="javascript"
+        code={`y = ${amplitude} * Math.sin(x * 2 * Math.PI * ${frequency})`}
+      />
       <p>
         频率决定曲线在同样的横向范围里振动多少次，振幅决定波峰和波谷离中心线有多远。试着一次只改变一个参数，观察它们各自的作用。
       </p>

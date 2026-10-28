@@ -109,3 +109,5 @@ searchText 用于搜索和阅读时间估计，应包含文章正文或充分的
 默认使用 workspace，原主题仍可通过 BLOG_THEME=study/editorial/terminal 启用。作者字体继续由 src/config.ts 独立控制，当前使用 MiSans 正文和标题、Anthropic Mono 代码。设计说明在 design-system/workspace.md。
 
 TSX 在服务端预渲染：不要在模块顶层读取 window / document；浏览器 API 放在 useEffect 中。注册表仅导入已发布组件；目前 TSX 文章共用一个按需加载的 React 入口，适合个人博客，未来大量重型实验可进一步拆分入口。
+
+正文的自动代码复制、图片包裹和 Mermaid 替换只处理静态 Markdown，不修改 React island 内的 DOM，以免干扰 hydration 和状态更新。TSX 的这些交互由 React 组件管理。需要可复制代码时，导入 `src/components/ArticleCode`，传入 `code` 字符串和可选的 `language`；复制内容会跟随 props 更新，禁用 JavaScript 时仍显示完整代码。曲线示例展示了实时公式的用法。
