@@ -83,65 +83,78 @@ if (article) {
       el.removeAttribute("aria-busy");
       delete el.dataset.theme;
     };
-    import("mermaid")
-      .then(({ default: mermaid }) => {
-        const theme = (): "dark" | "default" =>
-          document.documentElement.classList.contains("dark")
-            ? "dark"
-            : "default";
-        let desired = theme(),
-          revision = 0,
-          completed = -1,
-          rendering = false;
-        const render = async () => {
-          if (rendering) return;
-          rendering = true;
-          try {
-            while (completed !== revision) {
-              const version = revision,
-                currentTheme = desired;
-              mermaid.initialize({
-                startOnLoad: false,
-                securityLevel: "strict",
-                theme: currentTheme,
-              });
-              for (const [index, { el, source }] of diagrams.entries()) {
-                if (version !== revision) break;
-                el.setAttribute("aria-busy", "true");
-                try {
-                  const { svg } = await mermaid.render(
-                    "diagram-" + version + "-" + index,
-                    source,
-                  );
-                  if (version === revision) {
-                    el.innerHTML = svg;
-                    el.dataset.theme = currentTheme;
-                    el.removeAttribute("aria-busy");
-                  }
-                } catch {
-                  if (version === revision) fallback(el, source);
-                }
-              }
-              completed = version;
-            }
-          } finally {
+    const load = () =>
+      import("mermaid")
+        .then(({ default: mermaid }) => {
+          const theme = (): "dark" | "default" =>
+            document.documentElement.classList.contains("dark")
+              ? "dark"
+              : "default";
+          let desired = theme(),
+            revision = 0,
+            completed = -1,
             rendering = false;
-          }
-        };
-        new MutationObserver(() => {
-          const next = theme();
-          if (next !== desired) {
-            desired = next;
-            revision++;
-            void render();
-          }
-        }).observe(document.documentElement, {
-          attributes: true,
-          attributeFilter: ["class"],
-        });
-        void render();
-      })
-      .catch(() => diagrams.forEach(({ el, source }) => fallback(el, source)));
+          const render = async () => {
+            if (rendering) return;
+            rendering = true;
+            try {
+              while (completed !== revision) {
+                const version = revision,
+                  currentTheme = desired;
+                mermaid.initialize({
+                  startOnLoad: false,
+                  securityLevel: "strict",
+                  theme: currentTheme,
+                });
+                for (const [index, { el, source }] of diagrams.entries()) {
+                  if (version !== revision) break;
+                  el.setAttribute("aria-busy", "true");
+                  try {
+                    const { svg } = await mermaid.render(
+                      "diagram-" + version + "-" + index,
+                      source,
+                    );
+                    if (version === revision) {
+                      el.innerHTML = svg;
+                      el.dataset.theme = currentTheme;
+                      el.removeAttribute("aria-busy");
+                    }
+                  } catch {
+                    if (version === revision) fallback(el, source);
+                  }
+                }
+                completed = version;
+              }
+            } finally {
+              rendering = false;
+            }
+          };
+          new MutationObserver(() => {
+            const next = theme();
+            if (next !== desired) {
+              desired = next;
+              revision++;
+              void render();
+            }
+          }).observe(document.documentElement, {
+            attributes: true,
+            attributeFilter: ["class"],
+          });
+          void render();
+        })
+        .catch(() =>
+          diagrams.forEach(({ el, source }) => fallback(el, source)),
+        );
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          observer.disconnect();
+          void load();
+        }
+      },
+      { rootMargin: "300px" },
+    );
+    for (const { el } of diagrams) observer.observe(el);
   }
   article.querySelectorAll("img").forEach((img) => {
     if (img.closest("astro-island")) return;

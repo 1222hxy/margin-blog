@@ -38,6 +38,7 @@ test("search, mode, diagram, image and keyboard", async ({ page }) => {
     ),
   ).toBe(mode === "dark");
   await page.goto("/posts/math-and-code/");
+  await page.locator(".mermaid-diagram").first().scrollIntoViewIfNeeded();
   await expect(page.locator(".mermaid-diagram svg")).toBeVisible({
     timeout: 30000,
   });
@@ -344,6 +345,7 @@ test("Mermaid follows theme switches and preserves source on load failure", asyn
 }) => {
   await page.goto("/posts/math-and-code/");
   const diagram = page.locator(".mermaid-diagram").first();
+  await diagram.scrollIntoViewIfNeeded();
   await expect(diagram.locator("svg")).toBeVisible();
   const original = await diagram.getAttribute("data-theme");
   await page.locator("#mode").click();
@@ -364,6 +366,27 @@ test("Mermaid follows theme switches and preserves source on load failure", asyn
   await expect(diagram).not.toHaveAttribute("aria-busy", "true");
   await page.route("**/mermaid.core.*.js", (route) => route.abort());
   await page.reload();
+  await diagram.scrollIntoViewIfNeeded();
   await expect(diagram).toContainText("图表暂时无法显示");
   await expect(diagram.locator("pre")).toContainText("flowchart LR");
+});
+
+test("Mermaid does not load before the reader approaches a diagram", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  const requests: string[] = [];
+  page.on("request", (r) => {
+    if (r.url().includes("mermaid.core.")) requests.push(r.url());
+  });
+  await page.goto("/posts/math-and-code/");
+  await page.evaluate(() => document.fonts.ready);
+  await expect(page.getByRole("button", { name: "搜索文章" })).toBeEnabled();
+  const diagram = page.locator(".mermaid-diagram").first();
+  await expect(diagram).toBeAttached();
+  expect((await diagram.boundingBox())!.y).toBeGreaterThan(1144);
+  expect(requests).toEqual([]);
+  await diagram.scrollIntoViewIfNeeded();
+  await expect(diagram.locator("svg")).toBeVisible();
+  expect(requests).toHaveLength(1);
 });

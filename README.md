@@ -41,7 +41,7 @@ template 可选 standard / technical / journal，省略则使用全站默认布�
 
 `src/styles/global.css` 中的 `data-theme` 定义颜色和字体变量，同时映射到 Tailwind 语义颜色。新增主题需提供亮暗两套变量。布局由 `layouts` 注册、文章 `template` 选择，在文章页通过 `layout-*` 类实现。新增结构较大的布局时可提取 Astro 组件，同时保留正文、目录和相关内容接口。未知主题和文章布局会阻止构建。
 
-UI 组件源码在 `src/components/ui/`，通过官方 shadcn CLI 生成后按项目调整，支持继续 `npx shadcn@latest add ...`。正文使用静态 HTML，搜索用 React/Radix 对话框；Mermaid 仅在文章包含图表时加载。
+UI 组件源码在 `src/components/ui/`，通过官方 shadcn CLI 生成后按项目调整，支持继续 `npx shadcn@latest add ...`。正文使用静态 HTML，搜索用 React/Radix 对话框；Mermaid 仅在文章包含图表且读者接近图表（距视口 300px）时加载，亮暗模式同步重绘，失败时保留源码。
 
 ## Cloudflare 部署
 
