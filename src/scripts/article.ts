@@ -68,32 +68,80 @@ if (article) {
     });
     pre.append(btn);
   });
-  if (article.querySelector(".mermaid-diagram")) {
+  const diagrams = [
+    ...article.querySelectorAll<HTMLElement>(".mermaid-diagram"),
+  ]
+    .filter((el) => !el.closest("astro-island"))
+    .map((el) => ({ el, source: el.textContent || "" }));
+  if (diagrams.length) {
+    const fallback = (el: HTMLElement, source: string) => {
+      const message = document.createElement("p");
+      message.textContent = "图表暂时无法显示，以下是源代码。";
+      const code = document.createElement("pre");
+      code.textContent = source;
+      el.replaceChildren(message, code);
+      el.removeAttribute("aria-busy");
+      delete el.dataset.theme;
+    };
     import("mermaid")
-      .then(async ({ default: mermaid }) => {
-        mermaid.initialize({
-          startOnLoad: false,
-          securityLevel: "strict",
-          theme: document.documentElement.classList.contains("dark")
+      .then(({ default: mermaid }) => {
+        const theme = (): "dark" | "default" =>
+          document.documentElement.classList.contains("dark")
             ? "dark"
-            : "default",
-        });
-        for (const [i, el] of [
-          ...article.querySelectorAll<HTMLElement>(".mermaid-diagram"),
-        ].entries()) {
-          if (el.closest("astro-island")) continue;
+            : "default";
+        let desired = theme(),
+          revision = 0,
+          completed = -1,
+          rendering = false;
+        const render = async () => {
+          if (rendering) return;
+          rendering = true;
           try {
-            const { svg } = await mermaid.render(
-              "diagram-" + i,
-              el.textContent || "",
-            );
-            el.innerHTML = svg;
-          } catch {
-            el.setAttribute("aria-label", "图表渲染失败，显示源代码");
+            while (completed !== revision) {
+              const version = revision,
+                currentTheme = desired;
+              mermaid.initialize({
+                startOnLoad: false,
+                securityLevel: "strict",
+                theme: currentTheme,
+              });
+              for (const [index, { el, source }] of diagrams.entries()) {
+                if (version !== revision) break;
+                el.setAttribute("aria-busy", "true");
+                try {
+                  const { svg } = await mermaid.render(
+                    "diagram-" + version + "-" + index,
+                    source,
+                  );
+                  if (version === revision) {
+                    el.innerHTML = svg;
+                    el.dataset.theme = currentTheme;
+                    el.removeAttribute("aria-busy");
+                  }
+                } catch {
+                  if (version === revision) fallback(el, source);
+                }
+              }
+              completed = version;
+            }
+          } finally {
+            rendering = false;
           }
-        }
+        };
+        new MutationObserver(() => {
+          const next = theme();
+          if (next !== desired) {
+            desired = next;
+            revision++;
+            void render();
+          }
+        }).observe(document.documentElement, {
+          attributes: true,
+          attributeFilter: ["class"],
+        });
+        void render();
       })
-      .catch(() => {});
+      .catch(() => diagrams.forEach(({ el, source }) => fallback(el, source)));
   }
   article.querySelectorAll("img").forEach((img) => {
     if (img.closest("astro-island")) return;

@@ -338,3 +338,33 @@ test("TSX code survives hydration and copies the current React state", async ({
   await expect(copy).toHaveText("复制失败");
   expect(errors).toEqual([]);
 });
+
+test("Mermaid follows theme switches and preserves source on load failure", async ({
+  page,
+}) => {
+  await page.goto("/posts/math-and-code/");
+  const diagram = page.locator(".mermaid-diagram").first();
+  await expect(diagram.locator("svg")).toBeVisible();
+  const original = await diagram.getAttribute("data-theme");
+  await page.locator("#mode").click();
+  await expect(diagram).toHaveAttribute(
+    "data-theme",
+    original === "dark" ? "default" : "dark",
+  );
+  await page.evaluate(async () => {
+    for (let i = 0; i < 5; i++) {
+      document.documentElement.classList.toggle("dark");
+      await new Promise((resolve) => setTimeout(resolve, 10));
+    }
+  });
+  const expected = await page.evaluate(() =>
+    document.documentElement.classList.contains("dark") ? "dark" : "default",
+  );
+  await expect(diagram).toHaveAttribute("data-theme", expected);
+  await expect(diagram).not.toHaveAttribute("aria-busy", "true");
+  await page.route("**/mermaid.core.*.js", (route) => route.abort());
+  await page.reload();
+  await expect(diagram).toContainText("图表暂时无法显示");
+  await expect(diagram.locator("pre")).toContainText("flowchart LR");
+});
+
