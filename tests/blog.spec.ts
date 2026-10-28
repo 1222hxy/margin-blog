@@ -23,9 +23,9 @@ test("nine theme/layout combinations on desktop and mobile", async ({
 });
 test("search, mode, diagram, image and keyboard", async ({ page }) => {
   await page.goto("/");
-  await expect(page.getByLabel("频率",{exact:true})).toBeEnabled();
+  await expect(page.getByLabel("频率", { exact: true })).toBeEnabled();
   await page.getByRole("button", { name: "搜索文章" }).click();
-  await page.getByRole("textbox", { name: "搜索关键词" }).fill("公式");
+  await page.getByRole("searchbox", { name: "搜索关键词" }).fill("公式");
   await expect(page.locator(".search-results a").first()).toContainText("公式");
   await page.keyboard.press("Escape");
   await expect(page.getByRole("dialog")).not.toBeVisible();
@@ -59,11 +59,13 @@ test("homepage screenshot", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1100 });
   await page.goto("/");
   await page.screenshot({
+    caret: "initial",
     path: "test-results/home-desktop.png",
     fullPage: true,
   });
   await page.setViewportSize({ width: 390, height: 844 });
   await page.screenshot({
+    caret: "initial",
     path: "test-results/home-mobile.png",
     fullPage: true,
   });
@@ -102,7 +104,10 @@ test("author fonts apply without visitor controls or JavaScript", async ({
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   ).toBeTruthy();
-  await page.screenshot({ path: "test-results/author-fonts-mobile.png" });
+  await page.screenshot({
+    caret: "initial",
+    path: "test-results/author-fonts-mobile.png",
+  });
   await context.close();
 });
 
@@ -157,6 +162,7 @@ test("MiSans simplified subset renders Chinese and English", async ({
     }),
   ).toBeTruthy();
   await page.screenshot({
+    caret: "initial",
     path: "test-results/misans-projects.png",
     fullPage: true,
   });
@@ -198,7 +204,7 @@ test("TSX articles are searchable, static and interactive", async ({
   await page.getByRole("button", { name: "重置参数" }).click();
   await expect(range).toHaveValue("2");
   await page.getByRole("button", { name: "搜索文章" }).click();
-  await page.getByRole("textbox", { name: "搜索关键词" }).fill("波形");
+  await page.getByRole("searchbox", { name: "搜索关键词" }).fill("波形");
   await expect(page.locator(".search-results a").first()).toContainText("曲线");
   const context = await browser.newContext({ javaScriptEnabled: false });
   const staticPage = await context.newPage();
@@ -208,4 +214,44 @@ test("TSX articles are searchable, static and interactive", async ({
   );
   await expect(staticPage.locator("svg")).toBeVisible();
   await context.close();
+});
+
+test("search shows loading, retries errors and caches results", async ({
+  page,
+}) => {
+  let calls = 0;
+  let release: () => void = () => {};
+  const gate = new Promise<void>((resolve) => {
+    release = resolve;
+  });
+  await page.route("**/search.json", async (route) => {
+    calls++;
+    if (calls === 1) {
+      await gate;
+      await route.fulfill({ status: 503, body: "Unavailable" });
+    } else
+      await route.fulfill({
+        json: [
+          {
+            title: "测试文章",
+            description: "恢复成功",
+            body: "测试正文",
+            tags: ["测试"],
+            url: "/posts/build-a-space/",
+          },
+        ],
+      });
+  });
+  await page.goto("/posts/");
+  await page.getByRole("button", { name: "搜索文章" }).click();
+  await expect(page.getByText("正在加载文章…")).toBeVisible();
+  release();
+  await page.getByRole("button", { name: "重新加载" }).click();
+  await expect(page.locator(".search-results a")).toHaveText(
+    "测试文章恢复成功",
+  );
+  await page.keyboard.press("Escape");
+  await page.getByRole("button", { name: "搜索文章" }).click();
+  await expect(page.locator(".search-results a")).toBeVisible();
+  expect(calls).toBe(2);
 });
