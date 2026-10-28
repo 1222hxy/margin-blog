@@ -76,3 +76,22 @@ npx wrangler deploy --dry-run
 字体由站点作者统一配置，访客没有字体选择入口。在 `src/config.ts` 的 `site.fonts` 中独立设置 body（正文）、heading（标题）、code（代码），提交并部署后所有访客看到同样的配置。默认依次为 anthropic-serif、anthropic-sans、anthropic-mono。可选值见 `src/lib/fonts.ts`，theme 恢复主题默认，sans / serif / mono 使用系统字体。未知标识阻止构建。字体直接输出到静态 HTML，禁用 JavaScript 也生效。中文回退到对应的系统中文字体，公式继续使用 KaTeX。
 
 字体来源：https://github.com/Isilsolme/dsh-anthropic-fonts 。Anthropic 字体不属于本项目 MIT 许可；站点所有者表示已与 Anthropic 沟通取得网页使用许可。该许可不自动授予本项目的复用者，复用时请取得适用授权或移除 public/fonts 下的字体文件与对应选项。
+
+### 苹方 SC
+
+新增字体配置值：
+- `pingfang`：苹方中英文。
+- `anthropic-sans-pingfang`：Anthropic Sans 英文 + 苹方中文。
+- `anthropic-serif-pingfang`：Anthropic Serif 英文 + 苹方中文。
+
+例如在 src/config.ts 中设置 `body: "anthropic-serif-pingfang"`、`heading: "pingfang"`，代码保持 `anthropic-mono`。当前默认配置不变。六个文件按 ExtraLight/Light/Regular/Medium/Bold/Heavy 映射到 CSS 200/300/400/500/600/700；原始文件内字重标记不一致，网页以 CSS 映射为准。WOFF2 文件保留当前博客所需字符，只有选择相应字体并使用其字重时才请求。
+
+来源：https://github.com/shenweiyan/PingFangSC-Fonts 。该仓库没有提供字体授权文件，苹方文件不属于本项目 MIT 许可。
+
+### MiSans 与 OPPO
+
+`misans` 为官网简体 MiSans，`anthropic-serif-misans` 为英文 Anthropic Serif + 中文 MiSans；`oppo` 为 OPPO Sans 4.0。当前默认字体保持不变。
+
+中文字体优化：运行前安装 Python 3 和 `pip install -r requirements-fonts.txt`。npm run dev/build 会先运行字体子集脚本，扫描 src 下文章与界面，保留其中字符及基本拉丁字母、扩展拉丁、数字与标点，生成苹方和 MiSans WOFF2。完整源文件保存在 assets/font-sources，不部署到站点。缺少的字形由系统字体回退。新增内容后重新构建即可更新。Cloudflare Builds 构建命令改为 `pip install -r requirements-fonts.txt && npm run build`，环境需提供 Python 3。
+
+站点所有者表示已沟通允许修改 OPPO 字体，现与苹方、MiSans 一起生成 WOFF2 子集，保留可变字重。原始 OPPO 文件约 22.7 MB，仅存放在构建源目录，不发给访客。所有字体使用 swap，不阻塞文字显示，不预加载未选择的字体。静态字体由浏览器缓存。

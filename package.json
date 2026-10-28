@@ -10,7 +10,10 @@
     "preview": "astro preview --host 127.0.0.1",
     "deploy": "npm run build && wrangler deploy",
     "test:content": "node scripts/verify.mjs",
-    "test": "playwright test"
+    "test": "playwright test",
+    "fonts:build": "python scripts/subset-fonts.py",
+    "prebuild": "npm run fonts:build",
+    "predev": "npm run fonts:build"
   },
   "keywords": [],
   "author": "",

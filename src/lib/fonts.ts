@@ -31,6 +31,39 @@ export const fontOptions = [
     label: "Anthropic Mono",
     family: '"Blog Anthropic Mono", "Cascadia Code", Consolas, monospace',
   },
+  {
+    id: "pingfang",
+    label: "苹方 SC",
+    family: '"Blog PingFang SC", "PingFang SC", "Microsoft YaHei", sans-serif',
+  },
+  {
+    id: "anthropic-sans-pingfang",
+    label: "Anthropic Sans + 苹方",
+    family:
+      '"Blog Anthropic Sans", "Blog PingFang SC", "PingFang SC", "Microsoft YaHei", sans-serif',
+  },
+  {
+    id: "anthropic-serif-pingfang",
+    label: "Anthropic Serif + 苹方",
+    family:
+      '"Blog Anthropic Serif", "Blog PingFang SC", "PingFang SC", "Microsoft YaHei", sans-serif',
+  },
+  {
+    id: "misans",
+    label: "MiSans 简体",
+    family: '"Blog MiSans", "Microsoft YaHei", sans-serif',
+  },
+  {
+    id: "oppo",
+    label: "OPPO Sans 4.0",
+    family: '"Blog OPPO Sans", "Microsoft YaHei", sans-serif',
+  },
+  {
+    id: "anthropic-serif-misans",
+    label: "Anthropic Serif + MiSans",
+    family:
+      '"Blog Anthropic Serif", "Blog MiSans", "Microsoft YaHei", sans-serif',
+  },
 ] as const;
 export type FontId = (typeof fontOptions)[number]["id"];
 export type FontPreferences = Record<"body" | "heading" | "code", FontId>;

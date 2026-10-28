@@ -104,3 +104,37 @@ test("author fonts apply without visitor controls or JavaScript", async ({
   await page.screenshot({ path: "test-results/author-fonts-mobile.png" });
   await context.close();
 });
+
+test("PingFang is available to author without loading by default", async ({
+  page,
+}) => {
+  test.setTimeout(90000);
+  const requests: string[] = [];
+  page.on("request", (r) => requests.push(r.url()));
+  await page.goto("/posts/");
+  await page.evaluate(() => document.fonts.ready);
+  expect(requests.some((url) => url.includes("PingFang-"))).toBeFalsy();
+  await page.evaluate(() =>
+    document.documentElement.style.setProperty(
+      "--reader-body",
+      '"Blog PingFang SC", sans-serif',
+    ),
+  );
+  expect(
+    await page.evaluate(async () => {
+      await document.fonts.load('400 16px "Blog PingFang SC"', "中文阅读");
+      return document.fonts.check('400 16px "Blog PingFang SC"', "中文阅读");
+    }),
+  ).toBeTruthy();
+  await expect(page.getByRole("button", { name: "字体设置" })).toHaveCount(0);
+  await page.setViewportSize({ width: 390, height: 844 });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBeTruthy();
+});
+
+test('MiSans simplified subset renders Chinese and English',async({page})=>{await page.goto('/projects/');await expect(page.getByText('SELECTED WORK',{exact:true})).toHaveCount(0);await page.evaluate(()=>document.documentElement.style.setProperty('--reader-body','"Blog MiSans", sans-serif'));expect(await page.evaluate(async()=>{await document.fonts.load('400 16px "Blog MiSans"','中文阅读 Hello 123');return document.fonts.check('400 16px "Blog MiSans"','中文阅读 Hello 123')})).toBeTruthy();await page.screenshot({path:'test-results/misans-projects.png',fullPage:true});});
+
+test('OPPO subset loads Chinese and Latin with variable weights',async({page})=>{await page.goto('/posts/');await page.evaluate(()=>document.documentElement.style.setProperty('--reader-body','"Blog OPPO Sans", sans-serif'));expect(await page.evaluate(async()=>{await document.fonts.load('500 16px "Blog OPPO Sans"','中文阅读 Hello 123');return document.fonts.check('500 16px "Blog OPPO Sans"','中文阅读 Hello 123')})).toBeTruthy();});

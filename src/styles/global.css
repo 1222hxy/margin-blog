@@ -221,10 +221,11 @@ kbd {
   padding: 80px 0 75px;
 }
 .eyebrow {
-  font: 11px/1.5 monospace;
-  letter-spacing: 2px;
+  font: inherit;
+  font-size: 14px;
+  letter-spacing: normal;
   color: var(--muted);
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 .status-dot {
   display: inline-block;
@@ -969,3 +970,81 @@ h3,
 .prose code {
   font-family: var(--reader-code, ui-monospace), Consolas, monospace;
 }
+
+@font-face {
+  font-family: "Blog PingFang SC";
+  src: url("/fonts/PingFang-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog PingFang SC";
+  src: url("/fonts/PingFang-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog PingFang SC";
+  src: url("/fonts/PingFang-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog PingFang SC";
+  src: url("/fonts/PingFang-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog PingFang SC";
+  src: url("/fonts/PingFang-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog PingFang SC";
+  src: url("/fonts/PingFang-Heavy.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog MiSans";
+  src: url("/fonts/MiSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog MiSans";
+  src: url("/fonts/MiSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog MiSans";
+  src: url("/fonts/MiSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog OPPO Sans";
+  src: url("/fonts/OPPOSans4.woff2") format("woff2");
+  font-weight: 100 700;
+  font-display: swap;
+}
+
+.card-art small {font-family:inherit;letter-spacing:normal;font-size:12px;}
