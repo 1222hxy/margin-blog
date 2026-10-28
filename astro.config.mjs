@@ -6,6 +6,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@tailwindcss/vite";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
+import rehypeAccessibility from "./scripts/rehype-accessibility.mjs";
 export default defineConfig({
   devToolbar: { enabled: false },
   site: process.env.SITE_URL || "https://margin-blog.yhl-3ca.workers.dev",
@@ -14,7 +15,10 @@ export default defineConfig({
   markdown: {
     processor: unified({
       remarkPlugins: [remarkMath],
-      rehypePlugins: [[rehypeKatex, { strict: "error", throwOnError: true }]],
+      rehypePlugins: [
+        [rehypeKatex, { strict: "error", throwOnError: true }],
+        rehypeAccessibility,
+      ],
     }),
     shikiConfig: { themes: { light: "github-light", dark: "github-dark" } },
   },

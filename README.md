@@ -4,10 +4,11 @@
 
 ## 本地运行
 
-需要 Node.js 24。
+需要 Node.js 24、Python 3 和字体构建依赖。
 
 ```sh
 npm ci
+pip install -r requirements-fonts.txt
 npm run dev
 ```
 
@@ -36,7 +37,7 @@ template 可选 standard / technical / journal，省略则使用全站默认布�
 
 ## 主题扩展
 
-`src/config.ts` 的 themes 注册主题名称，默认主题由 theme 常量决定，也可设置构建环境变量 BLOG_THEME（study / editorial / terminal）。访客不能切换全站模板，只能切换亮暗模式。
+`src/config.ts` 的 themes 注册主题名称，默认主题由 theme 常量决定，也可设置构建环境变量 BLOG_THEME（workspace / study / editorial / terminal）。访客不能切换全站模板，只能切换亮暗模式。
 
 `src/styles/global.css` 中的 `data-theme` 定义颜色和字体变量，同时映射到 Tailwind 语义颜色。新增主题需提供亮暗两套变量。布局由 `layouts` 注册、文章 `template` 选择，在文章页通过 `layout-*` 类实现。新增结构较大的布局时可提取 Astro 组件，同时保留正文、目录和相关内容接口。未知主题和文章布局会阻止构建。
 
@@ -46,7 +47,7 @@ UI 组件源码在 `src/components/ui/`，通过官方 shadcn CLI 生成后按�
 
 1. 在 GitHub 创建公开仓库，将本项目推送到 main。不要提交凭据。
 2. 在 Cloudflare Workers & Pages 中创建 Worker 并连接此 GitHub 仓库，生产分支选 main。
-3. 构建命令 `npm run build`；部署命令 `npx wrangler deploy`。静态资源目录由 wrangler.jsonc 的 assets.directory 指向 dist。
+3. 构建命令 `pip install -r requirements-fonts.txt && npm run build`；部署命令 `npx wrangler deploy`。静态资源目录由 wrangler.jsonc 的 assets.directory 指向 dist。
 4. 将 Worker 名称与 wrangler.jsonc 中 name 保持一致。构建环境设置 Node.js 24，以及 `SITE_URL=https://你的正式域名`（没有自定义域名时可使用 workers.dev 地址）。可选设置 BLOG_THEME。
 5. 绑定域名并重新构建，检查 canonical、RSS、sitemap 和未知路径 404。后续推送 main 自动部署。
 
@@ -65,7 +66,7 @@ npm test
 npx wrangler deploy --dry-run
 ```
 
-内容检查覆盖草稿隔离、搜索输出、数学、代码与 404；浏览器测试覆盖九种主题/布局组合的桌面与手机溢出检查、搜索、模式保存、图表、图片弹窗及关闭 JavaScript 后阅读。页面截图在 test-results/。CI 对 push / PR 执行类型、构建和内容检查。
+内容检查覆盖草稿隔离、搜索输出、数学、代码与 404；浏览器测试覆盖四种主题与三种文章布局组合的桌面与手机溢出检查、搜索、模式保存、图表、图片弹窗及关闭 JavaScript 后阅读。页面截图在 test-results/。CI 对 push / PR 执行类型、构建、内容和生产浏览器检查。
 
 ## 授权
 
@@ -73,7 +74,7 @@ npx wrangler deploy --dry-run
 
 ## 字体选择
 
-字体由站点作者统一配置，访客没有字体选择入口。在 `src/config.ts` 的 `site.fonts` 中独立设置 body（正文）、heading（标题）、code（代码），提交并部署后所有访客看到同样的配置。默认依次为 anthropic-serif、anthropic-sans、anthropic-mono。可选值见 `src/lib/fonts.ts`，theme 恢复主题默认，sans / serif / mono 使用系统字体。未知标识阻止构建。字体直接输出到静态 HTML，禁用 JavaScript 也生效。中文回退到对应的系统中文字体，公式继续使用 KaTeX。
+字体由站点作者统一配置，访客没有字体选择入口。在 `src/config.ts` 的 `site.fonts` 中独立设置 body（正文）、heading（标题）、code（代码），提交并部署后所有访客看到同样的配置。当前默认依次为 misans、misans、anthropic-mono。可选值见 `src/lib/fonts.ts`，theme 恢复主题默认，sans / serif / mono 使用系统字体。未知标识阻止构建。字体直接输出到静态 HTML，禁用 JavaScript 也生效。中文回退到对应的系统中文字体，公式继续使用 KaTeX。
 
 字体来源：https://github.com/Isilsolme/dsh-anthropic-fonts 。Anthropic 字体不属于本项目 MIT 许可；站点所有者表示已与 Anthropic 沟通取得网页使用许可。该许可不自动授予本项目的复用者，复用时请取得适用授权或移除 public/fonts 下的字体文件与对应选项。
 

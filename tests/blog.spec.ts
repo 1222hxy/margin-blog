@@ -367,4 +367,3 @@ test("Mermaid follows theme switches and preserves source on load failure", asyn
   await expect(diagram).toContainText("图表暂时无法显示");
   await expect(diagram.locator("pre")).toContainText("flowchart LR");
 });
-
