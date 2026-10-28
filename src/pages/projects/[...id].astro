@@ -1,0 +1,26 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+export async function getStaticPaths() {
+  return (await getCollection("projects")).map((project) => ({
+    params: { id: project.id },
+    props: { project },
+  }));
+}
+const { project } = Astro.props;
+const { Content } = await render(project);
+---
+
+<Base title={project.data.title} description={project.data.description}>
+  <section class="page-heading">
+    <a href="/projects/" class="eyebrow">
+      ← PROJECTS
+    </a>
+    <h1>{project.data.title}</h1>
+    <p>{project.data.description}</p>
+  </section>
+  <div class="prose standalone">
+    <Content />
+    {project.data.url && <a href={project.data.url}>访问项目 ↗</a>}
+  </div>
+</Base>

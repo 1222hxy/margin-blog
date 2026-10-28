@@ -1,0 +1,94 @@
+---
+import "../styles/global.css";
+import "katex/dist/katex.min.css";
+import { site } from "../config";
+import Search from "../components/Search";
+const { title = site.title, description = site.description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="zh-CN" data-theme={site.theme}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title===site.title?title:title+' · '+site.title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="/favicon.svg" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/rss.xml"
+    />
+    <script is:inline>
+      try {
+        const m = localStorage.getItem("mode");
+        document.documentElement.classList.toggle(
+          "dark",
+          m ? m === "dark" : matchMedia("(prefers-color-scheme: dark)").matches,
+        );
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">
+      跳至正文
+    </a>
+    <header class="site-header">
+      <a href="/" class="brand">
+        <span class="brand-icon">m.</span>页间
+        <span class="brand-sub">MARGIN</span>
+      </a>
+      <nav aria-label="主导航">
+        {site.navigation.map((n) => (
+          <a
+            href={n.href}
+            aria-current={
+              Astro.url.pathname.startsWith(n.href) ? "page" : undefined
+            }
+          >
+            {n.label}
+          </a>
+        ))}
+      </nav>
+      <div class="tools">
+        <Search client:load />
+        <button id="mode" aria-label="切换亮暗模式">
+          ◐
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer>
+      <a class="brand" href="/">
+        页间 / MARGIN
+      </a>
+      <span>保持好奇，缓慢生长。</span>
+      <div>
+        {site.social.map((s) => (
+          <a href={s.href}>{s.label}</a>
+        ))}
+        <span>
+          © {new Date().getFullYear()} {site.author}
+        </span>
+      </div>
+    </footer>
+    <script>
+      document.querySelector("#mode")?.addEventListener("click", () => {
+        const dark = document.documentElement.classList.toggle("dark");
+        try {
+          localStorage.setItem("mode", dark ? "dark" : "light");
+        } catch {}
+      });
+    </script>
+  </body>
+</html>

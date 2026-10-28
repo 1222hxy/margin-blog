@@ -1,0 +1,26 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../config";
+---
+
+<Base title="关于">
+  <section class="page-heading">
+    <p class="eyebrow">HELLO, WORLD</p>
+    <h1>在页间，认识彼此。</h1>
+  </section>
+  <div class="prose standalone">
+    <h2>你好，我是{site.author}。</h2>
+    <p>
+      这里是个人简介的占位内容。你可以介绍自己的兴趣、正在研究的方向，以及建立这个博客的原因。
+    </p>
+    <h2>关于这个空间</h2>
+    <p>
+      页间是一份持续生长的数字笔记。用文字梳理思路，用代码验证想法，也为生活留下一些记录。
+    </p>
+    <p>
+      本站基于 Astro、React、Tailwind CSS 和 shadcn/ui 构建。内容由 Markdown
+      驱动，每一篇文章都可以拥有适合自己的布局。
+    </p>
+    <a href="/rss.xml">通过 RSS 订阅更新 ↗</a>
+  </div>
+</Base>

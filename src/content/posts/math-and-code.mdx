@@ -1,0 +1,64 @@
+---
+title: 从公式到代码，让思考清晰可见
+description: 一份关于数学、代码与图表的交互笔记，也是这个博客的渲染能力样本。
+date: 2026-10-28
+tags: [技术, 数学]
+template: technical
+---
+
+import Counter from "../../components/Counter";
+
+写技术文章，最重要的是让复杂的事情变得容易理解。一个公式、一段可复制的代码，或一张流程图，都能成为思考的支点。
+
+## 数学的表达
+
+行内公式 $e^{i\pi}+1=0$ 可以自然地融入文字。独立公式则为推导留出空间：
+
+$$
+\int_{-\infty}^{\infty} e^{-x^2}\,dx=\sqrt{\pi}
+$$
+
+$$
+A=\begin{pmatrix}1&2\\3&4\end{pmatrix},\quad \nabla f=\left(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y}\right)
+$$
+
+## 用代码验证
+
+```typescript
+function fibonacci(n: number): number {
+  if (n < 2) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+console.log(fibonacci(10));
+```
+
+## 把过程画出来
+
+```mermaid
+flowchart LR
+  A[一个想法] --> B[写成 Markdown]
+  B --> C[静态构建]
+  C --> D[分享给世界]
+```
+
+## 表格与任务
+
+| 能力     | 方案  | 运行阶段 |
+| -------- | ----- | -------- |
+| 数学公式 | KaTeX | 构建时   |
+| 代码高亮 | Shiki | 构建时   |
+| 交互组件 | React | 按需加载 |
+
+- [x] 写下问题
+- [x] 验证想法
+- [ ] 继续探索
+
+> **提示**：内容和视觉分开，让写作可以专注于表达本身。
+
+## 一个小小的交互
+
+<Counter client:visible />
+
+组件只在需要时加载。正文始终是一份可以直接阅读的 HTML 文档。[^note]
+
+[^note]: 这是脚注示例，用来放补充说明。

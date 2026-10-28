@@ -1,0 +1,27 @@
+---
+import Base from "../../layouts/Base.astro";
+import PostCard from "../../components/PostCard.astro";
+import { published } from "../../lib/content";
+const posts = await published();
+const tags = [...new Set(posts.flatMap((p) => p.data.tags))];
+---
+
+<Base title="全部文章">
+  <section class="page-heading">
+    <p class="eyebrow">THE NOTEBOOK</p>
+    <h1>文字里的世界。</h1>
+    <p>技术、生活，以及还没被分类的好奇心。</p>
+    <div class="tags">
+      {tags.map((t) => (
+        <a class="pill" href={"/tags/" + encodeURIComponent(t) + "/"}>
+          {t}
+        </a>
+      ))}
+    </div>
+  </section>
+  <div class="post-grid section">
+    {posts.map((post, index) => (
+      <PostCard post={post} index={index} />
+    ))}
+  </div>
+</Base>

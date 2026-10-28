@@ -1,0 +1,29 @@
+---
+import Base from "../layouts/Base.astro";
+import { published, dateLabel } from "../lib/content";
+const posts = await published();
+const years = [...new Set(posts.map((p) => p.data.date.getUTCFullYear()))];
+---
+
+<Base title="归档">
+  <section class="page-heading">
+    <p class="eyebrow">A TRAIL OF THOUGHTS</p>
+    <h1>时间留下的注脚。</h1>
+  </section>
+  <section class="archive section">
+    {years.map((y) => (
+      <section>
+        <h2>{y}</h2>
+        {posts
+          .filter((p) => p.data.date.getUTCFullYear() === y)
+          .map((p) => (
+            <a href={"/posts/" + p.id + "/"}>
+              <time>{dateLabel(p.data.date)}</time>
+              <span>{p.data.title}</span>
+              <span>↗</span>
+            </a>
+          ))}
+      </section>
+    ))}
+  </section>
+</Base>

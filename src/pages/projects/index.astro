@@ -1,0 +1,27 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+const projects = await getCollection("projects");
+---
+
+<Base title="项目">
+  <section class="page-heading">
+    <p class="eyebrow">SELECTED WORK</p>
+    <h1>让想法落地。</h1>
+    <p>从一个问题开始，到一个小小的作品。</p>
+  </section>
+  <section class="section project-list">
+    {projects.map((p) => (
+      <a class="project-mini" href={"/projects/" + p.id + "/"}>
+        <span>↗</span>
+        <h2>{p.data.title}</h2>
+        <p>{p.data.description}</p>
+        <div class="tags">
+          {p.data.tags.map((t) => (
+            <small>{t}</small>
+          ))}
+        </div>
+      </a>
+    ))}
+  </section>
+</Base>

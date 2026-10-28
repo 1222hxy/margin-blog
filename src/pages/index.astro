@@ -1,0 +1,77 @@
+---
+import Base from "../layouts/Base.astro";
+import PostCard from "../components/PostCard.astro";
+import { published } from "../lib/content";
+import { getCollection } from "astro:content";
+const posts = await published();
+const projects = await getCollection("projects");
+---
+
+<Base>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">
+        <span class="status-dot"></span> A PERSONAL SPACE FOR IDEAS
+      </p>
+      <h1>
+        记录所思，
+        <br />
+        创造<span class="accent">所想。</span>
+      </h1>
+      <p class="hero-description">
+        在代码与生活之间，留一点思考的余地。
+        <br />
+        这里收藏探索的过程、值得分享的知识，和日常的微光。
+      </p>
+      <a href="/posts/" class="primary-link">
+        探索文章 <span>↗</span>
+      </a>
+      <a href="/about/" class="quiet-link">
+        关于这个空间 →
+      </a>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="art-grid"></div>
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <span class="art-star">✳</span>
+      <span class="art-coordinate">FIG. 001 — KEEP EXPLORING</span>
+      <span class="art-note">
+        ideas take shape
+        <br />
+        in the margins.
+      </span>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">THE NOTEBOOK</p>
+        <h2>
+          最近的思考
+          <span class="count"> / {String(posts.length).padStart(2, "0")}</span>
+        </h2>
+      </div>
+      <a href="/posts/">全部文章 ↗</a>
+    </div>
+    <div class="post-grid">
+      {posts.slice(0, 3).map((post, index) => (
+        <PostCard post={post} index={index} />
+      ))}
+    </div>
+  </section>
+  <section class="section projects-strip">
+    <div>
+      <p class="eyebrow">BUILT WITH CURIOSITY</p>
+      <h2>把想法变成作品。</h2>
+      <p>一些正在生长的小项目。</p>
+    </div>
+    {projects.map((p) => (
+      <a class="project-mini" href={"/projects/" + p.id + "/"}>
+        <span>↗</span>
+        <h3>{p.data.title}</h3>
+        <p>{p.data.description}</p>
+      </a>
+    ))}
+  </section>
+</Base>

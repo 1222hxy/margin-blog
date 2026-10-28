@@ -1,0 +1,80 @@
+---
+import Base from "../../layouts/Base.astro";
+import { published, dateLabel } from "../../lib/content";
+import { render } from "astro:content";
+import { site } from "../../config";
+export async function getStaticPaths() {
+  return (await published()).map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+const related = (await published())
+  .filter(
+    (p) =>
+      p.id !== post.id && p.data.tags.some((t) => post.data.tags.includes(t)),
+  )
+  .slice(0, 3);
+const layout = post.data.template || site.defaultLayout;
+---
+
+<Base title={post.data.title} description={post.data.description}>
+  <div id="reading-progress"></div>
+  <article class:list={["article", "layout-" + layout]}>
+    <header class="article-heading">
+      <a class="eyebrow" href="/posts/">
+        ← THE NOTEBOOK
+      </a>
+      <div class="tags">
+        {post.data.tags.map((t) => (
+          <a href={"/tags/" + encodeURIComponent(t) + "/"}>{t}</a>
+        ))}
+      </div>
+      <h1>{post.data.title}</h1>
+      <p>{post.data.description}</p>
+      <div class="article-meta">
+        {site.author} ·{" "}
+        <time datetime={post.data.date.toISOString()}>
+          {dateLabel(post.data.date)}
+        </time>{" "}
+        · {Math.max(1, Math.ceil((post.body?.length || 0) / 500))} 分钟阅读
+      </div>
+      {post.data.cover && (
+        <img class="cover" src={post.data.cover} alt={post.data.title} />
+      )}
+    </header>
+    <div class="article-grid">
+      <aside class="toc">
+        <details open>
+          <summary>本页目录</summary>
+          {headings
+            .filter((h) => h.depth <= 3)
+            .map((h) => (
+              <a
+                style={"padding-left:" + (h.depth - 2) * 12 + "px"}
+                href={"#" + h.slug}
+              >
+                {h.text}
+              </a>
+            ))}
+        </details>
+      </aside>
+      <div class="prose" id="article-body">
+        <Content />
+      </div>
+    </div>
+    <section class="related">
+      <h2>继续探索</h2>
+      {related.length ? (
+        related.map((p) => (
+          <a href={"/posts/" + p.id + "/"}>{p.data.title} ↗</a>
+        ))
+      ) : (
+        <a href="/posts/">浏览全部文章 ↗</a>
+      )}
+    </section>
+  </article>
+  <script src="../../scripts/article.ts"></script>
+</Base>
