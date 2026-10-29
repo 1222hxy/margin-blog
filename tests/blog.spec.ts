@@ -6,7 +6,7 @@ test("nine theme/layout combinations on desktop and mobile", async ({
     await page.setViewportSize({ width, height: 900 });
     for (const route of ["build-a-space", "math-and-code", "slow-notes"]) {
       await page.goto("/posts/" + route + "/");
-      for (const theme of ["study", "editorial", "terminal", "workspace"]) {
+      for (const theme of ["study", "editorial", "terminal", "workspace", "city"]) {
         await page.evaluate(
           (t) => (document.documentElement.dataset.theme = t),
           theme,
@@ -23,7 +23,7 @@ test("nine theme/layout combinations on desktop and mobile", async ({
 });
 test("search, mode, diagram, image and keyboard", async ({ page }) => {
   await page.goto("/");
-  await expect(page.getByLabel("频率", { exact: true })).toBeEnabled();
+  await expect(page.locator(".city-hero img")).toBeVisible();
   await page.getByRole("button", { name: "搜索文章" }).click();
   await page.getByRole("searchbox", { name: "搜索关键词" }).fill("公式");
   await expect(page.locator(".search-results a").first()).toContainText("公式");

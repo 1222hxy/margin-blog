@@ -1,7 +1,13 @@
 import type { FontPreferences } from "./lib/fonts";
-export const themes = ["study", "editorial", "terminal", "workspace"] as const;
+export const themes = [
+  "study",
+  "editorial",
+  "terminal",
+  "workspace",
+  "city",
+] as const;
 export const layouts = ["standard", "technical", "journal"] as const;
-const theme = import.meta.env.BLOG_THEME || "workspace";
+const theme = import.meta.env.BLOG_THEME || "city";
 if (!themes.includes(theme as (typeof themes)[number]))
   throw new Error("Invalid BLOG_THEME: " + theme);
 export const site = {

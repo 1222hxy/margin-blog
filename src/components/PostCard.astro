@@ -5,7 +5,7 @@ const { post, index = 0 } = Astro.props;
 ---
 
 <a class="post-card" href={"/posts/" + post.id + "/"}>
-  {site.theme !== "workspace" && (
+  {site.theme !== "workspace" && site.theme !== "city" && (
     <div class:list={["card-art", "art-" + (index % 3)]} aria-hidden="true">
       <span>{["∑", "↗", "◎"][index % 3]}</span>
       <small>

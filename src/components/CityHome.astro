@@ -1,0 +1,79 @@
+---
+import { published, dateLabel } from "../lib/content";
+const posts = await published();
+const tags = [...new Set(posts.flatMap((p) => p.data.tags))];
+---
+
+<div class="city-home">
+  <section class="city-hero" aria-labelledby="city-title">
+    <picture>
+      <source
+        media="(max-width: 600px)"
+        srcset="/images/anime-city-mobile.webp"
+      />
+      <img
+        src="/images/anime-city-hero.webp"
+        width="1280"
+        height="720"
+        fetchpriority="high"
+        alt="暮色中的动漫城市，列车穿过屋顶间，窗户亮起温暖的灯光"
+      />
+    </picture>
+    <div class="city-hero-copy">
+      <p>在日常里，遇见一点不平凡。</p>
+      <h1 id="city-title">把故事，留在页间。</h1>
+      <a href="#recent">
+        往下读读 <span aria-hidden="true">↓</span>
+      </a>
+    </div>
+  </section>
+  <div class="city-content">
+    <section class="city-feed" id="recent">
+      <header>
+        <h2>最近写下的</h2>
+        <a href="/posts/">全部文章 ↗</a>
+      </header>
+      {posts.map((post) => (
+        <article class="city-post">
+          <div class="city-post-meta">
+            <span>{post.data.tags[0]}</span>
+            <time datetime={post.data.date.toISOString()}>
+              {dateLabel(post.data.date)}
+            </time>
+          </div>
+          <h3>
+            <a href={"/posts/" + post.id + "/"}>{post.data.title}</a>
+          </h3>
+          <p>{post.data.description}</p>
+          <a class="city-read" href={"/posts/" + post.id + "/"}>
+            {post.kind === "tsx" ? "打开互动文章" : "继续阅读"}{" "}
+            <span aria-hidden="true">↗</span>
+          </a>
+        </article>
+      ))}
+    </section>
+    <aside class="city-aside">
+      <section class="city-about">
+        <div class="city-stamp" aria-hidden="true">
+          页
+        </div>
+        <h2>你好，欢迎路过。</h2>
+        <p>这里写代码，也写生活。收藏一些想法，记录那些值得停留的瞬间。</p>
+        <a href="/about/">关于这个空间 ↗</a>
+      </section>
+      <section>
+        <h2>沿着话题走走</h2>
+        <div class="city-tags">
+          {tags.map((t) => (
+            <a href={"/tags/" + encodeURIComponent(t) + "/"}>{t}</a>
+          ))}
+        </div>
+      </section>
+      <section class="city-rss">
+        <h2>下次再见。</h2>
+        <p>新的故事，会沿着订阅抵达。</p>
+        <a href="/rss.xml">通过 RSS 订阅 ↗</a>
+      </section>
+    </aside>
+  </div>
+</div>
