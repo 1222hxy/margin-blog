@@ -1,4 +1,5 @@
 ---
+import PaperHome from "../components/PaperHome.astro";
 import CityHome from "../components/CityHome.astro";
 import WorkspaceHome from "../components/WorkspaceHome.astro";
 import { site } from "../config";
@@ -11,7 +12,9 @@ const projects = await getCollection("projects");
 ---
 
 <Base>
-  {site.theme === "city" ? (
+  {site.theme === "paper" ? (
+    <PaperHome />
+  ) : site.theme === "city" ? (
     <CityHome />
   ) : site.theme === "workspace" ? (
     <WorkspaceHome />

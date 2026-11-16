@@ -6,7 +6,14 @@ test("nine theme/layout combinations on desktop and mobile", async ({
     await page.setViewportSize({ width, height: 900 });
     for (const route of ["build-a-space", "math-and-code", "slow-notes"]) {
       await page.goto("/posts/" + route + "/");
-      for (const theme of ["study", "editorial", "terminal", "workspace", "city"]) {
+      for (const theme of [
+        "study",
+        "editorial",
+        "terminal",
+        "workspace",
+        "city",
+        "paper",
+      ]) {
         await page.evaluate(
           (t) => (document.documentElement.dataset.theme = t),
           theme,
@@ -23,7 +30,7 @@ test("nine theme/layout combinations on desktop and mobile", async ({
 });
 test("search, mode, diagram, image and keyboard", async ({ page }) => {
   await page.goto("/");
-  await expect(page.locator(".city-hero img")).toBeVisible();
+  await expect(page.locator(".paper-home h1")).toBeVisible();
   await page.getByRole("button", { name: "搜索文章" }).click();
   await page.getByRole("searchbox", { name: "搜索关键词" }).fill("公式");
   await expect(page.locator(".search-results a").first()).toContainText("公式");
@@ -269,7 +276,7 @@ test("article navigation, progress and sharing metadata", async ({ page }) => {
   );
   expect(data["@type"]).toBe("BlogPosting");
   expect(data.headline).toContain("公式");
-  const links = page.locator(".toc a");
+  const links = page.locator('.toc a[href^="#"]');
   await links.nth(1).click();
   await expect(links.nth(1)).toHaveAttribute("aria-current", "location");
   await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));

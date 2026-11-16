@@ -5,9 +5,10 @@ export const themes = [
   "terminal",
   "workspace",
   "city",
+  "paper",
 ] as const;
 export const layouts = ["standard", "technical", "journal"] as const;
-const theme = import.meta.env.BLOG_THEME || "city";
+const theme = import.meta.env.BLOG_THEME || "paper";
 if (!themes.includes(theme as (typeof themes)[number]))
   throw new Error("Invalid BLOG_THEME: " + theme);
 export const site = {

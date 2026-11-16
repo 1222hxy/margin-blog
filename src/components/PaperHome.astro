@@ -1,0 +1,27 @@
+---
+import { published, dateLabel } from "../lib/content";
+const posts = await published();
+---
+
+<section class="paper-home">
+  <header>
+    <h1>页间</h1>
+    <p>在代码与生活之间，留一点思考的余地。</p>
+  </header>
+  <div class="paper-feed">
+    {posts.map((p) => (
+      <article>
+        <div>
+          <time datetime={p.data.date.toISOString()}>
+            {dateLabel(p.data.date)}
+          </time>
+          <span>{p.data.tags[0]}</span>
+        </div>
+        <h2>
+          <a href={"/posts/" + p.id + "/"}>{p.data.title}</a>
+        </h2>
+        <p>{p.data.description}</p>
+      </article>
+    ))}
+  </div>
+</section>

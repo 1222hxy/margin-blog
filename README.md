@@ -37,7 +37,7 @@ template 可选 standard / technical / journal，省略则使用全站默认布�
 
 ## 主题扩展
 
-`src/config.ts` 的 themes 注册主题名称，默认主题由 theme 常量决定，也可设置构建环境变量 BLOG_THEME（workspace / study / editorial / terminal）。访客不能切换全站模板，只能切换亮暗模式。
+`src/config.ts` 的 themes 注册主题名称，默认主题由 theme 常量决定，也可设置构建环境变量 BLOG_THEME（paper / city / workspace / study / editorial / terminal）。访客不能切换全站模板，只能切换亮暗模式。
 
 `src/styles/global.css` 中的 `data-theme` 定义颜色和字体变量，同时映射到 Tailwind 语义颜色。新增主题需提供亮暗两套变量。布局由 `layouts` 注册、文章 `template` 选择，在文章页通过 `layout-*` 类实现。新增结构较大的布局时可提取 Astro 组件，同时保留正文、目录和相关内容接口。未知主题和文章布局会阻止构建。
 
@@ -66,7 +66,7 @@ npm test
 npx wrangler deploy --dry-run
 ```
 
-内容检查覆盖草稿隔离、搜索输出、数学、代码与 404；浏览器测试覆盖四种主题与三种文章布局组合的桌面与手机溢出检查、搜索、模式保存、图表、图片弹窗及关闭 JavaScript 后阅读。页面截图在 test-results/。CI 对 push / PR 执行类型、构建、内容和生产浏览器检查。
+内容检查覆盖草稿隔离、搜索输出、数学、代码与 404；浏览器测试覆盖六种主题与三种文章布局组合的桌面与手机溢出检查、搜索、模式保存、图表、图片弹窗及关闭 JavaScript 后阅读。页面截图在 test-results/。CI 对 push / PR 执行类型、构建、内容和生产浏览器检查。
 
 ## 授权
 
@@ -116,3 +116,7 @@ TSX 在服务端预渲染：不要在模块顶层读取 window / document；浏�
 ## 动漫城市主题
 
 当前默认主题为 `city`，使用 Grok Build 生成的动漫城市横幅，详见 `design-system/city.md`。通过 `BLOG_THEME=workspace` 可恢复工作台；其余旧主题仍保留。首页展示文章列表，曲线实验保留在独立文章中。插画原稿存放于 assets/illustrations，网页仅使用 public/images 的响应式 WebP。
+
+## Paper 主题
+
+当前默认 paper，参考 https://www.anthropic.com/news/s1-sec 的阅读布局与 https://www.anthropic.com/claude-opus-5-5 的控件风格：暖白背景、居中标题、右侧文章信息、细边框控件和深色页脚。正文英文使用 Anthropic Serif，中文使用 MiSans；标题与控件英文使用 Anthropic Sans。手机上文章信息排在正文之前。city 动漫城市主题仍可通过 BLOG_THEME=city 启用。

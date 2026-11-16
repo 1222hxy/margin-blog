@@ -1,7 +1,7 @@
 const article = document.querySelector("#article-body");
 if (article) {
   const progress = document.querySelector<HTMLElement>("#reading-progress");
-  const links = [...document.querySelectorAll<HTMLAnchorElement>(".toc a")];
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('.toc a[href^="#"]')];
   const sections = links
     .map((link) => ({
       link,

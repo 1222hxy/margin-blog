@@ -71,6 +71,30 @@ const layout = post.data.template || site.defaultLayout;
     </header>
     <div class="article-grid">
       <aside class="toc">
+        {site.theme === "paper" && (
+          <dl class="paper-meta">
+            <div>
+              <dt>发布于</dt>
+              <dd>
+                <time datetime={post.data.date.toISOString()}>
+                  {dateLabel(post.data.date)}
+                </time>
+              </dd>
+            </div>
+            <div>
+              <dt>作者</dt>
+              <dd>{site.author}</dd>
+            </div>
+            <div>
+              <dt>话题</dt>
+              <dd>
+                {post.data.tags.map((t) => (
+                  <a href={"/tags/" + encodeURIComponent(t) + "/"}>{t}</a>
+                ))}
+              </dd>
+            </div>
+          </dl>
+        )}
         <details open>
           <summary>本页目录</summary>
           {headings
