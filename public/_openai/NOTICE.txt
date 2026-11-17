@@ -1,0 +1,6 @@
+Nonofficial reproduction for learning and visual comparison.
+Original page: https://openai.com/zh-Hans-CN/index/grid-protectors-program/
+The OpenAI name, marks, article, illustrations, icons, fonts and original site
+code remain the property of their respective rightsholders. This reproduction
+is not operated by, endorsed by, or affiliated with OpenAI.
+The personal blog repository's MIT license does not grant rights to these assets.

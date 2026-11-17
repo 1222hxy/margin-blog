@@ -1,0 +1,11 @@
+# These are original published response bytes, checked against the port ledger.
+/rebuilds/openai-exact/port/** -text -whitespace
+/rebuilds/openai-exact/components/** -text -whitespace
+/public/_next/** -text -whitespace
+/public/_vercel/** -text -whitespace
+/public/_openai/** -text -whitespace
+/public/__cdn*/** -text -whitespace
+/public/__images*/** -text -whitespace
+/public/__static*/** -text -whitespace
+/public/icons/** -text -whitespace
+/public/fonts/openai-sans/** -text -whitespace

@@ -1,0 +1,2999 @@
+{
+  "source": "https://openai.com/zh-Hans-CN/index/grid-protectors-program/",
+  "transformations": [
+    {
+      "id": "T-CDN",
+      "description": "Same-byte-length CDN origin aliases; preserves Flight T-row lengths.",
+      "prefixes": {
+        "cdn.openai.com": "/__cdn_openai_com_____",
+        "images.ctfassets.net": "/__images_ctfassets_net_____",
+        "cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net": "/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____",
+        "static.cloudflareinsights.com": "/__static_cloudflareinsights_com_____"
+      }
+    },
+    {
+      "id": "T-TELEMETRY-TAG",
+      "description": "Omit the two external analytics script tags, as on the reference server. No visual nodes removed."
+    },
+    {
+      "id": "T-TELEMETRY-PRELOAD",
+      "description": "Omit the external Cloudflare analytics script preload; no visual effect."
+    },
+    {
+      "id": "T-NOINDEX",
+      "description": "Add robots noindex for the nonofficial reproduction; no visual effect."
+    },
+    {
+      "id": "T-OFFLINE",
+      "description": "Prepend a nonvisual adapter for recorded same-origin APIs and analytics stubs. No visual rules or interface handlers are changed."
+    },
+    {
+      "id": "T-TTS-URL",
+      "description": "At runtime, return absolute same-origin MP3 URLs in captured TTS metadata. Source audio URL normalizer accepts HTTP URLs, not root-relative paths (0wl4_aw_qjkxf.js). UI and audio files remain original."
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://openai.com/zh-Hans-CN/index/grid-protectors-program/",
+      "originalSha256": "919390f8b79a00c0951830bba198e1d1dba11c95659e596e87819632d58af290",
+      "file": "rebuilds/openai-exact/port/document.html",
+      "sha256": "9fc6a7a62966c8c698d15b070747829f94f4e8b6d453c02837a529e9d3f2e209",
+      "mime": "text/html"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2_yqdeeofaafl.css",
+      "originalSha256": "915432c283c9af5c736806ff88fbb35e5a31b2558efaec281faa444825f62a36",
+      "file": "public/_next/static/immutable/chunks/2_yqdeeofaafl.css",
+      "sha256": "915432c283c9af5c736806ff88fbb35e5a31b2558efaec281faa444825f62a36",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2c5-yd4np9o5-.css",
+      "originalSha256": "23ac33d8dfa067ee39aa625986c6ea5e65e2e97771071c7149aa8a8be25a2fef",
+      "file": "public/_next/static/immutable/chunks/2c5-yd4np9o5-.css",
+      "sha256": "23ac33d8dfa067ee39aa625986c6ea5e65e2e97771071c7149aa8a8be25a2fef",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/09gb6lm1e-6rp.css",
+      "originalSha256": "d3548ac87fa8ab4ff70e16cea8b26276c01a63093a9d237d188e414891fd2a13",
+      "file": "public/_next/static/immutable/chunks/09gb6lm1e-6rp.css",
+      "sha256": "45969369dcb79871f539710deddff50fa547527ede9ef6e04d48a26ece77045b",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/364sl9ajjxur6.css",
+      "originalSha256": "85755663f163408ff484ef77c87424dd0b5e9c1dcc397275ed710d4ebcd4ddab",
+      "file": "public/_next/static/immutable/chunks/364sl9ajjxur6.css",
+      "sha256": "85755663f163408ff484ef77c87424dd0b5e9c1dcc397275ed710d4ebcd4ddab",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1a_w7g4pgbqy2.css",
+      "originalSha256": "d5108a5fa4040993dcdcadd8c6a29b9021957ee64b4b9ce3e063994961ba20cd",
+      "file": "public/_next/static/immutable/chunks/1a_w7g4pgbqy2.css",
+      "sha256": "d5108a5fa4040993dcdcadd8c6a29b9021957ee64b4b9ce3e063994961ba20cd",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3ltp8o7o4no0z.css",
+      "originalSha256": "d34902731c740a6694e1ab4aaf74ba8594665a8970589935430721b3d3135a10",
+      "file": "public/_next/static/immutable/chunks/3ltp8o7o4no0z.css",
+      "sha256": "d34902731c740a6694e1ab4aaf74ba8594665a8970589935430721b3d3135a10",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2q7igsfb59qi0.css",
+      "originalSha256": "51c34e6d3b6d6274b681a1fe5f96e9adf0272a40b29f28c5c281769cd0efe586",
+      "file": "public/_next/static/immutable/chunks/2q7igsfb59qi0.css",
+      "sha256": "8d24fe03de36fe7941534cacf9810a9bea8c1361441445fd46f660c9603f2f7c",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0nncbm0woqncw.css",
+      "originalSha256": "c6d0db49e0376947786100c1bf340832be443b22f9eea90aba335b83b1f9a905",
+      "file": "public/_next/static/immutable/chunks/0nncbm0woqncw.css",
+      "sha256": "c6d0db49e0376947786100c1bf340832be443b22f9eea90aba335b83b1f9a905",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/02rizd4h1yg38.css",
+      "originalSha256": "641208d4bb4bc7666c704fc139b451be7119edb4f2692257e65bbb9431e1902b",
+      "file": "public/_next/static/immutable/chunks/02rizd4h1yg38.css",
+      "sha256": "641208d4bb4bc7666c704fc139b451be7119edb4f2692257e65bbb9431e1902b",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3ko1oymi5nfar.css",
+      "originalSha256": "49a29c9819f4b9c98abddb67b18bd8a63f8bfd9eb0b6bffae927380f10d04551",
+      "file": "public/_next/static/immutable/chunks/3ko1oymi5nfar.css",
+      "sha256": "49a29c9819f4b9c98abddb67b18bd8a63f8bfd9eb0b6bffae927380f10d04551",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/19komo8v2-7uw.css",
+      "originalSha256": "dd9164344282234ff622d2bbfdc231368a51c5b586757a0b5f77802544bc9901",
+      "file": "public/_next/static/immutable/chunks/19komo8v2-7uw.css",
+      "sha256": "dd9164344282234ff622d2bbfdc231368a51c5b586757a0b5f77802544bc9901",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3m_pe0v9ukk1l.css",
+      "originalSha256": "163ffa1dd57f056891dc299f83b4f9e8b2d70063f6336ba2dae57da2cb1774dc",
+      "file": "public/_next/static/immutable/chunks/3m_pe0v9ukk1l.css",
+      "sha256": "163ffa1dd57f056891dc299f83b4f9e8b2d70063f6336ba2dae57da2cb1774dc",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1eb20feb7-xs0.css",
+      "originalSha256": "785c3d537f9446ed5da15a4a7e7261e53bd3315fa2bff50503515cad3bad731b",
+      "file": "public/_next/static/immutable/chunks/1eb20feb7-xs0.css",
+      "sha256": "785c3d537f9446ed5da15a4a7e7261e53bd3315fa2bff50503515cad3bad731b",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2tythkjpl6r5f.css",
+      "originalSha256": "fc2ec3c3e6f79539fbc8a214216965cc153c246ac515e8a9c809c732db5f3b0f",
+      "file": "public/_next/static/immutable/chunks/2tythkjpl6r5f.css",
+      "sha256": "fc2ec3c3e6f79539fbc8a214216965cc153c246ac515e8a9c809c732db5f3b0f",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2tfoxfimdwy_7.css",
+      "originalSha256": "24eefb15b88debcac076448c19372071f8ea7e8b6f2e9eb9ac52b34f36289c77",
+      "file": "public/_next/static/immutable/chunks/2tfoxfimdwy_7.css",
+      "sha256": "24eefb15b88debcac076448c19372071f8ea7e8b6f2e9eb9ac52b34f36289c77",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/418g1ki4urs7i.css",
+      "originalSha256": "042d73c5a51b5371fcea59a125711df4a8e8831d7d2f52f53aae64ae6b785546",
+      "file": "public/_next/static/immutable/chunks/418g1ki4urs7i.css",
+      "sha256": "042d73c5a51b5371fcea59a125711df4a8e8831d7d2f52f53aae64ae6b785546",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1qwvzlno82-ms.css",
+      "originalSha256": "309643f6e98505a7f07619677e53081a61de9918afd74e6fa175523b85f33d37",
+      "file": "public/_next/static/immutable/chunks/1qwvzlno82-ms.css",
+      "sha256": "309643f6e98505a7f07619677e53081a61de9918afd74e6fa175523b85f33d37",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3c_sg8x_2epsx.css",
+      "originalSha256": "97191a371cf569e8997c46f0a8e11ec7a2ec97132cd85519439488282a766e05",
+      "file": "public/_next/static/immutable/chunks/3c_sg8x_2epsx.css",
+      "sha256": "97191a371cf569e8997c46f0a8e11ec7a2ec97132cd85519439488282a766e05",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0gbul3xhdgefu.css",
+      "originalSha256": "f49dd04c39892a3abd4784cbce9fb82edbb0627d0e45ac0b998fb0ba9a393cb9",
+      "file": "public/_next/static/immutable/chunks/0gbul3xhdgefu.css",
+      "sha256": "f49dd04c39892a3abd4784cbce9fb82edbb0627d0e45ac0b998fb0ba9a393cb9",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/24llnxe4ide77.css",
+      "originalSha256": "619e86e5631181c7e0194c004216713d05e79e9bd1f15c7e6f75c43ea28b95b4",
+      "file": "public/_next/static/immutable/chunks/24llnxe4ide77.css",
+      "sha256": "619e86e5631181c7e0194c004216713d05e79e9bd1f15c7e6f75c43ea28b95b4",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/02jokqu8i3u6x.css",
+      "originalSha256": "e08e436b5260eb969bc01bffc9869984a0198dcf7db87047fa67f342d033744e",
+      "file": "public/_next/static/immutable/chunks/02jokqu8i3u6x.css",
+      "sha256": "e08e436b5260eb969bc01bffc9869984a0198dcf7db87047fa67f342d033744e",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0hw9axwzzmjt7.css",
+      "originalSha256": "5f1f2c0a9d6fee0b5fdb070dfcc55e308659bf148c65f48a4fc08670cff53075",
+      "file": "public/_next/static/immutable/chunks/0hw9axwzzmjt7.css",
+      "sha256": "5f1f2c0a9d6fee0b5fdb070dfcc55e308659bf148c65f48a4fc08670cff53075",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1gamnqvkmev03.css",
+      "originalSha256": "9a8018c8b062d07daf6c5bfe8ef387f8f9c83bb0705fb4a985306259257658ee",
+      "file": "public/_next/static/immutable/chunks/1gamnqvkmev03.css",
+      "sha256": "9a8018c8b062d07daf6c5bfe8ef387f8f9c83bb0705fb4a985306259257658ee",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/44k54u4tcqll1.css",
+      "originalSha256": "c9c6149feb9f3ced10b40c7bba87583a8f8c836ccee4707dd2a364ada054ddad",
+      "file": "public/_next/static/immutable/chunks/44k54u4tcqll1.css",
+      "sha256": "c9c6149feb9f3ced10b40c7bba87583a8f8c836ccee4707dd2a364ada054ddad",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3eiqstuav1vis.css",
+      "originalSha256": "93b330897273987e589361038c2994c585d6ae9be214f2488c695badac0dca31",
+      "file": "public/_next/static/immutable/chunks/3eiqstuav1vis.css",
+      "sha256": "93b330897273987e589361038c2994c585d6ae9be214f2488c695badac0dca31",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2gi26gt7puq0m.css",
+      "originalSha256": "3df635b8633812848acd3c2ab893b599feaa23c8056e812cfabf93f7e61ffd3e",
+      "file": "public/_next/static/immutable/chunks/2gi26gt7puq0m.css",
+      "sha256": "3df635b8633812848acd3c2ab893b599feaa23c8056e812cfabf93f7e61ffd3e",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/07zrps_9-m8oe.css",
+      "originalSha256": "e409bc57a0cf09770b18a1744d02d9d2f1f1f65a25e2c4edc1523ec7659f8215",
+      "file": "public/_next/static/immutable/chunks/07zrps_9-m8oe.css",
+      "sha256": "e409bc57a0cf09770b18a1744d02d9d2f1f1f65a25e2c4edc1523ec7659f8215",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3al9vz9jzyr1b.css",
+      "originalSha256": "b418d9d488c9ac5cfebf69dd1f8232f350ccdbdd4d254a2740c16b7b84a26ea6",
+      "file": "public/_next/static/immutable/chunks/3al9vz9jzyr1b.css",
+      "sha256": "b418d9d488c9ac5cfebf69dd1f8232f350ccdbdd4d254a2740c16b7b84a26ea6",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1_q7a3kutvpaw.css",
+      "originalSha256": "92b13e8da8006a87ce1f4a03cb8feb9374ddc0ef42006a91a14d9174d0f1b9c7",
+      "file": "public/_next/static/immutable/chunks/1_q7a3kutvpaw.css",
+      "sha256": "92b13e8da8006a87ce1f4a03cb8feb9374ddc0ef42006a91a14d9174d0f1b9c7",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2ukcifkl0hfxn.css",
+      "originalSha256": "850c9d97be8455cfffdae164cd43c8d8c147d4fe3f1437367dae91ac78d5acd4",
+      "file": "public/_next/static/immutable/chunks/2ukcifkl0hfxn.css",
+      "sha256": "850c9d97be8455cfffdae164cd43c8d8c147d4fe3f1437367dae91ac78d5acd4",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/03hc2mj_hz2t8.css",
+      "originalSha256": "230e2f24033fbc6cf301e04e7c09885e2c0a377d29eaa6c4b2ded3ffd77a8301",
+      "file": "public/_next/static/immutable/chunks/03hc2mj_hz2t8.css",
+      "sha256": "230e2f24033fbc6cf301e04e7c09885e2c0a377d29eaa6c4b2ded3ffd77a8301",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0ifi67wxrbsaq.css",
+      "originalSha256": "5e1dcda2ac5e967cf677c310de51f5af2151033a97dcf3f1ff081dc7baf3ebe1",
+      "file": "public/_next/static/immutable/chunks/0ifi67wxrbsaq.css",
+      "sha256": "5e1dcda2ac5e967cf677c310de51f5af2151033a97dcf3f1ff081dc7baf3ebe1",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2wilwq6zdj4qv.css",
+      "originalSha256": "b2ec539b2d51a5cf613da7dffb247ee55e7d426abf9301544b13418ecb6c2a07",
+      "file": "public/_next/static/immutable/chunks/2wilwq6zdj4qv.css",
+      "sha256": "b2ec539b2d51a5cf613da7dffb247ee55e7d426abf9301544b13418ecb6c2a07",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0af8wc8u13r__.css",
+      "originalSha256": "6133c07560f549a7b3a815c5a03b64daf2852f52724237ae1c206a66e6581f1e",
+      "file": "public/_next/static/immutable/chunks/0af8wc8u13r__.css",
+      "sha256": "6133c07560f549a7b3a815c5a03b64daf2852f52724237ae1c206a66e6581f1e",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1v1c5665im7aj.css",
+      "originalSha256": "9f9554761034df1c3f802ee05331bd3ef8abe9efba3515ab039cb3d19905ef7f",
+      "file": "public/_next/static/immutable/chunks/1v1c5665im7aj.css",
+      "sha256": "9f9554761034df1c3f802ee05331bd3ef8abe9efba3515ab039cb3d19905ef7f",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/44jyj7v35fg22.css",
+      "originalSha256": "5d58ab49d8f0bf043abc7405a0f911a1e16eec7555754112c8ea07ff0f342b28",
+      "file": "public/_next/static/immutable/chunks/44jyj7v35fg22.css",
+      "sha256": "5d58ab49d8f0bf043abc7405a0f911a1e16eec7555754112c8ea07ff0f342b28",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0376dr0tsi7m6.css",
+      "originalSha256": "9371ad51773643b453633b4a9b16e8dc7f4f09a7d70c28dcbf6b496c3e2f0d3d",
+      "file": "public/_next/static/immutable/chunks/0376dr0tsi7m6.css",
+      "sha256": "9371ad51773643b453633b4a9b16e8dc7f4f09a7d70c28dcbf6b496c3e2f0d3d",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0z06ivb_yk16w.css",
+      "originalSha256": "e49d68e520e6b3bdc76b6774cd4232f23f6c840eed686afd0f4da4b85971f3a1",
+      "file": "public/_next/static/immutable/chunks/0z06ivb_yk16w.css",
+      "sha256": "e49d68e520e6b3bdc76b6774cd4232f23f6c840eed686afd0f4da4b85971f3a1",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2vsizjyu9ey9a.css",
+      "originalSha256": "cb8526c008426bfe674049d16238383ca5a1041c0eb4848c87090d0be27d87b3",
+      "file": "public/_next/static/immutable/chunks/2vsizjyu9ey9a.css",
+      "sha256": "cb8526c008426bfe674049d16238383ca5a1041c0eb4848c87090d0be27d87b3",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1aufyo0-a84o_.css",
+      "originalSha256": "d2506741f265d6b127b3142017aa4909ba06de8f067ba6a22f868da7511b9ed5",
+      "file": "public/_next/static/immutable/chunks/1aufyo0-a84o_.css",
+      "sha256": "d2506741f265d6b127b3142017aa4909ba06de8f067ba6a22f868da7511b9ed5",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3_lv7downxz9x.css",
+      "originalSha256": "6496344b1f5e1de83bf26586ee624dbdc16109d4ea2445eb3802107344e7a13e",
+      "file": "public/_next/static/immutable/chunks/3_lv7downxz9x.css",
+      "sha256": "6496344b1f5e1de83bf26586ee624dbdc16109d4ea2445eb3802107344e7a13e",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/23c_up3_tvpch.css",
+      "originalSha256": "43d5cac91e7690c0cce5424fa41a435aac0353b2a44c0940c42728bd166c9663",
+      "file": "public/_next/static/immutable/chunks/23c_up3_tvpch.css",
+      "sha256": "43d5cac91e7690c0cce5424fa41a435aac0353b2a44c0940c42728bd166c9663",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0h-tu49j5vys7.css",
+      "originalSha256": "e68954587d9881a3ee1d533aca7b62f28d342db6fa3b244d96f60cab56cab29b",
+      "file": "public/_next/static/immutable/chunks/0h-tu49j5vys7.css",
+      "sha256": "e68954587d9881a3ee1d533aca7b62f28d342db6fa3b244d96f60cab56cab29b",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0j6dvdpebovbg.css",
+      "originalSha256": "737f8a75e032c2a37262083b569775d256e71bf86008ac0257194c64eff127ce",
+      "file": "public/_next/static/immutable/chunks/0j6dvdpebovbg.css",
+      "sha256": "737f8a75e032c2a37262083b569775d256e71bf86008ac0257194c64eff127ce",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/21np-4pg3n6e4.css",
+      "originalSha256": "759629a63bd3b7023ef1dd8e9f7526c07e3d9d00a4707ab9f959a2377f43baef",
+      "file": "public/_next/static/immutable/chunks/21np-4pg3n6e4.css",
+      "sha256": "759629a63bd3b7023ef1dd8e9f7526c07e3d9d00a4707ab9f959a2377f43baef",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3qa9oe41s73c4.css",
+      "originalSha256": "d81faa6b05eeef94936f6778c4b369bc53e26ea3a8e22a42cf478d79fb2eb473",
+      "file": "public/_next/static/immutable/chunks/3qa9oe41s73c4.css",
+      "sha256": "d81faa6b05eeef94936f6778c4b369bc53e26ea3a8e22a42cf478d79fb2eb473",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/07uzjfe_ryny9.css",
+      "originalSha256": "bc44e801fc0f8137c6c2b28d75b5f7f599910f81e50215dbbc0b7da2cf97328d",
+      "file": "public/_next/static/immutable/chunks/07uzjfe_ryny9.css",
+      "sha256": "bc44e801fc0f8137c6c2b28d75b5f7f599910f81e50215dbbc0b7da2cf97328d",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/39l43y11w8l-1.css",
+      "originalSha256": "e5ff2fb312c587b96213f2052e3d318259dae66dca83e55c732571c8a282edd2",
+      "file": "public/_next/static/immutable/chunks/39l43y11w8l-1.css",
+      "sha256": "e5ff2fb312c587b96213f2052e3d318259dae66dca83e55c732571c8a282edd2",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/19zikxxdr931a.css",
+      "originalSha256": "5486601dd15416536f6ba79481929e2d4007572da9f7bdc39535cc19054a55fa",
+      "file": "public/_next/static/immutable/chunks/19zikxxdr931a.css",
+      "sha256": "5486601dd15416536f6ba79481929e2d4007572da9f7bdc39535cc19054a55fa",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/12vzv332mlalu.css",
+      "originalSha256": "09a849b676f8b7738a9475842ea874ae1d907e45dc821ea81c05c023f6d1ed35",
+      "file": "public/_next/static/immutable/chunks/12vzv332mlalu.css",
+      "sha256": "09a849b676f8b7738a9475842ea874ae1d907e45dc821ea81c05c023f6d1ed35",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0n85fz5af279u.css",
+      "originalSha256": "b7317f06c5f5192539eb4208ee8b76c1eaaf1686a8ceae194bf6a419e7eb2a28",
+      "file": "public/_next/static/immutable/chunks/0n85fz5af279u.css",
+      "sha256": "b7317f06c5f5192539eb4208ee8b76c1eaaf1686a8ceae194bf6a419e7eb2a28",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/22gyl8qmx2uie.css",
+      "originalSha256": "96310359f174d8444a99226599e5e584b3c019c65a2d3a76a3b754ae42bb585d",
+      "file": "public/_next/static/immutable/chunks/22gyl8qmx2uie.css",
+      "sha256": "96310359f174d8444a99226599e5e584b3c019c65a2d3a76a3b754ae42bb585d",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1ajftbk5y80xx.css",
+      "originalSha256": "787661c5590f9d07aa794542fa2fdaa1ae53306fe6f7e93ac7f26aff88bcd22c",
+      "file": "public/_next/static/immutable/chunks/1ajftbk5y80xx.css",
+      "sha256": "787661c5590f9d07aa794542fa2fdaa1ae53306fe6f7e93ac7f26aff88bcd22c",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1x9_1xc65us5-.css",
+      "originalSha256": "7735c3b99cfcfbcc94fe6341903e81a51107d4cccd9901bbdafa1ba825c28483",
+      "file": "public/_next/static/immutable/chunks/1x9_1xc65us5-.css",
+      "sha256": "7735c3b99cfcfbcc94fe6341903e81a51107d4cccd9901bbdafa1ba825c28483",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0_awaze9bmqit.css",
+      "originalSha256": "80a461a8a10ddb7e6170a24c7ad96ff2d8281011040a8af330d8f1b7ace85c6e",
+      "file": "public/_next/static/immutable/chunks/0_awaze9bmqit.css",
+      "sha256": "80a461a8a10ddb7e6170a24c7ad96ff2d8281011040a8af330d8f1b7ace85c6e",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0ojaroe934i_g.css",
+      "originalSha256": "caf414ce0586ec331226cef3903fe61fb1ecaaf8151122655b61247b2c424215",
+      "file": "public/_next/static/immutable/chunks/0ojaroe934i_g.css",
+      "sha256": "caf414ce0586ec331226cef3903fe61fb1ecaaf8151122655b61247b2c424215",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/199w-v6wvp-zb.css",
+      "originalSha256": "e8c66f67fee5570225ee18d89f3dbfdffe1aec92747ac7c97e14513de2e99693",
+      "file": "public/_next/static/immutable/chunks/199w-v6wvp-zb.css",
+      "sha256": "e8c66f67fee5570225ee18d89f3dbfdffe1aec92747ac7c97e14513de2e99693",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1j_y_-61xz3hf.css",
+      "originalSha256": "e992831b569fd22f61e10cf386a74f4e3104cf23e2ae363065dcc801d013d451",
+      "file": "public/_next/static/immutable/chunks/1j_y_-61xz3hf.css",
+      "sha256": "e992831b569fd22f61e10cf386a74f4e3104cf23e2ae363065dcc801d013d451",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0trxx6ogzbpei.css",
+      "originalSha256": "766dfc5ecbf24ed09eec87fae6a3abb1c27ddf09dc44de50d3ad39cb26a3ecac",
+      "file": "public/_next/static/immutable/chunks/0trxx6ogzbpei.css",
+      "sha256": "766dfc5ecbf24ed09eec87fae6a3abb1c27ddf09dc44de50d3ad39cb26a3ecac",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/16p9jc2qteus5.css",
+      "originalSha256": "3202a488bfe4ebfbad73437df4966e9949eba5d89b90a32ac64a1c67ee983d68",
+      "file": "public/_next/static/immutable/chunks/16p9jc2qteus5.css",
+      "sha256": "3202a488bfe4ebfbad73437df4966e9949eba5d89b90a32ac64a1c67ee983d68",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/35jo094as2mbn.css",
+      "originalSha256": "8c7df54aa56cb6bae0b6a39a55ee6b9780984c7d604b474961d13c23a0491971",
+      "file": "public/_next/static/immutable/chunks/35jo094as2mbn.css",
+      "sha256": "8c7df54aa56cb6bae0b6a39a55ee6b9780984c7d604b474961d13c23a0491971",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/03vd5dr9686se.css",
+      "originalSha256": "80afeed79b1cbe4ffbc2b6457cf70b7e01ac77f37f29e631828829f22e3079c0",
+      "file": "public/_next/static/immutable/chunks/03vd5dr9686se.css",
+      "sha256": "27442cdc563138df1eddba7b7357670620c8c4c1b84b592cb150276011b40b0b",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0bykp3y0dkmfb.css",
+      "originalSha256": "f55b8174d82693f43a5520e8592e9465c00831914a0d1f8c93a565a9b9f62594",
+      "file": "public/_next/static/immutable/chunks/0bykp3y0dkmfb.css",
+      "sha256": "f55b8174d82693f43a5520e8592e9465c00831914a0d1f8c93a565a9b9f62594",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3glkv-7z38s2z.css",
+      "originalSha256": "14bd70c7997713175389a82274941e2fda2d319e6336de27dc0cb7f54f784927",
+      "file": "public/_next/static/immutable/chunks/3glkv-7z38s2z.css",
+      "sha256": "14bd70c7997713175389a82274941e2fda2d319e6336de27dc0cb7f54f784927",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0p8ob9ost0_t-.css",
+      "originalSha256": "1856c364a4764b673c64bd819b4badc1809a1bea2844910ced428c836b832797",
+      "file": "public/_next/static/immutable/chunks/0p8ob9ost0_t-.css",
+      "sha256": "1856c364a4764b673c64bd819b4badc1809a1bea2844910ced428c836b832797",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1pb5nk92_qwci.css",
+      "originalSha256": "cc032f47320a85b62d8eac67ed33e127200efcd117d76d3e0c711ed706ec31d3",
+      "file": "public/_next/static/immutable/chunks/1pb5nk92_qwci.css",
+      "sha256": "cc032f47320a85b62d8eac67ed33e127200efcd117d76d3e0c711ed706ec31d3",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2vxvft1j6ucpe.css",
+      "originalSha256": "54d21211bdb62cffdd78165ad57938fb80214b3d1fe401d4192d5e633a315a08",
+      "file": "public/_next/static/immutable/chunks/2vxvft1j6ucpe.css",
+      "sha256": "54d21211bdb62cffdd78165ad57938fb80214b3d1fe401d4192d5e633a315a08",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3ws6s-63hssiy.css",
+      "originalSha256": "1e77678092b5bf4dc5fbe9be7155e1a704cc71369f9818224b2890652dbfdbab",
+      "file": "public/_next/static/immutable/chunks/3ws6s-63hssiy.css",
+      "sha256": "1e77678092b5bf4dc5fbe9be7155e1a704cc71369f9818224b2890652dbfdbab",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/28wzqp0yyw6uz.css",
+      "originalSha256": "da4268364dabcc5235b6085764cbb8f903b8a607de7db4f3a0758d10f3c83747",
+      "file": "public/_next/static/immutable/chunks/28wzqp0yyw6uz.css",
+      "sha256": "da4268364dabcc5235b6085764cbb8f903b8a607de7db4f3a0758d10f3c83747",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/fonts/openai-sans/zh-hans.css",
+      "originalSha256": "edb5f47491f2b406fd1635d3e73619a222343c453acd0f92ca657abf236d8ec3",
+      "file": "public/fonts/openai-sans/zh-hans.css",
+      "sha256": "9ebe0811f07d6128763a99faf781bcdf6f933465f788dfc169cb158858698985",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1j6e90t10ba4d.js",
+      "originalSha256": "488ea0ffb050db1204e4d7faca3debde030686e51f57706db843e968fd8d7df5",
+      "file": "public/_next/static/immutable/chunks/1j6e90t10ba4d.js",
+      "sha256": "488ea0ffb050db1204e4d7faca3debde030686e51f57706db843e968fd8d7df5",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/10a3ewsg1bswp.js",
+      "originalSha256": "f93cb3537a6ce3b6ae4a5a02cce4605d619db88f891973ef2f4902fa7779bd10",
+      "file": "public/_next/static/immutable/chunks/10a3ewsg1bswp.js",
+      "sha256": "f93cb3537a6ce3b6ae4a5a02cce4605d619db88f891973ef2f4902fa7779bd10",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1-3lobmg6uev-.js",
+      "originalSha256": "8498d551461e0aa220797003ebbc9e329419f77ad71b4c1f88dfc3f2b2e7a7ec",
+      "file": "public/_next/static/immutable/chunks/1-3lobmg6uev-.js",
+      "sha256": "8498d551461e0aa220797003ebbc9e329419f77ad71b4c1f88dfc3f2b2e7a7ec",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1g3r-tb2ttrjq.js",
+      "originalSha256": "7e4097c1fa14ca8f05175d3bdf421329218e1020b8d5ed237fdc6e836ed10132",
+      "file": "public/_next/static/immutable/chunks/1g3r-tb2ttrjq.js",
+      "sha256": "7e4097c1fa14ca8f05175d3bdf421329218e1020b8d5ed237fdc6e836ed10132",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/18unpa8m78lod.js",
+      "originalSha256": "8c1f200cdabcdfab9212a89f8b55d75ad9a0ebdbc8da7d6a3a595030717a7674",
+      "file": "public/_next/static/immutable/chunks/18unpa8m78lod.js",
+      "sha256": "8c1f200cdabcdfab9212a89f8b55d75ad9a0ebdbc8da7d6a3a595030717a7674",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/turbopack-3h_ctkfaeun7f.js",
+      "originalSha256": "3f0ba0c36a0758d76b55b6717fd77e65f46ae1295bb22fa441476e1eb7854d51",
+      "file": "public/_next/static/immutable/chunks/turbopack-3h_ctkfaeun7f.js",
+      "sha256": "3f0ba0c36a0758d76b55b6717fd77e65f46ae1295bb22fa441476e1eb7854d51",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/242h5nri1_0n5.js",
+      "originalSha256": "a28b49f4245fc2ca27210b985324a94eb5474c70e4c8100d9b0f36dee21068c7",
+      "file": "public/_next/static/immutable/chunks/242h5nri1_0n5.js",
+      "sha256": "a28b49f4245fc2ca27210b985324a94eb5474c70e4c8100d9b0f36dee21068c7",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2680l2p0mysn8.js",
+      "originalSha256": "997ab5d9ef04d8278b41e3bd2a8c5031dd01a1bfe3d0dc5f5abca07c0228d512",
+      "file": "public/_next/static/immutable/chunks/2680l2p0mysn8.js",
+      "sha256": "997ab5d9ef04d8278b41e3bd2a8c5031dd01a1bfe3d0dc5f5abca07c0228d512",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3m8h_v0urvgfo.js",
+      "originalSha256": "60252ca9bcf5e42417a36f6a2df3d8ba88f900369010be2955500744fe3f070e",
+      "file": "public/_next/static/immutable/chunks/3m8h_v0urvgfo.js",
+      "sha256": "60252ca9bcf5e42417a36f6a2df3d8ba88f900369010be2955500744fe3f070e",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0xbrb7m0w4b04.js",
+      "originalSha256": "1d06eabda4a405c869f6f92ed43485cd9fe3d66977cd77a51365489e6067b7d2",
+      "file": "public/_next/static/immutable/chunks/0xbrb7m0w4b04.js",
+      "sha256": "1d06eabda4a405c869f6f92ed43485cd9fe3d66977cd77a51365489e6067b7d2",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/26odgfl76astl.js",
+      "originalSha256": "65079a1c414c7bacc4b01f3b7ea5c4fe8d9b8c0fab75732760eb239b652d6424",
+      "file": "public/_next/static/immutable/chunks/26odgfl76astl.js",
+      "sha256": "65079a1c414c7bacc4b01f3b7ea5c4fe8d9b8c0fab75732760eb239b652d6424",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+      "originalSha256": "bd3862386e32a1251ad20c8c9d54d9916fa2be6b69699f4c8f3259f2497bf84f",
+      "file": "public/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+      "sha256": "bd3862386e32a1251ad20c8c9d54d9916fa2be6b69699f4c8f3259f2497bf84f",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1axdz4i88w887.js",
+      "originalSha256": "f100eb766a3ddac8ee9ed5a25c03a37bbb4d75bb2c1cb1a1dd160be4c9dbb9c9",
+      "file": "public/_next/static/immutable/chunks/1axdz4i88w887.js",
+      "sha256": "f100eb766a3ddac8ee9ed5a25c03a37bbb4d75bb2c1cb1a1dd160be4c9dbb9c9",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+      "originalSha256": "3adb0d98990f438916c9326c2d1cc84157d44331eaf74c0b7ac0ec2c9117c3b6",
+      "file": "public/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+      "sha256": "3adb0d98990f438916c9326c2d1cc84157d44331eaf74c0b7ac0ec2c9117c3b6",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2gsyvac6wws05.js",
+      "originalSha256": "726756ffa9410cb74c0b67048ed0d7752157db0e87fdfefc1b408fc6964a9e57",
+      "file": "public/_next/static/immutable/chunks/2gsyvac6wws05.js",
+      "sha256": "726756ffa9410cb74c0b67048ed0d7752157db0e87fdfefc1b408fc6964a9e57",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3lg6rlfn7qdq5.js",
+      "originalSha256": "228c4b34814369a0d21f56adbfd87ccdfa05f35f305cc8b21f5bb46a56e05d21",
+      "file": "public/_next/static/immutable/chunks/3lg6rlfn7qdq5.js",
+      "sha256": "228c4b34814369a0d21f56adbfd87ccdfa05f35f305cc8b21f5bb46a56e05d21",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1pobfas1uagaw.js",
+      "originalSha256": "4b9d651db211caed2d2fe504c6e4ceb997b1ae827c03e16cbdda92566dd0ba4b",
+      "file": "public/_next/static/immutable/chunks/1pobfas1uagaw.js",
+      "sha256": "256a8079ec2eb9591ce569bd76373ab3b75e0ff39b1ebec32f7677a794e69589",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2irz8505_sa3k.js",
+      "originalSha256": "39a68fea1db1d7c90fbad3e77820b411ab807bfcacd211368b3f9a8de37b9603",
+      "file": "public/_next/static/immutable/chunks/2irz8505_sa3k.js",
+      "sha256": "39a68fea1db1d7c90fbad3e77820b411ab807bfcacd211368b3f9a8de37b9603",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/27am0wkazfxix.js",
+      "originalSha256": "52ed207774cd40e133ecfd79bea4177074ba91f839ae857dd712cae0192ff642",
+      "file": "public/_next/static/immutable/chunks/27am0wkazfxix.js",
+      "sha256": "52ed207774cd40e133ecfd79bea4177074ba91f839ae857dd712cae0192ff642",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+      "originalSha256": "ef4d39010f71ceaf25e2569941ce754836c8e0bd90fd6462665b9a3ef54a799d",
+      "file": "public/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+      "sha256": "ef4d39010f71ceaf25e2569941ce754836c8e0bd90fd6462665b9a3ef54a799d",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+      "originalSha256": "2ba5bbd68dfde1010adb5cf10744790f4421138af59782ae08775d68fe258281",
+      "file": "public/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+      "sha256": "46c31038e8e9d75d2407023581a55ca6b8219abd833fffe217a1d1405370e541",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/39nw6t4o7g09u.js",
+      "originalSha256": "b3d0404343160af3200f7c16f95cadcd5be921fe7ce72e4ad725c658f4723947",
+      "file": "public/_next/static/immutable/chunks/39nw6t4o7g09u.js",
+      "sha256": "b3d0404343160af3200f7c16f95cadcd5be921fe7ce72e4ad725c658f4723947",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+      "originalSha256": "2230aaa00fde1bf0eeef70f5519e3c9f58f02b074d2349faa64a2dd2ce6dcc95",
+      "file": "public/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+      "sha256": "2230aaa00fde1bf0eeef70f5519e3c9f58f02b074d2349faa64a2dd2ce6dcc95",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3ryum6fjk379z.js",
+      "originalSha256": "cb6f78a030537b8e012a2d11ca1ccdd89b6f3679cd71410631efb80ec96b41da",
+      "file": "public/_next/static/immutable/chunks/3ryum6fjk379z.js",
+      "sha256": "cb6f78a030537b8e012a2d11ca1ccdd89b6f3679cd71410631efb80ec96b41da",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1ofq5t2cv_6k4.js",
+      "originalSha256": "fed256cdfde51cccc461db7d8f782e556ede1ae22b05de3c3cabbb3022ddefaf",
+      "file": "public/_next/static/immutable/chunks/1ofq5t2cv_6k4.js",
+      "sha256": "fed256cdfde51cccc461db7d8f782e556ede1ae22b05de3c3cabbb3022ddefaf",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1p0z8572m5bbm.js",
+      "originalSha256": "15653261fb763dc669aecb0e6597a4a4a318e249a00e0e58e5f74f6417b45e84",
+      "file": "public/_next/static/immutable/chunks/1p0z8572m5bbm.js",
+      "sha256": "15653261fb763dc669aecb0e6597a4a4a318e249a00e0e58e5f74f6417b45e84",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2-g_pyuq3ibzi.js",
+      "originalSha256": "765baebd489d09eb6931ccc6a7974f93a09acd8ac895b58df87cd38e3ce9d888",
+      "file": "public/_next/static/immutable/chunks/2-g_pyuq3ibzi.js",
+      "sha256": "765baebd489d09eb6931ccc6a7974f93a09acd8ac895b58df87cd38e3ce9d888",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+      "originalSha256": "9576101de9df2944d9515a173a74825d14b01d4422a7e9a9003500d55aff2707",
+      "file": "public/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+      "sha256": "9576101de9df2944d9515a173a74825d14b01d4422a7e9a9003500d55aff2707",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2r83b5s86ml-b.js",
+      "originalSha256": "444670ef73dfdce3ce4e4cd444d610b7f87e4e085b8765234f62957063ec660b",
+      "file": "public/_next/static/immutable/chunks/2r83b5s86ml-b.js",
+      "sha256": "444670ef73dfdce3ce4e4cd444d610b7f87e4e085b8765234f62957063ec660b",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2ksxljj4twdus.js",
+      "originalSha256": "b0a9bc2b103e0e86a9c644da648227785d0ad65101feebdd3df55df96622e8c5",
+      "file": "public/_next/static/immutable/chunks/2ksxljj4twdus.js",
+      "sha256": "b0a9bc2b103e0e86a9c644da648227785d0ad65101feebdd3df55df96622e8c5",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+      "originalSha256": "b2c182a2bcae86de2a5447dbc67b78963d7e8d1adf4bf7ed1a56e490090afaa3",
+      "file": "public/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+      "sha256": "b2c182a2bcae86de2a5447dbc67b78963d7e8d1adf4bf7ed1a56e490090afaa3",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+      "originalSha256": "72ebf63ba4873d24dc605b1296cf5da74115aa3633d2ff502f132b994335d2ef",
+      "file": "public/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+      "sha256": "72ebf63ba4873d24dc605b1296cf5da74115aa3633d2ff502f132b994335d2ef",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2rfmw_xk8flcj.js",
+      "originalSha256": "0545d90b9a4449a4c104cd7fb9cf67291e21034ecc46d95f54d3825db8037e55",
+      "file": "public/_next/static/immutable/chunks/2rfmw_xk8flcj.js",
+      "sha256": "0545d90b9a4449a4c104cd7fb9cf67291e21034ecc46d95f54d3825db8037e55",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/41_vdu43fx774.js",
+      "originalSha256": "6a3c62ea6fc18d546635e49f84709cf6d74850f01620a9cc45ff4d8ae69dff9d",
+      "file": "public/_next/static/immutable/chunks/41_vdu43fx774.js",
+      "sha256": "6a3c62ea6fc18d546635e49f84709cf6d74850f01620a9cc45ff4d8ae69dff9d",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1_mufukf7y-k2.js",
+      "originalSha256": "f8d378cdfbe0fd4eb209547c0da23535657fe777f9e41a8ac61e0a6f524418bf",
+      "file": "public/_next/static/immutable/chunks/1_mufukf7y-k2.js",
+      "sha256": "f8d378cdfbe0fd4eb209547c0da23535657fe777f9e41a8ac61e0a6f524418bf",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1rsi9mjh4lth2.js",
+      "originalSha256": "21399187d0fbfdb0a90e47719c5ea6e6d9df1bf86129d7b8fbb9704383dc6810",
+      "file": "public/_next/static/immutable/chunks/1rsi9mjh4lth2.js",
+      "sha256": "21399187d0fbfdb0a90e47719c5ea6e6d9df1bf86129d7b8fbb9704383dc6810",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/10cpisem-fy6t.js",
+      "originalSha256": "6616460b361b6f79c9fa972f88c8a0992fa842d22543dcc476d78626f6b126f6",
+      "file": "public/_next/static/immutable/chunks/10cpisem-fy6t.js",
+      "sha256": "6616460b361b6f79c9fa972f88c8a0992fa842d22543dcc476d78626f6b126f6",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/11nc4lf5r691u.js",
+      "originalSha256": "3d0b04b56de16d989e8c3bf56ad44e2c8b7515e08662ad241dd850d3f2053219",
+      "file": "public/_next/static/immutable/chunks/11nc4lf5r691u.js",
+      "sha256": "3d0b04b56de16d989e8c3bf56ad44e2c8b7515e08662ad241dd850d3f2053219",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0qy8v461uquvx.js",
+      "originalSha256": "c72461ee50694d7e76bacebb391b19b87010bfe81f1119a3f46474876fcf8002",
+      "file": "public/_next/static/immutable/chunks/0qy8v461uquvx.js",
+      "sha256": "c72461ee50694d7e76bacebb391b19b87010bfe81f1119a3f46474876fcf8002",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/194zsq63lh9g6.js",
+      "originalSha256": "4a49f47df1d6bc536abb83d7db8934d590e196b3e6b4cf0529bd42c52f03047b",
+      "file": "public/_next/static/immutable/chunks/194zsq63lh9g6.js",
+      "sha256": "4a49f47df1d6bc536abb83d7db8934d590e196b3e6b4cf0529bd42c52f03047b",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+      "originalSha256": "c23327242a1e5d173937b66993133726f506f9385231ca61d11cfcd001ae6022",
+      "file": "public/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+      "sha256": "c23327242a1e5d173937b66993133726f506f9385231ca61d11cfcd001ae6022",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1lmmxjzjffwx-.js",
+      "originalSha256": "7a70e90a70c0f67b47a34890733b425bf13280209892cf17f67a0274bd6eb085",
+      "file": "public/_next/static/immutable/chunks/1lmmxjzjffwx-.js",
+      "sha256": "7a70e90a70c0f67b47a34890733b425bf13280209892cf17f67a0274bd6eb085",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1_37yixhv5zdx.js",
+      "originalSha256": "ea6e4d94158f8b00d26935e207a8c3df0fac393d0994f35efc816abf6811c3bb",
+      "file": "public/_next/static/immutable/chunks/1_37yixhv5zdx.js",
+      "sha256": "ea6e4d94158f8b00d26935e207a8c3df0fac393d0994f35efc816abf6811c3bb",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2_myafymt28om.js",
+      "originalSha256": "3a1153fb39a815176b94ab7adad30eea7584c3c6741d39bdee7a588884d67ffe",
+      "file": "public/_next/static/immutable/chunks/2_myafymt28om.js",
+      "sha256": "3a1153fb39a815176b94ab7adad30eea7584c3c6741d39bdee7a588884d67ffe",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+      "originalSha256": "dc4673d41e7be6aa627b99192101f0ea990c7f87b8173501436e278538dabe50",
+      "file": "public/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+      "sha256": "dc4673d41e7be6aa627b99192101f0ea990c7f87b8173501436e278538dabe50",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+      "originalSha256": "9caa481ff5ed8811ea2552b1df662cae7a40cc7fd2e246203bfe4855926e013f",
+      "file": "public/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+      "sha256": "9caa481ff5ed8811ea2552b1df662cae7a40cc7fd2e246203bfe4855926e013f",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3-q0n-zx3cqss.js",
+      "originalSha256": "ffcf74da29f78b1652175f07383c2daf36133d6ac7739183c8d8373a4447cd16",
+      "file": "public/_next/static/immutable/chunks/3-q0n-zx3cqss.js",
+      "sha256": "ffcf74da29f78b1652175f07383c2daf36133d6ac7739183c8d8373a4447cd16",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+      "originalSha256": "a09ae4d736ebc70c7021822f52dccea7e2d5aaeab9c8a472dfb3d83d94636840",
+      "file": "public/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+      "sha256": "a09ae4d736ebc70c7021822f52dccea7e2d5aaeab9c8a472dfb3d83d94636840",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/04u84-j-wrs6n.js",
+      "originalSha256": "c42170002fc31284c1a94082ab09f5edac06367f3859d1e5b60808046ee1aad6",
+      "file": "public/_next/static/immutable/chunks/04u84-j-wrs6n.js",
+      "sha256": "c42170002fc31284c1a94082ab09f5edac06367f3859d1e5b60808046ee1aad6",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+      "originalSha256": "91c41bffa9b3b184ad98fccfe6e2b9812617268bc9918601b9e2ff575527a0d2",
+      "file": "public/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+      "sha256": "91c41bffa9b3b184ad98fccfe6e2b9812617268bc9918601b9e2ff575527a0d2",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1m77ohl66zpse.js",
+      "originalSha256": "fb1bd48efc92882fc3559c418d84ca6b390fca179da5617ff062187c83e7b7bc",
+      "file": "public/_next/static/immutable/chunks/1m77ohl66zpse.js",
+      "sha256": "f72da331c230e85b6335e67c4c702e8b4d9735c1533969673ea5be5999082c0a",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/04mjx2d_93r93.js",
+      "originalSha256": "c01b4e96d316ee5bce510ae4fd8f593680d5b469631633543c258948dba9823c",
+      "file": "public/_next/static/immutable/chunks/04mjx2d_93r93.js",
+      "sha256": "c01b4e96d316ee5bce510ae4fd8f593680d5b469631633543c258948dba9823c",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+      "originalSha256": "88ee31ecee550b34ac0babd5a9d8b1d39c4eb9f5bc54d9f44f06bc52555f5b50",
+      "file": "public/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+      "sha256": "88ee31ecee550b34ac0babd5a9d8b1d39c4eb9f5bc54d9f44f06bc52555f5b50",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0ojbl80s28w6m.js",
+      "originalSha256": "28a174666645fe11762eff946968d8511fe9c503d7f7081e9b104afbfd717a82",
+      "file": "public/_next/static/immutable/chunks/0ojbl80s28w6m.js",
+      "sha256": "28a174666645fe11762eff946968d8511fe9c503d7f7081e9b104afbfd717a82",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+      "originalSha256": "f18ed7dfacf17ee4735f1017172e82ccd56198b8fe131c40204c3365db353a23",
+      "file": "public/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+      "sha256": "f18ed7dfacf17ee4735f1017172e82ccd56198b8fe131c40204c3365db353a23",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+      "originalSha256": "17c3dea8242e720414a53d059e8ba8d60c8c9be9cd07a78766b693c1cb8b7656",
+      "file": "public/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+      "sha256": "17c3dea8242e720414a53d059e8ba8d60c8c9be9cd07a78766b693c1cb8b7656",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+      "originalSha256": "c31f229ecef968f7add7353aefe912a62b761613848981d033780971b24831ed",
+      "file": "public/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+      "sha256": "c31f229ecef968f7add7353aefe912a62b761613848981d033780971b24831ed",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3a43zlahoayzx.js",
+      "originalSha256": "098dd0e0417239967895490b46903307b570c74eb08a59cb416eb70ad3a57483",
+      "file": "public/_next/static/immutable/chunks/3a43zlahoayzx.js",
+      "sha256": "098dd0e0417239967895490b46903307b570c74eb08a59cb416eb70ad3a57483",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2c2alv22y3ne8.js",
+      "originalSha256": "b2c749c9174c07f94fdd3258620a66642599ef31515f55d81bcb148ba2e0c5d5",
+      "file": "public/_next/static/immutable/chunks/2c2alv22y3ne8.js",
+      "sha256": "b2c749c9174c07f94fdd3258620a66642599ef31515f55d81bcb148ba2e0c5d5",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+      "originalSha256": "38934d4e02562c6f91a215d60c83e9373f08f243746f4d96e50e12de2ea7b245",
+      "file": "public/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+      "sha256": "38934d4e02562c6f91a215d60c83e9373f08f243746f4d96e50e12de2ea7b245",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2ix_2ij7b1i5h.js",
+      "originalSha256": "a4c476345562bd224cc16031de45bce4ba0b778d5e26cb1a9296f32da73b5715",
+      "file": "public/_next/static/immutable/chunks/2ix_2ij7b1i5h.js",
+      "sha256": "a4c476345562bd224cc16031de45bce4ba0b778d5e26cb1a9296f32da73b5715",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+      "originalSha256": "bede5c5426bd73e7fae816e3815874575c9cb232fac4c00b2abc4f2d4ebf9d3c",
+      "file": "public/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+      "sha256": "bede5c5426bd73e7fae816e3815874575c9cb232fac4c00b2abc4f2d4ebf9d3c",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2iexek6qzekqy.js",
+      "originalSha256": "796b9aa29cdcf5ffb9d68972536ad40de13fe43c99d699e21a3d4445f4d75570",
+      "file": "public/_next/static/immutable/chunks/2iexek6qzekqy.js",
+      "sha256": "796b9aa29cdcf5ffb9d68972536ad40de13fe43c99d699e21a3d4445f4d75570",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/12uadgt4ief7x.js",
+      "originalSha256": "d93fbcfef1c6646a29514a9b5f88684b4ecc07ae1c05d0b0a4446c075f573de2",
+      "file": "public/_next/static/immutable/chunks/12uadgt4ief7x.js",
+      "sha256": "d93fbcfef1c6646a29514a9b5f88684b4ecc07ae1c05d0b0a4446c075f573de2",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+      "originalSha256": "9723f1069777163abeb0dd3808f92833293b651d8927d4054f77c1215d4f64e3",
+      "file": "public/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+      "sha256": "9723f1069777163abeb0dd3808f92833293b651d8927d4054f77c1215d4f64e3",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/37hos564ry7r0.js",
+      "originalSha256": "bb0003187eec93bad8e3547296414522366f6bafb164b1c9622def8631173593",
+      "file": "public/_next/static/immutable/chunks/37hos564ry7r0.js",
+      "sha256": "6cb1e604a6aa384491801bacd538a68f1d75d5b4e184ff7708e7accb41b1aa9c",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+      "originalSha256": "052259f627fab6d50005577f198c0f90444c1116bd0a449815fd1ef47d19bdbd",
+      "file": "public/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+      "sha256": "052259f627fab6d50005577f198c0f90444c1116bd0a449815fd1ef47d19bdbd",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/37at5b_isz09s.js",
+      "originalSha256": "6e919e1c023654a983d2d1e60bf9edb4dae2d1f791714556f30c3d9c26f37c6e",
+      "file": "public/_next/static/immutable/chunks/37at5b_isz09s.js",
+      "sha256": "6e919e1c023654a983d2d1e60bf9edb4dae2d1f791714556f30c3d9c26f37c6e",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+      "originalSha256": "fe8506d48c66dbe6377058d46826ae36b08bd636be98b3fb5e53e80ca062a85a",
+      "file": "public/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+      "sha256": "fe8506d48c66dbe6377058d46826ae36b08bd636be98b3fb5e53e80ca062a85a",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+      "originalSha256": "82204cc264de162eaec1c5d2a61e74724314c3162a3462a5ad18e4415e32890f",
+      "file": "public/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+      "sha256": "82204cc264de162eaec1c5d2a61e74724314c3162a3462a5ad18e4415e32890f",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/40hlx-d_npavg.js",
+      "originalSha256": "da9eeff185f2a94c7b9b400a95258999e3a53c5e131687f186186ff784d8111a",
+      "file": "public/_next/static/immutable/chunks/40hlx-d_npavg.js",
+      "sha256": "da9eeff185f2a94c7b9b400a95258999e3a53c5e131687f186186ff784d8111a",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+      "originalSha256": "0997ebd47fd997670ef118fba8c8c992b4b8f08bce5f9d6ef7d03c0b7ffc54ce",
+      "file": "public/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+      "sha256": "0997ebd47fd997670ef118fba8c8c992b4b8f08bce5f9d6ef7d03c0b7ffc54ce",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1den392fqhgg7.js",
+      "originalSha256": "4a080a563f833f4229635fcdd11703557312a344fc734278c9e3a3dbe9635511",
+      "file": "public/_next/static/immutable/chunks/1den392fqhgg7.js",
+      "sha256": "4a080a563f833f4229635fcdd11703557312a344fc734278c9e3a3dbe9635511",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0675qnhhryj4j.js",
+      "originalSha256": "61804f08fb6fc406cf5169fa3630fd4a9cd3845c995dffe98236dc292979b438",
+      "file": "public/_next/static/immutable/chunks/0675qnhhryj4j.js",
+      "sha256": "61804f08fb6fc406cf5169fa3630fd4a9cd3845c995dffe98236dc292979b438",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+      "originalSha256": "969de227578e9d5800eff20e15435bca642cb5cd4670a7885a792bfb51126c1d",
+      "file": "public/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+      "sha256": "969de227578e9d5800eff20e15435bca642cb5cd4670a7885a792bfb51126c1d",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/101biy6u9op-f.js",
+      "originalSha256": "a9e37b85026e9e712b732830347cfbca5599e18abcd665630c5ffdca87517baf",
+      "file": "public/_next/static/immutable/chunks/101biy6u9op-f.js",
+      "sha256": "9aaead1739a4cd30d743026bacc21376cd900f2406d62302d7a07bc29eee127d",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/35cte42ztauy1.js",
+      "originalSha256": "91703711331f674684d1ad23f1e03c7abc887d4352b573d8cf6f7c1a674f77c2",
+      "file": "public/_next/static/immutable/chunks/35cte42ztauy1.js",
+      "sha256": "91703711331f674684d1ad23f1e03c7abc887d4352b573d8cf6f7c1a674f77c2",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/271tskne3zlp0.js",
+      "originalSha256": "467c1e648ea541bcfa017e86b306b0b16d22184e4b7e69e21d0ec015343d7966",
+      "file": "public/_next/static/immutable/chunks/271tskne3zlp0.js",
+      "sha256": "467c1e648ea541bcfa017e86b306b0b16d22184e4b7e69e21d0ec015343d7966",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+      "originalSha256": "4ecec2477b2c956f459d17490109dba0c1749c71f4ef523977a900d3e2b3fa95",
+      "file": "public/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+      "sha256": "4ecec2477b2c956f459d17490109dba0c1749c71f4ef523977a900d3e2b3fa95",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+      "originalSha256": "97bdf795ca3b5205d065d24d6a539abd53e8da4834ed1470559e9a2e7fd9785e",
+      "file": "public/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+      "sha256": "97bdf795ca3b5205d065d24d6a539abd53e8da4834ed1470559e9a2e7fd9785e",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+      "originalSha256": "bea47eaa2055d45e65b24e808bc875c8126127d2e02018b9aa52bf394c750c64",
+      "file": "public/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+      "sha256": "bea47eaa2055d45e65b24e808bc875c8126127d2e02018b9aa52bf394c750c64",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1qp3o142f-njv.js",
+      "originalSha256": "fd62b7435560eea8a25cbe80e95d0196a5fefa667746be5b636236af862df977",
+      "file": "public/_next/static/immutable/chunks/1qp3o142f-njv.js",
+      "sha256": "fd62b7435560eea8a25cbe80e95d0196a5fefa667746be5b636236af862df977",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+      "originalSha256": "4386149c730ae95961a5c9103b87361792d7635b3e473447b962eadd6896c22b",
+      "file": "public/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+      "sha256": "4386149c730ae95961a5c9103b87361792d7635b3e473447b962eadd6896c22b",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+      "originalSha256": "dcf5a0db14bbe5191895ce9c68c21e41ae864bf2523c4012413b44eef44121dd",
+      "file": "public/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+      "sha256": "dcf5a0db14bbe5191895ce9c68c21e41ae864bf2523c4012413b44eef44121dd",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+      "originalSha256": "02edb324ac71404778c4915dab00668f78a91c363b7f57c7e9eb78b587aba7fb",
+      "file": "public/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+      "sha256": "02edb324ac71404778c4915dab00668f78a91c363b7f57c7e9eb78b587aba7fb",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/071dooty9c3cj.js",
+      "originalSha256": "ff8ee0d64e3fc2ab224cfdf0de5b7e50e1981798a64f068d3299b169e3e3dda6",
+      "file": "public/_next/static/immutable/chunks/071dooty9c3cj.js",
+      "sha256": "ff8ee0d64e3fc2ab224cfdf0de5b7e50e1981798a64f068d3299b169e3e3dda6",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/34wg8985s6a31.js",
+      "originalSha256": "adcaa545c7e933a321b3b53c24b2175357cc414405b114839aacf9379a7219c7",
+      "file": "public/_next/static/immutable/chunks/34wg8985s6a31.js",
+      "sha256": "adcaa545c7e933a321b3b53c24b2175357cc414405b114839aacf9379a7219c7",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+      "originalSha256": "588be3c0af8c0bf2fdbf3e344ed3f6f2cc0e7bf066a39456914dcb1f9f530b3c",
+      "file": "public/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+      "sha256": "588be3c0af8c0bf2fdbf3e344ed3f6f2cc0e7bf066a39456914dcb1f9f530b3c",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1suq5y2t5___j.js",
+      "originalSha256": "0427c5887943b2c553f114f279e4ce453ff2c1f47bf45af7b9ae10d99559abbf",
+      "file": "public/_next/static/immutable/chunks/1suq5y2t5___j.js",
+      "sha256": "0427c5887943b2c553f114f279e4ce453ff2c1f47bf45af7b9ae10d99559abbf",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+      "originalSha256": "6e8942222eeaff6d39b4bd6307b1929c309b26fc0d08570a071852da70bce806",
+      "file": "public/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+      "sha256": "6e8942222eeaff6d39b4bd6307b1929c309b26fc0d08570a071852da70bce806",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2f7q10jcs0f7r.js",
+      "originalSha256": "e0453c6846bf202823aef18781b9530b807924b0f37de04ea5bd788106bbff16",
+      "file": "public/_next/static/immutable/chunks/2f7q10jcs0f7r.js",
+      "sha256": "e0453c6846bf202823aef18781b9530b807924b0f37de04ea5bd788106bbff16",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1pa2q3av56qr7.js",
+      "originalSha256": "7b8c10b417f336a850882fc583d809b9ae04785a79b212f7803649fd19d06cc6",
+      "file": "public/_next/static/immutable/chunks/1pa2q3av56qr7.js",
+      "sha256": "7b8c10b417f336a850882fc583d809b9ae04785a79b212f7803649fd19d06cc6",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0w2c51s0w--2j.js",
+      "originalSha256": "991cb792c2aed665fcfc1a11b3c4524df944fc36be14b2f2a9f82af98e868c2a",
+      "file": "public/_next/static/immutable/chunks/0w2c51s0w--2j.js",
+      "sha256": "991cb792c2aed665fcfc1a11b3c4524df944fc36be14b2f2a9f82af98e868c2a",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+      "originalSha256": "b70e09166664683c4211b721c7036dcefc9d73d73e339ce4db1ede2fd789511e",
+      "file": "public/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+      "sha256": "557e776825a001d6bf26b5894c9cc73cca7a6fb55b85c69b5a0987878e0f243c",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1b73qjt7qw0iz.js",
+      "originalSha256": "ddb8cb6647720e58a7d8756043eec060cb90a62935d25acc6359e6acfc9c71e7",
+      "file": "public/_next/static/immutable/chunks/1b73qjt7qw0iz.js",
+      "sha256": "ddb8cb6647720e58a7d8756043eec060cb90a62935d25acc6359e6acfc9c71e7",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+      "originalSha256": "135f5688284f61b3ec436badba33bacd433abeb06401b6002bdfc600ebd2bbe3",
+      "file": "public/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+      "sha256": "135f5688284f61b3ec436badba33bacd433abeb06401b6002bdfc600ebd2bbe3",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/017vjrb_powg1.js",
+      "originalSha256": "816add64f9e0358cd34b0a146d4e00869c69dfbcce85442a43a337b2e2dd28b3",
+      "file": "public/_next/static/immutable/chunks/017vjrb_powg1.js",
+      "sha256": "816add64f9e0358cd34b0a146d4e00869c69dfbcce85442a43a337b2e2dd28b3",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+      "originalSha256": "b5dbf327d83599de67c676a3eb95c2efe774839b29b2b4aefe54cd5aee808576",
+      "file": "public/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+      "sha256": "b5dbf327d83599de67c676a3eb95c2efe774839b29b2b4aefe54cd5aee808576",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/23o3qcqnthyne.js",
+      "originalSha256": "250cbeaa80f549f3a940ec331fa63701d00be31b99eff1e880a0ee4510439a26",
+      "file": "public/_next/static/immutable/chunks/23o3qcqnthyne.js",
+      "sha256": "250cbeaa80f549f3a940ec331fa63701d00be31b99eff1e880a0ee4510439a26",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/194m67y5111t-.js",
+      "originalSha256": "fed1e26c2f18435126f341cf2faca8bb0a21ed502c1018f95be534d3a98ab700",
+      "file": "public/_next/static/immutable/chunks/194m67y5111t-.js",
+      "sha256": "fed1e26c2f18435126f341cf2faca8bb0a21ed502c1018f95be534d3a98ab700",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3y4dob1qjeu6f.js",
+      "originalSha256": "5f2c1c9c503fe459a3891e5bd4aab1382738920528eaf7d8fff9fedaf8396246",
+      "file": "public/_next/static/immutable/chunks/3y4dob1qjeu6f.js",
+      "sha256": "5f2c1c9c503fe459a3891e5bd4aab1382738920528eaf7d8fff9fedaf8396246",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2aigi3_nla2eh.js",
+      "originalSha256": "e3d8de44cd9072fcc490caa0456341a31271d12d6bf7b30df41272fd4b1900e8",
+      "file": "public/_next/static/immutable/chunks/2aigi3_nla2eh.js",
+      "sha256": "e3d8de44cd9072fcc490caa0456341a31271d12d6bf7b30df41272fd4b1900e8",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2jlljcew27o3n.js",
+      "originalSha256": "4868080a4e4af9653d890981ec9dc834297b05c0cc911e52cb3c44b700f7840a",
+      "file": "public/_next/static/immutable/chunks/2jlljcew27o3n.js",
+      "sha256": "3be3a98c82ce349b62fb77222b0a913b18d7b881b55796ca3f276a569d00912b",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2loucd2604f5t.js",
+      "originalSha256": "3fd60e7b3834cc1e0adf58c6d361b8fd8825a66e47175d1bbc918f453d0e2623",
+      "file": "public/_next/static/immutable/chunks/2loucd2604f5t.js",
+      "sha256": "3fd60e7b3834cc1e0adf58c6d361b8fd8825a66e47175d1bbc918f453d0e2623",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2tk5sf2vd8u31.js",
+      "originalSha256": "bde5b5e557d203056796c260c03b98df94c5ae3e06dc0833044f67fa28793cf5",
+      "file": "public/_next/static/immutable/chunks/2tk5sf2vd8u31.js",
+      "sha256": "bde5b5e557d203056796c260c03b98df94c5ae3e06dc0833044f67fa28793cf5",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1waagjimlgu-2.js",
+      "originalSha256": "e36fff1ec147ef6271a2fa05f6257aa5e1acf1f240fb3484fc50cfc80d33c9c4",
+      "file": "public/_next/static/immutable/chunks/1waagjimlgu-2.js",
+      "sha256": "e36fff1ec147ef6271a2fa05f6257aa5e1acf1f240fb3484fc50cfc80d33c9c4",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/184ccykgbxx4i.js",
+      "originalSha256": "b9df7c84c6e6f42332081977a19d994dacb8be7cccc0e12b70fdeb39a6ec37c4",
+      "file": "public/_next/static/immutable/chunks/184ccykgbxx4i.js",
+      "sha256": "026874c8fbf20b5c62a2dd35d8983d9b847092a207d91b5f0be9b8b7279f2796",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/0mj84_rqoqlza.js",
+      "originalSha256": "9789beb19d46316a52d29eafee89d4d747c0f70d3322a6de6ba4f54f6ffec019",
+      "file": "public/_next/static/immutable/chunks/0mj84_rqoqlza.js",
+      "sha256": "9789beb19d46316a52d29eafee89d4d747c0f70d3322a6de6ba4f54f6ffec019",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/2kl6r13a23cnv.js",
+      "originalSha256": "17b56b609f7f37216e3d6972ff091ade9e36c9fac8d50e3d84209bc9d31aac36",
+      "file": "public/_next/static/immutable/chunks/2kl6r13a23cnv.js",
+      "sha256": "c5eda53d611913e0c5b7d5ea95bd9792a53e191831dd745e811ceea0eb111533",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3ylvghkwbct0w.js",
+      "originalSha256": "781fb0f29a5294367551d83f9c60f2c57428338cb9b57298d920d759ec054dc3",
+      "file": "public/_next/static/immutable/chunks/3ylvghkwbct0w.js",
+      "sha256": "781fb0f29a5294367551d83f9c60f2c57428338cb9b57298d920d759ec054dc3",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/magnifying-glass-lg.svg",
+      "originalSha256": "d046d4530f0da7391e05d86a2585f6ff00ee5cf3e931e2c79ee279218d81d9da",
+      "file": "public/icons/cms/a7687e3ce5db398c/magnifying-glass-lg.svg",
+      "sha256": "d046d4530f0da7391e05d86a2585f6ff00ee5cf3e931e2c79ee279218d81d9da",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/xmark-lg.svg",
+      "originalSha256": "f80d14d112df00eb18c9d3f85ef7132ef2e76940efd9afb62a353fb4c387dbed",
+      "file": "public/icons/cms/a7687e3ce5db398c/xmark-lg.svg",
+      "sha256": "f80d14d112df00eb18c9d3f85ef7132ef2e76940efd9afb62a353fb4c387dbed",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/sidebar.svg",
+      "originalSha256": "969f3a5deddaa719c86a064023fed7fbe2aa3f1f20085b22de15a7fe5b290030",
+      "file": "public/icons/cms/a7687e3ce5db398c/sidebar.svg",
+      "sha256": "969f3a5deddaa719c86a064023fed7fbe2aa3f1f20085b22de15a7fe5b290030",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/x-logo.svg",
+      "originalSha256": "74d53c9d1dd1c3516e6f0e1d145d2ff59362147d3d061b93c6ca793a960852d6",
+      "file": "public/icons/cms/a7687e3ce5db398c/x-logo.svg",
+      "sha256": "74d53c9d1dd1c3516e6f0e1d145d2ff59362147d3d061b93c6ca793a960852d6",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/youtube-logo.svg",
+      "originalSha256": "c0019e86bedf0da30051e17a2aed6364d4d37dd3ca617524d0b923132cfb85f9",
+      "file": "public/icons/cms/a7687e3ce5db398c/youtube-logo.svg",
+      "sha256": "c0019e86bedf0da30051e17a2aed6364d4d37dd3ca617524d0b923132cfb85f9",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/linkedin-logo.svg",
+      "originalSha256": "136a7c9a1ab0c916003cd4b160d8b5db9d35116100eb8adf13e1080290da157e",
+      "file": "public/icons/cms/a7687e3ce5db398c/linkedin-logo.svg",
+      "sha256": "136a7c9a1ab0c916003cd4b160d8b5db9d35116100eb8adf13e1080290da157e",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/github-logo.svg",
+      "originalSha256": "69bf9cf3dc6bbd8d7890c842d5a60d45a14511605617ad9476286d34f788f2c7",
+      "file": "public/icons/cms/a7687e3ce5db398c/github-logo.svg",
+      "sha256": "69bf9cf3dc6bbd8d7890c842d5a60d45a14511605617ad9476286d34f788f2c7",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/instagram-logo.svg",
+      "originalSha256": "a538e18b3c494b3ced4a6addafb1e1667033a2af4d4c63983ec65860068def38",
+      "file": "public/icons/cms/a7687e3ce5db398c/instagram-logo.svg",
+      "sha256": "a538e18b3c494b3ced4a6addafb1e1667033a2af4d4c63983ec65860068def38",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/tiktok-logo.svg",
+      "originalSha256": "2f234067ec625d434538769622384dddc0aa721003112ddde25a4214861ec124",
+      "file": "public/icons/cms/a7687e3ce5db398c/tiktok-logo.svg",
+      "sha256": "2f234067ec625d434538769622384dddc0aa721003112ddde25a4214861ec124",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-003.woff2",
+      "originalSha256": "ee710f03293ddde72265975274fbe026ed46ae7edfb91784d15a6f590f9f893b",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-003.woff2",
+      "sha256": "ee710f03293ddde72265975274fbe026ed46ae7edfb91784d15a6f590f9f893b",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Medium.woff2",
+      "originalSha256": "507174d2e2c80f877d900e1346ba142509d303e2ef74424665e8493258c841e3",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-Medium.woff2",
+      "sha256": "507174d2e2c80f877d900e1346ba142509d303e2ef74424665e8493258c841e3",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-001.woff2",
+      "originalSha256": "038e35aa454e1cc7cb916243018294b8124b4ef264a6d7971ac5fb99f7c0d812",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-001.woff2",
+      "sha256": "038e35aa454e1cc7cb916243018294b8124b4ef264a6d7971ac5fb99f7c0d812",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-000.woff2",
+      "originalSha256": "d67ef2bcf85571c4b19805372cff8f21c79fcbef1df8ea2cabe86f97a675815c",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-000.woff2",
+      "sha256": "d67ef2bcf85571c4b19805372cff8f21c79fcbef1df8ea2cabe86f97a675815c",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-002.woff2",
+      "originalSha256": "eeeaec298e7d0b6915426426d3c1b0930716cf3504e1aa8c0a2fed8e363cbdf5",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-002.woff2",
+      "sha256": "eeeaec298e7d0b6915426426d3c1b0930716cf3504e1aa8c0a2fed8e363cbdf5",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Regular.woff2",
+      "originalSha256": "6b99d0284d5ed15733ea855fdacc8503d1f5e1b3945b02317d27773daa21d9dc",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-Regular.woff2",
+      "sha256": "6b99d0284d5ed15733ea855fdacc8503d1f5e1b3945b02317d27773daa21d9dc",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Bold.woff2",
+      "originalSha256": "2c23db1a93945fcb96f6826518848da0cc884787e4e308d9c099122c8c7e247e",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-Bold.woff2",
+      "sha256": "2c23db1a93945fcb96f6826518848da0cc884787e4e308d9c099122c8c7e247e",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-091.woff2",
+      "originalSha256": "6c1f834f45e6aad79295e61cf8f90f6ea4aef9e9c9c25e10018fd24e2ea07878",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-091.woff2",
+      "sha256": "6c1f834f45e6aad79295e61cf8f90f6ea4aef9e9c9c25e10018fd24e2ea07878",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-090.woff2",
+      "originalSha256": "314d745937ed856e5a6caf7b1e0126db701683daae27c633152bef25b3330ccd",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-090.woff2",
+      "sha256": "314d745937ed856e5a6caf7b1e0126db701683daae27c633152bef25b3330ccd",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-087.woff2",
+      "originalSha256": "827b41114369b60b75a8e60bf7a41d642c179775e715f4aea59871c5de3f9980",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-087.woff2",
+      "sha256": "827b41114369b60b75a8e60bf7a41d642c179775e715f4aea59871c5de3f9980",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-081.woff2",
+      "originalSha256": "f97441714d96617400b095de14bf26ef0a5a993d19c1f47d55658e5ac75d929b",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-081.woff2",
+      "sha256": "f97441714d96617400b095de14bf26ef0a5a993d19c1f47d55658e5ac75d929b",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-092.woff2",
+      "originalSha256": "6d8a3b136fbfd44a69ae81e796e6f4eaea5d0f6042c9cdcd03c6636441ef764a",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-092.woff2",
+      "sha256": "6d8a3b136fbfd44a69ae81e796e6f4eaea5d0f6042c9cdcd03c6636441ef764a",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/30m2e9dm0htl_.js",
+      "originalSha256": "ad07194b54aaccbb90b3a718b99ab7c7618359dff43a2a2470a8068c8bd9c33a",
+      "file": "public/_next/static/immutable/chunks/30m2e9dm0htl_.js",
+      "sha256": "ad07194b54aaccbb90b3a718b99ab7c7618359dff43a2a2470a8068c8bd9c33a",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/backend/tts/4X4ECqJsnaflLux6Vr0wsV/?&locale=zh-Hans-CN",
+      "originalSha256": "1044d9ee6f28207828618c6a97aff395a61d8ae5085b382e382310ec62d573b3",
+      "file": "public/_openai/api/1044d9ee6f28207828618c6a97aff395a61d8ae5085b382e382310ec62d573b3.json",
+      "sha256": "499f172ff9cc5fbc08b79f6f6b02eb74cf6e432f573b0e44374786d54a3a8a97",
+      "mime": "application/json"
+    },
+    {
+      "url": "https://openai.com/_vercel/speed-insights/script.js",
+      "originalSha256": "c703720710415599d2f0b3f31fbfda63e34d6d19e730bada78b9b92197564f5b",
+      "file": "public/_vercel/speed-insights/script.js",
+      "sha256": "c703720710415599d2f0b3f31fbfda63e34d6d19e730bada78b9b92197564f5b",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/research/index/?_rsc=JaXkm_0D64UY-L9U",
+      "originalSha256": "156913eb16a49cb0827ff039583d2ac920291d4abf07b6c7b8a952f1196a0905",
+      "file": "public/_openai/rsc/156913eb16a49cb0827ff039583d2ac920291d4abf07b6c7b8a952f1196a0905.txt",
+      "sha256": "ff15aa65e4fecc61affd438705173a3b6b810f6d517b07870e406fcabe317cae",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/business/?_rsc=JaXkm_0D64UY-L9U",
+      "originalSha256": "b0b463dc38d38953d958a0a3854b97ce71ee116809a4cb8dc5fa896f9ac6b78a",
+      "file": "public/_openai/rsc/b0b463dc38d38953d958a0a3854b97ce71ee116809a4cb8dc5fa896f9ac6b78a.txt",
+      "sha256": "fb0e1dfc579d9d7a79e6eb0211e38d0366c947365a5a2df22883c8eaabf41832",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/api/?_rsc=JaXkm_0D64UY-L9U",
+      "originalSha256": "bbb315ddfd68ac36317d2d379d57249c329afc200d02a7a093b729f3a3b837e6",
+      "file": "public/_openai/rsc/bbb315ddfd68ac36317d2d379d57249c329afc200d02a7a093b729f3a3b837e6.txt",
+      "sha256": "ec6a12128d205f4ab6764a2bd34f22958224530bf2038775f8f1e2ee50867524",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/about/?_rsc=JaXkm_0D64UY-L9U",
+      "originalSha256": "045f5b1e38077f090db941591f322cdac7aaf53d4feee15f848fdfbee435664d",
+      "file": "public/_openai/rsc/045f5b1e38077f090db941591f322cdac7aaf53d4feee15f848fdfbee435664d.txt",
+      "sha256": "4ee00eb8b6faafa7b9fcc715fb8c81a8f73defd915c0abe9362ccef2b99b7a01",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/play-sm-fill.svg",
+      "originalSha256": "e906cb7b125156700578e2ca558703e55c45f9ad09af2302869b631845b0babb",
+      "file": "public/icons/cms/a7687e3ce5db398c/play-sm-fill.svg",
+      "sha256": "e906cb7b125156700578e2ca558703e55c45f9ad09af2302869b631845b0babb",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/?_rsc=JaXkm_0D64UY-L9U",
+      "originalSha256": "8b74b8e528ecb34814b06e2856c332bd64ff5e826b7330b66056432e9a836f50",
+      "file": "public/_openai/rsc/8b74b8e528ecb34814b06e2856c332bd64ff5e826b7330b66056432e9a836f50.txt",
+      "sha256": "8e566b0aa628f3c1724549ea6b44cf4835f94a92b3a09ec803aa7573ea7db6e8",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/news/global-affairs/?_rsc=JaXkm_0D64UY-L9U",
+      "originalSha256": "8fc943a4c35140aa6a59e19d4be5a4bf9be0130f951d9799768c14bf7c51af35",
+      "file": "public/_openai/rsc/8fc943a4c35140aa6a59e19d4be5a4bf9be0130f951d9799768c14bf7c51af35.txt",
+      "sha256": "a609809acbaf1b2c742ae16a7938d8410eca4b49698ba1fa97495efa60400f7a",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/news/company-announcements/?_rsc=JaXkm_0D64UY-L9U",
+      "originalSha256": "ded0aa83b98d73de3f2616f94fed15a305ba2574eeddbecb643943659f925bad",
+      "file": "public/_openai/rsc/ded0aa83b98d73de3f2616f94fed15a305ba2574eeddbecb643943659f925bad.txt",
+      "sha256": "f8bdced4355d06a647949f6c9d56334e029b15adae4ba90bc86cd195f0e950e4",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/research/index/?_rsc=wuSM1XnU21PVBHXU",
+      "originalSha256": "156913eb16a49cb0827ff039583d2ac920291d4abf07b6c7b8a952f1196a0905",
+      "file": "public/_openai/rsc/156913eb16a49cb0827ff039583d2ac920291d4abf07b6c7b8a952f1196a0905.txt",
+      "sha256": "ff15aa65e4fecc61affd438705173a3b6b810f6d517b07870e406fcabe317cae",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/business/?_rsc=wuSM1XnU21PVBHXU",
+      "originalSha256": "b0b463dc38d38953d958a0a3854b97ce71ee116809a4cb8dc5fa896f9ac6b78a",
+      "file": "public/_openai/rsc/b0b463dc38d38953d958a0a3854b97ce71ee116809a4cb8dc5fa896f9ac6b78a.txt",
+      "sha256": "fb0e1dfc579d9d7a79e6eb0211e38d0366c947365a5a2df22883c8eaabf41832",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+      "originalSha256": "78f9e572a294fcd964b5b6854513192df6ed37db3589499833318c279c3a3599",
+      "file": "public/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+      "sha256": "78f9e572a294fcd964b5b6854513192df6ed37db3589499833318c279c3a3599",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1uihf-f-euv96.js",
+      "originalSha256": "e54ace97ac8b1c996a359f8accb0077c49e16557cf1b07ecb7c856c1730d8ca9",
+      "file": "public/_next/static/immutable/chunks/1uihf-f-euv96.js",
+      "sha256": "423d19e6bc049ee106426cd7c26d7685d042a3ca3c52d80a667443d6ceaba747",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/_next/static/immutable/chunks/1w50rw3gj5hse.js",
+      "originalSha256": "bf0ff72060b1d0693148731d49b59fd0a8098e691bd0d4332192ff345e36b9ab",
+      "file": "public/_next/static/immutable/chunks/1w50rw3gj5hse.js",
+      "sha256": "b6012b968dc2c976a8ff1ac562520f7049b14a6d9e185aac2be0b41469e398fe",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/api/?_rsc=wuSM1XnU21PVBHXU",
+      "originalSha256": "bbb315ddfd68ac36317d2d379d57249c329afc200d02a7a093b729f3a3b837e6",
+      "file": "public/_openai/rsc/bbb315ddfd68ac36317d2d379d57249c329afc200d02a7a093b729f3a3b837e6.txt",
+      "sha256": "ec6a12128d205f4ab6764a2bd34f22958224530bf2038775f8f1e2ee50867524",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/about/?_rsc=wuSM1XnU21PVBHXU",
+      "originalSha256": "045f5b1e38077f090db941591f322cdac7aaf53d4feee15f848fdfbee435664d",
+      "file": "public/_openai/rsc/045f5b1e38077f090db941591f322cdac7aaf53d4feee15f848fdfbee435664d.txt",
+      "sha256": "4ee00eb8b6faafa7b9fcc715fb8c81a8f73defd915c0abe9362ccef2b99b7a01",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/?_rsc=wuSM1XnU21PVBHXU",
+      "originalSha256": "8b74b8e528ecb34814b06e2856c332bd64ff5e826b7330b66056432e9a836f50",
+      "file": "public/_openai/rsc/8b74b8e528ecb34814b06e2856c332bd64ff5e826b7330b66056432e9a836f50.txt",
+      "sha256": "8e566b0aa628f3c1724549ea6b44cf4835f94a92b3a09ec803aa7573ea7db6e8",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/news/global-affairs/?_rsc=wuSM1XnU21PVBHXU",
+      "originalSha256": "8fc943a4c35140aa6a59e19d4be5a4bf9be0130f951d9799768c14bf7c51af35",
+      "file": "public/_openai/rsc/8fc943a4c35140aa6a59e19d4be5a4bf9be0130f951d9799768c14bf7c51af35.txt",
+      "sha256": "a609809acbaf1b2c742ae16a7938d8410eca4b49698ba1fa97495efa60400f7a",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://openai.com/zh-Hans-CN/news/company-announcements/?_rsc=wuSM1XnU21PVBHXU",
+      "originalSha256": "ded0aa83b98d73de3f2616f94fed15a305ba2574eeddbecb643943659f925bad",
+      "file": "public/_openai/rsc/ded0aa83b98d73de3f2616f94fed15a305ba2574eeddbecb643943659f925bad.txt",
+      "sha256": "f8bdced4355d06a647949f6c9d56334e029b15adae4ba90bc86cd195f0e950e4",
+      "mime": "text/x-component"
+    },
+    {
+      "url": "https://images.ctfassets.net/kftzwdyauwt9/3f1fyaaSZELql3zECUImW3/1733a5ee7f07da894b993dcff75bea66/effingham_county_1x1.png?w=1920&q=90&fm=webp",
+      "originalSha256": "020d60486aca4c9b41692c71cb01a8b9fccae8698c3b46930e0bda4749cc2b1d",
+      "file": "public/__images_ctfassets_net_____/kftzwdyauwt9/3f1fyaaSZELql3zECUImW3/1733a5ee7f07da894b993dcff75bea66/effingham_county_1x1.png",
+      "sha256": "020d60486aca4c9b41692c71cb01a8b9fccae8698c3b46930e0bda4749cc2b1d",
+      "mime": "image/webp"
+    },
+    {
+      "url": "https://images.ctfassets.net/kftzwdyauwt9/4nRoI5iOfeV7qh4O3eAIEB/400545de8860b3c757548f2e3cd275fb/index-full-stack-behind-abundant-intelligence--cover-v001.png?w=1920&q=90&fm=webp",
+      "originalSha256": "92ce46bb2bbe6c5af3402770eb2f790e3cfb9885f854f61f4b1b67442fdf5148",
+      "file": "public/__images_ctfassets_net_____/kftzwdyauwt9/4nRoI5iOfeV7qh4O3eAIEB/400545de8860b3c757548f2e3cd275fb/index-full-stack-behind-abundant-intelligence--cover-v001.png",
+      "sha256": "92ce46bb2bbe6c5af3402770eb2f790e3cfb9885f854f61f4b1b67442fdf5148",
+      "mime": "image/webp"
+    },
+    {
+      "url": "https://images.ctfassets.net/kftzwdyauwt9/6RUPcXx0eTGghDpM851Qy1/ab11d2d0849ad9544249bf7b77ee46fe/openai-joins-ports-pike-project-cover-v001.png?w=1920&q=90&fm=webp",
+      "originalSha256": "8ec478b2b1dd7048f12cda7672d6fceadce97f1f8c64c5e5832a16ae29e760d8",
+      "file": "public/__images_ctfassets_net_____/kftzwdyauwt9/6RUPcXx0eTGghDpM851Qy1/ab11d2d0849ad9544249bf7b77ee46fe/openai-joins-ports-pike-project-cover-v001.png",
+      "sha256": "8ec478b2b1dd7048f12cda7672d6fceadce97f1f8c64c5e5832a16ae29e760d8",
+      "mime": "image/webp"
+    },
+    {
+      "url": "https://openai.com/backend/gate/3510127618/",
+      "originalSha256": "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93",
+      "file": "public/_openai/api/4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93.json",
+      "sha256": "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93",
+      "mime": "application/json",
+      "method": "POST"
+    },
+    {
+      "url": "https://openai.com/backend/gate/1590086809/",
+      "originalSha256": "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93",
+      "file": "public/_openai/api/4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93.json",
+      "sha256": "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93",
+      "mime": "application/json",
+      "method": "POST"
+    },
+    {
+      "url": "https://openai.com/backend/gate/3914628198/",
+      "originalSha256": "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93",
+      "file": "public/_openai/api/4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93.json",
+      "sha256": "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93",
+      "mime": "application/json",
+      "method": "POST"
+    },
+    {
+      "url": "https://openai.com/backend/gate/3157804138/",
+      "originalSha256": "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93",
+      "file": "public/_openai/api/4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93.json",
+      "sha256": "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93",
+      "mime": "application/json",
+      "method": "POST"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/88e35d1e713fe5e66d495177eba56b63.mp3",
+      "originalSha256": "119d2cbc1529ed30d71a4c0e5de8ac70a2345528d1d13b5fd6e5acecebc2de10",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/88e35d1e713fe5e66d495177eba56b63.mp3",
+      "sha256": "119d2cbc1529ed30d71a4c0e5de8ac70a2345528d1d13b5fd6e5acecebc2de10",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/7b50c51ac85106768529858e5946bbf2.mp3",
+      "originalSha256": "b9a1d78f7199fa19d402ff74cbb44a9302067bb45d78827171a3f8878cff0ad4",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/7b50c51ac85106768529858e5946bbf2.mp3",
+      "sha256": "b9a1d78f7199fa19d402ff74cbb44a9302067bb45d78827171a3f8878cff0ad4",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/4a6404b2ad221b325e0a08918519cb8c.mp3",
+      "originalSha256": "e9944a14c71e29f980eef309edbb4791f06b691358bab4353c0bae2498c62427",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/4a6404b2ad221b325e0a08918519cb8c.mp3",
+      "sha256": "e9944a14c71e29f980eef309edbb4791f06b691358bab4353c0bae2498c62427",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/850d76b5c98860c09f98ceffbb86352c.mp3",
+      "originalSha256": "45f9404dbcae4e062b6a60a2fa7a454abdcf605eafd4ce8bbbf0a3454def603d",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/850d76b5c98860c09f98ceffbb86352c.mp3",
+      "sha256": "45f9404dbcae4e062b6a60a2fa7a454abdcf605eafd4ce8bbbf0a3454def603d",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/693b49dd77f72ff3d5353e09839ed82e.mp3",
+      "originalSha256": "2e657893d83148405ad86e54c6e043a0eff69d38d2e150792a22405e61851b68",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/693b49dd77f72ff3d5353e09839ed82e.mp3",
+      "sha256": "2e657893d83148405ad86e54c6e043a0eff69d38d2e150792a22405e61851b68",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/dbf6a9ed237db71b949ad378de14e81a.mp3",
+      "originalSha256": "66e0947933795281f3d45da6d280f7f11fd240d4edcd2755fc3dfea23488d4ca",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/dbf6a9ed237db71b949ad378de14e81a.mp3",
+      "sha256": "66e0947933795281f3d45da6d280f7f11fd240d4edcd2755fc3dfea23488d4ca",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/4115afdc39413577fff7b0fe177b8b98.mp3",
+      "originalSha256": "aa0625b7044f09b8a54ee7bf104a261f94a05a1abc4753cbcf373196e28b2c04",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/4115afdc39413577fff7b0fe177b8b98.mp3",
+      "sha256": "aa0625b7044f09b8a54ee7bf104a261f94a05a1abc4753cbcf373196e28b2c04",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/58f3c560a49bd2b8d9601870ba7e9324.mp3",
+      "originalSha256": "7b9473a8ffe97862a353b6a31663c993d266322f4fe0bcc29aa09c451a754801",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/58f3c560a49bd2b8d9601870ba7e9324.mp3",
+      "sha256": "7b9473a8ffe97862a353b6a31663c993d266322f4fe0bcc29aa09c451a754801",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/aa456e221f88cd0055f36b59aa373c1f.mp3",
+      "originalSha256": "1ffcc85a4066b21f81c2d37603e156a02beccb57036a16b97e94c664be9bf664",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/aa456e221f88cd0055f36b59aa373c1f.mp3",
+      "sha256": "1ffcc85a4066b21f81c2d37603e156a02beccb57036a16b97e94c664be9bf664",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/35a0a714d14d2648bcd20653ac70dedc.mp3",
+      "originalSha256": "9257f887c90bf563ddc1b3f22fe1e378eafbe38b0875856836eeb4228803bc47",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/35a0a714d14d2648bcd20653ac70dedc.mp3",
+      "sha256": "9257f887c90bf563ddc1b3f22fe1e378eafbe38b0875856836eeb4228803bc47",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/6d75a499bc3ccc3fd4ec8946c1a3cf2c.mp3",
+      "originalSha256": "28d385fd24edc47a025df5e120d581eb78953a7bfabf622d3a7a29edcadcf866",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/6d75a499bc3ccc3fd4ec8946c1a3cf2c.mp3",
+      "sha256": "28d385fd24edc47a025df5e120d581eb78953a7bfabf622d3a7a29edcadcf866",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/9a8140dbe85905a2eb54cb272dec8b23.mp3",
+      "originalSha256": "62c145d9f41b062ab6a8d26ddfe1a160299a8bdd33032c782b52eae55518b0da",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/9a8140dbe85905a2eb54cb272dec8b23.mp3",
+      "sha256": "62c145d9f41b062ab6a8d26ddfe1a160299a8bdd33032c782b52eae55518b0da",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/31f9724bfb485e3090081fc148923fc7.mp3",
+      "originalSha256": "618c9f94d287741f3d56643dc370e328e3461bb5c9b0437aed3e7e216e677cd7",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/31f9724bfb485e3090081fc148923fc7.mp3",
+      "sha256": "618c9f94d287741f3d56643dc370e328e3461bb5c9b0437aed3e7e216e677cd7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/aa8d13ac8fca9eb79bafd7ebc5e653ae.mp3",
+      "originalSha256": "bcd939db06f09f0c46792ee8db88420a31284533251568e19fe400bde800e9aa",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/aa8d13ac8fca9eb79bafd7ebc5e653ae.mp3",
+      "sha256": "bcd939db06f09f0c46792ee8db88420a31284533251568e19fe400bde800e9aa",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/9fae6d942f04737389d733ee09365960.mp3",
+      "originalSha256": "454a78dea82503ac2a5a067267a12c43db56bd2919bff01daa8f81d3b000572e",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/9fae6d942f04737389d733ee09365960.mp3",
+      "sha256": "454a78dea82503ac2a5a067267a12c43db56bd2919bff01daa8f81d3b000572e",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/606618f33df6ccc5b517485dc1bc577e.mp3",
+      "originalSha256": "ac278245cd1df43f0da9baa2240b3e97306d40f4a5f6be9d0d4c91351be9876c",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/606618f33df6ccc5b517485dc1bc577e.mp3",
+      "sha256": "ac278245cd1df43f0da9baa2240b3e97306d40f4a5f6be9d0d4c91351be9876c",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/b319eefd857e2063e6f5b5015648adf0.mp3",
+      "originalSha256": "88263fb9ca7bdb1317c5fe1be5a492fbf32f8d2b722cc42fc76462bdaf75271f",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/b319eefd857e2063e6f5b5015648adf0.mp3",
+      "sha256": "88263fb9ca7bdb1317c5fe1be5a492fbf32f8d2b722cc42fc76462bdaf75271f",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/e480fb51e286df2541edaed7f728de92.mp3",
+      "originalSha256": "78131c39a230cb45a6920eb5dc53e68274ae939878b702b02ddb97af5f8bfa8e",
+      "file": "public/__cdn-azalea-tts-achmg6dqbafjaxcr_a01_azurefd_net_____/tts-prod/4X4ECqJsnaflLux6Vr0wsV/cedar/e480fb51e286df2541edaed7f728de92.mp3",
+      "sha256": "78131c39a230cb45a6920eb5dc53e68274ae939878b702b02ddb97af5f8bfa8e",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/30bafe12-ad88-4ae0-8ed8-0045ffc1a17c/form-bg.jpg",
+      "originalSha256": "aa70cfe725a0137e2c255d619fcc3341826a0d2514b8c520c7d52e6808616e8e",
+      "file": "public/__cdn_openai_com_____/ctf-cdn/30bafe12-ad88-4ae0-8ed8-0045ffc1a17c/form-bg.jpg",
+      "sha256": "aa70cfe725a0137e2c255d619fcc3341826a0d2514b8c520c7d52e6808616e8e",
+      "mime": "image/jpeg"
+    },
+    {
+      "url": "https://cdn.openai.com/jupiter/dark-frame-0.png",
+      "originalSha256": "06c1f21b95c6c8201785ed82527c6ece589c6716b90a8ebdfae5e17716e83150",
+      "file": "public/__cdn_openai_com_____/jupiter/dark-frame-0.png",
+      "sha256": "06c1f21b95c6c8201785ed82527c6ece589c6716b90a8ebdfae5e17716e83150",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://cdn.openai.com/jupiter/spritesheet-dark.png",
+      "originalSha256": "f1535cad1162929c33d7b7b619a7e817ca26fb55534cc1eb7dce6faa93c95b7e",
+      "file": "public/__cdn_openai_com_____/jupiter/spritesheet-dark.png",
+      "sha256": "f1535cad1162929c33d7b7b619a7e817ca26fb55534cc1eb7dce6faa93c95b7e",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://cdn.openai.com/nf2/nf2-lp/misc/sora-logo-gradient-spritesheet-vert-optimized.png",
+      "originalSha256": "8227a1c4a7654715b4b0aa6d0719761f78eac570f4f7499dcaf4bb146dc12135",
+      "file": "public/__cdn_openai_com_____/nf2/nf2-lp/misc/sora-logo-gradient-spritesheet-vert-optimized.png",
+      "sha256": "8227a1c4a7654715b4b0aa6d0719761f78eac570f4f7499dcaf4bb146dc12135",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://cdn.openai.com/plugins/plugin-conversation-background-figma-v1.png",
+      "originalSha256": "e90427db5760f7d36be9fa9993572ba51c9ee7f8460a8b73eca449222fab5b3b",
+      "file": "public/__cdn_openai_com_____/plugins/plugin-conversation-background-figma-v1.png",
+      "sha256": "e90427db5760f7d36be9fa9993572ba51c9ee7f8460a8b73eca449222fab5b3b",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://cdn.openai.com/jupiter/light-frame-0.png",
+      "originalSha256": "50597dcb470ba21c60d88410f2d6698a35413af0ffa1f22ad18ab94c1fde213f",
+      "file": "public/__cdn_openai_com_____/jupiter/light-frame-0.png",
+      "sha256": "50597dcb470ba21c60d88410f2d6698a35413af0ffa1f22ad18ab94c1fde213f",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://cdn.openai.com/plugins/plugin-prompt-background-purple-v1.webp",
+      "originalSha256": "dc0a23f31a4eee238f2e7564af2cd87f4124d5e7ed24ab2ce2a5ee053ffaa0f1",
+      "file": "public/__cdn_openai_com_____/plugins/plugin-prompt-background-purple-v1.webp",
+      "sha256": "dc0a23f31a4eee238f2e7564af2cd87f4124d5e7ed24ab2ce2a5ee053ffaa0f1",
+      "mime": "image/webp"
+    },
+    {
+      "url": "https://cdn.openai.com/jupiter/spritesheet-light.png",
+      "originalSha256": "8a5c0c9a76ab2d231b8a95bc06d1a574b7256fd32a242ef42ddb07f19df884bc",
+      "file": "public/__cdn_openai_com_____/jupiter/spritesheet-light.png",
+      "sha256": "8a5c0c9a76ab2d231b8a95bc06d1a574b7256fd32a242ef42ddb07f19df884bc",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Light.woff2",
+      "originalSha256": "c2c26cdd6435939de20a7bd90466e1435d3fd7141934ba9942f31a18280224bf",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-Light.woff2",
+      "sha256": "c2c26cdd6435939de20a7bd90466e1435d3fd7141934ba9942f31a18280224bf",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-LightItalic.woff2",
+      "originalSha256": "d81f5b30a421264faa365c66442320d856f11092b6566a4537dd3542c3a7b3d6",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-LightItalic.woff2",
+      "sha256": "d81f5b30a421264faa365c66442320d856f11092b6566a4537dd3542c3a7b3d6",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-RegularItalic.woff2",
+      "originalSha256": "e53e89b8718aaa0527f7185561e40040ee6dbe66395e8abc2492da5bbbda588f",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-RegularItalic.woff2",
+      "sha256": "e53e89b8718aaa0527f7185561e40040ee6dbe66395e8abc2492da5bbbda588f",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-MediumItalic.woff2",
+      "originalSha256": "6b3b1056d9e239f6dc1ef341982877dff1222b4e85116f33ceb58c2a4c2c21e6",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-MediumItalic.woff2",
+      "sha256": "6b3b1056d9e239f6dc1ef341982877dff1222b4e85116f33ceb58c2a4c2c21e6",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Semibold.woff2",
+      "originalSha256": "e99a4258393f746552665fb8a07a7dcdacf2af4834cc0611148761005c7e006d",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-Semibold.woff2",
+      "sha256": "e99a4258393f746552665fb8a07a7dcdacf2af4834cc0611148761005c7e006d",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-SemiboldItalic.woff2",
+      "originalSha256": "757cddfec657a2ab20d37f5769be08f24fb88ffb065867eec86cc156a5f292f1",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-SemiboldItalic.woff2",
+      "sha256": "757cddfec657a2ab20d37f5769be08f24fb88ffb065867eec86cc156a5f292f1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-BoldItalic.woff2",
+      "originalSha256": "c2e0fc7a872dae195289ce3dc1da0e4d3ea6a3b504a31db3a44226f877cad8ba",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-BoldItalic.woff2",
+      "sha256": "c2e0fc7a872dae195289ce3dc1da0e4d3ea6a3b504a31db3a44226f877cad8ba",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Light.woff2",
+      "originalSha256": "013b33ec37b864cffc3c419b2ef43b5ff33051c7ef61e60200b3e51084a3153c",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-Light.woff2",
+      "sha256": "013b33ec37b864cffc3c419b2ef43b5ff33051c7ef61e60200b3e51084a3153c",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-LightItalic.woff2",
+      "originalSha256": "75fc2f7201c1d4f79cf745627fac740460413654816862d1833370b2ab992ff9",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-LightItalic.woff2",
+      "sha256": "75fc2f7201c1d4f79cf745627fac740460413654816862d1833370b2ab992ff9",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Regular.woff2",
+      "originalSha256": "95f5d6421f2d876f092875c0d900ad535b9df0cc45da0097b19a69f664e71284",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-Regular.woff2",
+      "sha256": "95f5d6421f2d876f092875c0d900ad535b9df0cc45da0097b19a69f664e71284",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-RegularItalic.woff2",
+      "originalSha256": "e1b381846ee9184cba191809d98631c5ef1a14d90da16ecc2f8c747bf249a57c",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-RegularItalic.woff2",
+      "sha256": "e1b381846ee9184cba191809d98631c5ef1a14d90da16ecc2f8c747bf249a57c",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Medium.woff2",
+      "originalSha256": "e7630c7fa4b10803a78f2f30be20195d0fd9a0fd6eced60703cc0b24f99b3de8",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-Medium.woff2",
+      "sha256": "e7630c7fa4b10803a78f2f30be20195d0fd9a0fd6eced60703cc0b24f99b3de8",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-MediumItalic.woff2",
+      "originalSha256": "9a3b3815dc0dc089114acdc3830669c090ec14e0b33918b8dbe3842a8c9a0031",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-MediumItalic.woff2",
+      "sha256": "9a3b3815dc0dc089114acdc3830669c090ec14e0b33918b8dbe3842a8c9a0031",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Semibold.woff2",
+      "originalSha256": "0c8a5aab58d028b081de56da95958c761b975c04ba472599fc944c8b46904bd0",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-Semibold.woff2",
+      "sha256": "0c8a5aab58d028b081de56da95958c761b975c04ba472599fc944c8b46904bd0",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-SemiboldItalic.woff2",
+      "originalSha256": "87b2ba3abc2d4235734f88db88f8b30493d72cc6c7fbd391b054a664afd9132e",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-SemiboldItalic.woff2",
+      "sha256": "87b2ba3abc2d4235734f88db88f8b30493d72cc6c7fbd391b054a664afd9132e",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-BoldItalic.woff2",
+      "originalSha256": "a836ed8b017a17fb13bf5755fc2da045398655ccc46e5d36c0d6af50ad3d6e78",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-BoldItalic.woff2",
+      "sha256": "a836ed8b017a17fb13bf5755fc2da045398655ccc46e5d36c0d6af50ad3d6e78",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Bold.woff2",
+      "originalSha256": "461713873707a5b449758ae38733091a3546651038029920c39abdd86a8b88e1",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansGreek-Bold.woff2",
+      "sha256": "461713873707a5b449758ae38733091a3546651038029920c39abdd86a8b88e1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Light.woff2",
+      "originalSha256": "4dd7e2df4d3673657edac21bbcf607c4960f54476a5b56aa3cc7bafa5952bfa3",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-Light.woff2",
+      "sha256": "4dd7e2df4d3673657edac21bbcf607c4960f54476a5b56aa3cc7bafa5952bfa3",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-LightItalic.woff2",
+      "originalSha256": "9f479bd2b227ec4538c257cc29558ad4ed70ed0eb15ebc4b9ce64d4347421718",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-LightItalic.woff2",
+      "sha256": "9f479bd2b227ec4538c257cc29558ad4ed70ed0eb15ebc4b9ce64d4347421718",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Regular.woff2",
+      "originalSha256": "b6bca7a86fd49dea22edaab2a46673354a8a49d19f9ed4f5bd6871a4a1fba2e5",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-Regular.woff2",
+      "sha256": "b6bca7a86fd49dea22edaab2a46673354a8a49d19f9ed4f5bd6871a4a1fba2e5",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-RegularItalic.woff2",
+      "originalSha256": "8bea03323f3b264976939b1d1d43fe07dce6fdd057b42755271e837dcdcd4720",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-RegularItalic.woff2",
+      "sha256": "8bea03323f3b264976939b1d1d43fe07dce6fdd057b42755271e837dcdcd4720",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Medium.woff2",
+      "originalSha256": "637eba939ff69ed6e8ac8b8768ba4ca3379a036ec4eddb36bc8441db38bdb6ed",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-Medium.woff2",
+      "sha256": "637eba939ff69ed6e8ac8b8768ba4ca3379a036ec4eddb36bc8441db38bdb6ed",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-MediumItalic.woff2",
+      "originalSha256": "1f08b111987dcc330e63a60b571137a64260d22120bfb163d2a17132b4f07918",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-MediumItalic.woff2",
+      "sha256": "1f08b111987dcc330e63a60b571137a64260d22120bfb163d2a17132b4f07918",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Semibold.woff2",
+      "originalSha256": "50e69c7fb2e6a57c45b71d34f7f9040bafb7a7d8e83da5e52692b40bebbca9d9",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-Semibold.woff2",
+      "sha256": "50e69c7fb2e6a57c45b71d34f7f9040bafb7a7d8e83da5e52692b40bebbca9d9",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-SemiboldItalic.woff2",
+      "originalSha256": "6818e956005ddc3d7e87c99ce396693d6645c017bab34b5b21570f1374abe9c1",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-SemiboldItalic.woff2",
+      "sha256": "6818e956005ddc3d7e87c99ce396693d6645c017bab34b5b21570f1374abe9c1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Bold.woff2",
+      "originalSha256": "7be60f62fd218cbd3074357c4c3b9013d2c0b01de6693cd5321a413563d825d1",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-Bold.woff2",
+      "sha256": "7be60f62fd218cbd3074357c4c3b9013d2c0b01de6693cd5321a413563d825d1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-BoldItalic.woff2",
+      "originalSha256": "27fa589d44e5d21d429bf2d5ef32dcc756f07b78808b402e579a1e2181107b50",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansCyrillic-BoldItalic.woff2",
+      "sha256": "27fa589d44e5d21d429bf2d5ef32dcc756f07b78808b402e579a1e2181107b50",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansHebrewVariable.woff2",
+      "originalSha256": "38d3d6ca195c58feab345e25f41c837277db7643f7ca7bcb72b0fb9d9cfda51a",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansHebrewVariable.woff2",
+      "sha256": "38d3d6ca195c58feab345e25f41c837277db7643f7ca7bcb72b0fb9d9cfda51a",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansArabicVariable.woff2",
+      "originalSha256": "ae4a33e9d35ae6214aca7a590bba1de00faaa208a9dac9d6ac0194cdc166accd",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansArabicVariable.woff2",
+      "sha256": "ae4a33e9d35ae6214aca7a590bba1de00faaa208a9dac9d6ac0194cdc166accd",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansDevanagariVariable.woff2",
+      "originalSha256": "47d9e5126ec406dbd9688e268650b9678f5652fe2c344ce66cce678c80266d4b",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansDevanagariVariable.woff2",
+      "sha256": "47d9e5126ec406dbd9688e268650b9678f5652fe2c344ce66cce678c80266d4b",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansHangulVariable.woff2",
+      "originalSha256": "5f2743e5f73284cde079dbf24ecdebfbe2e03f90f020ed0982d43767df3ad25a",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISansHangulVariable.woff2",
+      "sha256": "5f2743e5f73284cde079dbf24ecdebfbe2e03f90f020ed0982d43767df3ad25a",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/lf-serif/lf-serif-s-400.woff2",
+      "originalSha256": "8ba5d7764df67a5f4540ab4bea7e1badfe6a8add7ce2b0ff24b3aaac0c2a15ab",
+      "file": "public/__cdn_openai_com_____/common/fonts/lf-serif/lf-serif-s-400.woff2",
+      "sha256": "8ba5d7764df67a5f4540ab4bea7e1badfe6a8add7ce2b0ff24b3aaac0c2a15ab",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/lf-serif/lf-serif-s-400-italic.woff2",
+      "originalSha256": "66f075c8ba0f62eacf9f72eb07d5ac482264db3e28942f1e274272cc990f3091",
+      "file": "public/__cdn_openai_com_____/common/fonts/lf-serif/lf-serif-s-400-italic.woff2",
+      "sha256": "66f075c8ba0f62eacf9f72eb07d5ac482264db3e28942f1e274272cc990f3091",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/academic-researchers/stock.d3cc378d.webp",
+      "originalSha256": "d3cc378d453898be16f49a36d28064cdb68b3ec94ae9986f0d24e6251f8b22ea",
+      "file": "public/__cdn_openai_com_____/ctf-cdn/academic-researchers/stock.d3cc378d.webp",
+      "sha256": "d3cc378d453898be16f49a36d28064cdb68b3ec94ae9986f0d24e6251f8b22ea",
+      "mime": "image/webp"
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/academic-researchers/botanical.c680ad22.webp",
+      "originalSha256": "c680ad227dd3664261cfbc5543dacaa96b4cc5ea0adf75d75383b4b545a1cdc5",
+      "file": "public/__cdn_openai_com_____/ctf-cdn/academic-researchers/botanical.c680ad22.webp",
+      "sha256": "c680ad227dd3664261cfbc5543dacaa96b4cc5ea0adf75d75383b4b545a1cdc5",
+      "mime": "image/webp"
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/academic-researchers/butterfly.d7cb9c69.webp",
+      "originalSha256": "d7cb9c692b81e9ab8d81e7d78761b04371c20f52cbf8d5139c190582fd088d96",
+      "file": "public/__cdn_openai_com_____/ctf-cdn/academic-researchers/butterfly.d7cb9c69.webp",
+      "sha256": "d7cb9c692b81e9ab8d81e7d78761b04371c20f52cbf8d5139c190582fd088d96",
+      "mime": "image/webp"
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/academic-researchers/delta.761213d6.webp",
+      "originalSha256": "761213d6de6dd4436d19a328a8ae28b633b5127e8da5537730163255a1d25aa4",
+      "file": "public/__cdn_openai_com_____/ctf-cdn/academic-researchers/delta.761213d6.webp",
+      "sha256": "761213d6de6dd4436d19a328a8ae28b633b5127e8da5537730163255a1d25aa4",
+      "mime": "image/webp"
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/science-discovery-blog/texture.74302a65.webp",
+      "originalSha256": "74302a65af2525a2c901932b0c57cdbdee744ec73824b4c05257f44958c688a6",
+      "file": "public/__cdn_openai_com_____/ctf-cdn/science-discovery-blog/texture.74302a65.webp",
+      "sha256": "74302a65af2525a2c901932b0c57cdbdee744ec73824b4c05257f44958c688a6",
+      "mime": "image/webp"
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/science-discovery-blog/openai-for-science.2b112312.svg",
+      "originalSha256": "2b112312efaad37f20b94499747f1b61720d916c0973078ba760db49a21a572c",
+      "file": "public/__cdn_openai_com_____/ctf-cdn/science-discovery-blog/openai-for-science.2b112312.svg",
+      "sha256": "2b112312efaad37f20b94499747f1b61720d916c0973078ba760db49a21a572c",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/science-discovery-blog/chart.5f0ba69b.svg",
+      "originalSha256": "5f0ba69bf9560f42f8da15520468e4edec3393250996089b588ddc71ee5751f8",
+      "file": "public/__cdn_openai_com_____/ctf-cdn/science-discovery-blog/chart.5f0ba69b.svg",
+      "sha256": "5f0ba69bf9560f42f8da15520468e4edec3393250996089b588ddc71ee5751f8",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/science-discovery-blog/green.7b8e52c1.svg",
+      "originalSha256": "7b8e52c1edac3692c2e15c1eb7e121c7710ca1664197312b07a37c69e9956c9e",
+      "file": "public/__cdn_openai_com_____/ctf-cdn/science-discovery-blog/green.7b8e52c1.svg",
+      "sha256": "7b8e52c1edac3692c2e15c1eb7e121c7710ca1664197312b07a37c69e9956c9e",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-005.woff2",
+      "originalSha256": "6627c6060b674f9b7204e503822dd29c0f5ce3d4e687b107af5a6ca20bc4071c",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-005.woff2",
+      "sha256": "6627c6060b674f9b7204e503822dd29c0f5ce3d4e687b107af5a6ca20bc4071c",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-004.woff2",
+      "originalSha256": "9da4adb5179a32ea59f0415a983b5d25c0daf86dfb9665719662d614d7ced116",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-004.woff2",
+      "sha256": "9da4adb5179a32ea59f0415a983b5d25c0daf86dfb9665719662d614d7ced116",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-006.woff2",
+      "originalSha256": "68d0168fd5a5077bd1f1e134ff1677bf480ccbecc2b66152209dc4ad9f07acee",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-006.woff2",
+      "sha256": "68d0168fd5a5077bd1f1e134ff1677bf480ccbecc2b66152209dc4ad9f07acee",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-007.woff2",
+      "originalSha256": "769d1ec5b9de2cf05ebadfca840fc1553d40ab34acfb04ab0e56fcb493048d60",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-007.woff2",
+      "sha256": "769d1ec5b9de2cf05ebadfca840fc1553d40ab34acfb04ab0e56fcb493048d60",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-009.woff2",
+      "originalSha256": "f0b32c6ded8872ddbee2a2cfa99d944ab2544bba1ef6cccf6218e15594266868",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-009.woff2",
+      "sha256": "f0b32c6ded8872ddbee2a2cfa99d944ab2544bba1ef6cccf6218e15594266868",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-008.woff2",
+      "originalSha256": "eab75fc88028a2b689e103ac0a162794119b156ed1325add7d246aecaa4d39a1",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-008.woff2",
+      "sha256": "eab75fc88028a2b689e103ac0a162794119b156ed1325add7d246aecaa4d39a1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-010.woff2",
+      "originalSha256": "045d287136de4c5fe1effd4ddb4a843f42b6b00b0203c0c1318c58d1a25bbbef",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-010.woff2",
+      "sha256": "045d287136de4c5fe1effd4ddb4a843f42b6b00b0203c0c1318c58d1a25bbbef",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-011.woff2",
+      "originalSha256": "b9e467ff769d1e7cacf60425c65087d390b9a9dbcaf5517083f160e7047edfb3",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-011.woff2",
+      "sha256": "b9e467ff769d1e7cacf60425c65087d390b9a9dbcaf5517083f160e7047edfb3",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-012.woff2",
+      "originalSha256": "b0b7e0e8721a942a7a8a1b28d9a7b83c9a5982981a3242d74e66b7582cbe6f2f",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-012.woff2",
+      "sha256": "b0b7e0e8721a942a7a8a1b28d9a7b83c9a5982981a3242d74e66b7582cbe6f2f",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-013.woff2",
+      "originalSha256": "e4ab3e46a02f47236c8ddc3e90a864afd1288a02c46861262cc476090b44f339",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-013.woff2",
+      "sha256": "e4ab3e46a02f47236c8ddc3e90a864afd1288a02c46861262cc476090b44f339",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-014.woff2",
+      "originalSha256": "4afef2a40232e3e96614472f21ed346b113461a2df05349a806926e4b02b4183",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-014.woff2",
+      "sha256": "4afef2a40232e3e96614472f21ed346b113461a2df05349a806926e4b02b4183",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-015.woff2",
+      "originalSha256": "c2f5996f4cb2f0b61dff2965b6d6a24f914b74c58a55964cbc7c2cd91551cc6d",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-015.woff2",
+      "sha256": "c2f5996f4cb2f0b61dff2965b6d6a24f914b74c58a55964cbc7c2cd91551cc6d",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-017.woff2",
+      "originalSha256": "688e538cf05a92f6f9d0e38cdaaab0cd1cd2df5aef9801fe405d525a887550da",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-017.woff2",
+      "sha256": "688e538cf05a92f6f9d0e38cdaaab0cd1cd2df5aef9801fe405d525a887550da",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-016.woff2",
+      "originalSha256": "918a083f220eea6dae09a21946a24abcbb3e78550a58d0d10ddf675d364cdcd2",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-016.woff2",
+      "sha256": "918a083f220eea6dae09a21946a24abcbb3e78550a58d0d10ddf675d364cdcd2",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-018.woff2",
+      "originalSha256": "56dc9741599f3b615acf49af9492c4c7186712a32b6d7486162814e339d5402c",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-018.woff2",
+      "sha256": "56dc9741599f3b615acf49af9492c4c7186712a32b6d7486162814e339d5402c",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-019.woff2",
+      "originalSha256": "62966d2380594d36b1a8fa35c6d0fdb354a9c1ca6ccb89f977cb52825e0efd1b",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-019.woff2",
+      "sha256": "62966d2380594d36b1a8fa35c6d0fdb354a9c1ca6ccb89f977cb52825e0efd1b",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-020.woff2",
+      "originalSha256": "153eb60483eca9b55b10f0a9381f7396242885e806628b25eea8f9fda70da848",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-020.woff2",
+      "sha256": "153eb60483eca9b55b10f0a9381f7396242885e806628b25eea8f9fda70da848",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-021.woff2",
+      "originalSha256": "3e784c322d0aa0a2518c5e608dcf716a425d3104e732675a62114fce4f87c46e",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-021.woff2",
+      "sha256": "3e784c322d0aa0a2518c5e608dcf716a425d3104e732675a62114fce4f87c46e",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-023.woff2",
+      "originalSha256": "b87e680ef616799aa2163682baedd927fe448e47cf48b26d938a8147019ec22e",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-023.woff2",
+      "sha256": "b87e680ef616799aa2163682baedd927fe448e47cf48b26d938a8147019ec22e",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-022.woff2",
+      "originalSha256": "687d8a7924dff1ea13e34abb7310dccaf185c79f9b672a38752932b50d123ab6",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-022.woff2",
+      "sha256": "687d8a7924dff1ea13e34abb7310dccaf185c79f9b672a38752932b50d123ab6",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-024.woff2",
+      "originalSha256": "ef46e8c7fbdfdf15fbc562c941ca68d85ee5fb8f3086da3b3f34c27526785007",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-024.woff2",
+      "sha256": "ef46e8c7fbdfdf15fbc562c941ca68d85ee5fb8f3086da3b3f34c27526785007",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-025.woff2",
+      "originalSha256": "f2cce95eb512303c3ead2ca3e39b9bd198580703b630796f00cdb0c62c28e770",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-025.woff2",
+      "sha256": "f2cce95eb512303c3ead2ca3e39b9bd198580703b630796f00cdb0c62c28e770",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-027.woff2",
+      "originalSha256": "c770dfca740ba4881b0e6213b0f8820b065bfede35ab1f663b0dde050cf0b7f0",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-027.woff2",
+      "sha256": "c770dfca740ba4881b0e6213b0f8820b065bfede35ab1f663b0dde050cf0b7f0",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-026.woff2",
+      "originalSha256": "db3318afb1d506c13ab7a38635df383344336a3f2dd7db8e90f1bae6f9067fc7",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-026.woff2",
+      "sha256": "db3318afb1d506c13ab7a38635df383344336a3f2dd7db8e90f1bae6f9067fc7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-028.woff2",
+      "originalSha256": "8877a20f96dbf1aafff7cce7fcfc43542db3fe120c66dd07f496ae0cdc3bad92",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-028.woff2",
+      "sha256": "8877a20f96dbf1aafff7cce7fcfc43542db3fe120c66dd07f496ae0cdc3bad92",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-029.woff2",
+      "originalSha256": "6b55d7fde39b5f88053119481215e830093dcf320b3d0b2f86bd5cccf5878da7",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-029.woff2",
+      "sha256": "6b55d7fde39b5f88053119481215e830093dcf320b3d0b2f86bd5cccf5878da7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-030.woff2",
+      "originalSha256": "b711d1b631459635ce213925d7e7baa3796e9036d2e4d143711eb60aeca477e8",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-030.woff2",
+      "sha256": "b711d1b631459635ce213925d7e7baa3796e9036d2e4d143711eb60aeca477e8",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-031.woff2",
+      "originalSha256": "6f6fb8ad1142da7025f4cf50810b60d809c96e66d3f9a3c1aa9373cb2ed39dfe",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-031.woff2",
+      "sha256": "6f6fb8ad1142da7025f4cf50810b60d809c96e66d3f9a3c1aa9373cb2ed39dfe",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-033.woff2",
+      "originalSha256": "362f13cc8bcdf98d9245427cf066954fc6a82adc1a63155ad231a693dbe070f0",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-033.woff2",
+      "sha256": "362f13cc8bcdf98d9245427cf066954fc6a82adc1a63155ad231a693dbe070f0",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-032.woff2",
+      "originalSha256": "5b504a28ca0774f722831af1c19364de070852c685dab9c935b6a39b9f512fb8",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-032.woff2",
+      "sha256": "5b504a28ca0774f722831af1c19364de070852c685dab9c935b6a39b9f512fb8",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-034.woff2",
+      "originalSha256": "c4c87e13a08b4033ed6476035cc88fccf63a898b5e5276fb074862cdbe3510e1",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-034.woff2",
+      "sha256": "c4c87e13a08b4033ed6476035cc88fccf63a898b5e5276fb074862cdbe3510e1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-035.woff2",
+      "originalSha256": "dc901d7a229bfeee7b4bd3eecbd0e494993733728dcbdbe33bbe1d82d27c0128",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-035.woff2",
+      "sha256": "dc901d7a229bfeee7b4bd3eecbd0e494993733728dcbdbe33bbe1d82d27c0128",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-037.woff2",
+      "originalSha256": "5322661ae936c489f0fb7bbccc8898f966d1e6e0f15c1c9de072e84c485f7fb7",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-037.woff2",
+      "sha256": "5322661ae936c489f0fb7bbccc8898f966d1e6e0f15c1c9de072e84c485f7fb7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-036.woff2",
+      "originalSha256": "ac22bc11b3af3c55a37783c905a40622ee6494262397640b83b67efced04024f",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-036.woff2",
+      "sha256": "ac22bc11b3af3c55a37783c905a40622ee6494262397640b83b67efced04024f",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-038.woff2",
+      "originalSha256": "e633b8e0d7680a2de52b1dfd7054037fcd819779030224f03a2aa32fbe947b0b",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-038.woff2",
+      "sha256": "e633b8e0d7680a2de52b1dfd7054037fcd819779030224f03a2aa32fbe947b0b",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-039.woff2",
+      "originalSha256": "1a3c317decd446535f89211a82f7d2bf57e96ee5bc5b4295fad527a18ff852e9",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-039.woff2",
+      "sha256": "1a3c317decd446535f89211a82f7d2bf57e96ee5bc5b4295fad527a18ff852e9",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-040.woff2",
+      "originalSha256": "26032e7ffc542e2a9b9270ce0df1419339213315c7381b045706d073430815da",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-040.woff2",
+      "sha256": "26032e7ffc542e2a9b9270ce0df1419339213315c7381b045706d073430815da",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-041.woff2",
+      "originalSha256": "d3533c980febeab627e3872e85a566eae7b255dc539a83ee74f6f0a656f6a6ec",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-041.woff2",
+      "sha256": "d3533c980febeab627e3872e85a566eae7b255dc539a83ee74f6f0a656f6a6ec",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-042.woff2",
+      "originalSha256": "5abc52a85afef8ae073e0d74ed797f34c9a8aa715077c42545173482715d9b8d",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-042.woff2",
+      "sha256": "5abc52a85afef8ae073e0d74ed797f34c9a8aa715077c42545173482715d9b8d",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-043.woff2",
+      "originalSha256": "b2e1111af819baebc0f70d1d1b4e79fe9866797a2de8a0f7b5f838172702957d",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-043.woff2",
+      "sha256": "b2e1111af819baebc0f70d1d1b4e79fe9866797a2de8a0f7b5f838172702957d",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-044.woff2",
+      "originalSha256": "9fa3ed5757b03790f623de316039da624b721a9a89d74547a6d39a13ef273d6c",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-044.woff2",
+      "sha256": "9fa3ed5757b03790f623de316039da624b721a9a89d74547a6d39a13ef273d6c",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-045.woff2",
+      "originalSha256": "584db7fd356be339665cef5491b49c767bbeac9b9a74e3b49bd88ae9689c8969",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-045.woff2",
+      "sha256": "584db7fd356be339665cef5491b49c767bbeac9b9a74e3b49bd88ae9689c8969",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-046.woff2",
+      "originalSha256": "54cbbc6976307d2caae5550ff3c91de5a3e90f7a9079a2da927a98f93226888e",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-046.woff2",
+      "sha256": "54cbbc6976307d2caae5550ff3c91de5a3e90f7a9079a2da927a98f93226888e",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-047.woff2",
+      "originalSha256": "5e3f72da03fee4c363f34df09404787385b847f7369ea549429130044928b6e9",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-047.woff2",
+      "sha256": "5e3f72da03fee4c363f34df09404787385b847f7369ea549429130044928b6e9",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-049.woff2",
+      "originalSha256": "0489e6325e3c62ff5f5d2a12acd91ce4fc892fa6c084370b316c2503bb73d19d",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-049.woff2",
+      "sha256": "0489e6325e3c62ff5f5d2a12acd91ce4fc892fa6c084370b316c2503bb73d19d",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-048.woff2",
+      "originalSha256": "f495a9da49054923d4661298cc4113e0edf32233c1bd6a19e5714b7b923f5836",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-048.woff2",
+      "sha256": "f495a9da49054923d4661298cc4113e0edf32233c1bd6a19e5714b7b923f5836",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-050.woff2",
+      "originalSha256": "3f7e66762242e69b0806c4c208a142a020779a8f7b4689cc9469a43d384fdcf6",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-050.woff2",
+      "sha256": "3f7e66762242e69b0806c4c208a142a020779a8f7b4689cc9469a43d384fdcf6",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-051.woff2",
+      "originalSha256": "8eacda7a7c8bb6b65032f03d568b61484a4623abb1810c2bc4ab97d9bb3d4e0c",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-051.woff2",
+      "sha256": "8eacda7a7c8bb6b65032f03d568b61484a4623abb1810c2bc4ab97d9bb3d4e0c",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-052.woff2",
+      "originalSha256": "3c0330ef0ab71a33c0d45d0b4db6708826786381e6d66b27450eefbb7c45050d",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-052.woff2",
+      "sha256": "3c0330ef0ab71a33c0d45d0b4db6708826786381e6d66b27450eefbb7c45050d",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-053.woff2",
+      "originalSha256": "a57d4da27df2b219ec08522a933ae10c05b27617543d444f93d127bf894b9fa7",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-053.woff2",
+      "sha256": "a57d4da27df2b219ec08522a933ae10c05b27617543d444f93d127bf894b9fa7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-054.woff2",
+      "originalSha256": "308129dc1b8400748fc613026f0c0c98f205c82f4d3b21ecf0a0feec10c26908",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-054.woff2",
+      "sha256": "308129dc1b8400748fc613026f0c0c98f205c82f4d3b21ecf0a0feec10c26908",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-055.woff2",
+      "originalSha256": "af29df523dc6593305443311bcfa55e5eb07c44392a4d18f9c29ce15db9a2a77",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-055.woff2",
+      "sha256": "af29df523dc6593305443311bcfa55e5eb07c44392a4d18f9c29ce15db9a2a77",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-056.woff2",
+      "originalSha256": "eb970981478e1aa4113ed5dfa9037be8b0ae8839b0ff73bf8c4a466a802d9329",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-056.woff2",
+      "sha256": "eb970981478e1aa4113ed5dfa9037be8b0ae8839b0ff73bf8c4a466a802d9329",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-057.woff2",
+      "originalSha256": "eaf44e84ac12a51ec3862fc7cd271340bef9e06467b4c715e112bb61ae7e18cb",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-057.woff2",
+      "sha256": "eaf44e84ac12a51ec3862fc7cd271340bef9e06467b4c715e112bb61ae7e18cb",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-058.woff2",
+      "originalSha256": "c96e509a0d9d95a4a970851904e3241be2e6def26a491ba1035b43358568d12a",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-058.woff2",
+      "sha256": "c96e509a0d9d95a4a970851904e3241be2e6def26a491ba1035b43358568d12a",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-059.woff2",
+      "originalSha256": "b615dcc1c6e3d92dae19fed7dd2f18c9b86928a099fbdda769509c33608ae17a",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-059.woff2",
+      "sha256": "b615dcc1c6e3d92dae19fed7dd2f18c9b86928a099fbdda769509c33608ae17a",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-060.woff2",
+      "originalSha256": "bbcfab955aaffa06f20caca290e1ff0259dd5fdb18266e1e1f319c4e6498c0d8",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-060.woff2",
+      "sha256": "bbcfab955aaffa06f20caca290e1ff0259dd5fdb18266e1e1f319c4e6498c0d8",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-061.woff2",
+      "originalSha256": "c97f99e290ff4e90cf428ec13e2e38c6f930a304b6649937390a077af2e428b7",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-061.woff2",
+      "sha256": "c97f99e290ff4e90cf428ec13e2e38c6f930a304b6649937390a077af2e428b7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-062.woff2",
+      "originalSha256": "7c81c4bb6a931bf3d00472340b59aa39e394f424d0651edc91a315294705a6de",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-062.woff2",
+      "sha256": "7c81c4bb6a931bf3d00472340b59aa39e394f424d0651edc91a315294705a6de",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-063.woff2",
+      "originalSha256": "784423c3db3517c4d312b8aebb28b8c4bcacb9c83d28386cec4cb9a56eb067fe",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-063.woff2",
+      "sha256": "784423c3db3517c4d312b8aebb28b8c4bcacb9c83d28386cec4cb9a56eb067fe",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-064.woff2",
+      "originalSha256": "5893df79c93f63a1d1ddb70b625e8a72716b6502b2a0fdc6a40e8bbcdb6fb004",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-064.woff2",
+      "sha256": "5893df79c93f63a1d1ddb70b625e8a72716b6502b2a0fdc6a40e8bbcdb6fb004",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-065.woff2",
+      "originalSha256": "f322ddc2cb351c384c1960ba1924d03cf45022e7cf3056e499f64c5bed660480",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-065.woff2",
+      "sha256": "f322ddc2cb351c384c1960ba1924d03cf45022e7cf3056e499f64c5bed660480",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-066.woff2",
+      "originalSha256": "590534eb6242bb90e48e7eb40280d326a557fcc6d67f912d4bb2c30f1053f2a1",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-066.woff2",
+      "sha256": "590534eb6242bb90e48e7eb40280d326a557fcc6d67f912d4bb2c30f1053f2a1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-067.woff2",
+      "originalSha256": "2f87df2f5e7db83be2f3a2f43f9a785506089afce304ee1c586d239264c99ebf",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-067.woff2",
+      "sha256": "2f87df2f5e7db83be2f3a2f43f9a785506089afce304ee1c586d239264c99ebf",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-068.woff2",
+      "originalSha256": "9dbfab49e95c56a0edfb7e2c101d82f6914600c17bc82f09bbe9f5b1454b3857",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-068.woff2",
+      "sha256": "9dbfab49e95c56a0edfb7e2c101d82f6914600c17bc82f09bbe9f5b1454b3857",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-069.woff2",
+      "originalSha256": "7cf239b539158ad2c241f35fc0880c9bf190210dab7e7a22a491d8b7096e4492",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-069.woff2",
+      "sha256": "7cf239b539158ad2c241f35fc0880c9bf190210dab7e7a22a491d8b7096e4492",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-070.woff2",
+      "originalSha256": "e2ccacfc198335dc35fff585f22d660770a592f3025ad061e27ddd297e7d5047",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-070.woff2",
+      "sha256": "e2ccacfc198335dc35fff585f22d660770a592f3025ad061e27ddd297e7d5047",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-071.woff2",
+      "originalSha256": "0ca9a2907ea4febbba8cc5a013611d891c75dc6a21c7791cf658d08d87458538",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-071.woff2",
+      "sha256": "0ca9a2907ea4febbba8cc5a013611d891c75dc6a21c7791cf658d08d87458538",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-072.woff2",
+      "originalSha256": "4c2b6f3335d935baf6d3e07345358982d403ee75184f79546faaba7376cc6f25",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-072.woff2",
+      "sha256": "4c2b6f3335d935baf6d3e07345358982d403ee75184f79546faaba7376cc6f25",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-073.woff2",
+      "originalSha256": "f31c486695f81b6759a8af5f3ff09b1e7dcc31fe9a824d11465a99433d3a55f1",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-073.woff2",
+      "sha256": "f31c486695f81b6759a8af5f3ff09b1e7dcc31fe9a824d11465a99433d3a55f1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-074.woff2",
+      "originalSha256": "a347eeba2fc16d4cc9900f18bb4c9e445ffa0c5fc4727dc47f1f1d2f5f9c7939",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-074.woff2",
+      "sha256": "a347eeba2fc16d4cc9900f18bb4c9e445ffa0c5fc4727dc47f1f1d2f5f9c7939",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-075.woff2",
+      "originalSha256": "e18a89e67797ce72316a5462643b0e6478f5bc1fd2cd8c92dc80327fe6c3f2ba",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-075.woff2",
+      "sha256": "e18a89e67797ce72316a5462643b0e6478f5bc1fd2cd8c92dc80327fe6c3f2ba",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-076.woff2",
+      "originalSha256": "9f4f1834b67d6d506fdf83c897fd42dff56da675386657d8b40fdbddffc7c706",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-076.woff2",
+      "sha256": "9f4f1834b67d6d506fdf83c897fd42dff56da675386657d8b40fdbddffc7c706",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-077.woff2",
+      "originalSha256": "60a2b21e1d22c899d4cd3ad171f0fefbb359f92118f21e7fb5301e8a35907bcb",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-077.woff2",
+      "sha256": "60a2b21e1d22c899d4cd3ad171f0fefbb359f92118f21e7fb5301e8a35907bcb",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-078.woff2",
+      "originalSha256": "cb6641ba43df4b5324158ae84563d0d77035e40c8ab57eb157fda37ce6da9470",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-078.woff2",
+      "sha256": "cb6641ba43df4b5324158ae84563d0d77035e40c8ab57eb157fda37ce6da9470",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-079.woff2",
+      "originalSha256": "20e6ab41fe23ead1e0cbe73c5e6fede09299e680d5d74342de73a7b9741e97ae",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-079.woff2",
+      "sha256": "20e6ab41fe23ead1e0cbe73c5e6fede09299e680d5d74342de73a7b9741e97ae",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-080.woff2",
+      "originalSha256": "1d98ff6aa51801db53ffa1c9f6ac6803d7c8d9e9a427714e974ed0be06f1d529",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-080.woff2",
+      "sha256": "1d98ff6aa51801db53ffa1c9f6ac6803d7c8d9e9a427714e974ed0be06f1d529",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-082.woff2",
+      "originalSha256": "f795db4dfff944a70dd997582140fdb4377843897e4a5427e2b17ccf9fe0d6c7",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-082.woff2",
+      "sha256": "f795db4dfff944a70dd997582140fdb4377843897e4a5427e2b17ccf9fe0d6c7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-084.woff2",
+      "originalSha256": "cbee253d64a593c2caa7cacdc42425a20baf021ebd108e70ca805b542fb327ec",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-084.woff2",
+      "sha256": "cbee253d64a593c2caa7cacdc42425a20baf021ebd108e70ca805b542fb327ec",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-083.woff2",
+      "originalSha256": "322b547fcb92fce23dc24bd66061aadaad8a674b22dc6101e2a9387a6fc519b3",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-083.woff2",
+      "sha256": "322b547fcb92fce23dc24bd66061aadaad8a674b22dc6101e2a9387a6fc519b3",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-085.woff2",
+      "originalSha256": "515790dec08e1d5073381197381d15a34fd912595272f2f228d90e38a254ac65",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-085.woff2",
+      "sha256": "515790dec08e1d5073381197381d15a34fd912595272f2f228d90e38a254ac65",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-086.woff2",
+      "originalSha256": "bc7c60fddc78c190f13cc0b9532cfcd86584bae5edeb902bfca68079af585c5e",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-086.woff2",
+      "sha256": "bc7c60fddc78c190f13cc0b9532cfcd86584bae5edeb902bfca68079af585c5e",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-088.woff2",
+      "originalSha256": "d07fcc88f2d60e19c51f5511a96f5c4e3f3132497681f3b29f459c3df34cfa12",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-088.woff2",
+      "sha256": "d07fcc88f2d60e19c51f5511a96f5c4e3f3132497681f3b29f459c3df34cfa12",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-089.woff2",
+      "originalSha256": "f8afcc929218f43339a65b6311bc6c94ae01b85cb249fbc9f95496e8a9b26f18",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-089.woff2",
+      "sha256": "f8afcc929218f43339a65b6311bc6c94ae01b85cb249fbc9f95496e8a9b26f18",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-093.woff2",
+      "originalSha256": "edb61c07fde99722a0b1a0f6d6ce1b1e54884bf6a7e57a1c77a1336fa684a796",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-093.woff2",
+      "sha256": "edb61c07fde99722a0b1a0f6d6ce1b1e54884bf6a7e57a1c77a1336fa684a796",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-094.woff2",
+      "originalSha256": "98cf7858f2595bcf62af0d34bc641c8fcf9a69a8af0af04d511e8fb9717422dd",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-094.woff2",
+      "sha256": "98cf7858f2595bcf62af0d34bc641c8fcf9a69a8af0af04d511e8fb9717422dd",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-095.woff2",
+      "originalSha256": "7b31568030edc4c461d531e82ba13e20b52878dfb688a7ed4ed6b94122673530",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-095.woff2",
+      "sha256": "7b31568030edc4c461d531e82ba13e20b52878dfb688a7ed4ed6b94122673530",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-096.woff2",
+      "originalSha256": "0ea7fcece746e563e1715a4a8cef873f82d3f467a198898d9604f6b2d4183517",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-096.woff2",
+      "sha256": "0ea7fcece746e563e1715a4a8cef873f82d3f467a198898d9604f6b2d4183517",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-097.woff2",
+      "originalSha256": "aadba45ffebdbee3b5bf3fdafabb01474e240d4b50e8057061eee506ee839187",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-097.woff2",
+      "sha256": "aadba45ffebdbee3b5bf3fdafabb01474e240d4b50e8057061eee506ee839187",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-098.woff2",
+      "originalSha256": "dee1c1f3218624b2adac6eec451e11be34b10bdac2baf9c9201b9d910d6266b3",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-098.woff2",
+      "sha256": "dee1c1f3218624b2adac6eec451e11be34b10bdac2baf9c9201b9d910d6266b3",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-099.woff2",
+      "originalSha256": "f99d7748082b1504fb78a6034dc5985a1882cc88d434a399ebb62a7b137ecd2b",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-099.woff2",
+      "sha256": "f99d7748082b1504fb78a6034dc5985a1882cc88d434a399ebb62a7b137ecd2b",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-100.woff2",
+      "originalSha256": "888ffd157c3a70f2fcea3434325c0b44ac74085fcd327b8bba3dfb2c9a5472dc",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-100.woff2",
+      "sha256": "888ffd157c3a70f2fcea3434325c0b44ac74085fcd327b8bba3dfb2c9a5472dc",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-101.woff2",
+      "originalSha256": "3f3bb26078adebf2ba690ef311ea8a0ce14a8105d00e26e5a4837e406525ab12",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-101.woff2",
+      "sha256": "3f3bb26078adebf2ba690ef311ea8a0ce14a8105d00e26e5a4837e406525ab12",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-102.woff2",
+      "originalSha256": "e239c890fc7551935c89583900bb95398f17a7013b4b2827ba53d54638a5e464",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-102.woff2",
+      "sha256": "e239c890fc7551935c89583900bb95398f17a7013b4b2827ba53d54638a5e464",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-103.woff2",
+      "originalSha256": "af701003fac5308b865fcafff53addda6c77900fccb7c2c23b300043e143f350",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-103.woff2",
+      "sha256": "af701003fac5308b865fcafff53addda6c77900fccb7c2c23b300043e143f350",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-104.woff2",
+      "originalSha256": "d17f915bae820174226422bc41ef3eece4a666ad29540a8b8d601f4a02df7cf0",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-104.woff2",
+      "sha256": "d17f915bae820174226422bc41ef3eece4a666ad29540a8b8d601f4a02df7cf0",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-105.woff2",
+      "originalSha256": "a0834d3703f0cd26b9f6276133bbe92a500441f7898f879bb753273bacfea435",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-105.woff2",
+      "sha256": "a0834d3703f0cd26b9f6276133bbe92a500441f7898f879bb753273bacfea435",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-106.woff2",
+      "originalSha256": "9d706368eef254e9bfac00d7156dc38fb96fcf241ae937d716e319d2a7ece8bb",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-106.woff2",
+      "sha256": "9d706368eef254e9bfac00d7156dc38fb96fcf241ae937d716e319d2a7ece8bb",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-107.woff2",
+      "originalSha256": "a7b1017196cf9ada0ea873970fe875d0fd91b52d9c471694aafd843243c94306",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-107.woff2",
+      "sha256": "a7b1017196cf9ada0ea873970fe875d0fd91b52d9c471694aafd843243c94306",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-108.woff2",
+      "originalSha256": "93ac5a2636e109ae5c9379ed08dfb98e0fc51a120a9e7c2614f4ac444bf10813",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-108.woff2",
+      "sha256": "93ac5a2636e109ae5c9379ed08dfb98e0fc51a120a9e7c2614f4ac444bf10813",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-109.woff2",
+      "originalSha256": "bdff359cea9d579ec3786f36e60f364d18209f1b1e85d3e445390af7cd24893b",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-109.woff2",
+      "sha256": "bdff359cea9d579ec3786f36e60f364d18209f1b1e85d3e445390af7cd24893b",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-110.woff2",
+      "originalSha256": "caeca696d89408dd48deaa502fa6a607b96e013e0ebe1a524bbde99ddb7ce8a2",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-110.woff2",
+      "sha256": "caeca696d89408dd48deaa502fa6a607b96e013e0ebe1a524bbde99ddb7ce8a2",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-111.woff2",
+      "originalSha256": "5fbdfac27f5e47c0f1cba0acf746684e92e5b772af63694a55e867850257a33d",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-111.woff2",
+      "sha256": "5fbdfac27f5e47c0f1cba0acf746684e92e5b772af63694a55e867850257a33d",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-112.woff2",
+      "originalSha256": "e66d22f51b034b69de99a4f1b0767bf1ab735b2663d5157d1d6ee7ab67afecf7",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-112.woff2",
+      "sha256": "e66d22f51b034b69de99a4f1b0767bf1ab735b2663d5157d1d6ee7ab67afecf7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-113.woff2",
+      "originalSha256": "2499468a97ccadce0b79af9332e1298e879b7598b147c7af86763542c0ebcc38",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-113.woff2",
+      "sha256": "2499468a97ccadce0b79af9332e1298e879b7598b147c7af86763542c0ebcc38",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-114.woff2",
+      "originalSha256": "add1a0c89d429f68cf0f3f79f8f6cbd2fcab806e7d7cd86b0c7420f37ab04d02",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-114.woff2",
+      "sha256": "add1a0c89d429f68cf0f3f79f8f6cbd2fcab806e7d7cd86b0c7420f37ab04d02",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-115.woff2",
+      "originalSha256": "668ea6977cf76a075a82c7f63fdc7b7b0a9c5a18f9503f98c79f8605cee315d1",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-115.woff2",
+      "sha256": "668ea6977cf76a075a82c7f63fdc7b7b0a9c5a18f9503f98c79f8605cee315d1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-116.woff2",
+      "originalSha256": "69aae8ed6b8c6f912772c45cf12640b1c2e98ef1a1e608e2dfc1e3c085ee6a31",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-116.woff2",
+      "sha256": "69aae8ed6b8c6f912772c45cf12640b1c2e98ef1a1e608e2dfc1e3c085ee6a31",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-118.woff2",
+      "originalSha256": "f513bd11af69b13ac316e7ba6d0fd6ecc66c5c5003b4768793ed42391734d2c7",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-118.woff2",
+      "sha256": "f513bd11af69b13ac316e7ba6d0fd6ecc66c5c5003b4768793ed42391734d2c7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-117.woff2",
+      "originalSha256": "c3f971276bd16f3c040709fde9a279391c49434ed065186f4719f031d5829486",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-117.woff2",
+      "sha256": "c3f971276bd16f3c040709fde9a279391c49434ed065186f4719f031d5829486",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-119.woff2",
+      "originalSha256": "e8e886dcc74f136c712b176fa0b6aa975737ce45616c4f9ba95c7062cb1719ed",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-119.woff2",
+      "sha256": "e8e886dcc74f136c712b176fa0b6aa975737ce45616c4f9ba95c7062cb1719ed",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-120.woff2",
+      "originalSha256": "7f589940251f2674e10488844cf39460bf48455f32a49bb4b875ff3579ea442f",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-120.woff2",
+      "sha256": "7f589940251f2674e10488844cf39460bf48455f32a49bb4b875ff3579ea442f",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-121.woff2",
+      "originalSha256": "a95fad2cdf3d54e7cfb4f6a9f47ef6311c950e4c55ddbd13cba85e0496199ae7",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-121.woff2",
+      "sha256": "a95fad2cdf3d54e7cfb4f6a9f47ef6311c950e4c55ddbd13cba85e0496199ae7",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-122.woff2",
+      "originalSha256": "0ab1ba39e5e21fbc431f93ee0e1ad19296c4aea35009686cbcb702366b7ceed8",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-122.woff2",
+      "sha256": "0ab1ba39e5e21fbc431f93ee0e1ad19296c4aea35009686cbcb702366b7ceed8",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-123.woff2",
+      "originalSha256": "b990396c0846c05ba39826458092d7c16ef8be44026d03b78be350760aeaa87f",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-123.woff2",
+      "sha256": "b990396c0846c05ba39826458092d7c16ef8be44026d03b78be350760aeaa87f",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-124.woff2",
+      "originalSha256": "1beb42153a1511f96ff36d96c77c927a950839fdc4173d48d38d034c5b1da9fc",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-124.woff2",
+      "sha256": "1beb42153a1511f96ff36d96c77c927a950839fdc4173d48d38d034c5b1da9fc",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-125.woff2",
+      "originalSha256": "19ee1b005968ab9500c10a0c1089b973a4a3c68172f4b51b4dd4c213e6768489",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-125.woff2",
+      "sha256": "19ee1b005968ab9500c10a0c1089b973a4a3c68172f4b51b4dd4c213e6768489",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-126.woff2",
+      "originalSha256": "67532bc193a1abaa73184531dfb4d4a098b7823cc62be12a07b94ba3d3ba037d",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-126.woff2",
+      "sha256": "67532bc193a1abaa73184531dfb4d4a098b7823cc62be12a07b94ba3d3ba037d",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-127.woff2",
+      "originalSha256": "06ccbd21af7c1c11b7936e6386c153bd8f803493aa6ee0ed598f768c19a10112",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-127.woff2",
+      "sha256": "06ccbd21af7c1c11b7936e6386c153bd8f803493aa6ee0ed598f768c19a10112",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-128.woff2",
+      "originalSha256": "dcaff89935896b3c61b28fada49ad6551e8d601c50c2459906318e1282f0bc75",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-128.woff2",
+      "sha256": "dcaff89935896b3c61b28fada49ad6551e8d601c50c2459906318e1282f0bc75",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-129.woff2",
+      "originalSha256": "d341269dcabddca840d8bf6eb52aa34dd339e26e2c43cf94df010e4e95d02efc",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-129.woff2",
+      "sha256": "d341269dcabddca840d8bf6eb52aa34dd339e26e2c43cf94df010e4e95d02efc",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-130.woff2",
+      "originalSha256": "a42377fdd2d6fa696be49e59c3cc4670780c1d7b58458c55089f1a6fc8dbba90",
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-130.woff2",
+      "sha256": "a42377fdd2d6fa696be49e59c3cc4670780c1d7b58458c55089f1a6fc8dbba90",
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "https://openai.com/icons/cms/a7687e3ce5db398c/sidebar-hidden.svg",
+      "originalSha256": "b3b26a01d4f923f45a893bb7c8ba4dc39a9f4266ab8b7b22e8db1039f68af678",
+      "file": "public/icons/cms/a7687e3ce5db398c/sidebar-hidden.svg",
+      "sha256": "b3b26a01d4f923f45a893bb7c8ba4dc39a9f4266ab8b7b22e8db1039f68af678",
+      "mime": "image/svg+xml"
+    }
+  ],
+  "supportFiles": [
+    {
+      "file": "public/_openai/offline-adapter.js",
+      "sha256": "79ef5ea8f942907acb4f8c42cf56f03afa07645465b4398bc11507a4604a670d"
+    },
+    {
+      "file": "public/_openai/noop.js",
+      "sha256": "1948df738f6fea92d73f1e80d27250498878f1eb06be4aaad05ce35b8d3fad52"
+    },
+    {
+      "file": "public/_openai/noop.json",
+      "sha256": "b493cdb3b30ea63f6a924f814dfccfcfe305dac02106f9994ce2bcb2e8ed28c4"
+    },
+    {
+      "file": "public/__static_cloudflareinsights_com_____/beacon.min.js",
+      "sha256": "1948df738f6fea92d73f1e80d27250498878f1eb06be4aaad05ce35b8d3fad52"
+    }
+  ]
+}

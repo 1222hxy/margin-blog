@@ -29,7 +29,7 @@ test("nine theme/layout combinations on desktop and mobile", async ({
   }
 });
 test("search, mode, diagram, image and keyboard", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/blog/");
   await expect(page.locator(".paper-home h1")).toBeVisible();
   await page.getByRole("button", { name: "搜索文章" }).click();
   await page.getByRole("searchbox", { name: "搜索关键词" }).fill("公式");

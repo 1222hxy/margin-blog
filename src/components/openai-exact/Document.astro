@@ -1,0 +1,6 @@
+---
+// Published OpenAI HTML + original Next client runtime. No Base layout or blog
+// stylesheet is applied: both would alter the source document's cascade/DOM.
+import document from '../../../rebuilds/openai-exact/port/document.html?raw';
+---
+<Fragment set:html={document} />
