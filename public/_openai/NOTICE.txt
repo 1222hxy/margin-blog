@@ -1,5 +1,8 @@
 Nonofficial reproduction for learning and visual comparison.
 Original page: https://openai.com/zh-Hans-CN/index/grid-protectors-program/
+Additional component source: https://openai.com/zh-Hans-CN/index/introducing-images-2-6/
+The reusable theme includes original tab and testimonial components from this
+additional source. Third-party company marks remain with their rightsholders.
 The OpenAI name, marks, article, illustrations, icons, fonts and original site
 code remain the property of their respective rightsholders. This reproduction
 is not operated by, endorsed by, or affiliated with OpenAI.

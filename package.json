@@ -15,7 +15,10 @@
     "prebuild": "npm run content:generate && npm run fonts:build",
     "predev": "npm run content:generate && npm run fonts:build",
     "content:generate": "node scripts/generate-tsx.mjs",
-    "precheck": "npm run content:generate"
+    "precheck": "npm run content:generate",
+    "theme:extract": "node scripts/extract-openai-theme.mjs",
+    "theme:verify": "node scripts/verify-openai-exact.mjs && node scripts/verify-openai-theme.mjs",
+    "theme:export": "node scripts/export-openai-theme.mjs"
   },
   "keywords": [],
   "author": "",
@@ -51,6 +54,7 @@
     "@playwright/test": "^1.64.1",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "parse5": "7.3.0",
     "prettier": "^3.9.10",
     "prettier-plugin-astro": "^1.1.2",
     "typescript": "^6.0.3",

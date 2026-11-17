@@ -1,0 +1,35 @@
+---
+import ArticlePage from '../../../themes/openai/ArticlePage.astro';
+import { referenceArticle, proseTemplates, paragraph, heading, Tabs, Testimonial } from '../../../themes/openai';
+import type { ArticleData } from '../../../themes/openai';
+const templates = proseTemplates(referenceArticle.bodyHtml);
+const sections = [
+  { text: '内容与排版', id: 'content', headlineTag: 'h2' as const },
+  { text: '原版标签控件', id: 'tabs', headlineTag: 'h2' as const },
+  { text: '原版引语组件', id: 'quote', headlineTag: 'h2' as const },
+];
+const tabs = Tabs({ id: 'theme-example', items: [
+  { id: 'structure', label: '结构', html: paragraph('页面由独立的导航、标题、工具栏、目录、正文、作者和页脚组成。', templates) },
+  { id: 'content-data', label: '内容', html: paragraph('修改文章数据即可替换标题、摘要、日期、分类、标签和正文，控件加载后仍保持新内容。', templates) },
+  { id: 'verification', label: '验证', html: paragraph('原始页面始终保留为基准。组件化不会放宽像素对拍的验收标准。', templates) },
+] });
+const article: ArticleData = {
+  ...referenceArticle,
+  title: '同一套主题，另一篇文章',
+  description: '把已经验证的页面拆为可以组合、替换内容和独立导出的主题。',
+  seoDescription: 'OpenAI 文章主题的参数化示例，保留原版排版与交互控制器。',
+  date: '2026年11月17日', author: '页间', path: '/themes/openai/example/',
+  canonicalUrl: new URL('/themes/openai/example/', Astro.site).href,
+  categories: [{ name: '主题', slug: 'theme' }], tags: [{ name: '组件', slug: 'components' }, { name: '复用', slug: 'reuse' }],
+  audio: false, related: false, headings: sections,
+  bodyHtml: paragraph('这是使用同一主题生成的另一篇文章。首页仍保留原始页面作为像素级对拍基准。', templates)
+    + heading(sections[0].text, sections[0].id, templates)
+    + paragraph('文章内容和视觉结构分别维护。默认字体、正文宽度、断点、间距和控件状态沿用原站资源。', templates)
+    + heading(sections[1].text, sections[1].id, templates)
+    + '<template data-openai-component="tabs"></template>'
+    + heading(sections[2].text, sections[2].id, templates)
+    + '<template data-openai-component="quote"></template>',
+  components: { tabs, quote: Testimonial() },
+};
+---
+<ArticlePage article={article} />

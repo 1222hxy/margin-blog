@@ -2,7 +2,7 @@
 
 一个内容优先、支持独立主题与文章布局的中文博客。Astro + React + Tailwind CSS + shadcn/ui，部署到 Cloudflare Workers Static Assets。
 
-当前首页按用户要求展示 OpenAI 电网文章的非官方原样复刻，个人博客首页在 `/blog/`。完整原文、导航、字体和运行时均从保存的官网响应移植，12 个受测状态各 4 轮对拍为零像素差；覆盖范围及限制见 [移植记录](docs/openai-exact.md)。原始片段保存在 [组件目录](rebuilds/openai-exact/components/)，完整文档入口为 `src/components/openai-exact/Document.astro`。第三方文章、品牌与资产不属于本仓库 MIT 许可范围，见 [归属声明](public/_openai/NOTICE.txt)。
+当前首页按用户要求展示 OpenAI 电网文章的非官方原样复刻，个人博客首页在 `/blog/`。完整原文、导航、字体和运行时均从保存的官网响应移植，12 个受测状态各 4 轮对拍为零像素差；覆盖范围及限制见 [移植记录](docs/openai-exact.md)。可复用主题在 [src/themes/openai](src/themes/openai/README.md)，通过 `ArticlePage.astro` 配置文章，并同步处理 SSR 与客户端数据；示例地址为 `/themes/openai/example/`。`npm run theme:export` 导出独立工程到 `artifacts/openai-theme/`；[主题取证与验证记录](docs/themes/openai-theme.md) 包含 Images 2.6 标签页、引语的来源与边界。第三方文章、品牌与资产不属于本仓库 MIT 许可范围，见 [归属声明](public/_openai/NOTICE.txt)。
 
 ## 本地运行
 

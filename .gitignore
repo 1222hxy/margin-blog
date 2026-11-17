@@ -8,5 +8,6 @@ test-results/
 
 # Repeated self-comparison images stay local; reports retain every PNG hash.
 docs/compare/openai-exact/*-[1-3].png
+artifacts/
 
 src/generated/

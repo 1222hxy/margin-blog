@@ -9,3 +9,5 @@
 /public/__static*/** -text -whitespace
 /public/icons/** -text -whitespace
 /public/fonts/openai-sans/** -text -whitespace
+/src/themes/openai/blueprint/** -text -whitespace
+/src/themes/openai/native/** -text -whitespace

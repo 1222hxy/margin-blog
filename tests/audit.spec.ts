@@ -7,7 +7,7 @@ const routes = fs
   .map((p) => "/" + p.replaceAll("\\", "/").replace(/index.html$/, ""))
   // Original third-party DOM is checked by the exact-replay and pixel gates.
   // Its original links/navigation and accessibility quirks are not redesigned.
-  .filter((route) => route !== "/" && !route.startsWith("/zh-Hans-CN/"));
+  .filter((route) => route !== "/" && !route.startsWith("/zh-Hans-CN/") && !route.startsWith("/themes/openai/"));
 test("all published pages have accessible mobile layouts and valid internal links", async ({
   page,
   request,

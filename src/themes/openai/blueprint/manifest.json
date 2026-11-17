@@ -1,0 +1,118 @@
+{
+  "source": "rebuilds/openai-exact/port/document.html",
+  "sourceSha256": "9fc6a7a62966c8c698d15b070747829f94f4e8b6d453c02837a529e9d3f2e209",
+  "parts": [
+    {
+      "name": "Shell0",
+      "start": 0,
+      "end": 68490,
+      "file": "Shell0.html",
+      "sha256": "b0028c41f2780604aaf92aa73174806229bb1eb99789864d122c5546a46d96b8"
+    },
+    {
+      "name": "SiteHeader",
+      "start": 68490,
+      "end": 90902,
+      "file": "SiteHeader.html",
+      "sha256": "5456b8d03bc1902b0ea767e2962eac249983798a355f162e21f9e021a55eb24f"
+    },
+    {
+      "name": "Shell1",
+      "start": 90902,
+      "end": 92671,
+      "file": "Shell1.html",
+      "sha256": "db367fdb06966ba01cf4d8c58d047b03f12bddd64eabf1614e0cd73e923b325e"
+    },
+    {
+      "name": "ArticleHero",
+      "start": 92671,
+      "end": 94324,
+      "file": "ArticleHero.html",
+      "sha256": "a4fb6a703efe253a2b6ca731f17e2d5fd4499723c3a9b6859fd94e9f156a4c36"
+    },
+    {
+      "name": "Shell2",
+      "start": 94324,
+      "end": 94335,
+      "file": "Shell2.html",
+      "sha256": "93636fa047400919d3a6fa2c57a114596546d97c9681645ed857fb014fb8fb18"
+    },
+    {
+      "name": "ReadingControls",
+      "start": 94335,
+      "end": 96470,
+      "file": "ReadingControls.html",
+      "sha256": "e4667cc55af9bd0d9b504821b3e37e356b7b848ae734db7e9716a985aeb63a89"
+    },
+    {
+      "name": "Shell3",
+      "start": 96470,
+      "end": 96647,
+      "file": "Shell3.html",
+      "sha256": "5fb7db9600b6a76b56004f41ccc3d5295139f92f1fd5a49e4f559d554e9a4aba"
+    },
+    {
+      "name": "MobileContents",
+      "start": 96647,
+      "end": 98881,
+      "file": "MobileContents.html",
+      "sha256": "ba4a16109ea039d360880f56402070f5f2fd8ab496155c39113c3c47f9843238"
+    },
+    {
+      "name": "DesktopContents",
+      "start": 98881,
+      "end": 99905,
+      "file": "DesktopContents.html",
+      "sha256": "0c3de777d4f4df13b58e72cb48f2eda7ca3f1f7952520881e6fdb2c15f3a4e8c"
+    },
+    {
+      "name": "ArticleProse",
+      "start": 99905,
+      "end": 108726,
+      "file": "ArticleProse.html",
+      "sha256": "85d1c69039e2f35f5a81dbc1620afc976e7a82e265944aaf2305e74e8b2daf5b"
+    },
+    {
+      "name": "Shell4",
+      "start": 108726,
+      "end": 108732,
+      "file": "Shell4.html",
+      "sha256": "aac32651b10f567c461b9b4f255d6fb1fa6859b5368d8bd9a51af920ab21cf23"
+    },
+    {
+      "name": "AuthorBlock",
+      "start": 108732,
+      "end": 109681,
+      "file": "AuthorBlock.html",
+      "sha256": "a6df6a764ecedf9e6bd0c536ee037b230a09e33c28a235a5b645887ed0ddf990"
+    },
+    {
+      "name": "RelatedArticles",
+      "start": 109681,
+      "end": 121582,
+      "file": "RelatedArticles.html",
+      "sha256": "05c4dd7f8b77a7ce0f33450027221df359a6c89522deb9931f0b52dac1cf4ac9"
+    },
+    {
+      "name": "Shell5",
+      "start": 121582,
+      "end": 121616,
+      "file": "Shell5.html",
+      "sha256": "9659a1155a210964cff4ff58907897d5d132c110ac8f57075397496431cfd623"
+    },
+    {
+      "name": "SiteFooter",
+      "start": 121616,
+      "end": 148382,
+      "file": "SiteFooter.html",
+      "sha256": "ed9917d610399f5832fb2b5457c5af10ffeedc0688d403d93eac34c45a95608d"
+    },
+    {
+      "name": "Shell6",
+      "start": 148382,
+      "end": 350353,
+      "file": "Shell6.html",
+      "sha256": "3e49eaf06c1fccc153bc8b928a18575064fa9880c9d09a522f296837b45dd752"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "source": "https://openai.com/zh-Hans-CN/index/introducing-images-2-6/",
+  "sourceSha256": "37530905058cdc335a56d955e61fd491b41b431c7541653702bb3736d890dacd",
+  "inventory": [
+    {
+      "tag": "figure",
+      "classes": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+      "range": [
+        102485,
+        103945
+      ]
+    },
+    {
+      "tag": "figure",
+      "classes": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+      "range": [
+        105299,
+        106761
+      ]
+    },
+    {
+      "tag": "figure",
+      "classes": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+      "range": [
+        108356,
+        114047
+      ]
+    },
+    {
+      "tag": "figure",
+      "classes": "col-start-1 row-start-1 grid gap-5 self-start transition-opacity duration-250 ease-[cubic-bezier(0.23,1,0.32,1)] opacity-100",
+      "range": [
+        114805,
+        115754
+      ]
+    },
+    {
+      "tag": "figure",
+      "classes": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+      "range": [
+        116154,
+        119688
+      ]
+    },
+    {
+      "tag": "figure",
+      "classes": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+      "range": [
+        120106,
+        121568
+      ]
+    },
+    {
+      "tag": "figure",
+      "classes": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+      "range": [
+        122490,
+        123952
+      ]
+    },
+    {
+      "tag": "figure",
+      "classes": "col-start-1 row-start-1 grid gap-5 self-start transition-opacity duration-250 ease-[cubic-bezier(0.23,1,0.32,1)] opacity-100",
+      "range": [
+        125351,
+        126337
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "tablist",
+      "classes": "scrollable scrollable-horizontal scroll-mt-32 py-1 R7Wy8a_fixedEdges",
+      "range": [
+        127171,
+        129008
+      ]
+    },
+    {
+      "tag": "figure",
+      "classes": "col-start-1 row-start-1 grid gap-5 self-start transition-opacity duration-250 ease-[cubic-bezier(0.23,1,0.32,1)] opacity-100",
+      "range": [
+        170911,
+        171932
+      ]
+    },
+    {
+      "tag": "figure",
+      "classes": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+      "range": [
+        171972,
+        174959
+      ]
+    }
+  ],
+  "capsules": [
+    {
+      "id": "brand-tabs",
+      "row": "1e2"
+    },
+    {
+      "id": "testimonial",
+      "row": "1d6"
+    }
+  ],
+  "externalVideo": "Original Vimeo client and embeds; no invented replacement player."
+}

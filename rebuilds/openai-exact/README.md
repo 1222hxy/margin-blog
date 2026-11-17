@@ -29,7 +29,7 @@ npx playwright test tests/openai-exact.spec.ts
 
 `components/` 保存 9 个直接提取的原始 DOM 片段：SiteHeader、ArticleHero、ReadingControls、MobileContents、DesktopContents、ArticleProse、AuthorBlock、RelatedArticles、SiteFooter，以及 CSS/脚本依赖清单 `dependencies.json`。复用时必须同时保留祖先容器、主题变量和原版运行时；这些不是脱离依赖便能运行的参数化组件。
 
-`src/components/openai-exact/Document.astro` 是当前复用入口，可在其他 Astro 路由直接导入，不应再套个人博客 Base 布局。结构性拆分须重新对拍，不能混入旧近似版并声称像素一致。
+原始片段是取证材料。当前可参数化复用的衍生主题在 `src/themes/openai/`，入口 `ArticlePage.astro`，旧 `Document.astro` 仅作转入。主题按无损分段保留完整原文，修改内容时同步 SSR 与 Flight，且重新对拍。使用及独立导出见 `../../src/themes/openai/README.md`，不应再套个人博客 Base 布局。
 
 本篇没有评测表格。Terra 页的评测表格需要其对应证据单独复刻；黑底动效按用户指示暂缓。
 

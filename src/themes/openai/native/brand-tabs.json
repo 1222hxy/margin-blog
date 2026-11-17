@@ -1,0 +1,2368 @@
+{
+  "id": "brand-tabs",
+  "source": "https://openai.com/zh-Hans-CN/index/introducing-images-2-6/",
+  "sourceSha256": "37530905058cdc335a56d955e61fd491b41b431c7541653702bb3736d890dacd",
+  "sourceRow": "1e2",
+  "sourceRange": [
+    126950,
+    129188
+  ],
+  "html": "<div class=\"group col-span-full not-first:mt-16 not-last:mb-16\"><div class=\"flex flex-col gap-8\"><div class=\"@container w-full\"><div class=\"max-w-container @container w-full _39j3JG_container\"><div class=\"_39j3JG_region\"><nav class=\"scrollable scrollable-horizontal scroll-mt-32 py-1 R7Wy8a_fixedEdges\" style=\"--scrollable-edge-gutter:var(--tabs-gutter);--scrollable-edge-fade:var(--tabs-fade)\" role=\"tablist\" aria-label=\"标签\"><div class=\"relative min-w-fit R7Wy8a_track\"><div class=\"toc-collision-target mx-auto w-max\"><div class=\"relative flex items-center gap-2 rounded-full border border-primary-12 p-1\"><button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"3riZtJaBHIy4C9s8x4aPu6-panel\" id=\"3riZtJaBHIy4C9s8x4aPu6\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12 bg-primary-4\"><span>Picsart</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"6PDG6QBUWM2GB9Rp2EUeHp-panel\" id=\"6PDG6QBUWM2GB9Rp2EUeHp\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12\"><span>fal</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"66Z9s4uo3RKB4MGKm5PGkM-panel\" id=\"66Z9s4uo3RKB4MGKm5PGkM\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12\"><span>Sable</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"XbN18xRPe4e7pt8tPDeO6-panel\" id=\"XbN18xRPe4e7pt8tPDeO6\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12\"><span>Higgsfield</span></button></div></div></div></nav></div></div></div><div><div aria-busy=\"false\" class=\"relative min-w-0\"><div class=\"flow-root min-w-0\"><!--$--><div id=\"3riZtJaBHIy4C9s8x4aPu6-panel\" role=\"tabpanel\" aria-labelledby=\"3riZtJaBHIy4C9s8x4aPu6\" class=\"\"><div class=\"group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]\" data-layout=\"1-column-grid\"><div class=\"@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]\"><div class=\"col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target\"><section class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0\"><div class=\"col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3\"><div data-testid=\"testimonial-carousel-carousel-view\"><div class=\"border-primary-12 bg-secondary-100 dark:border-primary-4 dark:bg-tertiary-100 relative rounded-md border shadow-[0_18px_60px_rgb(0_0_0/0.08)] px-6 py-8\"><div data-testid=\"testimonial-carousel-scroll-region\" class=\"no-scrollbar relative scroll-smooth overflow-visible\"><div class=\"sticky inset-s-0 top-0 grid w-full\"><figure class=\"col-start-1 row-start-1 grid gap-5 self-start transition-opacity duration-250 ease-[cubic-bezier(0.23,1,0.32,1)] opacity-100\"><div data-testid=\"testimonial-carousel-card-header\" class=\"flex items-center justify-between gap-5 mb-4\"><span role=\"img\" aria-label=\"Picsart 徽标\" class=\"ms-2 dark:brightness-0 dark:invert block h-8 w-32 max-w-full bg-contain bg-left bg-no-repeat md:w-48\" style=\"background-image:url(&quot;/__images_ctfassets_net_____/kftzwdyauwt9/62RSGNsFRfbB7Ft1C1oKfi/b71fcdad4df221d93c496e0ce7c2b36e/picsart-black-quote-logo-compact.svg&quot;)\"></span></div><blockquote class=\"relative ms-[0.5em] text-h5 font-medium tracking-tight text-pretty text-primary-100\"><span class=\"absolute inset-s-[-0.5em] top-0\">“</span><span>在 Picsart，我们深知创作者有多看重图像生成速度。OpenAI 全新的 2.6 模型生成图像更快，结果更准确，角色形象也更一致。结合 Picsart 的高级编辑工具，创作者可以把更多时间用来尝试新想法、打磨细节，并将一个创意拓展为一整套社交媒体营销活动。</span>”</blockquote><figcaption class=\"ms-[0.5em] text-meta text-primary-60\"><span>—Davit Avoyan，Picsart 市场拓展总监</span></figcaption></figure></div></div></div></div></div></section><figure class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]\"><div data-tabs-autoplay-content=\"true\" class=\"col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3\"><div data-figure-content=\"true\" class=\"flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[&gt;:nth-child(2),&gt;[data-dotcom-chart-group]&gt;:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&amp;_[data-dotcom-chart-logical-container][style*=&#x27;width:_min-content&#x27;]]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-start\"><div class=\"w-full mx-auto transition-opacity duration-medium ease-curve-c max-w-container-desktop relative min-h-0\"><div class=\"relative min-h-0 w-full\"><div class=\"size-full\"><div class=\"group relative overflow-hidden rounded-md aspect-auto size-full bg-surface-loading\"><img alt=\"夕阳下，一头巨大的彩色玻璃鲸鱼漂浮在云雾缭绕的群山上方，旁边是一座石砌小教堂。\" data-nosnippet=\"true\" loading=\"lazy\" width=\"2048\" height=\"1152\" decoding=\"async\" data-nimg=\"1\" class=\"mx-auto\" style=\"color:transparent\" sizes=\"(min-width: 1728px) 1728px, 100vw\" srcSet=\"/__images_ctfassets_net_____/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png?w=640&amp;q=90&amp;fm=webp 640w, /__images_ctfassets_net_____/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png?w=750&amp;q=90&amp;fm=webp 750w, /__images_ctfassets_net_____/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png?w=828&amp;q=90&amp;fm=webp 828w, /__images_ctfassets_net_____/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png?w=1080&amp;q=90&amp;fm=webp 1080w, /__images_ctfassets_net_____/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png?w=1200&amp;q=90&amp;fm=webp 1200w, /__images_ctfassets_net_____/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png?w=1920&amp;q=90&amp;fm=webp 1920w, /__images_ctfassets_net_____/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png?w=2048&amp;q=90&amp;fm=webp 2048w, /__images_ctfassets_net_____/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png?w=3840&amp;q=90&amp;fm=webp 3840w\" src=\"/__images_ctfassets_net_____/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png?w=3840&amp;q=90&amp;fm=webp\"/></div></div></div></div></div></div></figure></div></div></div></div><!--/$--></div></div></div></div></div>",
+  "model": [
+    "$",
+    "div",
+    "21",
+    {
+      "className": "group col-span-full not-first:mt-16 not-last:mb-16",
+      "children": [
+        "$",
+        "$Sreact.fragment",
+        "2XuVyb1y4TrPTxOKtovUxC",
+        {
+          "children": [
+            [
+              "$",
+              "$L100029",
+              null,
+              {
+                "moduleIds": [
+                  "15041653949136763645"
+                ]
+              }
+            ],
+            [
+              "$",
+              "$L100034",
+              null,
+              {
+                "header": "$undefined",
+                "activeTab": "$undefined",
+                "autoplay": false,
+                "eyebrow": "$undefined",
+                "stickyStyle": "none",
+                "tabs": [
+                  {
+                    "content": [
+                      "$",
+                      "$Sreact.fragment",
+                      "1fhXXJ0k3MSx5RPBYoBe6W",
+                      {
+                        "children": [
+                          [
+                            "$",
+                            "$L100029",
+                            null,
+                            {
+                              "moduleIds": [
+                                "7148554184203125775"
+                              ]
+                            }
+                          ],
+                          [
+                            "$",
+                            "$L100027",
+                            null,
+                            {
+                              "activeClassName": "$undefined",
+                              "globalBannerOwner": "$undefined",
+                              "heroVariation": "$undefined",
+                              "pageOwnedBanner": null,
+                              "children": [
+                                "$",
+                                "div",
+                                null,
+                                {
+                                  "style": "$undefined",
+                                  "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                  "data-layout": "1-column-grid",
+                                  "data-multi-columns": "$undefined",
+                                  "children": [
+                                    null,
+                                    [
+                                      "$",
+                                      "div",
+                                      null,
+                                      {
+                                        "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]",
+                                        "children": [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "1Kdp6OhOfGFd0TzYK4hueM",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "4054486824111380140"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "$L100033",
+                                                      null,
+                                                      {
+                                                        "id": "1Kdp6OhOfGFd0TzYK4hueM",
+                                                        "testimonials": [
+                                                          {
+                                                            "testimonial": {
+                                                              "data": {},
+                                                              "content": [
+                                                                {
+                                                                  "data": {},
+                                                                  "content": [
+                                                                    {
+                                                                      "data": {},
+                                                                      "marks": [],
+                                                                      "value": "在 Picsart，我们深知创作者有多看重图像生成速度。OpenAI 全新的 2.6 模型生成图像更快，结果更准确，角色形象也更一致。结合 Picsart 的高级编辑工具，创作者可以把更多时间用来尝试新想法、打磨细节，并将一个创意拓展为一整套社交媒体营销活动。",
+                                                                      "nodeType": "text"
+                                                                    }
+                                                                  ],
+                                                                  "nodeType": "paragraph"
+                                                                }
+                                                              ],
+                                                              "nodeType": "document"
+                                                            },
+                                                            "attribution": {
+                                                              "data": {},
+                                                              "content": [
+                                                                {
+                                                                  "data": {},
+                                                                  "content": [
+                                                                    {
+                                                                      "data": {},
+                                                                      "marks": [],
+                                                                      "value": "—Davit Avoyan，Picsart 市场拓展总监",
+                                                                      "nodeType": "text"
+                                                                    }
+                                                                  ],
+                                                                  "nodeType": "paragraph"
+                                                                }
+                                                              ],
+                                                              "nodeType": "document"
+                                                            },
+                                                            "image": {
+                                                              "title": "Picsart — compact black quote logo",
+                                                              "description": "Official Picsart wordmark in black, with artwork sized to visually match the other customer quote logos.",
+                                                              "file": {
+                                                                "url": "//images.ctfassets.net/kftzwdyauwt9/62RSGNsFRfbB7Ft1C1oKfi/b71fcdad4df221d93c496e0ce7c2b36e/picsart-black-quote-logo-compact.svg",
+                                                                "details": {
+                                                                  "size": 6493,
+                                                                  "image": {
+                                                                    "width": 128,
+                                                                    "height": 32
+                                                                  }
+                                                                },
+                                                                "fileName": "picsart-black-quote-logo-compact.svg",
+                                                                "contentType": "image/svg+xml"
+                                                              }
+                                                            },
+                                                            "imageAlt": "Picsart 徽标",
+                                                            "imageDisplay": "logo",
+                                                            "triggerName": "Picsart",
+                                                            "id": "An4YpoEU5vnO9lTKQsNXo",
+                                                            "__typename": "testimonial"
+                                                          }
+                                                        ],
+                                                        "__typename": "componentTestimonialCarousel",
+                                                        "contentfulDebugAttributes": {},
+                                                        "children": "$undefined"
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ],
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "4ptySdKKctvjGJ947C8AgF",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "14893511203693019132"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "figure",
+                                                      null,
+                                                      {
+                                                        "id": "$undefined",
+                                                        "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                        "children": [
+                                                          "$",
+                                                          "div",
+                                                          null,
+                                                          {
+                                                            "data-tabs-autoplay-content": true,
+                                                            "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3",
+                                                            "children": [
+                                                              [
+                                                                "$",
+                                                                "div",
+                                                                null,
+                                                                {
+                                                                  "data-figure-content": true,
+                                                                  "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-start",
+                                                                  "children": [
+                                                                    [
+                                                                      "$",
+                                                                      "$L10002e",
+                                                                      "6qryjzncMdVrroaETvx2X7",
+                                                                      {
+                                                                        "asset": {
+                                                                          "title": "Picsart — glass whale image",
+                                                                          "description": "A giant multicolored glass whale floats above misty mountains beside a stone chapel at sunset.",
+                                                                          "file": {
+                                                                            "url": "//images.ctfassets.net/kftzwdyauwt9/5g2ztPz3EqktNQwQWa7Al8/d42c517c10fcbcb3c0da00bd5fe6b26e/picsart-glass-whale.png",
+                                                                            "details": {
+                                                                              "size": 5510351,
+                                                                              "image": {
+                                                                                "width": 2048,
+                                                                                "height": 1152
+                                                                              }
+                                                                            },
+                                                                            "fileName": "picsart-glass-whale.png",
+                                                                            "contentType": "image/png"
+                                                                          }
+                                                                        },
+                                                                        "altText": "夕阳下，一头巨大的彩色玻璃鲸鱼漂浮在云雾缭绕的群山上方，旁边是一座石砌小教堂。",
+                                                                        "videoShowMuteButton": true,
+                                                                        "useVimeoControls": false,
+                                                                        "showEmbeddedVideoControls": false,
+                                                                        "captionAlignment": "media-width",
+                                                                        "copyToClipboard": false,
+                                                                        "keyline": false,
+                                                                        "id": "6qryjzncMdVrroaETvx2X7",
+                                                                        "__typename": "mediaItem",
+                                                                        "caption": "$undefined"
+                                                                      }
+                                                                    ]
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "$undefined",
+                                                              "$undefined"
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ],
+                    "id": "3riZtJaBHIy4C9s8x4aPu6",
+                    "icon": "$undefined",
+                    "label": "Picsart",
+                    "analyticsIdentifier": "images-2-6-picsart",
+                    "deeplinkId": "$undefined",
+                    "contentAnchorIds": []
+                  },
+                  {
+                    "content": [
+                      "$",
+                      "$Sreact.fragment",
+                      "43M0KMB8DmYPeq7DInTrfu",
+                      {
+                        "children": [
+                          [
+                            "$",
+                            "$L100029",
+                            null,
+                            {
+                              "moduleIds": [
+                                "7148554184203125775"
+                              ]
+                            }
+                          ],
+                          [
+                            "$",
+                            "$L100027",
+                            null,
+                            {
+                              "activeClassName": "$undefined",
+                              "globalBannerOwner": "$undefined",
+                              "heroVariation": "$undefined",
+                              "pageOwnedBanner": null,
+                              "children": [
+                                "$",
+                                "div",
+                                null,
+                                {
+                                  "style": "$undefined",
+                                  "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                  "data-layout": "1-column-grid",
+                                  "data-multi-columns": "$undefined",
+                                  "children": [
+                                    null,
+                                    [
+                                      "$",
+                                      "div",
+                                      null,
+                                      {
+                                        "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]",
+                                        "children": [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "3fJi3H5luux6BbjiJkEYwq",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "4054486824111380140"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "$L100033",
+                                                      null,
+                                                      {
+                                                        "id": "3fJi3H5luux6BbjiJkEYwq",
+                                                        "testimonials": [
+                                                          {
+                                                            "testimonial": {
+                                                              "data": {},
+                                                              "content": [
+                                                                {
+                                                                  "data": {},
+                                                                  "content": [
+                                                                    {
+                                                                      "data": {},
+                                                                      "marks": [],
+                                                                      "value": "GPT-Image-2.6 Flare 能完成生产级图像编辑，速度约为 2.5 版的两倍。它能精准修改局部，让人脸和产品的外观保持一致，也能准确呈现多语言文本。这让它很适合在 fal 上处理大批量的电商内容和广告本地化任务。",
+                                                                      "nodeType": "text"
+                                                                    }
+                                                                  ],
+                                                                  "nodeType": "paragraph"
+                                                                }
+                                                              ],
+                                                              "nodeType": "document"
+                                                            },
+                                                            "attribution": {
+                                                              "data": {},
+                                                              "content": [
+                                                                {
+                                                                  "data": {},
+                                                                  "content": [
+                                                                    {
+                                                                      "data": {},
+                                                                      "marks": [],
+                                                                      "value": "—İlker İZGİ，fal 创意工程师",
+                                                                      "nodeType": "text"
+                                                                    }
+                                                                  ],
+                                                                  "nodeType": "paragraph"
+                                                                }
+                                                              ],
+                                                              "nodeType": "document"
+                                                            },
+                                                            "image": {
+                                                              "title": "fal — compact quote logo",
+                                                              "description": "Customer quote logo reduced proportionally by 15 percent from the preceding layout.",
+                                                              "file": {
+                                                                "url": "//images.ctfassets.net/kftzwdyauwt9/7cEKwwMM7BWvL4ffrlXWHZ/d70b1efc9d5afcc6c272c07b337d6fa4/fal-quote-logo-compact.svg",
+                                                                "details": {
+                                                                  "size": 3249,
+                                                                  "image": {
+                                                                    "width": 128,
+                                                                    "height": 32
+                                                                  }
+                                                                },
+                                                                "fileName": "fal-quote-logo-compact.svg",
+                                                                "contentType": "image/svg+xml"
+                                                              }
+                                                            },
+                                                            "imageAlt": "fal 徽标",
+                                                            "imageDisplay": "logo",
+                                                            "triggerName": "fal",
+                                                            "id": "5dGNcznncOG1WzjWWQxmbu",
+                                                            "__typename": "testimonial"
+                                                          }
+                                                        ],
+                                                        "__typename": "componentTestimonialCarousel",
+                                                        "contentfulDebugAttributes": {},
+                                                        "children": "$undefined"
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ],
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "5Fd5dG6yNGYsl9kWsJ0P0W",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "14893511203693019132"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "figure",
+                                                      null,
+                                                      {
+                                                        "id": "$undefined",
+                                                        "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                        "children": [
+                                                          "$",
+                                                          "div",
+                                                          null,
+                                                          {
+                                                            "data-tabs-autoplay-content": true,
+                                                            "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3",
+                                                            "children": [
+                                                              [
+                                                                "$",
+                                                                "div",
+                                                                null,
+                                                                {
+                                                                  "data-figure-content": true,
+                                                                  "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-start",
+                                                                  "children": [
+                                                                    [
+                                                                      "$",
+                                                                      "$Sreact.fragment",
+                                                                      "6wxCKBgihBpawvj7EyvxI8",
+                                                                      {
+                                                                        "children": [
+                                                                          [
+                                                                            "$",
+                                                                            "$L100029",
+                                                                            null,
+                                                                            {
+                                                                              "moduleIds": [
+                                                                                923075
+                                                                              ]
+                                                                            }
+                                                                          ],
+                                                                          [
+                                                                            "$",
+                                                                            "$L100038",
+                                                                            null,
+                                                                            {
+                                                                              "id": "6wxCKBgihBpawvj7EyvxI8",
+                                                                              "data": {
+                                                                                "beforeLabel": "Before",
+                                                                                "afterLabel": "After",
+                                                                                "sliderLabel": "Compare the marked-up living room with the edited result"
+                                                                              },
+                                                                              "subcomponents": "$undefined",
+                                                                              "reactComponent": "ImageComparision",
+                                                                              "display": "full-embed",
+                                                                              "media": [
+                                                                                {
+                                                                                  "asset": {},
+                                                                                  "altText": "一张客厅图片，红色标注要求将靠垫改为蓝色、移除植物和地毯，并将落地灯移到右侧。",
+                                                                                  "assetUrl": "/__images_ctfassets_net_____/kftzwdyauwt9/50IFJAzURDJeFT6j7jU9Cy/727871e6953a56bebb783f7c884f832f/images-2-6-fal-before.png",
+                                                                                  "videoShowMuteButton": true,
+                                                                                  "useVimeoControls": false,
+                                                                                  "showEmbeddedVideoControls": false,
+                                                                                  "captionAlignment": "content-grid",
+                                                                                  "truncateCaption": true,
+                                                                                  "centerCaption": false,
+                                                                                  "copyToClipboard": false,
+                                                                                  "keyline": false,
+                                                                                  "id": "6wGTjWHo1ZZuHou81OE2Sl",
+                                                                                  "__typename": "mediaItem"
+                                                                                },
+                                                                                {
+                                                                                  "asset": {},
+                                                                                  "altText": "编辑后的客厅：蓝色靠垫、清空的茶几、露出的木地板，落地灯已移到右侧。",
+                                                                                  "assetUrl": "/__images_ctfassets_net_____/kftzwdyauwt9/mOBUDnc6RlTLi1KU5S19r/2646cf2f1db9cfdf93250f201e8ab5de/images-2-6-fal-after.png",
+                                                                                  "videoShowMuteButton": true,
+                                                                                  "useVimeoControls": false,
+                                                                                  "showEmbeddedVideoControls": false,
+                                                                                  "captionAlignment": "content-grid",
+                                                                                  "truncateCaption": true,
+                                                                                  "centerCaption": false,
+                                                                                  "copyToClipboard": false,
+                                                                                  "keyline": false,
+                                                                                  "id": "6j9lz7Qqn4f40T6jhDy5vT",
+                                                                                  "__typename": "mediaItem"
+                                                                                }
+                                                                              ],
+                                                                              "__typename": "componentCustom"
+                                                                            }
+                                                                          ]
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              [
+                                                                "$",
+                                                                "figcaption",
+                                                                null,
+                                                                {
+                                                                  "className": "col-span-full flex w-full flex-col items-center gap-3 text-caption",
+                                                                  "children": [
+                                                                    "$",
+                                                                    "$L100032",
+                                                                    null,
+                                                                    {
+                                                                      "lineClamp": "$undefined",
+                                                                      "fullWidthCaption": true,
+                                                                      "center": false,
+                                                                      "children": [
+                                                                        "$",
+                                                                        "div",
+                                                                        null,
+                                                                        {
+                                                                          "className": "prose prose-caption my-0! max-w-none",
+                                                                          "children": [
+                                                                            [
+                                                                              "$",
+                                                                              "p",
+                                                                              "0",
+                                                                              {
+                                                                                "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                "children": [
+                                                                                  [
+                                                                                    "$",
+                                                                                    "i",
+                                                                                    "0",
+                                                                                    {
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "span",
+                                                                                          "text-0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              "按照这张照片上的红色标注进行修改。每个数字都标记了一个位置，图例框说明了该位置需要进行的操作。执行所有指令后，移除全部标注，包括数字和图例框，得到一张干净的照片。"
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "$undefined"
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ],
+                    "id": "6PDG6QBUWM2GB9Rp2EUeHp",
+                    "icon": "$undefined",
+                    "label": "fal",
+                    "analyticsIdentifier": "images-2-6-fal",
+                    "deeplinkId": "$undefined",
+                    "contentAnchorIds": []
+                  },
+                  {
+                    "content": [
+                      "$",
+                      "$Sreact.fragment",
+                      "2XUKvDbdY5EguWcjH3GjRs",
+                      {
+                        "children": [
+                          [
+                            "$",
+                            "$L100029",
+                            null,
+                            {
+                              "moduleIds": [
+                                "7148554184203125775"
+                              ]
+                            }
+                          ],
+                          [
+                            "$",
+                            "$L100027",
+                            null,
+                            {
+                              "activeClassName": "$undefined",
+                              "globalBannerOwner": "$undefined",
+                              "heroVariation": "$undefined",
+                              "pageOwnedBanner": null,
+                              "children": [
+                                "$",
+                                "div",
+                                null,
+                                {
+                                  "style": "$undefined",
+                                  "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                  "data-layout": "1-column-grid",
+                                  "data-multi-columns": "$undefined",
+                                  "children": [
+                                    null,
+                                    [
+                                      "$",
+                                      "div",
+                                      null,
+                                      {
+                                        "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]",
+                                        "children": [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "5ZyvVbKPhB1ovBB1e3g8dq",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "4054486824111380140"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "$L100033",
+                                                      null,
+                                                      {
+                                                        "id": "5ZyvVbKPhB1ovBB1e3g8dq",
+                                                        "testimonials": [
+                                                          {
+                                                            "testimonial": {
+                                                              "data": {},
+                                                              "content": [
+                                                                {
+                                                                  "data": {},
+                                                                  "content": [
+                                                                    {
+                                                                      "data": {},
+                                                                      "marks": [],
+                                                                      "value": "GPT-Image-2.6 Sunburst 在遵循详细指令方面取得了显著进步，第一次尝试就能把复杂的创作要求转化为引人入胜的视觉作品。Aidan 是我们用于交互式产品演示和客户对话的 AI 智能体。借助这些视觉作品，Aidan 能帮助用户理解复杂的概念，让他们更快豁然开朗。",
+                                                                      "nodeType": "text"
+                                                                    }
+                                                                  ],
+                                                                  "nodeType": "paragraph"
+                                                                }
+                                                              ],
+                                                              "nodeType": "document"
+                                                            },
+                                                            "attribution": {
+                                                              "data": {},
+                                                              "content": [
+                                                                {
+                                                                  "data": {},
+                                                                  "content": [
+                                                                    {
+                                                                      "data": {},
+                                                                      "marks": [],
+                                                                      "value": "—Tiago Trindade，Sable 技术团队成员",
+                                                                      "nodeType": "text"
+                                                                    }
+                                                                  ],
+                                                                  "nodeType": "paragraph"
+                                                                }
+                                                              ],
+                                                              "nodeType": "document"
+                                                            },
+                                                            "image": {
+                                                              "title": "Sable — compact quote logo",
+                                                              "description": "Customer quote logo reduced proportionally by 15 percent from the preceding layout.",
+                                                              "file": {
+                                                                "url": "//images.ctfassets.net/kftzwdyauwt9/4O5E3RZhixj9Zw9hgUb9Ij/e1e3764ebf972b3e6a9d96a9a9f4b8f0/sable-quote-logo-compact.svg",
+                                                                "details": {
+                                                                  "size": 8528,
+                                                                  "image": {
+                                                                    "width": 128,
+                                                                    "height": 32
+                                                                  }
+                                                                },
+                                                                "fileName": "sable-quote-logo-compact.svg",
+                                                                "contentType": "image/svg+xml"
+                                                              }
+                                                            },
+                                                            "imageAlt": "Sable 徽标",
+                                                            "imageDisplay": "logo",
+                                                            "triggerName": "Sable",
+                                                            "id": "6lDJoubdfiqQYM9iYwNg79",
+                                                            "__typename": "testimonial"
+                                                          }
+                                                        ],
+                                                        "__typename": "componentTestimonialCarousel",
+                                                        "contentfulDebugAttributes": {},
+                                                        "children": "$undefined"
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ],
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "LSI4yMA7t3xQJfrAMGCOO",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "14893511203693019132"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "figure",
+                                                      null,
+                                                      {
+                                                        "id": "$undefined",
+                                                        "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                        "children": [
+                                                          "$",
+                                                          "div",
+                                                          null,
+                                                          {
+                                                            "data-tabs-autoplay-content": true,
+                                                            "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3",
+                                                            "children": [
+                                                              [
+                                                                "$",
+                                                                "div",
+                                                                null,
+                                                                {
+                                                                  "data-figure-content": true,
+                                                                  "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-start",
+                                                                  "children": [
+                                                                    [
+                                                                      "$",
+                                                                      "$L10002e",
+                                                                      "273Rk3JwCj254E0cwUyPmb",
+                                                                      {
+                                                                        "asset": {
+                                                                          "title": "Images 2.6 — Sable product visual",
+                                                                          "description": "Sable presentation visual showing a miniature product world and guide under sculptural arches, with the headline “A whole product world. One guide.”",
+                                                                          "file": {
+                                                                            "url": "//images.ctfassets.net/kftzwdyauwt9/1gnp2Va1JsQtynPds90I1O/3ba2c60fd06e70d9a4dc19da9482ce7d/images-2-6-sable-product-visual.png",
+                                                                            "details": {
+                                                                              "size": 2986138,
+                                                                              "image": {
+                                                                                "width": 2048,
+                                                                                "height": 1152
+                                                                              }
+                                                                            },
+                                                                            "fileName": "images-2-6-sable-product-visual.png",
+                                                                            "contentType": "image/png"
+                                                                          }
+                                                                        },
+                                                                        "altText": "Sable 演示文稿配图，标题为“A whole product world. One guide.”，雕塑般的拱门下是一个微缩产品世界和一位向导。",
+                                                                        "videoShowMuteButton": true,
+                                                                        "useVimeoControls": false,
+                                                                        "showEmbeddedVideoControls": false,
+                                                                        "captionAlignment": "media-width",
+                                                                        "copyToClipboard": false,
+                                                                        "keyline": false,
+                                                                        "id": "273Rk3JwCj254E0cwUyPmb",
+                                                                        "__typename": "mediaItem",
+                                                                        "caption": "$undefined"
+                                                                      }
+                                                                    ]
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              [
+                                                                "$",
+                                                                "figcaption",
+                                                                null,
+                                                                {
+                                                                  "className": "col-span-full flex w-full flex-col items-center gap-3 text-caption",
+                                                                  "children": [
+                                                                    "$",
+                                                                    "$L100032",
+                                                                    null,
+                                                                    {
+                                                                      "lineClamp": "line-clamp-2",
+                                                                      "fullWidthCaption": true,
+                                                                      "center": false,
+                                                                      "children": [
+                                                                        "$",
+                                                                        "div",
+                                                                        null,
+                                                                        {
+                                                                          "className": "prose prose-caption my-0! max-w-none",
+                                                                          "children": [
+                                                                            [
+                                                                              "$",
+                                                                              "p",
+                                                                              "0",
+                                                                              {
+                                                                                "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                "children": [
+                                                                                  [
+                                                                                    "$",
+                                                                                    "$Sreact.fragment",
+                                                                                    "0",
+                                                                                    {
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "span",
+                                                                                          "text-0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              "为 Sable 制作一张出色的演示幻灯片成品，而不是布局模板。这张幻灯片必须有一个极具感染力的视觉创意，具备高端品牌广告的制作水准，排版克制、优美且易于阅读。图 1 仅用于参考 Sable 的正版标志、配色和细字重字体：不要模仿其样张展示页布局。图 2 是 Aidan 的形象参考：白色圆润的头部，质感柔软，戴着低调的圆框眼镜，穿芥末黄色针织衫。创建新姿势或场景时，保留他具有辨识度的设计。Aidan 是一位友善的 AI 产品专家，能够观察、点击并讲解。画面应通过视觉叙事，让人理解这一产品理念。采用 NB International 风格的细字重或常规字重排版，不要使用粗体或特粗字体。品牌配色：#FFDB4D 黄色、#F9F9F9 底色、#1B1D1F 墨色，以及偏暖的中性灰色。如果下文明确要求，可以使用全黑或全黄底色的幻灯片来突出品牌。周围画布应平整干净；不要颗粒、装饰性渐变或界面投影。摄影风格的画面内部可以有自然光照和物体之间的真实遮挡。不要制作三栏功能布局、卡片、项目符号列表、仪表板、套用现成图标的示意图、缩略图拼版或仿制的浏览器截图。不要使用千篇一律的悬浮玻璃面板。不要编造指标、宣传语、日期或品牌。仅使用提供的原文案和一个小尺寸的正版 Sable 标志，并留出充足的安全边距。所有文字都必须清晰可读。直接生成满版幻灯片成品，不要添加外部展示样机边框。"
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                ]
+                                                                              }
+                                                                            ],
+                                                                            [
+                                                                              "$",
+                                                                              "p",
+                                                                              "1",
+                                                                              {
+                                                                                "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                "children": [
+                                                                                  [
+                                                                                    "$",
+                                                                                    "b",
+                                                                                    "0",
+                                                                                    {
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "span",
+                                                                                          "text-0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              "美术方向："
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ],
+                                                                                  [
+                                                                                    "$",
+                                                                                    "$Sreact.fragment",
+                                                                                    "1",
+                                                                                    {
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "span",
+                                                                                          "text-0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              "在平整的 #F9F9F9 画布上，呈现一个壮观而温暖、具有逼真摄影质感的微缩建筑世界，形式为一个连续完整的剖面立体场景。一个宽大的胶囊形底板以曲线贯穿三个互相连通的空间：产品探索区、动手体验产品的工作坊，以及安静的学习空间。各空间高低错落，设有拱门、楼梯和微小的抽象产品模型，让画面经得起细看。它们共同构成一个可供人置身其中的完整世界，而不是三个互不相连的模型。Aidan 以微缩实体人物的形态，带领一位访客沿着一条清晰连贯的路线穿行于这个世界；画面中只出现一个 Aidan 和一位访客，比例要真实可信。一个巨大的黄色圆盘像太阳一样立在整个建筑轮廓后方，建筑中融入胶囊形结构和圆形开口。让这一丰富的构图占据幻灯片约三分之二的面积。呈现优美的日光、可感知的工艺质感，以及优雅克制的美感，而不是繁杂的玩具小镇或科技风等距图标。将标题融入剩余的宽阔留白中，不要叠在细节繁复的建筑上。标题使用细字重，分两行，文案必须为：“整个产品世界”/“一位向导带你探索”。可在三个空间内部添加小型导向标识，以下文字各出现一次：“探索”、“试用”、“学习”。不要添加其他文字。"
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "$undefined"
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ],
+                    "id": "66Z9s4uo3RKB4MGKm5PGkM",
+                    "icon": "$undefined",
+                    "label": "Sable",
+                    "analyticsIdentifier": "images-2-6-sable",
+                    "deeplinkId": "$undefined",
+                    "contentAnchorIds": []
+                  },
+                  {
+                    "content": [
+                      "$",
+                      "$Sreact.fragment",
+                      "4rQII8GR9TdSWtvKG0o1O1",
+                      {
+                        "children": [
+                          [
+                            "$",
+                            "$L100029",
+                            null,
+                            {
+                              "moduleIds": [
+                                "7148554184203125775"
+                              ]
+                            }
+                          ],
+                          [
+                            "$",
+                            "$L100027",
+                            null,
+                            {
+                              "activeClassName": "$undefined",
+                              "globalBannerOwner": "$undefined",
+                              "heroVariation": "$undefined",
+                              "pageOwnedBanner": null,
+                              "children": [
+                                "$",
+                                "div",
+                                null,
+                                {
+                                  "style": "$undefined",
+                                  "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                  "data-layout": "1-column-grid",
+                                  "data-multi-columns": "$undefined",
+                                  "children": [
+                                    null,
+                                    [
+                                      "$",
+                                      "div",
+                                      null,
+                                      {
+                                        "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]",
+                                        "children": [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "7gSX2bFQfnF8fStyKwFxhY",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "4054486824111380140"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "$L100033",
+                                                      null,
+                                                      {
+                                                        "id": "7gSX2bFQfnF8fStyKwFxhY",
+                                                        "testimonials": [
+                                                          {
+                                                            "testimonial": {
+                                                              "data": {},
+                                                              "content": [
+                                                                {
+                                                                  "data": {},
+                                                                  "content": [
+                                                                    {
+                                                                      "data": {},
+                                                                      "marks": [],
+                                                                      "value": "在 Higgsfield，我们很高兴能将 GPT-Image-2.6 用于游戏开发。它不仅能生成优质图像，还能为游戏界面生成可缩放、可编辑的 SVG 图形，为角色和特效生成 GIF 动画。",
+                                                                      "nodeType": "text"
+                                                                    }
+                                                                  ],
+                                                                  "nodeType": "paragraph"
+                                                                }
+                                                              ],
+                                                              "nodeType": "document"
+                                                            },
+                                                            "attribution": {
+                                                              "data": {},
+                                                              "content": [
+                                                                {
+                                                                  "data": {},
+                                                                  "content": [
+                                                                    {
+                                                                      "data": {},
+                                                                      "marks": [],
+                                                                      "value": "—Axultan Alimkulov，Higgsfield AI 产品负责人",
+                                                                      "nodeType": "text"
+                                                                    }
+                                                                  ],
+                                                                  "nodeType": "paragraph"
+                                                                }
+                                                              ],
+                                                              "nodeType": "document"
+                                                            },
+                                                            "image": {
+                                                              "title": "Higgsfield — quote logo",
+                                                              "description": "Smaller proportional logo layout for the Images 2.6 customer quote. Original artwork preserved; asset canvas controls scale and spacing.",
+                                                              "file": {
+                                                                "url": "//images.ctfassets.net/kftzwdyauwt9/54iIQ0VN1S4ypIwS2wrdLE/e1f741907bc66d44d924ee24a9a7a326/higgsfield-quote-logo.svg",
+                                                                "details": {
+                                                                  "size": 360869,
+                                                                  "image": {
+                                                                    "width": 128,
+                                                                    "height": 32
+                                                                  }
+                                                                },
+                                                                "fileName": "higgsfield-quote-logo.svg",
+                                                                "contentType": "image/svg+xml"
+                                                              }
+                                                            },
+                                                            "imageAlt": "Higgsfield 徽标",
+                                                            "imageDisplay": "logo",
+                                                            "triggerName": "Higgsfield",
+                                                            "id": "6UkyUnMdZmZtXgJMsid9yE",
+                                                            "__typename": "testimonial"
+                                                          }
+                                                        ],
+                                                        "__typename": "componentTestimonialCarousel",
+                                                        "contentfulDebugAttributes": {},
+                                                        "children": "$undefined"
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ],
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "4hT05jhNe19VHMkXgVlOYA",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "14893511203693019132"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "figure",
+                                                      null,
+                                                      {
+                                                        "id": "$undefined",
+                                                        "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                        "children": [
+                                                          "$",
+                                                          "div",
+                                                          null,
+                                                          {
+                                                            "data-tabs-autoplay-content": true,
+                                                            "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4",
+                                                            "children": [
+                                                              [
+                                                                "$",
+                                                                "div",
+                                                                null,
+                                                                {
+                                                                  "data-figure-content": true,
+                                                                  "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-center",
+                                                                  "children": [
+                                                                    [
+                                                                      "$",
+                                                                      "$L10002e",
+                                                                      "5YWR01zqZhXOFNwpoz4e7v",
+                                                                      {
+                                                                        "asset": {
+                                                                          "title": "Images 2.6 — Higgsfield scene edit 1",
+                                                                          "description": "A red-haired fantasy knight in green-and-gold armor stands on a cliff overlooking mountains and a distant castle at sunset.",
+                                                                          "file": {
+                                                                            "url": "//images.ctfassets.net/kftzwdyauwt9/3bU4mZlfoshL05B5nlKuXY/d34032552f29bfef5eeb39533ebe7c61/images-2-6-higgsfield-scene-edit-1.png",
+                                                                            "details": {
+                                                                              "size": 5364194,
+                                                                              "image": {
+                                                                                "width": 2688,
+                                                                                "height": 1520
+                                                                              }
+                                                                            },
+                                                                            "fileName": "images-2-6-higgsfield-scene-edit-1.png",
+                                                                            "contentType": "image/png"
+                                                                          }
+                                                                        },
+                                                                        "altText": "一位身穿绿金色铠甲的红发奇幻骑士站在悬崖上，俯瞰夕阳下的群山和远方的城堡。",
+                                                                        "videoShowMuteButton": true,
+                                                                        "useVimeoControls": false,
+                                                                        "showEmbeddedVideoControls": false,
+                                                                        "captionAlignment": "media-width",
+                                                                        "copyToClipboard": false,
+                                                                        "keyline": false,
+                                                                        "id": "5YWR01zqZhXOFNwpoz4e7v",
+                                                                        "__typename": "mediaItem",
+                                                                        "caption": [
+                                                                          "$",
+                                                                          "$L100032",
+                                                                          null,
+                                                                          {
+                                                                            "captionClassName": "$undefined",
+                                                                            "lineClamp": "line-clamp-2",
+                                                                            "fullWidthCaption": "$undefined",
+                                                                            "center": false,
+                                                                            "children": [
+                                                                              "$",
+                                                                              "div",
+                                                                              null,
+                                                                              {
+                                                                                "className": "prose prose-caption my-0! max-w-none",
+                                                                                "children": [
+                                                                                  [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    "0",
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "$Sreact.fragment",
+                                                                                          "0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              [
+                                                                                                "$",
+                                                                                                "span",
+                                                                                                "text-0",
+                                                                                                {
+                                                                                                  "children": [
+                                                                                                    "Epic high fantasy anime key visual, mature seinen style like a modern high-budget anime film. A young woman sorceress-knight in her twenties with long crimson hair and sharp golden eyes stands on the edge of a cliff in ornate silver and emerald armor with a flowing royal blue cape, a glowing runic sword planted in front of her, magic sparks around her hands. Behind her a vast fantasy kingdom: floating islands with waterfalls pouring into the clouds, a white castle with spires, a huge ancient dragon flying in the distance, giant blooming sakura and golden autumn forests in the valley below. Sunset sky with vivid orange, magenta, turquoise and violet clouds, god rays, glowing magic particles in the air. Extremely vibrant saturated colors, dramatic rim lighting, cel shading with detailed painted backgrounds, crisp clean line art, depth and atmosphere, dynamic low camera angle, wide cinematic composition. Adult, elegant, serious heroic mood, not childish, no chibi, no sci-fi, no neon, no text, no watermark."
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ],
+                                                                                  [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    "1",
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "b",
+                                                                                          "0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              [
+                                                                                                "$",
+                                                                                                "span",
+                                                                                                "text-0",
+                                                                                                {
+                                                                                                  "children": [
+                                                                                                    "编辑 1："
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ],
+                                                                                  [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    "2",
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "$Sreact.fragment",
+                                                                                          "0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              [
+                                                                                                "$",
+                                                                                                "span",
+                                                                                                "text-0",
+                                                                                                {
+                                                                                                  "children": [
+                                                                                                    "Replace the moonlit landscape with a golden sunset over a misty mountain valley, winding river, waterfalls and ancient ruins. Keep the background softly blurred and the knight, armor, sword, rock and composition unchanged."
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "$undefined",
+                                                              "$undefined"
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ],
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "5wVb4GCBGH4apL4gCSPQwr",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "14893511203693019132"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "figure",
+                                                      null,
+                                                      {
+                                                        "id": "$undefined",
+                                                        "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                        "children": [
+                                                          "$",
+                                                          "div",
+                                                          null,
+                                                          {
+                                                            "data-tabs-autoplay-content": true,
+                                                            "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4",
+                                                            "children": [
+                                                              [
+                                                                "$",
+                                                                "div",
+                                                                null,
+                                                                {
+                                                                  "data-figure-content": true,
+                                                                  "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-center",
+                                                                  "children": [
+                                                                    [
+                                                                      "$",
+                                                                      "$L10002e",
+                                                                      "7t6sOhxcwHQ1TCGcYZVxkF",
+                                                                      {
+                                                                        "asset": {
+                                                                          "title": "Images 2.6 — Higgsfield scene edit 2",
+                                                                          "description": "The same red-haired knight in green-and-gold armor stands before a larger castle rising from mist at sunset.",
+                                                                          "file": {
+                                                                            "url": "//images.ctfassets.net/kftzwdyauwt9/5hDxN1poa1hFkj3ZTSLxqX/42fdc0fc4612cf83a695d63e20abb572/images-2-6-higgsfield-scene-edit-2.png",
+                                                                            "details": {
+                                                                              "size": 5220234,
+                                                                              "image": {
+                                                                                "width": 2688,
+                                                                                "height": 1520
+                                                                              }
+                                                                            },
+                                                                            "fileName": "images-2-6-higgsfield-scene-edit-2.png",
+                                                                            "contentType": "image/png"
+                                                                          }
+                                                                        },
+                                                                        "altText": "同一位身穿绿金色铠甲的红发骑士站在一座更大的城堡前。夕阳下，城堡从薄雾中高高耸起。",
+                                                                        "videoShowMuteButton": true,
+                                                                        "useVimeoControls": false,
+                                                                        "showEmbeddedVideoControls": false,
+                                                                        "captionAlignment": "media-width",
+                                                                        "copyToClipboard": false,
+                                                                        "keyline": false,
+                                                                        "id": "7t6sOhxcwHQ1TCGcYZVxkF",
+                                                                        "__typename": "mediaItem",
+                                                                        "caption": [
+                                                                          "$",
+                                                                          "$L100032",
+                                                                          null,
+                                                                          {
+                                                                            "captionClassName": "$undefined",
+                                                                            "lineClamp": "line-clamp-2",
+                                                                            "fullWidthCaption": "$undefined",
+                                                                            "center": false,
+                                                                            "children": [
+                                                                              "$",
+                                                                              "div",
+                                                                              null,
+                                                                              {
+                                                                                "className": "prose prose-caption my-0! max-w-none",
+                                                                                "children": [
+                                                                                  [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    "0",
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "b",
+                                                                                          "0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              [
+                                                                                                "$",
+                                                                                                "span",
+                                                                                                "text-0",
+                                                                                                {
+                                                                                                  "children": [
+                                                                                                    "编辑 2："
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ],
+                                                                                  [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    "1",
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "$Sreact.fragment",
+                                                                                          "0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              [
+                                                                                                "$",
+                                                                                                "span",
+                                                                                                "text-0",
+                                                                                                {
+                                                                                                  "children": [
+                                                                                                    "Replace the background with a majestic floating castle, smaller floating islands, cascading waterfalls and a dragon flying overhead. Preserve the warm sunset, atmospheric haze and shallow depth of field. Keep the knight and foreground unchanged."
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "$undefined",
+                                                              "$undefined"
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ],
+                                              [
+                                                "$",
+                                                "$Sreact.fragment",
+                                                "5Uw3ehA4masfS7zuhB2YmJ",
+                                                {
+                                                  "children": [
+                                                    [
+                                                      "$",
+                                                      "$L100029",
+                                                      null,
+                                                      {
+                                                        "moduleIds": [
+                                                          "14893511203693019132"
+                                                        ]
+                                                      }
+                                                    ],
+                                                    [
+                                                      "$",
+                                                      "figure",
+                                                      null,
+                                                      {
+                                                        "id": "$undefined",
+                                                        "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                        "children": [
+                                                          "$",
+                                                          "div",
+                                                          null,
+                                                          {
+                                                            "data-tabs-autoplay-content": true,
+                                                            "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4",
+                                                            "children": [
+                                                              [
+                                                                "$",
+                                                                "div",
+                                                                null,
+                                                                {
+                                                                  "data-figure-content": true,
+                                                                  "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-center",
+                                                                  "children": [
+                                                                    [
+                                                                      "$",
+                                                                      "$L10002e",
+                                                                      "7CtixSCgnES4lGHdKCexQP",
+                                                                      {
+                                                                        "asset": {
+                                                                          "title": "Images 2.6 — Higgsfield scene edit 3",
+                                                                          "description": "The red-haired knight now wears red-and-gold armor, with the castle landscape and pose preserved.",
+                                                                          "file": {
+                                                                            "url": "//images.ctfassets.net/kftzwdyauwt9/3JTfW1LWizYXThKdWaLNrt/a4a9b72ac3ed9909303e594ad0236243/images-2-6-higgsfield-scene-edit-3.png",
+                                                                            "details": {
+                                                                              "size": 5105242,
+                                                                              "image": {
+                                                                                "width": 2688,
+                                                                                "height": 1520
+                                                                              }
+                                                                            },
+                                                                            "fileName": "images-2-6-higgsfield-scene-edit-3.png",
+                                                                            "contentType": "image/png"
+                                                                          }
+                                                                        },
+                                                                        "altText": "红发骑士现在身穿红金色铠甲，城堡景观和姿势保持不变。",
+                                                                        "videoShowMuteButton": true,
+                                                                        "useVimeoControls": false,
+                                                                        "showEmbeddedVideoControls": false,
+                                                                        "captionAlignment": "media-width",
+                                                                        "copyToClipboard": false,
+                                                                        "keyline": false,
+                                                                        "id": "7CtixSCgnES4lGHdKCexQP",
+                                                                        "__typename": "mediaItem",
+                                                                        "caption": [
+                                                                          "$",
+                                                                          "$L100032",
+                                                                          null,
+                                                                          {
+                                                                            "captionClassName": "$undefined",
+                                                                            "lineClamp": "line-clamp-2",
+                                                                            "fullWidthCaption": "$undefined",
+                                                                            "center": false,
+                                                                            "children": [
+                                                                              "$",
+                                                                              "div",
+                                                                              null,
+                                                                              {
+                                                                                "className": "prose prose-caption my-0! max-w-none",
+                                                                                "children": [
+                                                                                  [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    "0",
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "b",
+                                                                                          "0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              [
+                                                                                                "$",
+                                                                                                "span",
+                                                                                                "text-0",
+                                                                                                {
+                                                                                                  "children": [
+                                                                                                    "编辑 3："
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ],
+                                                                                  [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    "1",
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "$Sreact.fragment",
+                                                                                          "0",
+                                                                                          {
+                                                                                            "children": [
+                                                                                              [
+                                                                                                "$",
+                                                                                                "span",
+                                                                                                "text-0",
+                                                                                                {
+                                                                                                  "children": [
+                                                                                                    "Recolor the armor to ivory white with rich gold trim, replace emerald gemstones with rubies, and change green fabric panels to deep crimson. Preserve the armor design, blue cape, red hair, golden sword glow, pose and background."
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  ]
+                                                                }
+                                                              ],
+                                                              "$undefined",
+                                                              "$undefined"
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ],
+                    "id": "XbN18xRPe4e7pt8tPDeO6",
+                    "icon": "$undefined",
+                    "label": "Higgsfield",
+                    "analyticsIdentifier": "images-2-6-higgsfield",
+                    "deeplinkId": "$undefined",
+                    "contentAnchorIds": []
+                  }
+                ],
+                "variant": "primary",
+                "contentfulDebugAttributes": {}
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "100027",
+      "value": [
+        967645,
+        [
+          "/_next/static/immutable/chunks/2680l2p0mysn8.js",
+          "/_next/static/immutable/chunks/23q58k-z0hl8z.js",
+          "/_next/static/immutable/chunks/0xbrb7m0w4b04.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3lg6rlfn7qdq5.js",
+          "/_next/static/immutable/chunks/1pobfas1uagaw.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/13ls6dyrhybvd.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/39nw6t4o7g09u.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/11spvwkbros93.js",
+          "/_next/static/immutable/chunks/1p0z8572m5bbm.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/2-g_pyuq3ibzi.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/0w49gm3qkv77n.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/0b9ezyob-c8l5.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/1lmmxjzjffwx-.js",
+          "/_next/static/immutable/chunks/1_37yixhv5zdx.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/3-q0n-zx3cqss.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/1m77ohl66zpse.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/0sro5y3k-id8q.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/3xge7d94x4yr-.js",
+          "/_next/static/immutable/chunks/3lbz6drkw5thx.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/12uadgt4ief7x.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/0_ejda_ftvsy6.js",
+          "/_next/static/immutable/chunks/35cte42ztauy1.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/2f7q10jcs0f7r.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/1suq5y2t5___j.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/08xk1c1ctokx3.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1pa2q3av56qr7.js",
+          "/_next/static/immutable/chunks/0w2c51s0w--2j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2aigi3_nla2eh.js",
+          "/_next/static/immutable/chunks/1mwpogd5vmkli.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "100029",
+      "value": [
+        857320,
+        [
+          "/_next/static/immutable/chunks/2680l2p0mysn8.js",
+          "/_next/static/immutable/chunks/23q58k-z0hl8z.js",
+          "/_next/static/immutable/chunks/0xbrb7m0w4b04.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3lg6rlfn7qdq5.js",
+          "/_next/static/immutable/chunks/1pobfas1uagaw.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/13ls6dyrhybvd.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/39nw6t4o7g09u.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/11spvwkbros93.js",
+          "/_next/static/immutable/chunks/1p0z8572m5bbm.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/2-g_pyuq3ibzi.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/0w49gm3qkv77n.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/0b9ezyob-c8l5.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/1lmmxjzjffwx-.js",
+          "/_next/static/immutable/chunks/1_37yixhv5zdx.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/3-q0n-zx3cqss.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/1m77ohl66zpse.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/0sro5y3k-id8q.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/3xge7d94x4yr-.js",
+          "/_next/static/immutable/chunks/3lbz6drkw5thx.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/12uadgt4ief7x.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/0_ejda_ftvsy6.js",
+          "/_next/static/immutable/chunks/35cte42ztauy1.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/2f7q10jcs0f7r.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/1suq5y2t5___j.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/08xk1c1ctokx3.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1pa2q3av56qr7.js",
+          "/_next/static/immutable/chunks/0w2c51s0w--2j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2aigi3_nla2eh.js",
+          "/_next/static/immutable/chunks/1mwpogd5vmkli.js"
+        ],
+        "PreloadChunks"
+      ]
+    },
+    {
+      "id": "10002e",
+      "value": [
+        371620,
+        [
+          "/_next/static/immutable/chunks/2680l2p0mysn8.js",
+          "/_next/static/immutable/chunks/23q58k-z0hl8z.js",
+          "/_next/static/immutable/chunks/0xbrb7m0w4b04.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3lg6rlfn7qdq5.js",
+          "/_next/static/immutable/chunks/1pobfas1uagaw.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/13ls6dyrhybvd.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/39nw6t4o7g09u.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/11spvwkbros93.js",
+          "/_next/static/immutable/chunks/1p0z8572m5bbm.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/2-g_pyuq3ibzi.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/0w49gm3qkv77n.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/0b9ezyob-c8l5.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/1lmmxjzjffwx-.js",
+          "/_next/static/immutable/chunks/1_37yixhv5zdx.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/3-q0n-zx3cqss.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/1m77ohl66zpse.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/0sro5y3k-id8q.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/3xge7d94x4yr-.js",
+          "/_next/static/immutable/chunks/3lbz6drkw5thx.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/12uadgt4ief7x.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/0_ejda_ftvsy6.js",
+          "/_next/static/immutable/chunks/35cte42ztauy1.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/2f7q10jcs0f7r.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/1suq5y2t5___j.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/08xk1c1ctokx3.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1pa2q3av56qr7.js",
+          "/_next/static/immutable/chunks/0w2c51s0w--2j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2aigi3_nla2eh.js",
+          "/_next/static/immutable/chunks/1mwpogd5vmkli.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "100032",
+      "value": [
+        38565,
+        [
+          "/_next/static/immutable/chunks/2680l2p0mysn8.js",
+          "/_next/static/immutable/chunks/23q58k-z0hl8z.js",
+          "/_next/static/immutable/chunks/0xbrb7m0w4b04.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3lg6rlfn7qdq5.js",
+          "/_next/static/immutable/chunks/1pobfas1uagaw.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/13ls6dyrhybvd.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/39nw6t4o7g09u.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/11spvwkbros93.js",
+          "/_next/static/immutable/chunks/1p0z8572m5bbm.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/2-g_pyuq3ibzi.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/0w49gm3qkv77n.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/0b9ezyob-c8l5.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/1lmmxjzjffwx-.js",
+          "/_next/static/immutable/chunks/1_37yixhv5zdx.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/3-q0n-zx3cqss.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/1m77ohl66zpse.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/0sro5y3k-id8q.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/3xge7d94x4yr-.js",
+          "/_next/static/immutable/chunks/3lbz6drkw5thx.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/12uadgt4ief7x.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/0_ejda_ftvsy6.js",
+          "/_next/static/immutable/chunks/35cte42ztauy1.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/2f7q10jcs0f7r.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/1suq5y2t5___j.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/08xk1c1ctokx3.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1pa2q3av56qr7.js",
+          "/_next/static/immutable/chunks/0w2c51s0w--2j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2aigi3_nla2eh.js",
+          "/_next/static/immutable/chunks/1mwpogd5vmkli.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "100033",
+      "value": [
+        237454,
+        [
+          "/_next/static/immutable/chunks/2680l2p0mysn8.js",
+          "/_next/static/immutable/chunks/23q58k-z0hl8z.js",
+          "/_next/static/immutable/chunks/0xbrb7m0w4b04.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3lg6rlfn7qdq5.js",
+          "/_next/static/immutable/chunks/1pobfas1uagaw.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/13ls6dyrhybvd.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/39nw6t4o7g09u.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/11spvwkbros93.js",
+          "/_next/static/immutable/chunks/1p0z8572m5bbm.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/2-g_pyuq3ibzi.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/0w49gm3qkv77n.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/0b9ezyob-c8l5.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/1lmmxjzjffwx-.js",
+          "/_next/static/immutable/chunks/1_37yixhv5zdx.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/3-q0n-zx3cqss.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/1m77ohl66zpse.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/0sro5y3k-id8q.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/3xge7d94x4yr-.js",
+          "/_next/static/immutable/chunks/3lbz6drkw5thx.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/12uadgt4ief7x.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/0_ejda_ftvsy6.js",
+          "/_next/static/immutable/chunks/35cte42ztauy1.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/2f7q10jcs0f7r.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/1suq5y2t5___j.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/08xk1c1ctokx3.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1pa2q3av56qr7.js",
+          "/_next/static/immutable/chunks/0w2c51s0w--2j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2aigi3_nla2eh.js",
+          "/_next/static/immutable/chunks/1mwpogd5vmkli.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "100034",
+      "value": [
+        563091,
+        [
+          "/_next/static/immutable/chunks/2680l2p0mysn8.js",
+          "/_next/static/immutable/chunks/23q58k-z0hl8z.js",
+          "/_next/static/immutable/chunks/0xbrb7m0w4b04.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3lg6rlfn7qdq5.js",
+          "/_next/static/immutable/chunks/1pobfas1uagaw.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/13ls6dyrhybvd.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/39nw6t4o7g09u.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/11spvwkbros93.js",
+          "/_next/static/immutable/chunks/1p0z8572m5bbm.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/2-g_pyuq3ibzi.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/0w49gm3qkv77n.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/0b9ezyob-c8l5.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/1lmmxjzjffwx-.js",
+          "/_next/static/immutable/chunks/1_37yixhv5zdx.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/3-q0n-zx3cqss.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/1m77ohl66zpse.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/0sro5y3k-id8q.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/3xge7d94x4yr-.js",
+          "/_next/static/immutable/chunks/3lbz6drkw5thx.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/12uadgt4ief7x.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/0_ejda_ftvsy6.js",
+          "/_next/static/immutable/chunks/35cte42ztauy1.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/2f7q10jcs0f7r.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/1suq5y2t5___j.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/08xk1c1ctokx3.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1pa2q3av56qr7.js",
+          "/_next/static/immutable/chunks/0w2c51s0w--2j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2aigi3_nla2eh.js",
+          "/_next/static/immutable/chunks/1mwpogd5vmkli.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "100038",
+      "value": [
+        706353,
+        [
+          "/_next/static/immutable/chunks/2680l2p0mysn8.js",
+          "/_next/static/immutable/chunks/23q58k-z0hl8z.js",
+          "/_next/static/immutable/chunks/0xbrb7m0w4b04.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3lg6rlfn7qdq5.js",
+          "/_next/static/immutable/chunks/1pobfas1uagaw.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/13ls6dyrhybvd.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/39nw6t4o7g09u.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/11spvwkbros93.js",
+          "/_next/static/immutable/chunks/1p0z8572m5bbm.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/2-g_pyuq3ibzi.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/0w49gm3qkv77n.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/0b9ezyob-c8l5.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/1lmmxjzjffwx-.js",
+          "/_next/static/immutable/chunks/1_37yixhv5zdx.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/3-q0n-zx3cqss.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/1m77ohl66zpse.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/0sro5y3k-id8q.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/3xge7d94x4yr-.js",
+          "/_next/static/immutable/chunks/3lbz6drkw5thx.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/12uadgt4ief7x.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/0_ejda_ftvsy6.js",
+          "/_next/static/immutable/chunks/35cte42ztauy1.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/2f7q10jcs0f7r.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/1suq5y2t5___j.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/08xk1c1ctokx3.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1pa2q3av56qr7.js",
+          "/_next/static/immutable/chunks/0w2c51s0w--2j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2aigi3_nla2eh.js",
+          "/_next/static/immutable/chunks/1mwpogd5vmkli.js"
+        ],
+        "default"
+      ]
+    }
+  ]
+}

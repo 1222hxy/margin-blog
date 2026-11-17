@@ -1,0 +1,10 @@
+---
+import { blueprint } from './blueprint';
+import { referenceArticle } from './reference';
+import { renderArticle } from './lib/render';
+import type { ArticleData } from './types';
+interface Props { article?: ArticleData; }
+const { article = referenceArticle } = Astro.props;
+const document = renderArticle(blueprint, referenceArticle, article);
+---
+<Fragment set:html={document} />
