@@ -9,7 +9,11 @@ export function expandComponents(html: string, components: Record<string, Native
 /** Top-level source blocks keep their exact markup. Only native component
  * markers become interactive Flight nodes; no post-hydration DOM patching. */
 export function htmlModel(html: string, components: Record<string, NativeComponent> = {}): any[] {
-  return nodes(html).filter(n => n.parentNode?.nodeName === '#document-fragment').flatMap(n => {
+  const list=nodes(html);
+  // Only open ancestors of interactive slots. All other markup stays verbatim.
+  const branches=new Set<any>();
+  for(const n of list)if(attr(n,'data-openai-component'))for(let p=n.parentNode;p;p=p.parentNode)branches.add(p);
+  const render=(n:any):any[]=>{
     if (n.nodeName === '#comment') return [];
     if (n.nodeName === '#text') return [n.value.startsWith('$') ? '$' + n.value : n.value];
     const id = attr(n, 'data-openai-component');
@@ -26,7 +30,9 @@ export function htmlModel(html: string, components: Record<string, NativeCompone
       }));
       else props[key] = attribute.value.startsWith('$') ? '$' + attribute.value : attribute.value;
     }
-    if (n.sourceCodeLocation.endTag) props.dangerouslySetInnerHTML = { __html: inner(html, n) };
+    if(branches.has(n)) props.children=n.childNodes.flatMap(render);
+    else if (n.sourceCodeLocation?.endTag) props.dangerouslySetInnerHTML = { __html: inner(html, n) };
     return [['$', n.tagName, null, props]];
-  });
+  };
+  return list.filter(n=>n.parentNode?.nodeName==='#document-fragment').flatMap(render);
 }

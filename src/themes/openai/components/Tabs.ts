@@ -2,9 +2,9 @@ import source from '../native/brand-tabs.json';
 import tokens from '../native/tokens.json';
 import type { NativeComponent } from '../types';
 import { attr, escapeHtml, inner, nodes, replaceInner } from '../lib/html';
-import { htmlModel } from '../lib/native';
+import { expandComponents, htmlModel } from '../lib/native';
 export interface TabItem { id: string; label: string; html: string; }
-export interface TabsOptions { id: string; items: readonly TabItem[]; }
+export interface TabsOptions { id: string; items: readonly TabItem[]; components?: Record<string,NativeComponent>; }
 /** Original Images 2.6 tab component + original client controller. Only its
  * content props and matching SSR nodes are replaced for another use. */
 export function Tabs(options?: TabsOptions): NativeComponent {
@@ -19,7 +19,7 @@ export function Tabs(options?: TabsOptions): NativeComponent {
       const props = value[3], first = props.tabs[0];
       props.tabs = options.items.map(tab => ({ ...first, id: tab.id, label: tab.label,
         analyticsIdentifier: options.id + '-' + tab.id,
-        content: ['$', '$Sreact.fragment', null, { children: htmlModel(content(tab.html)) }],
+        content: ['$', '$Sreact.fragment', null, { children: htmlModel(content(tab.html),options.components) }],
       }));
       // Source 0_ejda_ftvsy6.js, module 563091: useState(activeTab ?? 0),
       // then tabs[index]. It is an index rather than the CMS item's id.
@@ -42,7 +42,7 @@ export function Tabs(options?: TabsOptions): NativeComponent {
   const panel = nodes(html).find(n => attr(n, 'role') === 'tabpanel');
   if (!panel) throw new Error('Completed native tab panel missing.');
   const oldId = attr(panel, 'aria-labelledby')!;
-  html = replaceInner(html, panel, content(options.items[0].html));
+  html = replaceInner(html, panel, content(expandComponents(options.items[0].html,options.components)));
   capsule.html = html.split(oldId).join(escapeHtml(options.items[0].id));
   return capsule;
 }

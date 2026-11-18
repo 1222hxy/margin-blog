@@ -1,0 +1,2 @@
+/* The native disclosure swaps ChevronDown for ChevronUp when expanded. */
+[data-lab-disclosure][open] > summary > [data-lab-chevron] { transform: rotate(180deg); }

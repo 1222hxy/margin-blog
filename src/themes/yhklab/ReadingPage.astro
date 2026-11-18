@@ -1,0 +1,10 @@
+---
+import Shell from './Shell.astro';
+import {part,entryHeader,toc,author,related,bodyGrid,recommendations} from './blocks';
+import type {Entry} from './blocks';
+import type {ArticleHeading,NativeComponent} from '../openai/types';
+interface Props { entry:Entry; components?:Record<string,NativeComponent>; sections?:ArticleHeading[]; mock?:boolean; tools?:boolean; byline?:boolean; next?:boolean }
+const {entry,components={},sections=[],mock=false,tools=true,byline=true,next=true}=Astro.props;
+---
+<Shell components={components} title={entry.title} description={entry.description} article mock={mock}><slot name="head" slot="head"/><article class="flex min-w-0 flex-col gap-12 @md:gap-16 mt-10"><div class="flex flex-col gap-[inherit]"><Fragment set:html={entryHeader(entry)}/>{tools&&<div class="contents" data-yhk-share><Fragment set:html={part('ReadingControls')}/></div>}</div><div class="max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]">{sections.length>0&&<><Fragment set:html={toc('MobileContents',sections)}/><Fragment set:html={toc('DesktopContents',sections)}/></>}<div data-toc-content="" class={bodyGrid} id="article-body"><slot/></div></div>{byline&&<Fragment set:html={author(entry)}/>}{next&&<Fragment set:html={related(recommendations)}/>}</article></Shell>
+

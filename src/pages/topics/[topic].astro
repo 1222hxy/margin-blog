@@ -1,0 +1,7 @@
+---
+import Directory from '../../themes/yhklab/Directory.astro';
+import {nav} from '../../themes/yhklab/config';
+export function getStaticPaths(){return nav.filter(([,path])=>path.startsWith('/topics/')).map(([topic,path])=>({params:{topic:path.split('/')[2]},props:{topic}}));}
+const {topic}=Astro.props;
+---
+<Directory title={topic} description={`YhkLab · ${topic}专题`} topic={topic}/>

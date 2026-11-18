@@ -1,0 +1,14 @@
+---
+import ReadingPage from './ReadingPage.astro';
+import {directory} from '../../lab/directory';
+import {proseHTML,localLink} from './blocks';
+import {escapeHtml as e} from '../openai/lib/html';
+interface Props {title:string;description:string;topic?:string;search?:boolean}
+const {title,description,topic,search=false}=Astro.props;
+const entries=(await directory()).filter(x=>!topic||x.topics.includes(topic));
+---
+<ReadingPage entry={{title,description,topic:topic||'博客',date:'',path:Astro.url.pathname}} tools={false} byline={false} next={false}>
+{search&&<Fragment set:html={proseHTML('<label>站内搜索 <input data-site-search type="search" placeholder="输入标题或关键词"></label><output aria-live="polite" data-result-count></output>')}/>}
+{entries.map(x=><Fragment set:html={proseHTML(`<div data-result><h2 class="text-h4">${localLink(x.title,x.url)}</h2><p>${x.mock?'Mock · ':''}${e(x.description)}</p></div>`)}/>)}
+{!entries.length&&<Fragment set:html={proseHTML('<p>这个专题还没有公开文章。</p>'+localLink('返回博客首页','/'))}/>}
+</ReadingPage>
