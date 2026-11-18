@@ -1,0 +1,573 @@
+{
+  "id": "mechanical-design",
+  "html": "<div class=\"group col-span-full not-first:mt-16 not-last:mb-16\"><div id=\"mechanical-design-examples\" class=\"flex flex-col gap-8\"><div class=\"@container w-full\"><div class=\"max-w-container @container w-full _39j3JG_container\"><div class=\"_39j3JG_region\"><nav class=\"scrollable scrollable-horizontal scroll-mt-32 py-1 R7Wy8a_fixedEdges\" style=\"--scrollable-edge-gutter:var(--tabs-gutter);--scrollable-edge-fade:var(--tabs-fade)\" role=\"tablist\" aria-label=\"标签\"><div class=\"relative min-w-fit R7Wy8a_track\"><div class=\"toc-collision-target mx-auto w-max\"><div class=\"relative flex items-center gap-2 rounded-full border border-primary-12 p-1\"><button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"mechanical-design-examples:rc-buggy-assembly:tab-panel\" id=\"mechanical-design-examples:rc-buggy-assembly:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12 bg-primary-4\"><span>遥控越野车装配</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"mechanical-design-examples:inline-six-engine-design:tab-panel\" id=\"mechanical-design-examples:inline-six-engine-design:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12\"><span>直列六缸发动机设计</span></button></div></div></div></nav></div></div></div><div><div aria-busy=\"false\" class=\"relative min-w-0\"><div class=\"flow-root min-w-0\"><!--$--><div id=\"mechanical-design-examples:rc-buggy-assembly:tab-panel\" role=\"tabpanel\" aria-labelledby=\"mechanical-design-examples:rc-buggy-assembly:tab\" class=\"\"><div class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"group col-span-full not-first:mt-16 not-last:mb-16\"><figure class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]\"><div data-tabs-autoplay-content=\"true\" class=\"col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3\"><div data-figure-content=\"true\" class=\"flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[&gt;:nth-child(2),&gt;[data-dotcom-chart-group]&gt;:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&amp;_[data-dotcom-chart-logical-container][style*=&#x27;width:_min-content&#x27;]]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-center\"><div class=\"@container w-full\"><div class=\"relative w-full toc-collision-target rounded-md bg-background\" data-video-container=\"true\" style=\"aspect-ratio:16/9\"><!--$!--><template data-dgst=\"\"></template><!--/$--></div></div></div><figcaption class=\"col-span-full flex w-full flex-col items-center gap-3 text-caption\"><div class=\"relative mt-3 w-full\"><div class=\"flex w-full items-end justify-between\"><div class=\"grow\"><div class=\"text-copy-secondary text-caption text-pretty\"><div class=\"prose prose-caption my-0! max-w-none\"><p class=\"mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0\"><em>我们要求 GPT‑6.2 Astra 根据公开照片和组装手册，为一辆遥控越野车及其发动机建模。它对各个零部件分别建模，创建了装配动画指南，并制作了图文零件目录。这展示了 Astra 如何加速实体工程产品的开发和文档编制。</em></p></div></div></div></div></div></figcaption></div></figure></div></div></div><!--/$--></div></div></div></div></div>",
+  "model": [
+    "$",
+    "div",
+    null,
+    {
+      "className": "group col-span-full not-first:mt-16 not-last:mb-16",
+      "children": [
+        "$",
+        "$L20002b",
+        null,
+        {
+          "id": "mechanical-design-examples",
+          "tabs": [
+            {
+              "id": "mechanical-design-examples:rc-buggy-assembly:tab",
+              "prerender": "$undefined",
+              "preloadResources": "$undefined",
+              "deeplinkId": "$undefined",
+              "label": "遥控越野车装配",
+              "content": [
+                "$",
+                "div",
+                null,
+                {
+                  "data-toc-content": "$undefined",
+                  "data-article-contained": "$undefined",
+                  "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                  "children": [
+                    [
+                      "$",
+                      "div",
+                      ".0",
+                      {
+                        "className": "group col-span-full not-first:mt-16 not-last:mb-16",
+                        "children": [
+                          [
+                            "$",
+                            "figure",
+                            ".0",
+                            {
+                              "id": "$undefined",
+                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                              "children": [
+                                "$",
+                                "div",
+                                null,
+                                {
+                                  "data-tabs-autoplay-content": true,
+                                  "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3",
+                                  "children": [
+                                    [
+                                      "$",
+                                      "div",
+                                      null,
+                                      {
+                                        "data-figure-content": true,
+                                        "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-center",
+                                        "children": [
+                                          [
+                                            "$",
+                                            "$L200023",
+                                            ".0",
+                                            {
+                                              "videoEmbedUrl": "https://player.vimeo.com/video/1245647545?h=478ae4283b",
+                                              "posterImageUrl": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/c72ca706-f91d-50f1-b6e8-39135b414e20.f0ff4fd0.webp",
+                                              "altText": "一套 1:8 比例的硝基燃油遥控越野车零件平铺展示，随后呈现装配过程和成品车的特写。",
+                                              "ratio": "16/9",
+                                              "videoAutoPlay": true,
+                                              "videoLoop": true,
+                                              "keyline": true
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ],
+                                    [
+                                      "$",
+                                      "figcaption",
+                                      null,
+                                      {
+                                        "className": "col-span-full flex w-full flex-col items-center gap-3 text-caption",
+                                        "children": [
+                                          "$",
+                                          "$L200030",
+                                          null,
+                                          {
+                                            "fullWidthCaption": true,
+                                            "center": false,
+                                            "lineClamp": "$undefined",
+                                            "children": [
+                                              "$",
+                                              "div",
+                                              null,
+                                              {
+                                                "className": "prose prose-caption my-0! max-w-none",
+                                                "children": [
+                                                  [
+                                                    "$",
+                                                    "p",
+                                                    ".0",
+                                                    {
+                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                      "children": [
+                                                        [
+                                                          "$",
+                                                          "em",
+                                                          "em-0",
+                                                          {
+                                                            "children": "我们要求 GPT‑6.2 Astra 根据公开照片和组装手册，为一辆遥控越野车及其发动机建模。它对各个零部件分别建模，创建了装配动画指南，并制作了图文零件目录。这展示了 Astra 如何加速实体工程产品的开发和文档编制。"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    }
+                                                  ]
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "$undefined"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mechanical-design-examples:inline-six-engine-design:tab",
+              "prerender": "$undefined",
+              "preloadResources": "$undefined",
+              "deeplinkId": "$undefined",
+              "label": "直列六缸发动机设计",
+              "content": [
+                "$",
+                "div",
+                null,
+                {
+                  "data-toc-content": "$undefined",
+                  "data-article-contained": "$undefined",
+                  "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                  "children": [
+                    [
+                      "$",
+                      "div",
+                      ".0",
+                      {
+                        "className": "group col-span-full not-first:mt-16 not-last:mb-16",
+                        "children": [
+                          [
+                            "$",
+                            "figure",
+                            ".0",
+                            {
+                              "id": "$undefined",
+                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                              "children": [
+                                "$",
+                                "div",
+                                null,
+                                {
+                                  "data-tabs-autoplay-content": true,
+                                  "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3",
+                                  "children": [
+                                    [
+                                      "$",
+                                      "div",
+                                      null,
+                                      {
+                                        "data-figure-content": true,
+                                        "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-edge-gutter:0px] @md:[--dotcom-chart-edge-gutter:0px] multi-columns:[--dotcom-chart-edge-gutter:0px] shaded-container:[--dotcom-chart-edge-gutter:0px] items-center",
+                                        "children": [
+                                          [
+                                            "$",
+                                            "$L200023",
+                                            ".0",
+                                            {
+                                              "videoEmbedUrl": "https://player.vimeo.com/video/1246901234?h=c790911389",
+                                              "posterImageUrl": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/456bb4c4-5bf0-47a6-af40-8739cc4cbb98.e7bc9b17.webp",
+                                              "altText": "一台直列六缸发动机以慢动作运转，旁边并排展示气体温度和机械应力视图。",
+                                              "ratio": "2/1",
+                                              "videoAutoPlay": true,
+                                              "videoLoop": true,
+                                              "keyline": true
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ],
+                                    [
+                                      "$",
+                                      "figcaption",
+                                      null,
+                                      {
+                                        "className": "col-span-full flex w-full flex-col items-center gap-3 text-caption",
+                                        "children": [
+                                          "$",
+                                          "$L200030",
+                                          null,
+                                          {
+                                            "fullWidthCaption": true,
+                                            "center": false,
+                                            "lineClamp": "$undefined",
+                                            "children": [
+                                              "$",
+                                              "div",
+                                              null,
+                                              {
+                                                "className": "prose prose-caption my-0! max-w-none",
+                                                "children": [
+                                                  [
+                                                    "$",
+                                                    "p",
+                                                    ".0",
+                                                    {
+                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                      "children": [
+                                                        [
+                                                          "$",
+                                                          "em",
+                                                          "em-0",
+                                                          {
+                                                            "children": "我们要求 GPT‑6.2 Astra 在线研究零部件和规格后，设计一台新的直列六缸发动机。它在 CAD 中对零件建模，实现了一个 CFD 求解器来迭代设计，并用 Blender 将结果制作成动画。随后，它对发动机整个工况曲线范围内的动态应力进行建模，调整活塞和配重的质量，以降低应力和振动。GPT-6.2 Astra 还基于 CFD 仿真对这台发动机的声音进行了建模[请开启声音]。这展示了 Astra 如何构建复杂求解器，设计、测试并迭代先进机械系统。"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    }
+                                                  ]
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "$undefined"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "autoplay": "$undefined"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "20002b",
+      "value": [
+        563091,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "200023",
+      "value": [
+        646136,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "200030",
+      "value": [
+        38565,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    }
+  ]
+}

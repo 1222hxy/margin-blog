@@ -1,0 +1,150 @@
+{
+  "id": "customer-quote",
+  "html": "<div class=\"group col-span-full not-first:mt-6 py-8\"><section class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0\"><div class=\"col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3\"><div data-testid=\"testimonial-carousel-carousel-view\"><div class=\"border-primary-12 bg-secondary-100 dark:border-primary-4 dark:bg-tertiary-100 relative rounded-md border shadow-[0_18px_60px_rgb(0_0_0/0.08)] px-6 py-8\"><div data-testid=\"testimonial-carousel-scroll-region\" class=\"no-scrollbar relative scroll-smooth overflow-visible\"><div class=\"sticky inset-s-0 top-0 grid w-full\"><figure class=\"col-start-1 row-start-1 grid gap-5 self-start transition-opacity duration-250 ease-[cubic-bezier(0.23,1,0.32,1)] opacity-100\"><div data-testid=\"testimonial-carousel-card-header\" class=\"flex items-center justify-between gap-5 mb-4\"><span role=\"img\" aria-label=\"Higgsfield AI\" class=\"ms-2 dark:brightness-0 dark:invert block h-8 w-32 max-w-full bg-contain bg-left bg-no-repeat md:w-48\" style=\"background-image:url(&quot;/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/ccf1cbef-8d20-47db-8418-063f428c3791.de591fec.png&quot;)\"></span></div><blockquote class=\"relative ms-[0.5em] text-h5 font-medium tracking-tight text-pretty text-primary-100\"><span class=\"absolute inset-s-[-0.5em] top-0\">“</span><p class=\"mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline\">GPT-6.2 Astra 为创意工作带来了巨大飞跃。它让 Higgsfield Miracle 成为现实，支持像素级精度的实时视频编辑，让创作者拥有极致的创作控制力。在我们的内部 3D 生成评估中，它在 73% 的案例中一次就达到了目标效果，而 GPT-6 Astra 需要三次或更多轮迭代。这为我们的创意团队节省了大量时间，也让完全由智能体执行的工作流更加高效。</p>”</blockquote><figcaption class=\"ms-[0.5em] text-meta text-primary-60\">Alex Mashrabov，Higgsfield AI 首席执行官兼联合创始人</figcaption></figure></div></div></div></div></div></section></div>",
+  "model": [
+    "$",
+    "div",
+    null,
+    {
+      "className": "group col-span-full not-first:mt-6 py-8",
+      "children": [
+        "$",
+        "$L20002f",
+        null,
+        {
+          "eyebrow": "$undefined",
+          "testimonials": [
+            {
+              "image": {
+                "file": {
+                  "url": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/ccf1cbef-8d20-47db-8418-063f428c3791.de591fec.png"
+                }
+              },
+              "imageAlt": "Higgsfield AI",
+              "testimonial": [
+                [
+                  "$",
+                  "p",
+                  ".0",
+                  {
+                    "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline",
+                    "children": "GPT-6.2 Astra 为创意工作带来了巨大飞跃。它让 Higgsfield Miracle 成为现实，支持像素级精度的实时视频编辑，让创作者拥有极致的创作控制力。在我们的内部 3D 生成评估中，它在 73% 的案例中一次就达到了目标效果，而 GPT-6 Astra 需要三次或更多轮迭代。这为我们的创意团队节省了大量时间，也让完全由智能体执行的工作流更加高效。"
+                  }
+                ]
+              ],
+              "triggerLogo": "$undefined",
+              "removeQuotes": false,
+              "imageDisplay": "logo",
+              "attribution": "Alex Mashrabov，Higgsfield AI 首席执行官兼联合创始人",
+              "triggerLabel": "Higgsfield AI"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "20002f",
+      "value": [
+        237454,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "TestimonialCarouselView"
+      ]
+    }
+  ]
+}

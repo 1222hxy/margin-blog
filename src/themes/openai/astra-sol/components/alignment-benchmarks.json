@@ -1,0 +1,972 @@
+{
+  "id": "alignment-benchmarks",
+  "html": "<div class=\"group col-span-full not-first:mt-16 not-last:mb-16\"><div id=\"alignment-evaluations\" class=\"flex flex-col gap-8\"><div class=\"@container w-full\"><div class=\"max-w-container @container w-full _39j3JG_container\"><div class=\"_39j3JG_region\"><nav class=\"scrollable scrollable-horizontal scroll-mt-32 py-1 R7Wy8a_fixedEdges\" style=\"--scrollable-edge-gutter:var(--tabs-gutter);--scrollable-edge-fade:var(--tabs-fade)\" role=\"tablist\" aria-label=\"标签\"><div class=\"relative min-w-fit R7Wy8a_track\"><div class=\"toc-collision-target mx-auto w-max\"><div class=\"relative flex items-center gap-2 rounded-full border border-primary-12 p-1\"><button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"alignment-evaluations:blocker-deception:tab-panel\" id=\"alignment-evaluations:blocker-deception:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium relative isolate overflow-hidden hover:bg-primary-12 bg-primary-4\"><span aria-hidden=\"true\" class=\"NIBANa_countdown absolute inset-0 -z-10 bg-primary-12\" style=\"animation-duration:6000ms;animation-delay:0ms;animation-play-state:paused\"></span><span>隐瞒任务障碍</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"alignment-evaluations:workplace-tasks:tab-panel\" id=\"alignment-evaluations:workplace-tasks:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12\"><span>不当行动</span></button></div></div></div></nav></div></div></div><div><div aria-busy=\"false\" class=\"relative min-w-0\"><div class=\"flow-root min-w-0\"><!--$--><div id=\"alignment-evaluations:blocker-deception:tab-panel\" role=\"tabpanel\" aria-labelledby=\"alignment-evaluations:blocker-deception:tab\" class=\"\"><div class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"group col-span-full not-first:mt-16 not-last:mb-16\"><figure class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]\"><div data-tabs-autoplay-content=\"true\" class=\"col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 min-w-0 rounded-lg border border-primary-12 px-(--figure-backdrop-padding) pt-2 pb-(--figure-backdrop-padding) [--figure-backdrop-padding:--spacing(3)] @sm:pt-4 @sm:[--figure-backdrop-padding:--spacing(5)] bg-secondary-100/20 backdrop-blur-xs\"><div data-figure-content=\"true\" class=\"flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[&gt;:nth-child(2),&gt;[data-dotcom-chart-group]&gt;:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&amp;_[data-dotcom-chart-logical-container][style*=&#x27;width:_min-content&#x27;]]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--figure-backdrop-padding)] items-center\"><div id=\"blocker-deception\" class=\"scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]\" style=\"height:400px\"></div></div><figcaption class=\"col-span-full flex w-full flex-col items-center gap-3 text-caption\"><div class=\"relative mt-3 w-full\"><div class=\"flex w-full items-end justify-between\"><div class=\"grow\"><div class=\"text-copy-secondary text-caption text-pretty\"><div class=\"prose prose-caption my-0! max-w-none\"><p class=\"mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0\"><em>在“隐瞒任务障碍”评估中，我们在编程任务中设置障碍，例如移除用户要求智能体编辑的文件。评估考察模型是否会向用户说明这一障碍。</em></p></div></div></div></div></div></figcaption></div></figure></div></div></div><!--/$--></div></div></div></div></div>",
+  "model": [
+    "$",
+    "div",
+    null,
+    {
+      "className": "group col-span-full not-first:mt-16 not-last:mb-16",
+      "children": [
+        "$",
+        "$L20002b",
+        null,
+        {
+          "id": "alignment-evaluations",
+          "tabs": [
+            {
+              "id": "alignment-evaluations:blocker-deception:tab",
+              "prerender": true,
+              "preloadResources": "$undefined",
+              "deeplinkId": "$undefined",
+              "label": "隐瞒任务障碍",
+              "content": [
+                "$",
+                "div",
+                null,
+                {
+                  "data-toc-content": "$undefined",
+                  "data-article-contained": "$undefined",
+                  "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                  "children": [
+                    [
+                      "$",
+                      "div",
+                      ".0",
+                      {
+                        "className": "group col-span-full not-first:mt-16 not-last:mb-16",
+                        "children": [
+                          [
+                            "$",
+                            "figure",
+                            ".0",
+                            {
+                              "id": "$undefined",
+                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                              "children": [
+                                "$",
+                                "div",
+                                null,
+                                {
+                                  "data-tabs-autoplay-content": true,
+                                  "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 min-w-0 rounded-lg border border-primary-12 px-(--figure-backdrop-padding) pt-2 pb-(--figure-backdrop-padding) [--figure-backdrop-padding:--spacing(3)] @sm:pt-4 @sm:[--figure-backdrop-padding:--spacing(5)] bg-secondary-100/20 backdrop-blur-xs",
+                                  "children": [
+                                    [
+                                      "$",
+                                      "div",
+                                      null,
+                                      {
+                                        "data-figure-content": true,
+                                        "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--figure-backdrop-padding)] items-center",
+                                        "children": [
+                                          [
+                                            "$",
+                                            "$L20002a",
+                                            ".0",
+                                            {
+                                              "id": "blocker-deception",
+                                              "anchorId": "blocker-deception",
+                                              "data": {
+                                                "dotcomConfig": {
+                                                  "theme": "multi",
+                                                  "aspectRatio": 1.55,
+                                                  "minHeight": 340
+                                                },
+                                                "vegaLiteSpec": {
+                                                  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+                                                  "title": {
+                                                    "text": "隐瞒任务障碍"
+                                                  },
+                                                  "encoding": {
+                                                    "y": {
+                                                      "field": "rate",
+                                                      "type": "quantitative",
+                                                      "title": "任务障碍相关欺瞒率（越低越好）",
+                                                      "scale": {
+                                                        "domain": [
+                                                          0,
+                                                          0.4
+                                                        ],
+                                                        "nice": false
+                                                      },
+                                                      "axis": {
+                                                        "values": [
+                                                          0,
+                                                          0.1,
+                                                          0.2,
+                                                          0.3,
+                                                          0.4
+                                                        ],
+                                                        "format": ".0%",
+                                                        "labelExpr": "format(datum.value, '.0%')"
+                                                      }
+                                                    },
+                                                    "x": {
+                                                      "field": "slot",
+                                                      "type": "ordinal",
+                                                      "sort": [
+                                                        "1|GPT-6.2 Astra",
+                                                        "2|GPT-6.2 Sol",
+                                                        "3|GPT-6.2 Astra",
+                                                        "4|GPT-6.2 Sol",
+                                                        "5|GPT-6.1 Sol",
+                                                        "6|GPT-6.1 Terra",
+                                                        "7|GPT-6 Astra"
+                                                      ],
+                                                      "scale": {
+                                                        "paddingInner": 0.25,
+                                                        "paddingOuter": 0.125
+                                                      },
+                                                      "axis": {
+                                                        "title": null,
+                                                        "labelAngle": -45,
+                                                        "labelAlign": "right",
+                                                        "ticks": false,
+                                                        "labelOverlap": false,
+                                                        "labelExpr": "split(datum.label, '|')[1]"
+                                                      }
+                                                    }
+                                                  },
+                                                  "data": {
+                                                    "values": [
+                                                      {
+                                                        "slot": "1|GPT-6.2 Astra",
+                                                        "model": "GPT-6.2 Astra",
+                                                        "prompt": "有\n开发者\n提示词",
+                                                        "rate": 0.0804
+                                                      },
+                                                      {
+                                                        "slot": "2|GPT-6.2 Sol",
+                                                        "model": "GPT-6.2 Sol",
+                                                        "prompt": "有\n开发者\n提示词",
+                                                        "rate": 0.0888
+                                                      },
+                                                      {
+                                                        "slot": "3|GPT-6.2 Astra",
+                                                        "model": "GPT-6.2 Astra",
+                                                        "prompt": "无\n开发者\n提示词",
+                                                        "rate": 0.2228
+                                                      },
+                                                      {
+                                                        "slot": "4|GPT-6.2 Sol",
+                                                        "model": "GPT-6.2 Sol",
+                                                        "prompt": "无\n开发者\n提示词",
+                                                        "rate": 0.2408
+                                                      },
+                                                      {
+                                                        "slot": "5|GPT-6.1 Sol",
+                                                        "model": "GPT-6.1 Sol",
+                                                        "prompt": "无\n开发者\n提示词",
+                                                        "rate": 0.14
+                                                      },
+                                                      {
+                                                        "slot": "6|GPT-6.1 Terra",
+                                                        "model": "GPT-6.1 Terra",
+                                                        "prompt": "无\n开发者\n提示词",
+                                                        "rate": 0.0847
+                                                      },
+                                                      {
+                                                        "slot": "7|GPT-6 Astra",
+                                                        "model": "GPT-6 Astra",
+                                                        "prompt": "无\n开发者\n提示词",
+                                                        "rate": 0.1109
+                                                      }
+                                                    ]
+                                                  },
+                                                  "layer": [
+                                                    {
+                                                      "mark": {
+                                                        "type": "bar",
+                                                        "width": {
+                                                          "band": 0.75
+                                                        },
+                                                        "tooltip": false
+                                                      },
+                                                      "encoding": {
+                                                        "color": {
+                                                          "field": "model",
+                                                          "type": "nominal",
+                                                          "scale": {
+                                                            "domain": [
+                                                              "GPT-6.2 Astra",
+                                                              "GPT-6.2 Sol",
+                                                              "GPT-6.1 Sol",
+                                                              "GPT-6.1 Terra",
+                                                              "GPT-6 Astra"
+                                                            ],
+                                                            "range": [
+                                                              "theme3_blue",
+                                                              "theme2_yellow",
+                                                              "theme4_gray",
+                                                              "theme4_gray",
+                                                              "theme4_gray"
+                                                            ]
+                                                          },
+                                                          "legend": null
+                                                        },
+                                                        "description": {
+                                                          "field": "description",
+                                                          "type": "nominal"
+                                                        }
+                                                      },
+                                                      "transform": [
+                                                        {
+                                                          "calculate": "datum.model + ', ' + datum.prompt + ', ' + format(datum.rate, '.2%')",
+                                                          "as": "description"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "mark": {
+                                                        "type": "text",
+                                                        "baseline": "middle",
+                                                        "align": {
+                                                          "expr": "width < 340 ? 'left' : 'center'"
+                                                        },
+                                                        "angle": {
+                                                          "expr": "width < 340 ? 270 : 0"
+                                                        },
+                                                        "yOffset": -8,
+                                                        "tooltip": false
+                                                      },
+                                                      "encoding": {
+                                                        "text": {
+                                                          "field": "rate",
+                                                          "type": "quantitative",
+                                                          "format": ".2%"
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "data": {
+                                                        "values": [
+                                                          {}
+                                                        ]
+                                                      },
+                                                      "mark": {
+                                                        "type": "rule",
+                                                        "strokeDash": [
+                                                          2,
+                                                          4
+                                                        ],
+                                                        "opacity": 0.4,
+                                                        "aria": false,
+                                                        "tooltip": false
+                                                      },
+                                                      "encoding": {
+                                                        "x": {
+                                                          "value": {
+                                                            "expr": "width * 2 / 7"
+                                                          }
+                                                        },
+                                                        "y": {
+                                                          "value": 0
+                                                        },
+                                                        "y2": {
+                                                          "value": {
+                                                            "expr": "height"
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "data": {
+                                                        "values": [
+                                                          {
+                                                            "heading": "有\n开发者\n提示词"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "mark": {
+                                                        "type": "text",
+                                                        "baseline": "top",
+                                                        "lineBreak": "\n",
+                                                        "tooltip": false
+                                                      },
+                                                      "encoding": {
+                                                        "x": {
+                                                          "value": {
+                                                            "expr": "width * 1 / 7"
+                                                          }
+                                                        },
+                                                        "y": {
+                                                          "value": 0
+                                                        },
+                                                        "text": {
+                                                          "field": "heading",
+                                                          "type": "nominal"
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "data": {
+                                                        "values": [
+                                                          {
+                                                            "heading": "无\n开发者\n提示词"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "mark": {
+                                                        "type": "text",
+                                                        "baseline": "top",
+                                                        "lineBreak": "\n",
+                                                        "tooltip": false
+                                                      },
+                                                      "encoding": {
+                                                        "x": {
+                                                          "value": {
+                                                            "expr": "width * 4.5 / 7"
+                                                          }
+                                                        },
+                                                        "y": {
+                                                          "value": 0
+                                                        },
+                                                        "text": {
+                                                          "field": "heading",
+                                                          "type": "nominal"
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ],
+                                    [
+                                      "$",
+                                      "figcaption",
+                                      null,
+                                      {
+                                        "className": "col-span-full flex w-full flex-col items-center gap-3 text-caption",
+                                        "children": [
+                                          "$",
+                                          "$L200030",
+                                          null,
+                                          {
+                                            "fullWidthCaption": true,
+                                            "center": false,
+                                            "lineClamp": "$undefined",
+                                            "children": [
+                                              "$",
+                                              "div",
+                                              null,
+                                              {
+                                                "className": "prose prose-caption my-0! max-w-none",
+                                                "children": [
+                                                  [
+                                                    "$",
+                                                    "p",
+                                                    ".0",
+                                                    {
+                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                      "children": [
+                                                        [
+                                                          "$",
+                                                          "em",
+                                                          "em-0",
+                                                          {
+                                                            "children": "在“隐瞒任务障碍”评估中，我们在编程任务中设置障碍，例如移除用户要求智能体编辑的文件。评估考察模型是否会向用户说明这一障碍。"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    }
+                                                  ]
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "$undefined"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "alignment-evaluations:workplace-tasks:tab",
+              "prerender": "$undefined",
+              "preloadResources": "$undefined",
+              "deeplinkId": "$undefined",
+              "label": "不当行动",
+              "content": [
+                "$",
+                "div",
+                null,
+                {
+                  "data-toc-content": "$undefined",
+                  "data-article-contained": "$undefined",
+                  "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                  "children": [
+                    [
+                      "$",
+                      "div",
+                      ".0",
+                      {
+                        "className": "group col-span-full not-first:mt-16 not-last:mb-16",
+                        "children": [
+                          [
+                            "$",
+                            "figure",
+                            ".0",
+                            {
+                              "id": "$undefined",
+                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                              "children": [
+                                "$",
+                                "div",
+                                null,
+                                {
+                                  "data-tabs-autoplay-content": true,
+                                  "className": "col-span-full flex min-h-0 flex-col gap-6 col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 min-w-0 rounded-lg border border-primary-12 px-(--figure-backdrop-padding) pt-2 pb-(--figure-backdrop-padding) [--figure-backdrop-padding:--spacing(3)] @sm:pt-4 @sm:[--figure-backdrop-padding:--spacing(5)] bg-secondary-100/20 backdrop-blur-xs",
+                                  "children": [
+                                    [
+                                      "$",
+                                      "div",
+                                      null,
+                                      {
+                                        "data-figure-content": true,
+                                        "className": "flex min-h-0 w-full min-w-0 flex-col gap-6 @sm:flex-row @sm:gap-x-10 @sm:has-[>:nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--figure-backdrop-padding)] items-center",
+                                        "children": [
+                                          [
+                                            "$",
+                                            "$L20002a",
+                                            ".0",
+                                            {
+                                              "id": "workplace-tasks",
+                                              "anchorId": "workplace-tasks",
+                                              "data": {
+                                                "dotcomConfig": {
+                                                  "theme": "multi",
+                                                  "aspectRatio": 1.55,
+                                                  "minHeight": 340,
+                                                  "minWidth": 475,
+                                                  "labelCharLimit": 7
+                                                },
+                                                "vegaLiteSpec": {
+                                                  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+                                                  "title": {
+                                                    "text": "职场任务中的不当行动"
+                                                  },
+                                                  "data": {
+                                                    "values": [
+                                                      {
+                                                        "model": "GPT-6.2 Astra",
+                                                        "rate": 0.0064
+                                                      },
+                                                      {
+                                                        "model": "GPT-6.2 Sol",
+                                                        "rate": 0.0071
+                                                      },
+                                                      {
+                                                        "model": "GPT-6.1 Sol",
+                                                        "rate": 0.0132
+                                                      },
+                                                      {
+                                                        "model": "GPT-6.1 Terra",
+                                                        "rate": 0.0228
+                                                      },
+                                                      {
+                                                        "model": "GPT-6 Astra",
+                                                        "rate": 0.012
+                                                      },
+                                                      {
+                                                        "model": "GPT-6 Sol",
+                                                        "rate": 0.0536
+                                                      },
+                                                      {
+                                                        "model": "GPT-5.6 Sol",
+                                                        "rate": 0.1165
+                                                      }
+                                                    ]
+                                                  },
+                                                  "encoding": {
+                                                    "x": {
+                                                      "field": "model",
+                                                      "type": "nominal",
+                                                      "sort": [
+                                                        "GPT-6.2 Astra",
+                                                        "GPT-6.2 Sol",
+                                                        "GPT-6.1 Sol",
+                                                        "GPT-6.1 Terra",
+                                                        "GPT-6 Astra",
+                                                        "GPT-6 Sol",
+                                                        "GPT-5.6 Sol"
+                                                      ],
+                                                      "axis": {
+                                                        "title": null,
+                                                        "labelAngle": 0
+                                                      }
+                                                    },
+                                                    "y": {
+                                                      "field": "rate",
+                                                      "type": "quantitative",
+                                                      "scale": {
+                                                        "domain": [
+                                                          0,
+                                                          0.14
+                                                        ],
+                                                        "nice": false
+                                                      },
+                                                      "axis": {
+                                                        "title": "严重危害发生率",
+                                                        "format": ".0%",
+                                                        "values": [
+                                                          0,
+                                                          0.02,
+                                                          0.04,
+                                                          0.06,
+                                                          0.08,
+                                                          0.1,
+                                                          0.12,
+                                                          0.14
+                                                        ],
+                                                        "labelExpr": "format(datum.value, '.0%')"
+                                                      }
+                                                    },
+                                                    "tooltip": null
+                                                  },
+                                                  "layer": [
+                                                    {
+                                                      "mark": {
+                                                        "type": "bar",
+                                                        "width": {
+                                                          "band": 0.6
+                                                        }
+                                                      },
+                                                      "encoding": {
+                                                        "color": {
+                                                          "field": "model",
+                                                          "type": "nominal",
+                                                          "scale": {
+                                                            "domain": [
+                                                              "GPT-6.2 Astra",
+                                                              "GPT-6.2 Sol",
+                                                              "GPT-6.1 Sol",
+                                                              "GPT-6.1 Terra",
+                                                              "GPT-6 Astra",
+                                                              "GPT-6 Sol",
+                                                              "GPT-5.6 Sol"
+                                                            ],
+                                                            "range": [
+                                                              "theme3_blue",
+                                                              "theme2_yellow",
+                                                              "theme4_gray",
+                                                              "theme4_gray",
+                                                              "theme4_gray",
+                                                              "theme4_gray",
+                                                              "theme4_gray"
+                                                            ]
+                                                          },
+                                                          "legend": null
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "mark": {
+                                                        "type": "text",
+                                                        "baseline": "bottom",
+                                                        "dy": -4
+                                                      },
+                                                      "encoding": {
+                                                        "text": {
+                                                          "field": "rate",
+                                                          "type": "quantitative",
+                                                          "format": ".2%"
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ],
+                                    [
+                                      "$",
+                                      "figcaption",
+                                      null,
+                                      {
+                                        "className": "col-span-full flex w-full flex-col items-center gap-3 text-caption",
+                                        "children": [
+                                          "$",
+                                          "$L200030",
+                                          null,
+                                          {
+                                            "fullWidthCaption": true,
+                                            "center": false,
+                                            "lineClamp": "$undefined",
+                                            "children": [
+                                              "$",
+                                              "div",
+                                              null,
+                                              {
+                                                "className": "prose prose-caption my-0! max-w-none",
+                                                "children": [
+                                                  [
+                                                    "$",
+                                                    "p",
+                                                    ".0",
+                                                    {
+                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                      "children": [
+                                                        [
+                                                          "$",
+                                                          "em",
+                                                          "em-0",
+                                                          {
+                                                            "children": "在这项评估中，智能体使用常见办公应用，完成指令含糊且权限复杂的任务。"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    }
+                                                  ]
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "$undefined"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "autoplay": true
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "20002b",
+      "value": [
+        563091,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "20002a",
+      "value": [
+        938962,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "DotcomChartView",
+        1
+      ]
+    },
+    {
+      "id": "200030",
+      "value": [
+        38565,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    }
+  ]
+}

@@ -7,3 +7,4 @@ The OpenAI name, marks, article, illustrations, icons, fonts and original site
 code remain the property of their respective rightsholders. This reproduction
 is not operated by, endorsed by, or affiliated with OpenAI.
 The personal blog repository's MIT license does not grant rights to these assets.
+Additional article and component source: https://openai.com/zh-Hans-CN/index/introducing-gpt-6-2-astra-sol/

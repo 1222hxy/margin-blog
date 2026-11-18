@@ -58,3 +58,5 @@ npm run theme:export
 默认参考文章要求构建文档字节一致，并通过桌面/手机共 12 个状态、每状态四轮交错像素对拍；结论限定于已保存快照、测试视口与状态。另一篇文章用于证明内容可替换、无 hydration 恢复、原生标签切换和目录可用，不声称它与某个不存在的官网文章逐像素相同。Images 2.6 只提取了上述两个组件，并非整页复刻。
 
 保留 OpenAI 品牌和正文是用户明确要求。此为非官方学习复刻，原文章、品牌、代码、字体与图片归原权利人，不包含在主仓库 MIT 许可中。归属声明见 `public/_openai/NOTICE.txt`；部署应保留 noindex 与该声明。
+
+Astra / Sol 发布页的新组件目录见 [astra-sol/README.md](astra-sol/README.md)，线上路径为 `/themes/openai/astra-sol/components/`，其中包括独立图表、文档对照、轮播和可替换数据的评测图示例。

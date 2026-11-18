@@ -1,0 +1,147 @@
+{
+  "roundsPerSide": 4,
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "states": [
+    {
+      "width": 1440,
+      "state": "benchmark",
+      "cross": [
+        0,
+        1627,
+        0,
+        891
+      ],
+      "self": {
+        "reference": [
+          1627,
+          0,
+          891
+        ],
+        "blog": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "state": "science-tabs",
+      "cross": [
+        0,
+        8,
+        0,
+        8
+      ],
+      "self": {
+        "reference": [
+          8,
+          0,
+          0
+        ],
+        "blog": [
+          0,
+          0,
+          8
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "state": "carousel",
+      "cross": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "self": {
+        "reference": [
+          0,
+          0,
+          0
+        ],
+        "blog": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "state": "benchmark",
+      "cross": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "self": {
+        "reference": [
+          0,
+          0,
+          0
+        ],
+        "blog": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "state": "science-tabs",
+      "cross": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "self": {
+        "reference": [
+          0,
+          0,
+          0
+        ],
+        "blog": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "state": "carousel",
+      "cross": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "self": {
+        "reference": [
+          0,
+          0,
+          0
+        ],
+        "blog": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

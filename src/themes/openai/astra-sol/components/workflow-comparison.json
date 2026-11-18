@@ -1,0 +1,451 @@
+{
+  "id": "workflow-comparison",
+  "html": "<div class=\"group col-span-full not-first:mt-16 not-last:mb-16\"><div id=\"coding-testimonials\" class=\"flex flex-col gap-8\"><div class=\"@container w-full\"><div class=\"max-w-container @container w-full _39j3JG_container\"><div class=\"_39j3JG_region\"><nav class=\"scrollable scrollable-horizontal scroll-mt-32 py-1 R7Wy8a_fixedEdges\" style=\"--scrollable-edge-gutter:var(--tabs-gutter);--scrollable-edge-fade:var(--tabs-fade)\" role=\"tablist\" aria-label=\"标签\"><div class=\"relative min-w-fit R7Wy8a_track\"><div class=\"toc-collision-target mx-auto w-max\"><div class=\"relative flex items-center gap-2 rounded-full border border-primary-12 p-1\"><button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"coding-testimonials:astra-testimonials:tab-panel\" id=\"coding-testimonials:astra-testimonials:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12 bg-primary-4\"><span>GPT-6.2 Astra</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"coding-testimonials:sol-testimonials:tab-panel\" id=\"coding-testimonials:sol-testimonials:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12\"><span>GPT-6.2 Sol</span></button></div></div></div></nav></div></div></div><div><div aria-busy=\"false\" class=\"relative min-w-0\"><div class=\"flow-root min-w-0\"><!--$--><div id=\"coding-testimonials:astra-testimonials:tab-panel\" role=\"tabpanel\" aria-labelledby=\"coding-testimonials:astra-testimonials:tab\" class=\"\"><div class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"group col-span-full not-first:mt-6 py-8\"><section class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0\"><div class=\"col-span-full toc-visible:@md:col-start-1 @md:col-span-8 @md:col-start-3\"><div data-testid=\"testimonial-carousel-carousel-view\"><div class=\"mb-3 flex justify-end\"><div data-testid=\"testimonial-carousel-controls\" class=\"flex shrink-0 items-center gap-3\"><span class=\"text-meta text-primary-60\">1 条/ 共 3 条</span><div class=\"flex\"><button type=\"button\" class=\"ease-curve-a disabled:text-gray-40 items-center justify-center outline-offset-2 duration-200 focus-visible:outline focus-visible:outline-offset-0 flex rounded-sm transition size-8 focus:outline-primary-44 text-btn-media-label\" disabled=\"\" aria-label=\"上一条客户评价\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><use href=\"/icons/cms/27bb77900ed6df73/arrow-left-lg.svg#size-16\" width=\"16\" height=\"16\"></use></svg></button><button type=\"button\" class=\"ease-curve-a disabled:text-gray-40 items-center justify-center outline-offset-2 duration-200 focus-visible:outline focus-visible:outline-offset-0 flex rounded-sm transition size-8 text-primary-60 hover:bg-primary-4 hover:[&amp;&gt;svg]:opacity-60 focus:outline-primary-44 -ms-1 active:scale-95\" aria-label=\"下一条客户评价\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><use href=\"/icons/cms/27bb77900ed6df73/arrow-right-lg.svg#size-16\" width=\"16\" height=\"16\"></use></svg></button></div></div></div><div class=\"border-primary-12 bg-secondary-100 dark:border-primary-4 dark:bg-tertiary-100 relative rounded-md border shadow-[0_18px_60px_rgb(0_0_0/0.08)] px-6 py-8\"><div data-testid=\"testimonial-carousel-scroll-region\" class=\"no-scrollbar relative scroll-smooth snap-x snap-mandatory overflow-x-auto overflow-y-hidden overscroll-x-contain\"><div class=\"sticky inset-s-0 top-0 grid w-full\"><figure aria-live=\"polite\" class=\"col-start-1 row-start-1 grid gap-5 self-start transition-opacity duration-250 ease-[cubic-bezier(0.23,1,0.32,1)] opacity-100\"><div data-testid=\"testimonial-carousel-card-header\" class=\"flex items-center justify-between gap-5 mb-10\"><span role=\"img\" aria-label=\"Basis\" class=\"ms-2 dark:brightness-0 dark:invert block h-8 w-32 max-w-full bg-contain bg-left bg-no-repeat md:w-48\" style=\"background-image:url(&quot;/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/basis-quote-logo.d3840a1a.png&quot;)\"></span></div><blockquote class=\"relative ms-[0.5em] text-h5 font-medium tracking-tight text-pretty text-primary-100\"><span class=\"absolute inset-s-[-0.5em] top-0\">“</span><p class=\"mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline\">GPT-6.2 Astra 能更好地规划长程执行路径，更高效地编写 Bash，以更少的交互轮次完成更多工作，因此在 Token 和工具使用效率上比 GPT-6 Astra 有了巨大提升。我们处理长程会计工作的平均耗时减少了 50%，其中最复杂工作的耗时最多减少了 73%。</p>”</blockquote><figcaption class=\"ms-[0.5em] text-meta text-primary-60\">Eros Wang，Basis 技术团队成员</figcaption></figure><figure aria-hidden=\"true\" inert=\"\" class=\"col-start-1 row-start-1 grid gap-5 self-start transition-opacity duration-250 ease-[cubic-bezier(0.23,1,0.32,1)] pointer-events-none invisible opacity-0\"><div data-testid=\"testimonial-carousel-card-header\" class=\"flex items-center justify-between gap-5 mb-10\"><span role=\"img\" aria-label=\"Ramp\" class=\"ms-2 dark:brightness-0 dark:invert block h-8 w-32 max-w-full bg-contain bg-left bg-no-repeat md:w-48\" style=\"background-image:url(&quot;/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/ramp-quote-logo.96a32a3f.png&quot;)\"></span></div><blockquote class=\"relative ms-[0.5em] text-h5 font-medium tracking-tight text-pretty text-primary-100\"><span class=\"absolute inset-s-[-0.5em] top-0\">“</span><p class=\"mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline\">GPT-6.2 Astra 在推理和系统设计方面取得了显著进步。在我的测试中，它处理复杂项目时展现出更强的架构判断力，能够兼顾理论可能性与现实约束。</p>”</blockquote><figcaption class=\"ms-[0.5em] text-meta text-primary-60\">Daniel Bjanes，Ramp 高级 AI 应用工程师</figcaption></figure><figure aria-hidden=\"true\" inert=\"\" class=\"col-start-1 row-start-1 grid gap-5 self-start transition-opacity duration-250 ease-[cubic-bezier(0.23,1,0.32,1)] pointer-events-none invisible opacity-0\"><div data-testid=\"testimonial-carousel-card-header\" class=\"flex items-center justify-between gap-5 mb-10\"><span role=\"img\" aria-label=\"Jump Trading\" class=\"ms-2 dark:brightness-0 dark:invert block h-8 w-32 max-w-full bg-contain bg-left bg-no-repeat md:w-48\" style=\"background-image:url(&quot;/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/jump-quote-logo.8925a054.png&quot;)\"></span></div><blockquote class=\"relative ms-[0.5em] text-h5 font-medium tracking-tight text-pretty text-primary-100\"><span class=\"absolute inset-s-[-0.5em] top-0\">“</span><p class=\"mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline\">GPT-6.2 Astra 像经验丰富的研究者一样处理复杂优化问题，从第一性原理出发推理，并从自身的失误中学习，找到更好的路径。它将我们的硬件性能发挥到了极限，并在一项沿用超过三年的基准测试中达到了饱和水平。它不到一天就达到了我原以为不可能实现的目标。</p>”</blockquote><figcaption class=\"ms-[0.5em] text-meta text-primary-60\">Adam Alnasser，Jump Trading 技术团队成员</figcaption></figure></div><div aria-hidden=\"true\" class=\"flex h-0 w-full\"><div class=\"h-px w-full shrink-0 snap-center snap-always\"></div><div class=\"h-px w-full shrink-0 snap-center snap-always\"></div><div class=\"h-px w-full shrink-0 snap-center snap-always\"></div></div></div><span aria-hidden=\"true\" data-testid=\"testimonial-carousel-tail\" class=\"border-primary-12 bg-secondary-100 dark:border-primary-4 dark:bg-tertiary-100 -translate-inline-1/2 pointer-events-none absolute bottom-[-0.4rem] z-1 hidden size-3 rotate-45 rounded-xs border-e border-b md:block\" style=\"inset-inline-start:16.666666666666664%\"></span></div><div class=\"relative mt-3 overflow-hidden\"><div aria-hidden=\"true\" class=\"pointer-events-none absolute inset-0 z-1 hidden md:block\"><ul class=\"flex\" style=\"width:100%;mask-image:linear-gradient(#000 0 0);mask-position:0% 0;mask-repeat:no-repeat;mask-size:33.333333333333336% 100%;-webkit-mask-image:linear-gradient(#000 0 0);-webkit-mask-position:0% 0;-webkit-mask-repeat:no-repeat;-webkit-mask-size:33.333333333333336% 100%\"><li class=\"min-w-0 px-1\" style=\"flex:0 0 33.333333333333336%\"><div class=\"flex min-h-11 w-full items-center justify-center rounded-full p-2 text-center text-caption text-balance text-primary-100\">Basis</div></li><li class=\"min-w-0 px-1\" style=\"flex:0 0 33.333333333333336%\"><div class=\"flex min-h-11 w-full items-center justify-center rounded-full p-2 text-center text-caption text-balance text-primary-100\">Ramp</div></li><li class=\"min-w-0 px-1\" style=\"flex:0 0 33.333333333333336%\"><div class=\"flex min-h-11 w-full items-center justify-center rounded-full p-2 text-center text-caption text-balance text-primary-100\">Jump Trading</div></li></ul></div><ul class=\"relative flex\" style=\"width:100%\" aria-label=\"客户评价\"><li class=\"min-w-0 px-1\" style=\"flex:0 0 33.333333333333336%\"><button type=\"button\" aria-current=\"true\" aria-label=\"显示来自 Basis 的推荐语\" class=\"relative flex min-h-11 items-center justify-center bg-transparent p-2 text-center text-caption text-primary-60 transition-[background-color,color,opacity,transform] duration-short ease-curve-a focus-visible:z-1 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-primary-44 active:scale-98 w-full rounded-full hover:bg-primary-4 text-primary-100 md:text-primary-60\"><span class=\"text-balance\">Basis</span></button></li><li class=\"min-w-0 px-1\" style=\"flex:0 0 33.333333333333336%\"><button type=\"button\" aria-current=\"false\" aria-label=\"显示来自 Ramp 的推荐语\" class=\"relative flex min-h-11 items-center justify-center bg-transparent p-2 text-center text-caption text-primary-60 transition-[background-color,color,opacity,transform] duration-short ease-curve-a focus-visible:z-1 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-primary-44 active:scale-98 w-full rounded-full hover:bg-primary-4\"><span class=\"text-balance\">Ramp</span></button></li><li class=\"min-w-0 px-1\" style=\"flex:0 0 33.333333333333336%\"><button type=\"button\" aria-current=\"false\" aria-label=\"显示来自 Jump Trading 的推荐语\" class=\"relative flex min-h-11 items-center justify-center bg-transparent p-2 text-center text-caption text-primary-60 transition-[background-color,color,opacity,transform] duration-short ease-curve-a focus-visible:z-1 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-primary-44 active:scale-98 w-full rounded-full hover:bg-primary-4\"><span class=\"text-balance\">Jump Trading</span></button></li></ul></div></div></div></section></div></div></div><!--/$--></div></div></div></div></div>",
+  "model": [
+    "$",
+    "div",
+    null,
+    {
+      "className": "group col-span-full not-first:mt-16 not-last:mb-16",
+      "children": [
+        "$",
+        "$L20002b",
+        null,
+        {
+          "id": "coding-testimonials",
+          "tabs": [
+            {
+              "id": "coding-testimonials:astra-testimonials:tab",
+              "prerender": "$undefined",
+              "preloadResources": "$undefined",
+              "deeplinkId": "$undefined",
+              "label": "GPT-6.2 Astra",
+              "content": [
+                "$",
+                "div",
+                null,
+                {
+                  "data-toc-content": "$undefined",
+                  "data-article-contained": "$undefined",
+                  "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                  "children": [
+                    [
+                      "$",
+                      "div",
+                      ".0",
+                      {
+                        "className": "group col-span-full not-first:mt-6 py-8",
+                        "children": [
+                          [
+                            "$",
+                            "$L20002f",
+                            ".0",
+                            {
+                              "eyebrow": "$undefined",
+                              "testimonials": [
+                                {
+                                  "image": {
+                                    "file": {
+                                      "url": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/basis-quote-logo.d3840a1a.png"
+                                    }
+                                  },
+                                  "imageAlt": "Basis",
+                                  "testimonial": [
+                                    [
+                                      "$",
+                                      "p",
+                                      ".0",
+                                      {
+                                        "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline",
+                                        "children": "GPT-6.2 Astra 能更好地规划长程执行路径，更高效地编写 Bash，以更少的交互轮次完成更多工作，因此在 Token 和工具使用效率上比 GPT-6 Astra 有了巨大提升。我们处理长程会计工作的平均耗时减少了 50%，其中最复杂工作的耗时最多减少了 73%。"
+                                      }
+                                    ]
+                                  ],
+                                  "triggerLogo": "$undefined",
+                                  "removeQuotes": false,
+                                  "imageDisplay": "logo",
+                                  "attribution": "Eros Wang，Basis 技术团队成员",
+                                  "triggerLabel": "Basis"
+                                },
+                                {
+                                  "image": {
+                                    "file": {
+                                      "url": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/ramp-quote-logo.96a32a3f.png"
+                                    }
+                                  },
+                                  "imageAlt": "Ramp",
+                                  "testimonial": [
+                                    [
+                                      "$",
+                                      "p",
+                                      ".0",
+                                      {
+                                        "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline",
+                                        "children": "GPT-6.2 Astra 在推理和系统设计方面取得了显著进步。在我的测试中，它处理复杂项目时展现出更强的架构判断力，能够兼顾理论可能性与现实约束。"
+                                      }
+                                    ]
+                                  ],
+                                  "triggerLogo": "$undefined",
+                                  "removeQuotes": false,
+                                  "imageDisplay": "logo",
+                                  "attribution": "Daniel Bjanes，Ramp 高级 AI 应用工程师",
+                                  "triggerLabel": "Ramp"
+                                },
+                                {
+                                  "image": {
+                                    "file": {
+                                      "url": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/jump-quote-logo.8925a054.png"
+                                    }
+                                  },
+                                  "imageAlt": "Jump Trading",
+                                  "testimonial": [
+                                    [
+                                      "$",
+                                      "p",
+                                      ".0",
+                                      {
+                                        "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline",
+                                        "children": "GPT-6.2 Astra 像经验丰富的研究者一样处理复杂优化问题，从第一性原理出发推理，并从自身的失误中学习，找到更好的路径。它将我们的硬件性能发挥到了极限，并在一项沿用超过三年的基准测试中达到了饱和水平。它不到一天就达到了我原以为不可能实现的目标。"
+                                      }
+                                    ]
+                                  ],
+                                  "triggerLogo": "$undefined",
+                                  "removeQuotes": false,
+                                  "imageDisplay": "logo",
+                                  "attribution": "Adam Alnasser，Jump Trading 技术团队成员",
+                                  "triggerLabel": "Jump Trading"
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "coding-testimonials:sol-testimonials:tab",
+              "prerender": "$undefined",
+              "preloadResources": "$undefined",
+              "deeplinkId": "$undefined",
+              "label": "GPT-6.2 Sol",
+              "content": [
+                "$",
+                "div",
+                null,
+                {
+                  "data-toc-content": "$undefined",
+                  "data-article-contained": "$undefined",
+                  "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                  "children": [
+                    [
+                      "$",
+                      "div",
+                      ".0",
+                      {
+                        "className": "group col-span-full not-first:mt-6 py-8",
+                        "children": [
+                          [
+                            "$",
+                            "$L20002f",
+                            ".0",
+                            {
+                              "eyebrow": "$undefined",
+                              "testimonials": [
+                                {
+                                  "image": {
+                                    "file": {
+                                      "url": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/replit-quote-logo.259755bf.png"
+                                    }
+                                  },
+                                  "imageAlt": "Replit",
+                                  "testimonial": [
+                                    [
+                                      "$",
+                                      "p",
+                                      ".0",
+                                      {
+                                        "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline",
+                                        "children": "对于日常智能体编程，GPT-6.2 Sol 的效率有了显著提升。在从零构建软件时，它的输出 Token 用量比 GPT-6.1 Sol 少 62%，速度接近其 3 倍，同时通过了我们更多的测试。"
+                                      }
+                                    ]
+                                  ],
+                                  "triggerLogo": "$undefined",
+                                  "removeQuotes": false,
+                                  "imageDisplay": "logo",
+                                  "attribution": "Michele Catasta，Replit 总裁",
+                                  "triggerLabel": "Replit"
+                                },
+                                {
+                                  "image": {
+                                    "file": {
+                                      "url": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/8baf570f-a2b1-4dc1-9d21-63abadb153f8.4ed83b86.png"
+                                    }
+                                  },
+                                  "imageAlt": "Factory",
+                                  "testimonial": [
+                                    [
+                                      "$",
+                                      "p",
+                                      ".0",
+                                      {
+                                        "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline",
+                                        "children": "在早期测试中，GPT-6.2 Sol 给我们留下了深刻印象：它是一款软件工程能力很强、性价比极高的模型。它能自行解决构建失败的问题，交付可运行且经过验证的代码，还能先给出有依据的估算，再用另一种方法加以验证。在高推理强度和相同 Token 定价下，它处理一小组编程任务的预估成本比 GPT-6.1 Sol 低约 26%。"
+                                      }
+                                    ]
+                                  ],
+                                  "triggerLogo": "$undefined",
+                                  "removeQuotes": false,
+                                  "imageDisplay": "logo",
+                                  "attribution": "Eno Reyes，Factory 首席技术官",
+                                  "triggerLabel": "Factory"
+                                },
+                                {
+                                  "image": {
+                                    "file": {
+                                      "url": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/f48ceee3-ce12-44ad-b97e-5fca359640e8.3b20300d.png"
+                                    }
+                                  },
+                                  "imageAlt": "Cognition",
+                                  "testimonial": [
+                                    [
+                                      "$",
+                                      "p",
+                                      ".0",
+                                      {
+                                        "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0 inline",
+                                        "children": "在我们用于评估模型处理真实工程任务能力的 FrontierCode 2.0 基准测试中，GPT-6.2 Sol 的成本效率处于前沿领先水平，以每次运行 1.29 美元的成本取得了令人印象深刻的 43.8% 得分。GPT-6.2 Sol 与表现最好的模型得分相差不到 6 分，成本却低约 90%。"
+                                      }
+                                    ]
+                                  ],
+                                  "triggerLogo": "$undefined",
+                                  "removeQuotes": false,
+                                  "imageDisplay": "logo",
+                                  "attribution": "Steven Hao，Cognition 首席技术官",
+                                  "triggerLabel": "Cognition"
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "autoplay": "$undefined"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "20002b",
+      "value": [
+        563091,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "20002f",
+      "value": [
+        237454,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "TestimonialCarouselView"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1826 @@
+{
+  "id": "workbook-comparison",
+  "html": "<div class=\"group col-span-full not-first:mt-6\"><section class=\"group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]\" data-layout=\"1-column-grid\"><div class=\"@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]\"><div class=\"col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16\"><div class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-6\"><p class=\"mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0\">构建估值工作簿或撰写投资备忘录，首先需要从源文件中找到相关数据，并理清它们之间的关系。Artificial Analysis 的 AA‑AnalystAgent 使用真实电子表格和报告来测试这项工作。在其中一项任务中，模型需要根据加利福尼亚州 Medicaid 的支出报告，计算该计划在医疗转运方面的支出。GPT‑6.2 Astra 创下新高：有 62.5% 的问题在全部五次独立尝试中均得到正确回答。</p></div></div><div class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"group col-span-full not-first:mt-16 not-last:mb-16\"><div id=\"workbook-and-memo-examples\" class=\"flex flex-col gap-8\"><div class=\"@container w-full\"><div class=\"max-w-container @container w-full _39j3JG_container\"><div class=\"_39j3JG_region\"><nav class=\"scrollable scrollable-horizontal scroll-mt-32 py-1 R7Wy8a_fixedEdges\" style=\"--scrollable-edge-gutter:var(--tabs-gutter);--scrollable-edge-fade:var(--tabs-fade)\" role=\"tablist\" aria-label=\"标签\"><div class=\"relative min-w-fit R7Wy8a_track\"><div class=\"toc-collision-target mx-auto w-max\"><div class=\"relative flex items-center gap-2 rounded-full border border-primary-12 p-1\"><button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"workbook-and-memo-examples:financial-forecast:tab-panel\" id=\"workbook-and-memo-examples:financial-forecast:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12 bg-primary-4\"><span>财务预测</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"workbook-and-memo-examples:valuation-workbook:tab-panel\" id=\"workbook-and-memo-examples:valuation-workbook:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12\"><span>估值工作簿</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"workbook-and-memo-examples:experiment-readout:tab-panel\" id=\"workbook-and-memo-examples:experiment-readout:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12\"><span>实验结果分析</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"workbook-and-memo-examples:soc-2-readiness:tab-panel\" id=\"workbook-and-memo-examples:soc-2-readiness:tab\" class=\"text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12\"><span>SOC 2 准备进度跟踪表</span></button></div></div></div></nav></div></div></div><div><div aria-busy=\"false\" class=\"relative min-w-0\"><div class=\"flow-root min-w-0\"><!--$--><div id=\"workbook-and-memo-examples:financial-forecast:tab-panel\" role=\"tabpanel\" aria-labelledby=\"workbook-and-memo-examples:financial-forecast:tab\" class=\"\"><div class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"group col-span-full not-first:mt-6\"><section class=\"group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]\" data-layout=\"1-column-grid\"><div class=\"@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]\"><div class=\"col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target\"><div class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"group col-span-full not-first:mt-6\"><section class=\"group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]\" data-layout=\"2-column-grid\" data-multi-columns=\"true\"><div class=\"@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] max-w-container\"><div class=\"col-span-full grid w-full grid-cols-1 items-stretch gap-5 @md:gap-6 @md:grid-cols-2 @md:gap-y-12\"><div data-article-contained=\"\" class=\"max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16\"><h4 id=\"gpt-6-astra\" data-article-heading=\"\" class=\"text-h5 scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]\">GPT-6 Astra</h4></div><div class=\"group col-span-full not-first:mt-6\"><div class=\"max-w-container @container w-full\"><div class=\"toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]\"><figure class=\"col-span-full font-sans\"><div aria-label=\"Alderfen Field Systems workbook cover and discounted cash flow valuation by GPT-6 Astra.\" aria-roledescription=\"轮播\" role=\"region\" tabindex=\"0\" aria-busy=\"true\" class=\"relative flex min-h-60 w-full flex-col overflow-hidden rounded-sm bg-tertiary-100 focus-visible:outline md:min-h-0\" style=\"--deck-ratio:4/3\"><div class=\"relative grid aspect-(--deck-ratio) grow place-items-center\"><img alt=\"Alderfen Field Systems workbook cover and discounted cash flow valuation by GPT-6 Astra.\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" class=\"object-contain\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/29d193ad-95cb-4a0d-892b-d4b391669684.d6868bd8.webp\"/></div><div class=\"h-12 shrink-0 border-t border-primary-12 md:h-14\"><div class=\"grid size-full place-items-center px-6 text-center text-caption text-primary-100\" role=\"status\">正在加载...</div></div></div></figure></div></div></div></div><div data-article-contained=\"\" class=\"max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16\"><h4 id=\"gpt-62-astra\" data-article-heading=\"\" class=\"text-h5 scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]\">GPT-6.2 Astra</h4></div><div class=\"group col-span-full not-first:mt-6\"><div class=\"max-w-container @container w-full\"><div class=\"toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]\"><figure class=\"col-span-full font-sans\"><div aria-label=\"Alderfen Field Systems workbook cover and discounted cash flow valuation by GPT-6.2 Astra.\" aria-roledescription=\"轮播\" role=\"region\" tabindex=\"0\" aria-busy=\"true\" class=\"relative flex min-h-60 w-full flex-col overflow-hidden rounded-sm bg-tertiary-100 focus-visible:outline md:min-h-0\" style=\"--deck-ratio:4/3\"><div class=\"relative grid aspect-(--deck-ratio) grow place-items-center\"><img alt=\"Alderfen Field Systems workbook cover and discounted cash flow valuation by GPT-6.2 Astra.\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" class=\"object-contain\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/a65f0cc2-bfdc-4ad6-8a93-12628621bc0f.c298a622.webp\"/></div><div class=\"h-12 shrink-0 border-t border-primary-12 md:h-14\"><div class=\"grid size-full place-items-center px-6 text-center text-caption text-primary-100\" role=\"status\">正在加载...</div></div></div></figure></div></div></div></div></div></div></section></div></div><div class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-6\"><p class=\"mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0\"><em>我们向两款模型提供了同一套虚构农业科技公司 Alderfen Field Systems 的财务报表、经营假设和市场数据，要求它们构建一个可编辑的 Excel 工作簿，按业务板块预测截至 2031 年的收入，并检查三张财务报表能否勾稽一致。工作簿还需要按 8% 的折现率和 3% 的永续增长率估算摊薄后每股价值，展示支撑参考股价所需的增长率，并说明估值如何随这些假设的变化而变化。</em></p></div></div><div class=\"max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col\"><div class=\"col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-6\"><p class=\"mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0\"><em>GPT‑6.2 Astra 将收入构成以及从企业价值到每股价值的计算衔接放在敏感性分析表旁边。读者可以看到哪些业务推动了预测结果，并追溯折现现金流、现金与投资以及摊薄后股数如何影响每股估值。GPT‑6 Astra 则将收入明细放在单独的工作表中，将估值衔接计算放在工作表较下方的位置。</em></p></div></div></div></div></section></div></div></div><!--/$--></div></div></div></div></div></div></div></div></section></div>",
+  "model": [
+    "$",
+    "div",
+    null,
+    {
+      "className": "group col-span-full not-first:mt-6",
+      "children": [
+        "$",
+        "$L20002e",
+        null,
+        {
+          "activeClassName": "$undefined",
+          "globalBannerOwner": "$undefined",
+          "heroVariation": "$undefined",
+          "pageOwnedBanner": null,
+          "children": [
+            "$",
+            "section",
+            null,
+            {
+              "style": "$undefined",
+              "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+              "data-layout": "1-column-grid",
+              "data-multi-columns": "$undefined",
+              "children": [
+                null,
+                [
+                  "$",
+                  "div",
+                  null,
+                  {
+                    "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]",
+                    "children": [
+                      "$",
+                      "div",
+                      null,
+                      {
+                        "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16",
+                        "children": [
+                          [
+                            "$",
+                            "div",
+                            ".$.0",
+                            {
+                              "data-toc-content": "$undefined",
+                              "data-article-contained": "$undefined",
+                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                              "children": [
+                                "$",
+                                "div",
+                                ".$.0",
+                                {
+                                  "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-6",
+                                  "children": [
+                                    "$",
+                                    "p",
+                                    null,
+                                    {
+                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                      "children": "构建估值工作簿或撰写投资备忘录，首先需要从源文件中找到相关数据，并理清它们之间的关系。Artificial Analysis 的 AA‑AnalystAgent 使用真实电子表格和报告来测试这项工作。在其中一项任务中，模型需要根据加利福尼亚州 Medicaid 的支出报告，计算该计划在医疗转运方面的支出。GPT‑6.2 Astra 创下新高：有 62.5% 的问题在全部五次独立尝试中均得到正确回答。"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          [
+                            "$",
+                            "div",
+                            ".$.1",
+                            {
+                              "data-toc-content": "$undefined",
+                              "data-article-contained": "$undefined",
+                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                              "children": [
+                                "$",
+                                "div",
+                                ".$.1",
+                                {
+                                  "className": "group col-span-full not-first:mt-16 not-last:mb-16",
+                                  "children": [
+                                    "$",
+                                    "$L20002b",
+                                    null,
+                                    {
+                                      "id": "workbook-and-memo-examples",
+                                      "tabs": [
+                                        {
+                                          "id": "workbook-and-memo-examples:financial-forecast:tab",
+                                          "prerender": true,
+                                          "preloadResources": "$undefined",
+                                          "deeplinkId": "$undefined",
+                                          "label": "财务预测",
+                                          "content": [
+                                            "$",
+                                            "div",
+                                            null,
+                                            {
+                                              "data-toc-content": "$undefined",
+                                              "data-article-contained": "$undefined",
+                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                              "children": [
+                                                [
+                                                  "$",
+                                                  "div",
+                                                  ".0",
+                                                  {
+                                                    "className": "group col-span-full not-first:mt-6",
+                                                    "children": [
+                                                      [
+                                                        "$",
+                                                        "$L20002e",
+                                                        ".0",
+                                                        {
+                                                          "activeClassName": "$undefined",
+                                                          "globalBannerOwner": "$undefined",
+                                                          "heroVariation": "$undefined",
+                                                          "pageOwnedBanner": null,
+                                                          "children": [
+                                                            "$",
+                                                            "section",
+                                                            null,
+                                                            {
+                                                              "style": "$undefined",
+                                                              "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                                              "data-layout": "1-column-grid",
+                                                              "data-multi-columns": "$undefined",
+                                                              "children": [
+                                                                null,
+                                                                [
+                                                                  "$",
+                                                                  "div",
+                                                                  null,
+                                                                  {
+                                                                    "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]",
+                                                                    "children": [
+                                                                      "$",
+                                                                      "div",
+                                                                      null,
+                                                                      {
+                                                                        "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target",
+                                                                        "children": [
+                                                                          [
+                                                                            "$",
+                                                                            "div",
+                                                                            ".$.0",
+                                                                            {
+                                                                              "data-toc-content": "$undefined",
+                                                                              "data-article-contained": "$undefined",
+                                                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                              "children": [
+                                                                                "$",
+                                                                                "div",
+                                                                                ".$.0",
+                                                                                {
+                                                                                  "className": "group col-span-full not-first:mt-6",
+                                                                                  "children": [
+                                                                                    "$",
+                                                                                    "$L20002e",
+                                                                                    null,
+                                                                                    {
+                                                                                      "activeClassName": "$undefined",
+                                                                                      "globalBannerOwner": "$undefined",
+                                                                                      "heroVariation": "$undefined",
+                                                                                      "pageOwnedBanner": null,
+                                                                                      "children": [
+                                                                                        "$",
+                                                                                        "section",
+                                                                                        null,
+                                                                                        {
+                                                                                          "style": "$undefined",
+                                                                                          "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                                                                          "data-layout": "2-column-grid",
+                                                                                          "data-multi-columns": true,
+                                                                                          "children": [
+                                                                                            null,
+                                                                                            [
+                                                                                              "$",
+                                                                                              "div",
+                                                                                              null,
+                                                                                              {
+                                                                                                "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] max-w-container",
+                                                                                                "children": [
+                                                                                                  "$",
+                                                                                                  "div",
+                                                                                                  null,
+                                                                                                  {
+                                                                                                    "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-5 @md:gap-6 @md:grid-cols-2 @md:gap-y-12",
+                                                                                                    "children": [
+                                                                                                      [
+                                                                                                        "$",
+                                                                                                        "div",
+                                                                                                        ".$.0",
+                                                                                                        {
+                                                                                                          "data-toc-content": "$undefined",
+                                                                                                          "data-article-contained": "",
+                                                                                                          "className": "max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                                                          "children": [
+                                                                                                            "$",
+                                                                                                            "$Sreact.fragment",
+                                                                                                            ".$.0",
+                                                                                                            {
+                                                                                                              "children": [
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L20002c",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "as": "h4",
+                                                                                                                        "headlineStyle": "Heading 5",
+                                                                                                                        "id": "gpt-6-astra",
+                                                                                                                        "className": "scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                                                                                        "children": "GPT-6 Astra"
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "group col-span-full not-first:mt-6",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L200034",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "data": {
+                                                                                                                          "sourceUrl": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/a02f7aa0-a5ae-5ece-94f7-f230cf2807ff.pdf",
+                                                                                                                          "aspectRatio": "4/3",
+                                                                                                                          "fillContainer": true,
+                                                                                                                          "hoverOnlyNotes": "$undefined"
+                                                                                                                        },
+                                                                                                                        "media": [
+                                                                                                                          {
+                                                                                                                            "altText": "Alderfen Field Systems workbook cover and discounted cash flow valuation by GPT-6 Astra."
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "posterImage": {
+                                                                                                                          "src": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/29d193ad-95cb-4a0d-892b-d4b391669684.d6868bd8.webp",
+                                                                                                                          "width": 800,
+                                                                                                                          "height": 600
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      [
+                                                                                                        "$",
+                                                                                                        "div",
+                                                                                                        ".$.1",
+                                                                                                        {
+                                                                                                          "data-toc-content": "$undefined",
+                                                                                                          "data-article-contained": "",
+                                                                                                          "className": "max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                                                          "children": [
+                                                                                                            "$",
+                                                                                                            "$Sreact.fragment",
+                                                                                                            ".$.1",
+                                                                                                            {
+                                                                                                              "children": [
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L20002c",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "as": "h4",
+                                                                                                                        "headlineStyle": "Heading 5",
+                                                                                                                        "id": "gpt-62-astra",
+                                                                                                                        "className": "scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                                                                                        "children": "GPT-6.2 Astra"
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "group col-span-full not-first:mt-6",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L200034",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "data": {
+                                                                                                                          "sourceUrl": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/bb10f551-9265-5df9-bea9-574deea8276e.pdf",
+                                                                                                                          "aspectRatio": "4/3",
+                                                                                                                          "fillContainer": true,
+                                                                                                                          "hoverOnlyNotes": "$undefined"
+                                                                                                                        },
+                                                                                                                        "media": [
+                                                                                                                          {
+                                                                                                                            "altText": "Alderfen Field Systems workbook cover and discounted cash flow valuation by GPT-6.2 Astra."
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "posterImage": {
+                                                                                                                          "src": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/a65f0cc2-bfdc-4ad6-8a93-12628621bc0f.c298a622.webp",
+                                                                                                                          "width": 800,
+                                                                                                                          "height": 600
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    ]
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            ]
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ],
+                                                                          [
+                                                                            "$",
+                                                                            "div",
+                                                                            ".$.1",
+                                                                            {
+                                                                              "data-toc-content": "$undefined",
+                                                                              "data-article-contained": "$undefined",
+                                                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                              "children": [
+                                                                                "$",
+                                                                                "div",
+                                                                                ".$.1",
+                                                                                {
+                                                                                  "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-6",
+                                                                                  "children": [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    null,
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "em",
+                                                                                          "em-0",
+                                                                                          {
+                                                                                            "children": "我们向两款模型提供了同一套虚构农业科技公司 Alderfen Field Systems 的财务报表、经营假设和市场数据，要求它们构建一个可编辑的 Excel 工作簿，按业务板块预测截至 2031 年的收入，并检查三张财务报表能否勾稽一致。工作簿还需要按 8% 的折现率和 3% 的永续增长率估算摊薄后每股价值，展示支撑参考股价所需的增长率，并说明估值如何随这些假设的变化而变化。"
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ],
+                                                                          [
+                                                                            "$",
+                                                                            "div",
+                                                                            ".$.2",
+                                                                            {
+                                                                              "data-toc-content": "$undefined",
+                                                                              "data-article-contained": "$undefined",
+                                                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                              "children": [
+                                                                                "$",
+                                                                                "div",
+                                                                                ".$.2",
+                                                                                {
+                                                                                  "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-6",
+                                                                                  "children": [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    null,
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "em",
+                                                                                          "em-0",
+                                                                                          {
+                                                                                            "children": "GPT‑6.2 Astra 将收入构成以及从企业价值到每股价值的计算衔接放在敏感性分析表旁边。读者可以看到哪些业务推动了预测结果，并追溯折现现金流、现金与投资以及摊薄后股数如何影响每股估值。GPT‑6 Astra 则将收入明细放在单独的工作表中，将估值衔接计算放在工作表较下方的位置。"
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    ]
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "workbook-and-memo-examples:valuation-workbook:tab",
+                                          "prerender": true,
+                                          "preloadResources": [
+                                            {
+                                              "href": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/3c7f1b63-b79b-44fb-a069-0859b4c4cacf.pdf",
+                                              "as": "fetch",
+                                              "crossOrigin": "anonymous"
+                                            },
+                                            {
+                                              "href": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/b588f5f6-9473-44db-be71-b02ca2405c0b.pdf",
+                                              "as": "fetch",
+                                              "crossOrigin": "anonymous"
+                                            }
+                                          ],
+                                          "deeplinkId": "$undefined",
+                                          "label": "估值工作簿",
+                                          "content": [
+                                            "$",
+                                            "div",
+                                            null,
+                                            {
+                                              "data-toc-content": "$undefined",
+                                              "data-article-contained": "$undefined",
+                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                              "children": [
+                                                [
+                                                  "$",
+                                                  "div",
+                                                  ".0",
+                                                  {
+                                                    "className": "group col-span-full not-first:mt-6",
+                                                    "children": [
+                                                      [
+                                                        "$",
+                                                        "$L20002e",
+                                                        ".0",
+                                                        {
+                                                          "activeClassName": "$undefined",
+                                                          "globalBannerOwner": "$undefined",
+                                                          "heroVariation": "$undefined",
+                                                          "pageOwnedBanner": null,
+                                                          "children": [
+                                                            "$",
+                                                            "section",
+                                                            null,
+                                                            {
+                                                              "style": "$undefined",
+                                                              "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                                              "data-layout": "1-column-grid",
+                                                              "data-multi-columns": "$undefined",
+                                                              "children": [
+                                                                null,
+                                                                [
+                                                                  "$",
+                                                                  "div",
+                                                                  null,
+                                                                  {
+                                                                    "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]",
+                                                                    "children": [
+                                                                      "$",
+                                                                      "div",
+                                                                      null,
+                                                                      {
+                                                                        "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target",
+                                                                        "children": [
+                                                                          [
+                                                                            "$",
+                                                                            "div",
+                                                                            ".$.0",
+                                                                            {
+                                                                              "data-toc-content": "$undefined",
+                                                                              "data-article-contained": "$undefined",
+                                                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                              "children": [
+                                                                                "$",
+                                                                                "div",
+                                                                                ".$.0",
+                                                                                {
+                                                                                  "className": "group col-span-full not-first:mt-6",
+                                                                                  "children": [
+                                                                                    "$",
+                                                                                    "$L20002e",
+                                                                                    null,
+                                                                                    {
+                                                                                      "activeClassName": "$undefined",
+                                                                                      "globalBannerOwner": "$undefined",
+                                                                                      "heroVariation": "$undefined",
+                                                                                      "pageOwnedBanner": null,
+                                                                                      "children": [
+                                                                                        "$",
+                                                                                        "section",
+                                                                                        null,
+                                                                                        {
+                                                                                          "style": "$undefined",
+                                                                                          "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                                                                          "data-layout": "2-column-grid",
+                                                                                          "data-multi-columns": true,
+                                                                                          "children": [
+                                                                                            null,
+                                                                                            [
+                                                                                              "$",
+                                                                                              "div",
+                                                                                              null,
+                                                                                              {
+                                                                                                "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] max-w-container",
+                                                                                                "children": [
+                                                                                                  "$",
+                                                                                                  "div",
+                                                                                                  null,
+                                                                                                  {
+                                                                                                    "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-5 @md:gap-6 @md:grid-cols-2 @md:gap-y-12",
+                                                                                                    "children": [
+                                                                                                      [
+                                                                                                        "$",
+                                                                                                        "div",
+                                                                                                        ".$.0",
+                                                                                                        {
+                                                                                                          "data-toc-content": "$undefined",
+                                                                                                          "data-article-contained": "",
+                                                                                                          "className": "max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                                                          "children": [
+                                                                                                            "$",
+                                                                                                            "$Sreact.fragment",
+                                                                                                            ".$.0",
+                                                                                                            {
+                                                                                                              "children": [
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L20002c",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "as": "h4",
+                                                                                                                        "headlineStyle": "Heading 5",
+                                                                                                                        "id": "gpt-6-astra-2",
+                                                                                                                        "className": "scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                                                                                        "children": "GPT-6 Astra"
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "group col-span-full not-first:mt-6",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L200034",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "data": {
+                                                                                                                          "sourceUrl": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/3c7f1b63-b79b-44fb-a069-0859b4c4cacf.pdf",
+                                                                                                                          "aspectRatio": "$undefined",
+                                                                                                                          "fillContainer": true,
+                                                                                                                          "hoverOnlyNotes": "$undefined"
+                                                                                                                        },
+                                                                                                                        "media": [
+                                                                                                                          {
+                                                                                                                            "altText": "Precedent transactions slide and worksheet by GPT-6 Astra."
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "posterImage": {
+                                                                                                                          "src": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/9cd4f4e5-2bb8-4c6f-b050-2e89ca060443.5c6ce2ce.webp",
+                                                                                                                          "width": 800,
+                                                                                                                          "height": 517
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      [
+                                                                                                        "$",
+                                                                                                        "div",
+                                                                                                        ".$.1",
+                                                                                                        {
+                                                                                                          "data-toc-content": "$undefined",
+                                                                                                          "data-article-contained": "",
+                                                                                                          "className": "max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                                                          "children": [
+                                                                                                            "$",
+                                                                                                            "$Sreact.fragment",
+                                                                                                            ".$.1",
+                                                                                                            {
+                                                                                                              "children": [
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L20002c",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "as": "h4",
+                                                                                                                        "headlineStyle": "Heading 5",
+                                                                                                                        "id": "gpt-62-astra-2",
+                                                                                                                        "className": "scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                                                                                        "children": "GPT-6.2 Astra"
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "group col-span-full not-first:mt-6",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L200034",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "data": {
+                                                                                                                          "sourceUrl": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/b588f5f6-9473-44db-be71-b02ca2405c0b.pdf",
+                                                                                                                          "aspectRatio": "$undefined",
+                                                                                                                          "fillContainer": true,
+                                                                                                                          "hoverOnlyNotes": "$undefined"
+                                                                                                                        },
+                                                                                                                        "media": [
+                                                                                                                          {
+                                                                                                                            "altText": "Precedent transactions slide and worksheet by GPT-6.2 Astra."
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "posterImage": {
+                                                                                                                          "src": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/8dc6f916-2ff9-4a15-8729-11dfb199d6ab.d0989e11.webp",
+                                                                                                                          "width": 800,
+                                                                                                                          "height": 517
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    ]
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            ]
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ],
+                                                                          [
+                                                                            "$",
+                                                                            "div",
+                                                                            ".$.1",
+                                                                            {
+                                                                              "data-toc-content": "$undefined",
+                                                                              "data-article-contained": "$undefined",
+                                                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                              "children": [
+                                                                                "$",
+                                                                                "div",
+                                                                                ".$.1",
+                                                                                {
+                                                                                  "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-6",
+                                                                                  "children": [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    null,
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "em",
+                                                                                          "em-0",
+                                                                                          {
+                                                                                            "children": "我们要求两款模型使用公开数据，在 Excel 中比较七宗美国软件公司收购交易，再将结果汇总到现有演示文稿的一页幻灯片中。GPT‑6 Astra 在 Excel 中将预期收入增长标为不可用，并在 PowerPoint 中为所有交易使用相同颜色；GPT‑6.2 Astra 则为七家目标公司中的四家提供了增长预估，并用亮蓝色突出 Paycor。GPT‑6.2 Astra 特别强调 Paycor，是因为其余六宗均为私募股权交易，只有这一宗的买方为企业，从而让人一眼看出 Paychex 支付的 21.7 倍 EBITDA 估值低于中位数。GPT-6.2 Astra 的幻灯片副标题在概括核心信息时也更有洞察力。"
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    ]
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "workbook-and-memo-examples:experiment-readout:tab",
+                                          "prerender": true,
+                                          "preloadResources": [
+                                            {
+                                              "href": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/3fe9328e-b63c-44fe-ac99-0510c2711d2f.pdf",
+                                              "as": "fetch",
+                                              "crossOrigin": "anonymous"
+                                            },
+                                            {
+                                              "href": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/9bfb64c1-db30-43bc-8cba-a65ffc09d0e8.pdf",
+                                              "as": "fetch",
+                                              "crossOrigin": "anonymous"
+                                            }
+                                          ],
+                                          "deeplinkId": "$undefined",
+                                          "label": "实验结果分析",
+                                          "content": [
+                                            "$",
+                                            "div",
+                                            null,
+                                            {
+                                              "data-toc-content": "$undefined",
+                                              "data-article-contained": "$undefined",
+                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                              "children": [
+                                                [
+                                                  "$",
+                                                  "div",
+                                                  ".0",
+                                                  {
+                                                    "className": "group col-span-full not-first:mt-6",
+                                                    "children": [
+                                                      [
+                                                        "$",
+                                                        "$L20002e",
+                                                        ".0",
+                                                        {
+                                                          "activeClassName": "$undefined",
+                                                          "globalBannerOwner": "$undefined",
+                                                          "heroVariation": "$undefined",
+                                                          "pageOwnedBanner": null,
+                                                          "children": [
+                                                            "$",
+                                                            "section",
+                                                            null,
+                                                            {
+                                                              "style": "$undefined",
+                                                              "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                                              "data-layout": "1-column-grid",
+                                                              "data-multi-columns": "$undefined",
+                                                              "children": [
+                                                                null,
+                                                                [
+                                                                  "$",
+                                                                  "div",
+                                                                  null,
+                                                                  {
+                                                                    "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] max-w-container",
+                                                                    "children": [
+                                                                      "$",
+                                                                      "div",
+                                                                      null,
+                                                                      {
+                                                                        "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target col-span-full toc-visible:@md:col-span-8 toc-visible:@md:col-start-1 @md:col-span-10 @md:col-start-2",
+                                                                        "children": [
+                                                                          [
+                                                                            "$",
+                                                                            "div",
+                                                                            ".$.0",
+                                                                            {
+                                                                              "data-toc-content": "$undefined",
+                                                                              "data-article-contained": "$undefined",
+                                                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                              "children": [
+                                                                                "$",
+                                                                                "div",
+                                                                                ".$.0",
+                                                                                {
+                                                                                  "className": "group col-span-full not-first:mt-6",
+                                                                                  "children": [
+                                                                                    "$",
+                                                                                    "$L20002e",
+                                                                                    null,
+                                                                                    {
+                                                                                      "activeClassName": "$undefined",
+                                                                                      "globalBannerOwner": "$undefined",
+                                                                                      "heroVariation": "$undefined",
+                                                                                      "pageOwnedBanner": null,
+                                                                                      "children": [
+                                                                                        "$",
+                                                                                        "section",
+                                                                                        null,
+                                                                                        {
+                                                                                          "style": "$undefined",
+                                                                                          "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                                                                          "data-layout": "2-column-grid",
+                                                                                          "data-multi-columns": true,
+                                                                                          "children": [
+                                                                                            null,
+                                                                                            [
+                                                                                              "$",
+                                                                                              "div",
+                                                                                              null,
+                                                                                              {
+                                                                                                "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] max-w-container",
+                                                                                                "children": [
+                                                                                                  "$",
+                                                                                                  "div",
+                                                                                                  null,
+                                                                                                  {
+                                                                                                    "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-5 @md:gap-6 @md:grid-cols-2 @md:gap-y-12",
+                                                                                                    "children": [
+                                                                                                      [
+                                                                                                        "$",
+                                                                                                        "div",
+                                                                                                        ".$.0",
+                                                                                                        {
+                                                                                                          "data-toc-content": "$undefined",
+                                                                                                          "data-article-contained": "",
+                                                                                                          "className": "max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                                                          "children": [
+                                                                                                            "$",
+                                                                                                            "$Sreact.fragment",
+                                                                                                            ".$.0",
+                                                                                                            {
+                                                                                                              "children": [
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L20002c",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "as": "h4",
+                                                                                                                        "headlineStyle": "Heading 5",
+                                                                                                                        "id": "gpt-6-astra-3",
+                                                                                                                        "className": "scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                                                                                        "children": "GPT-6 Astra"
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "group col-span-full not-first:mt-6",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L200034",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "data": {
+                                                                                                                          "sourceUrl": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/3fe9328e-b63c-44fe-ac99-0510c2711d2f.pdf",
+                                                                                                                          "aspectRatio": "4/5",
+                                                                                                                          "fillContainer": true,
+                                                                                                                          "hoverOnlyNotes": true
+                                                                                                                        },
+                                                                                                                        "media": [
+                                                                                                                          {
+                                                                                                                            "altText": "Shared Bills banner experiment readout by GPT-6 Astra."
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "posterImage": {
+                                                                                                                          "src": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/af7264e9-a91f-4b4b-8b53-780acae76410.cdc6a967.webp",
+                                                                                                                          "width": 720,
+                                                                                                                          "height": 932
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      [
+                                                                                                        "$",
+                                                                                                        "div",
+                                                                                                        ".$.1",
+                                                                                                        {
+                                                                                                          "data-toc-content": "$undefined",
+                                                                                                          "data-article-contained": "",
+                                                                                                          "className": "max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                                                          "children": [
+                                                                                                            "$",
+                                                                                                            "$Sreact.fragment",
+                                                                                                            ".$.1",
+                                                                                                            {
+                                                                                                              "children": [
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L20002c",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "as": "h4",
+                                                                                                                        "headlineStyle": "Heading 5",
+                                                                                                                        "id": "gpt-62-astra-3",
+                                                                                                                        "className": "scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                                                                                        "children": "GPT-6.2 Astra"
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "group col-span-full not-first:mt-6",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L200034",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "data": {
+                                                                                                                          "sourceUrl": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/9bfb64c1-db30-43bc-8cba-a65ffc09d0e8.pdf",
+                                                                                                                          "aspectRatio": "4/5",
+                                                                                                                          "fillContainer": true,
+                                                                                                                          "hoverOnlyNotes": true
+                                                                                                                        },
+                                                                                                                        "media": [
+                                                                                                                          {
+                                                                                                                            "altText": "Shared Bills banner experiment readout by GPT-6.2 Astra."
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "posterImage": {
+                                                                                                                          "src": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/75a698d7-8d37-4d5f-95a0-b182a0541cfa.c5670e84.webp",
+                                                                                                                          "width": 720,
+                                                                                                                          "height": 932
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    ]
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            ]
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ],
+                                                                          [
+                                                                            "$",
+                                                                            "div",
+                                                                            ".$.1",
+                                                                            {
+                                                                              "data-toc-content": "$undefined",
+                                                                              "data-article-contained": "$undefined",
+                                                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                              "children": [
+                                                                                "$",
+                                                                                "div",
+                                                                                ".$.1",
+                                                                                {
+                                                                                  "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-6",
+                                                                                  "children": [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    null,
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "em",
+                                                                                          "em-0",
+                                                                                          {
+                                                                                            "children": "我们要求两款模型以数据科学家的身份，针对一项虚构的三周横幅测试向管理层撰写备忘录。该横幅用于推广“共享账单”功能，让朋友之间可以分摊刷卡消费。GPT‑6.2 Astra 开篇便给出管理层决定是否推广所需的结果：“我们未发现个人间交易活动或用卡行为有明显增加。”GPT‑6 Astra 则先以共享账单交易量增长 42.9% 作为发现的开头，随后才讨论不确定性。GPT‑6.2 Astra 的备忘录更贴近真实工作场景，行文脉络更好，并用证据支撑总体判断。它也没有常见的 AI 写作套路，而 GPT-6 Astra 则会写出“这些是用于规划的预测，而非新证据”之类的表述。"
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    ]
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "workbook-and-memo-examples:soc-2-readiness:tab",
+                                          "prerender": true,
+                                          "preloadResources": [
+                                            {
+                                              "href": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/a907e5b2-a010-403f-9886-30a166d9deab.pdf",
+                                              "as": "fetch",
+                                              "crossOrigin": "anonymous"
+                                            },
+                                            {
+                                              "href": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/02f4d536-0319-4b36-b7f5-c03b65bd79e7.pdf",
+                                              "as": "fetch",
+                                              "crossOrigin": "anonymous"
+                                            }
+                                          ],
+                                          "deeplinkId": "$undefined",
+                                          "label": "SOC 2 准备进度跟踪表",
+                                          "content": [
+                                            "$",
+                                            "div",
+                                            null,
+                                            {
+                                              "data-toc-content": "$undefined",
+                                              "data-article-contained": "$undefined",
+                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                              "children": [
+                                                [
+                                                  "$",
+                                                  "div",
+                                                  ".0",
+                                                  {
+                                                    "className": "group col-span-full not-first:mt-6",
+                                                    "children": [
+                                                      [
+                                                        "$",
+                                                        "$L20002e",
+                                                        ".0",
+                                                        {
+                                                          "activeClassName": "$undefined",
+                                                          "globalBannerOwner": "$undefined",
+                                                          "heroVariation": "$undefined",
+                                                          "pageOwnedBanner": null,
+                                                          "children": [
+                                                            "$",
+                                                            "section",
+                                                            null,
+                                                            {
+                                                              "style": "$undefined",
+                                                              "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                                              "data-layout": "1-column-grid",
+                                                              "data-multi-columns": "$undefined",
+                                                              "children": [
+                                                                null,
+                                                                [
+                                                                  "$",
+                                                                  "div",
+                                                                  null,
+                                                                  {
+                                                                    "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px]",
+                                                                    "children": [
+                                                                      "$",
+                                                                      "div",
+                                                                      null,
+                                                                      {
+                                                                        "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-12 @md:gap-16 toc-collision-target",
+                                                                        "children": [
+                                                                          [
+                                                                            "$",
+                                                                            "div",
+                                                                            ".$.0",
+                                                                            {
+                                                                              "data-toc-content": "$undefined",
+                                                                              "data-article-contained": "$undefined",
+                                                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                              "children": [
+                                                                                "$",
+                                                                                "div",
+                                                                                ".$.0",
+                                                                                {
+                                                                                  "className": "group col-span-full not-first:mt-6",
+                                                                                  "children": [
+                                                                                    "$",
+                                                                                    "$L20002e",
+                                                                                    null,
+                                                                                    {
+                                                                                      "activeClassName": "$undefined",
+                                                                                      "globalBannerOwner": "$undefined",
+                                                                                      "heroVariation": "$undefined",
+                                                                                      "pageOwnedBanner": null,
+                                                                                      "children": [
+                                                                                        "$",
+                                                                                        "section",
+                                                                                        null,
+                                                                                        {
+                                                                                          "style": "$undefined",
+                                                                                          "className": "group/component-group @container [--component-container-gutter:initial] [--component-container-max-width:initial]",
+                                                                                          "data-layout": "2-column-grid",
+                                                                                          "data-multi-columns": true,
+                                                                                          "children": [
+                                                                                            null,
+                                                                                            [
+                                                                                              "$",
+                                                                                              "div",
+                                                                                              null,
+                                                                                              {
+                                                                                                "className": "@container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] max-w-container",
+                                                                                                "children": [
+                                                                                                  "$",
+                                                                                                  "div",
+                                                                                                  null,
+                                                                                                  {
+                                                                                                    "className": "col-span-full grid w-full grid-cols-1 items-stretch gap-5 @md:gap-6 @md:grid-cols-2 @md:gap-y-12",
+                                                                                                    "children": [
+                                                                                                      [
+                                                                                                        "$",
+                                                                                                        "div",
+                                                                                                        ".$.0",
+                                                                                                        {
+                                                                                                          "data-toc-content": "$undefined",
+                                                                                                          "data-article-contained": "",
+                                                                                                          "className": "max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                                                          "children": [
+                                                                                                            "$",
+                                                                                                            "$Sreact.fragment",
+                                                                                                            ".$.0",
+                                                                                                            {
+                                                                                                              "children": [
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L20002c",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "as": "h4",
+                                                                                                                        "headlineStyle": "Heading 5",
+                                                                                                                        "id": "gpt-6-astra-4",
+                                                                                                                        "className": "scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                                                                                        "children": "GPT-6 Astra"
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "group col-span-full not-first:mt-6",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L200034",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "data": {
+                                                                                                                          "sourceUrl": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/a907e5b2-a010-403f-9886-30a166d9deab.pdf",
+                                                                                                                          "aspectRatio": "8/5",
+                                                                                                                          "fillContainer": true,
+                                                                                                                          "hoverOnlyNotes": "$undefined"
+                                                                                                                        },
+                                                                                                                        "media": [
+                                                                                                                          {
+                                                                                                                            "altText": "Atlas Health evidence readiness workbook by GPT-6 Astra."
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "posterImage": {
+                                                                                                                          "src": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/c401b825-0783-4ff7-9d9b-bda7279d2f2f.4750ef34.webp",
+                                                                                                                          "width": 800,
+                                                                                                                          "height": 500
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      [
+                                                                                                        "$",
+                                                                                                        "div",
+                                                                                                        ".$.1",
+                                                                                                        {
+                                                                                                          "data-toc-content": "$undefined",
+                                                                                                          "data-article-contained": "",
+                                                                                                          "className": "max-w-container @container w-full flex min-w-0 flex-col [--component-container-gutter:0px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                                                          "children": [
+                                                                                                            "$",
+                                                                                                            "$Sreact.fragment",
+                                                                                                            ".$.1",
+                                                                                                            {
+                                                                                                              "children": [
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-16",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L20002c",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "as": "h4",
+                                                                                                                        "headlineStyle": "Heading 5",
+                                                                                                                        "id": "gpt-62-astra-4",
+                                                                                                                        "className": "scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]",
+                                                                                                                        "children": "GPT-6.2 Astra"
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                [
+                                                                                                                  "$",
+                                                                                                                  "div",
+                                                                                                                  null,
+                                                                                                                  {
+                                                                                                                    "className": "group col-span-full not-first:mt-6",
+                                                                                                                    "children": [
+                                                                                                                      "$",
+                                                                                                                      "$L200034",
+                                                                                                                      null,
+                                                                                                                      {
+                                                                                                                        "data": {
+                                                                                                                          "sourceUrl": "/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/02f4d536-0319-4b36-b7f5-c03b65bd79e7.pdf",
+                                                                                                                          "aspectRatio": "8/5",
+                                                                                                                          "fillContainer": true,
+                                                                                                                          "hoverOnlyNotes": "$undefined"
+                                                                                                                        },
+                                                                                                                        "media": [
+                                                                                                                          {
+                                                                                                                            "altText": "Atlas Health evidence readiness workbook by GPT-6.2 Astra."
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "posterImage": {
+                                                                                                                          "src": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/d5f6549f-b1db-469d-9cd7-a903140c0653.348d2e9f.webp",
+                                                                                                                          "width": 800,
+                                                                                                                          "height": 500
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    ]
+                                                                                                                  }
+                                                                                                                ]
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    ]
+                                                                                                  }
+                                                                                                ]
+                                                                                              }
+                                                                                            ]
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ],
+                                                                          [
+                                                                            "$",
+                                                                            "div",
+                                                                            ".$.1",
+                                                                            {
+                                                                              "data-toc-content": "$undefined",
+                                                                              "data-article-contained": "$undefined",
+                                                                              "className": "max-w-container @container w-full toc-visible:md:grid-cols-10 grid grid-cols-12 gap-x-(--grid-gap) [--grid-gap:8px] md:[--grid-gap:16px] lg:[--grid-gap:24px] multi-columns:flex multi-columns:px-0 in-data-article-contained:flex in-data-article-contained:flex-col",
+                                                                              "children": [
+                                                                                "$",
+                                                                                "div",
+                                                                                ".$.1",
+                                                                                {
+                                                                                  "className": "col-span-full toc-visible:@md:col-start-2 @md:col-span-6 @md:col-start-4 max-w-none min-w-0 in-[:where(li)]:contents not-first:mt-6",
+                                                                                  "children": [
+                                                                                    "$",
+                                                                                    "p",
+                                                                                    null,
+                                                                                    {
+                                                                                      "className": "mb-(--prose-body-margin-bottom,--spacing(6)) last:mb-0",
+                                                                                      "children": [
+                                                                                        [
+                                                                                          "$",
+                                                                                          "em",
+                                                                                          "em-0",
+                                                                                          {
+                                                                                            "children": "我们向两款模型提供了虚构公司 Atlas Health 的合成数据。Atlas 需要在六周内收集记录，以备 SOC 2 就绪性审查，包括系统变更管理和供应商审查方式的相关证据。GPT-6.2 Astra 生成的成果准确、有条理、易于审计，排版也更清晰。"
+                                                                                          }
+                                                                                        ]
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    ]
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "autoplay": "$undefined"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "20002e",
+      "value": [
+        967645,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "20002b",
+      "value": [
+        563091,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "20002c",
+      "value": [
+        204161,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    },
+    {
+      "id": "200034",
+      "value": [
+        764872,
+        [
+          "/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+          "/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+          "/_next/static/immutable/chunks/3vq1e8140roiz.js",
+          "/_next/static/immutable/chunks/26odgfl76astl.js",
+          "/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+          "/_next/static/immutable/chunks/19x67mkx356f0.js",
+          "/_next/static/immutable/chunks/2gsyvac6wws05.js",
+          "/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+          "/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+          "/_next/static/immutable/chunks/27am0wkazfxix.js",
+          "/_next/static/immutable/chunks/2irz8505_sa3k.js",
+          "/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+          "/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+          "/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+          "/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+          "/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+          "/_next/static/immutable/chunks/41_vdu43fx774.js",
+          "/_next/static/immutable/chunks/0e82kju1v28l1.js",
+          "/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+          "/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+          "/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+          "/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+          "/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+          "/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+          "/_next/static/immutable/chunks/3ryum6fjk379z.js",
+          "/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+          "/_next/static/immutable/chunks/2ksxljj4twdus.js",
+          "/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+          "/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+          "/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+          "/_next/static/immutable/chunks/087bnkoxxg6te.js",
+          "/_next/static/immutable/chunks/2_myafymt28om.js",
+          "/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+          "/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+          "/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+          "/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+          "/_next/static/immutable/chunks/0_14uwjfqentb.js",
+          "/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+          "/_next/static/immutable/chunks/071dooty9c3cj.js",
+          "/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+          "/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+          "/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+          "/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+          "/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+          "/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+          "/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+          "/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+          "/_next/static/immutable/chunks/00neekpj_5416.js",
+          "/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+          "/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+          "/_next/static/immutable/chunks/2iexek6qzekqy.js",
+          "/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+          "/_next/static/immutable/chunks/04mjx2d_93r93.js",
+          "/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+          "/_next/static/immutable/chunks/37hos564ry7r0.js",
+          "/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+          "/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+          "/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+          "/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+          "/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+          "/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+          "/_next/static/immutable/chunks/0675qnhhryj4j.js",
+          "/_next/static/immutable/chunks/34wg8985s6a31.js",
+          "/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+          "/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+          "/_next/static/immutable/chunks/340zpj7e61h2m.js",
+          "/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+          "/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+          "/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+          "/_next/static/immutable/chunks/1qp3o142f-njv.js",
+          "/_next/static/immutable/chunks/23o3qcqnthyne.js",
+          "/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+          "/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+          "/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+          "/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+          "/_next/static/immutable/chunks/017vjrb_powg1.js",
+          "/_next/static/immutable/chunks/29348mgx_jtld.js",
+          "/_next/static/immutable/chunks/0225yz0ymku_x.js",
+          "/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+          "/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+          "/_next/static/immutable/chunks/3jup5wiqbodud.js",
+          "/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+          "/_next/static/immutable/chunks/2j6qz74akm81j.js",
+          "/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+          "/_next/static/immutable/chunks/1den392fqhgg7.js",
+          "/_next/static/immutable/chunks/37at5b_isz09s.js",
+          "/_next/static/immutable/chunks/40hlx-d_npavg.js",
+          "/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+          "/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+          "/_next/static/immutable/chunks/194m67y5111t-.js",
+          "/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+          "/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+          "/_next/static/immutable/chunks/2bp7fscfeabdk.js"
+        ],
+        "default"
+      ]
+    }
+  ]
+}

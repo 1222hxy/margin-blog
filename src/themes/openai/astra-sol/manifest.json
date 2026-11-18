@@ -1,0 +1,2022 @@
+{
+  "url": "https://openai.com/zh-Hans-CN/index/introducing-gpt-6-2-astra-sol/",
+  "sourceSha256": "5d00d73c45b2a70b6b0616d891fc64b9e0ef2512a56795fee8f363d37eaca6c7",
+  "documentSha256": "c97f090a5eecf77a1079e4ee068a03261a320dc14d184aea63d076e88307f278",
+  "components": [
+    {
+      "id": "astra-sol-hero",
+      "block": "header",
+      "start": 94865,
+      "end": 95079,
+      "modules": [
+        504107
+      ]
+    },
+    {
+      "id": "intro-video",
+      "block": 0,
+      "start": 103489,
+      "end": 104878,
+      "modules": [
+        646136
+      ]
+    },
+    {
+      "id": "agents-last-exam",
+      "block": 4,
+      "start": 105983,
+      "end": 107826,
+      "modules": [
+        938962,
+        38565
+      ]
+    },
+    {
+      "id": "science-benchmarks",
+      "block": 6,
+      "start": 108255,
+      "end": 110129,
+      "modules": [
+        563091,
+        938962,
+        38565,
+        453214
+      ]
+    },
+    {
+      "id": "intelligence-benchmarks",
+      "block": 8,
+      "start": 110559,
+      "end": 112881,
+      "modules": [
+        563091,
+        938962,
+        38565
+      ]
+    },
+    {
+      "id": "frontier-code",
+      "block": 12,
+      "start": 113922,
+      "end": 115735,
+      "modules": [
+        938962,
+        38565
+      ]
+    },
+    {
+      "id": "lifeval",
+      "block": 14,
+      "start": 116302,
+      "end": 118148,
+      "modules": [
+        938962,
+        38565
+      ]
+    },
+    {
+      "id": "harvey-lab",
+      "block": 18,
+      "start": 119500,
+      "end": 121335,
+      "modules": [
+        938962,
+        38565
+      ]
+    },
+    {
+      "id": "gdpval",
+      "block": 20,
+      "start": 121971,
+      "end": 123806,
+      "modules": [
+        938962,
+        38565
+      ]
+    },
+    {
+      "id": "workbook-comparison",
+      "block": 22,
+      "start": 124508,
+      "end": 128450,
+      "modules": [
+        967645,
+        563091,
+        204161,
+        764872
+      ]
+    },
+    {
+      "id": "slide-comparison",
+      "block": 24,
+      "start": 129139,
+      "end": 133063,
+      "modules": [
+        967645,
+        563091,
+        204161,
+        764872,
+        520335
+      ]
+    },
+    {
+      "id": "customer-carousel",
+      "block": 25,
+      "start": 133064,
+      "end": 143604,
+      "modules": [
+        237454
+      ]
+    },
+    {
+      "id": "driving-demo",
+      "block": 30,
+      "start": 145354,
+      "end": 146694,
+      "modules": [
+        646136
+      ]
+    },
+    {
+      "id": "mechanical-design",
+      "block": 33,
+      "start": 147691,
+      "end": 149376,
+      "modules": [
+        563091,
+        646136,
+        38565
+      ]
+    },
+    {
+      "id": "lamp-design",
+      "block": 36,
+      "start": 150427,
+      "end": 152042,
+      "modules": [
+        563091,
+        646136,
+        332656
+      ]
+    },
+    {
+      "id": "web-design",
+      "block": 38,
+      "start": 152332,
+      "end": 153672,
+      "modules": [
+        646136
+      ]
+    },
+    {
+      "id": "cad-showcase",
+      "block": 40,
+      "start": 154166,
+      "end": 155506,
+      "modules": [
+        646136
+      ]
+    },
+    {
+      "id": "interactive-worlds",
+      "block": 41,
+      "start": 155507,
+      "end": 157105,
+      "modules": [
+        563091,
+        646136,
+        38565,
+        453214
+      ]
+    },
+    {
+      "id": "customer-quote",
+      "block": 42,
+      "start": 157106,
+      "end": 159012,
+      "modules": [
+        237454
+      ]
+    },
+    {
+      "id": "workflow-comparison",
+      "block": 46,
+      "start": 159981,
+      "end": 161625,
+      "modules": [
+        563091,
+        237454
+      ]
+    },
+    {
+      "id": "security-benchmarks",
+      "block": 51,
+      "start": 164471,
+      "end": 166357,
+      "modules": [
+        563091,
+        938962,
+        38565,
+        453214
+      ]
+    },
+    {
+      "id": "patch-benchmarks",
+      "block": 54,
+      "start": 167770,
+      "end": 169611,
+      "modules": [
+        563091,
+        938962,
+        38565
+      ]
+    },
+    {
+      "id": "alignment-benchmarks",
+      "block": 64,
+      "start": 175410,
+      "end": 177255,
+      "modules": [
+        563091,
+        938962,
+        38565
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/29d193ad-95cb-4a0d-892b-d4b391669684.d6868bd8.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/29d193ad-95cb-4a0d-892b-d4b391669684.d6868bd8.webp",
+      "sha256": "d6868bd818cefc1a645c2c399039db026fe63832133d95f98853e5ae9bdcfb6e",
+      "sourceSha256": "d6868bd818cefc1a645c2c399039db026fe63832133d95f98853e5ae9bdcfb6e"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/a65f0cc2-bfdc-4ad6-8a93-12628621bc0f.c298a622.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/a65f0cc2-bfdc-4ad6-8a93-12628621bc0f.c298a622.webp",
+      "sha256": "c298a6225c69e27582e98ee95c09c810d974b60ee7a27ba4c48f451267ee6e28",
+      "sourceSha256": "c298a6225c69e27582e98ee95c09c810d974b60ee7a27ba4c48f451267ee6e28"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/8b926633-c0e8-4fa1-a8e5-0116bf1cd67d.6977d303.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/8b926633-c0e8-4fa1-a8e5-0116bf1cd67d.6977d303.webp",
+      "sha256": "6977d303cf57c20e1203acb874c234e85b866b858a4f558f7bcff84fc0fdd8d3",
+      "sourceSha256": "6977d303cf57c20e1203acb874c234e85b866b858a4f558f7bcff84fc0fdd8d3"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/f1bbe8f5-bd57-44d7-9ac1-2fd4ae22964c.894937c1.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/f1bbe8f5-bd57-44d7-9ac1-2fd4ae22964c.894937c1.webp",
+      "sha256": "894937c1851db8c3ac1a0a12691b9471e2811572087c6c6dd0a800833df1b2ce",
+      "sourceSha256": "894937c1851db8c3ac1a0a12691b9471e2811572087c6c6dd0a800833df1b2ce"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/34ioiq044k1i2.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/34ioiq044k1i2.css",
+      "sha256": "6830145a71066489cf2bea9b2cda3c5758e38994f5c095964bd15f199540f35c",
+      "sourceSha256": "6830145a71066489cf2bea9b2cda3c5758e38994f5c095964bd15f199540f35c"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2c5-yd4np9o5-.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2c5-yd4np9o5-.css",
+      "sha256": "23ac33d8dfa067ee39aa625986c6ea5e65e2e97771071c7149aa8a8be25a2fef",
+      "sourceSha256": "23ac33d8dfa067ee39aa625986c6ea5e65e2e97771071c7149aa8a8be25a2fef"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/20tg4l6-9_l3v.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/20tg4l6-9_l3v.css",
+      "sha256": "f9a4a367cab6cc34847a75cb1e3535b1a2cbb2de6575bc1a072512ce73d7aa25",
+      "sourceSha256": "ea1399ef3bd9d4e284301fac7a8f2149a377ae9cf431f3af1e374effa479e9cb"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/364sl9ajjxur6.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/364sl9ajjxur6.css",
+      "sha256": "85755663f163408ff484ef77c87424dd0b5e9c1dcc397275ed710d4ebcd4ddab",
+      "sourceSha256": "85755663f163408ff484ef77c87424dd0b5e9c1dcc397275ed710d4ebcd4ddab"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1a_w7g4pgbqy2.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1a_w7g4pgbqy2.css",
+      "sha256": "d5108a5fa4040993dcdcadd8c6a29b9021957ee64b4b9ce3e063994961ba20cd",
+      "sourceSha256": "d5108a5fa4040993dcdcadd8c6a29b9021957ee64b4b9ce3e063994961ba20cd"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0zi0_rq3wpe8u.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0zi0_rq3wpe8u.css",
+      "sha256": "0bdb3d70ce01943d7fc6db62950b2ffa0bed37f89f41e7d5a41f15f69dc78e98",
+      "sourceSha256": "0bdb3d70ce01943d7fc6db62950b2ffa0bed37f89f41e7d5a41f15f69dc78e98"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0r1ffza9lfp4m.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0r1ffza9lfp4m.css",
+      "sha256": "2d2c55212424a36dcab69a103ef773c0c08e9469fb9ae0aa29d63f979fb3da9e",
+      "sourceSha256": "1f6a12fb8f9f501cd462dad2736df70557d0482b30af655e401c099aa51c8ad1"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0nncbm0woqncw.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0nncbm0woqncw.css",
+      "sha256": "c6d0db49e0376947786100c1bf340832be443b22f9eea90aba335b83b1f9a905",
+      "sourceSha256": "c6d0db49e0376947786100c1bf340832be443b22f9eea90aba335b83b1f9a905"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/02rizd4h1yg38.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/02rizd4h1yg38.css",
+      "sha256": "641208d4bb4bc7666c704fc139b451be7119edb4f2692257e65bbb9431e1902b",
+      "sourceSha256": "641208d4bb4bc7666c704fc139b451be7119edb4f2692257e65bbb9431e1902b"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3ko1oymi5nfar.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/3ko1oymi5nfar.css",
+      "sha256": "49a29c9819f4b9c98abddb67b18bd8a63f8bfd9eb0b6bffae927380f10d04551",
+      "sourceSha256": "49a29c9819f4b9c98abddb67b18bd8a63f8bfd9eb0b6bffae927380f10d04551"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/19komo8v2-7uw.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/19komo8v2-7uw.css",
+      "sha256": "dd9164344282234ff622d2bbfdc231368a51c5b586757a0b5f77802544bc9901",
+      "sourceSha256": "dd9164344282234ff622d2bbfdc231368a51c5b586757a0b5f77802544bc9901"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3m_pe0v9ukk1l.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/3m_pe0v9ukk1l.css",
+      "sha256": "163ffa1dd57f056891dc299f83b4f9e8b2d70063f6336ba2dae57da2cb1774dc",
+      "sourceSha256": "163ffa1dd57f056891dc299f83b4f9e8b2d70063f6336ba2dae57da2cb1774dc"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1eb20feb7-xs0.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1eb20feb7-xs0.css",
+      "sha256": "785c3d537f9446ed5da15a4a7e7261e53bd3315fa2bff50503515cad3bad731b",
+      "sourceSha256": "785c3d537f9446ed5da15a4a7e7261e53bd3315fa2bff50503515cad3bad731b"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2tythkjpl6r5f.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2tythkjpl6r5f.css",
+      "sha256": "fc2ec3c3e6f79539fbc8a214216965cc153c246ac515e8a9c809c732db5f3b0f",
+      "sourceSha256": "fc2ec3c3e6f79539fbc8a214216965cc153c246ac515e8a9c809c732db5f3b0f"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2tfoxfimdwy_7.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2tfoxfimdwy_7.css",
+      "sha256": "24eefb15b88debcac076448c19372071f8ea7e8b6f2e9eb9ac52b34f36289c77",
+      "sourceSha256": "24eefb15b88debcac076448c19372071f8ea7e8b6f2e9eb9ac52b34f36289c77"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/418g1ki4urs7i.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/418g1ki4urs7i.css",
+      "sha256": "042d73c5a51b5371fcea59a125711df4a8e8831d7d2f52f53aae64ae6b785546",
+      "sourceSha256": "042d73c5a51b5371fcea59a125711df4a8e8831d7d2f52f53aae64ae6b785546"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2fo-m4gcm1vgx.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2fo-m4gcm1vgx.css",
+      "sha256": "879b7a4d45c9933f9c96c6c54bbe434ff5fe3936729c6dd8763c4005005e09f0",
+      "sourceSha256": "879b7a4d45c9933f9c96c6c54bbe434ff5fe3936729c6dd8763c4005005e09f0"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3c_sg8x_2epsx.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/3c_sg8x_2epsx.css",
+      "sha256": "97191a371cf569e8997c46f0a8e11ec7a2ec97132cd85519439488282a766e05",
+      "sourceSha256": "97191a371cf569e8997c46f0a8e11ec7a2ec97132cd85519439488282a766e05"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0gbul3xhdgefu.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0gbul3xhdgefu.css",
+      "sha256": "f49dd04c39892a3abd4784cbce9fb82edbb0627d0e45ac0b998fb0ba9a393cb9",
+      "sourceSha256": "f49dd04c39892a3abd4784cbce9fb82edbb0627d0e45ac0b998fb0ba9a393cb9"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/15a5xgb98i2sv.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/15a5xgb98i2sv.css",
+      "sha256": "0350d54af998eb8b2fe84b0d7b8abe6c5bcdd19b503f45856a9c9cff50cad9e0",
+      "sourceSha256": "0350d54af998eb8b2fe84b0d7b8abe6c5bcdd19b503f45856a9c9cff50cad9e0"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/24llnxe4ide77.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/24llnxe4ide77.css",
+      "sha256": "619e86e5631181c7e0194c004216713d05e79e9bd1f15c7e6f75c43ea28b95b4",
+      "sourceSha256": "619e86e5631181c7e0194c004216713d05e79e9bd1f15c7e6f75c43ea28b95b4"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/02jokqu8i3u6x.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/02jokqu8i3u6x.css",
+      "sha256": "e08e436b5260eb969bc01bffc9869984a0198dcf7db87047fa67f342d033744e",
+      "sourceSha256": "e08e436b5260eb969bc01bffc9869984a0198dcf7db87047fa67f342d033744e"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0hw9axwzzmjt7.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0hw9axwzzmjt7.css",
+      "sha256": "5f1f2c0a9d6fee0b5fdb070dfcc55e308659bf148c65f48a4fc08670cff53075",
+      "sourceSha256": "5f1f2c0a9d6fee0b5fdb070dfcc55e308659bf148c65f48a4fc08670cff53075"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1gamnqvkmev03.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1gamnqvkmev03.css",
+      "sha256": "9a8018c8b062d07daf6c5bfe8ef387f8f9c83bb0705fb4a985306259257658ee",
+      "sourceSha256": "9a8018c8b062d07daf6c5bfe8ef387f8f9c83bb0705fb4a985306259257658ee"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/44k54u4tcqll1.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/44k54u4tcqll1.css",
+      "sha256": "c9c6149feb9f3ced10b40c7bba87583a8f8c836ccee4707dd2a364ada054ddad",
+      "sourceSha256": "c9c6149feb9f3ced10b40c7bba87583a8f8c836ccee4707dd2a364ada054ddad"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3eiqstuav1vis.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/3eiqstuav1vis.css",
+      "sha256": "93b330897273987e589361038c2994c585d6ae9be214f2488c695badac0dca31",
+      "sourceSha256": "93b330897273987e589361038c2994c585d6ae9be214f2488c695badac0dca31"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2gi26gt7puq0m.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2gi26gt7puq0m.css",
+      "sha256": "3df635b8633812848acd3c2ab893b599feaa23c8056e812cfabf93f7e61ffd3e",
+      "sourceSha256": "3df635b8633812848acd3c2ab893b599feaa23c8056e812cfabf93f7e61ffd3e"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/07zrps_9-m8oe.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/07zrps_9-m8oe.css",
+      "sha256": "e409bc57a0cf09770b18a1744d02d9d2f1f1f65a25e2c4edc1523ec7659f8215",
+      "sourceSha256": "e409bc57a0cf09770b18a1744d02d9d2f1f1f65a25e2c4edc1523ec7659f8215"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3al9vz9jzyr1b.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/3al9vz9jzyr1b.css",
+      "sha256": "b418d9d488c9ac5cfebf69dd1f8232f350ccdbdd4d254a2740c16b7b84a26ea6",
+      "sourceSha256": "b418d9d488c9ac5cfebf69dd1f8232f350ccdbdd4d254a2740c16b7b84a26ea6"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1_q7a3kutvpaw.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1_q7a3kutvpaw.css",
+      "sha256": "92b13e8da8006a87ce1f4a03cb8feb9374ddc0ef42006a91a14d9174d0f1b9c7",
+      "sourceSha256": "92b13e8da8006a87ce1f4a03cb8feb9374ddc0ef42006a91a14d9174d0f1b9c7"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2ukcifkl0hfxn.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2ukcifkl0hfxn.css",
+      "sha256": "850c9d97be8455cfffdae164cd43c8d8c147d4fe3f1437367dae91ac78d5acd4",
+      "sourceSha256": "850c9d97be8455cfffdae164cd43c8d8c147d4fe3f1437367dae91ac78d5acd4"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/03hc2mj_hz2t8.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/03hc2mj_hz2t8.css",
+      "sha256": "230e2f24033fbc6cf301e04e7c09885e2c0a377d29eaa6c4b2ded3ffd77a8301",
+      "sourceSha256": "230e2f24033fbc6cf301e04e7c09885e2c0a377d29eaa6c4b2ded3ffd77a8301"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0ifi67wxrbsaq.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0ifi67wxrbsaq.css",
+      "sha256": "5e1dcda2ac5e967cf677c310de51f5af2151033a97dcf3f1ff081dc7baf3ebe1",
+      "sourceSha256": "5e1dcda2ac5e967cf677c310de51f5af2151033a97dcf3f1ff081dc7baf3ebe1"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2wilwq6zdj4qv.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2wilwq6zdj4qv.css",
+      "sha256": "b2ec539b2d51a5cf613da7dffb247ee55e7d426abf9301544b13418ecb6c2a07",
+      "sourceSha256": "b2ec539b2d51a5cf613da7dffb247ee55e7d426abf9301544b13418ecb6c2a07"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0af8wc8u13r__.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0af8wc8u13r__.css",
+      "sha256": "6133c07560f549a7b3a815c5a03b64daf2852f52724237ae1c206a66e6581f1e",
+      "sourceSha256": "6133c07560f549a7b3a815c5a03b64daf2852f52724237ae1c206a66e6581f1e"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1v1c5665im7aj.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1v1c5665im7aj.css",
+      "sha256": "9f9554761034df1c3f802ee05331bd3ef8abe9efba3515ab039cb3d19905ef7f",
+      "sourceSha256": "9f9554761034df1c3f802ee05331bd3ef8abe9efba3515ab039cb3d19905ef7f"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/44jyj7v35fg22.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/44jyj7v35fg22.css",
+      "sha256": "5d58ab49d8f0bf043abc7405a0f911a1e16eec7555754112c8ea07ff0f342b28",
+      "sourceSha256": "5d58ab49d8f0bf043abc7405a0f911a1e16eec7555754112c8ea07ff0f342b28"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0376dr0tsi7m6.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0376dr0tsi7m6.css",
+      "sha256": "9371ad51773643b453633b4a9b16e8dc7f4f09a7d70c28dcbf6b496c3e2f0d3d",
+      "sourceSha256": "9371ad51773643b453633b4a9b16e8dc7f4f09a7d70c28dcbf6b496c3e2f0d3d"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0z06ivb_yk16w.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0z06ivb_yk16w.css",
+      "sha256": "e49d68e520e6b3bdc76b6774cd4232f23f6c840eed686afd0f4da4b85971f3a1",
+      "sourceSha256": "e49d68e520e6b3bdc76b6774cd4232f23f6c840eed686afd0f4da4b85971f3a1"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2vsizjyu9ey9a.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2vsizjyu9ey9a.css",
+      "sha256": "cb8526c008426bfe674049d16238383ca5a1041c0eb4848c87090d0be27d87b3",
+      "sourceSha256": "cb8526c008426bfe674049d16238383ca5a1041c0eb4848c87090d0be27d87b3"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1aufyo0-a84o_.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1aufyo0-a84o_.css",
+      "sha256": "d2506741f265d6b127b3142017aa4909ba06de8f067ba6a22f868da7511b9ed5",
+      "sourceSha256": "d2506741f265d6b127b3142017aa4909ba06de8f067ba6a22f868da7511b9ed5"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3priyhhija7a-.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/3priyhhija7a-.css",
+      "sha256": "f39779364efc11ed93d31d36744bd5012aa947584c1900b3e25052f406bfd529",
+      "sourceSha256": "f39779364efc11ed93d31d36744bd5012aa947584c1900b3e25052f406bfd529"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/23c_up3_tvpch.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/23c_up3_tvpch.css",
+      "sha256": "43d5cac91e7690c0cce5424fa41a435aac0353b2a44c0940c42728bd166c9663",
+      "sourceSha256": "43d5cac91e7690c0cce5424fa41a435aac0353b2a44c0940c42728bd166c9663"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0h-tu49j5vys7.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0h-tu49j5vys7.css",
+      "sha256": "e68954587d9881a3ee1d533aca7b62f28d342db6fa3b244d96f60cab56cab29b",
+      "sourceSha256": "e68954587d9881a3ee1d533aca7b62f28d342db6fa3b244d96f60cab56cab29b"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0j6dvdpebovbg.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0j6dvdpebovbg.css",
+      "sha256": "737f8a75e032c2a37262083b569775d256e71bf86008ac0257194c64eff127ce",
+      "sourceSha256": "737f8a75e032c2a37262083b569775d256e71bf86008ac0257194c64eff127ce"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/21np-4pg3n6e4.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/21np-4pg3n6e4.css",
+      "sha256": "759629a63bd3b7023ef1dd8e9f7526c07e3d9d00a4707ab9f959a2377f43baef",
+      "sourceSha256": "759629a63bd3b7023ef1dd8e9f7526c07e3d9d00a4707ab9f959a2377f43baef"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3qa9oe41s73c4.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/3qa9oe41s73c4.css",
+      "sha256": "d81faa6b05eeef94936f6778c4b369bc53e26ea3a8e22a42cf478d79fb2eb473",
+      "sourceSha256": "d81faa6b05eeef94936f6778c4b369bc53e26ea3a8e22a42cf478d79fb2eb473"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/07uzjfe_ryny9.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/07uzjfe_ryny9.css",
+      "sha256": "bc44e801fc0f8137c6c2b28d75b5f7f599910f81e50215dbbc0b7da2cf97328d",
+      "sourceSha256": "bc44e801fc0f8137c6c2b28d75b5f7f599910f81e50215dbbc0b7da2cf97328d"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/39l43y11w8l-1.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/39l43y11w8l-1.css",
+      "sha256": "e5ff2fb312c587b96213f2052e3d318259dae66dca83e55c732571c8a282edd2",
+      "sourceSha256": "e5ff2fb312c587b96213f2052e3d318259dae66dca83e55c732571c8a282edd2"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/19zikxxdr931a.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/19zikxxdr931a.css",
+      "sha256": "5486601dd15416536f6ba79481929e2d4007572da9f7bdc39535cc19054a55fa",
+      "sourceSha256": "5486601dd15416536f6ba79481929e2d4007572da9f7bdc39535cc19054a55fa"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/12vzv332mlalu.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/12vzv332mlalu.css",
+      "sha256": "09a849b676f8b7738a9475842ea874ae1d907e45dc821ea81c05c023f6d1ed35",
+      "sourceSha256": "09a849b676f8b7738a9475842ea874ae1d907e45dc821ea81c05c023f6d1ed35"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0n85fz5af279u.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0n85fz5af279u.css",
+      "sha256": "b7317f06c5f5192539eb4208ee8b76c1eaaf1686a8ceae194bf6a419e7eb2a28",
+      "sourceSha256": "b7317f06c5f5192539eb4208ee8b76c1eaaf1686a8ceae194bf6a419e7eb2a28"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/22gyl8qmx2uie.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/22gyl8qmx2uie.css",
+      "sha256": "96310359f174d8444a99226599e5e584b3c019c65a2d3a76a3b754ae42bb585d",
+      "sourceSha256": "96310359f174d8444a99226599e5e584b3c019c65a2d3a76a3b754ae42bb585d"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1ajftbk5y80xx.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1ajftbk5y80xx.css",
+      "sha256": "787661c5590f9d07aa794542fa2fdaa1ae53306fe6f7e93ac7f26aff88bcd22c",
+      "sourceSha256": "787661c5590f9d07aa794542fa2fdaa1ae53306fe6f7e93ac7f26aff88bcd22c"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1x9_1xc65us5-.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1x9_1xc65us5-.css",
+      "sha256": "7735c3b99cfcfbcc94fe6341903e81a51107d4cccd9901bbdafa1ba825c28483",
+      "sourceSha256": "7735c3b99cfcfbcc94fe6341903e81a51107d4cccd9901bbdafa1ba825c28483"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0_awaze9bmqit.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0_awaze9bmqit.css",
+      "sha256": "80a461a8a10ddb7e6170a24c7ad96ff2d8281011040a8af330d8f1b7ace85c6e",
+      "sourceSha256": "80a461a8a10ddb7e6170a24c7ad96ff2d8281011040a8af330d8f1b7ace85c6e"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0ojaroe934i_g.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0ojaroe934i_g.css",
+      "sha256": "caf414ce0586ec331226cef3903fe61fb1ecaaf8151122655b61247b2c424215",
+      "sourceSha256": "caf414ce0586ec331226cef3903fe61fb1ecaaf8151122655b61247b2c424215"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/199w-v6wvp-zb.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/199w-v6wvp-zb.css",
+      "sha256": "e8c66f67fee5570225ee18d89f3dbfdffe1aec92747ac7c97e14513de2e99693",
+      "sourceSha256": "e8c66f67fee5570225ee18d89f3dbfdffe1aec92747ac7c97e14513de2e99693"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1j_y_-61xz3hf.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1j_y_-61xz3hf.css",
+      "sha256": "e992831b569fd22f61e10cf386a74f4e3104cf23e2ae363065dcc801d013d451",
+      "sourceSha256": "e992831b569fd22f61e10cf386a74f4e3104cf23e2ae363065dcc801d013d451"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0trxx6ogzbpei.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0trxx6ogzbpei.css",
+      "sha256": "766dfc5ecbf24ed09eec87fae6a3abb1c27ddf09dc44de50d3ad39cb26a3ecac",
+      "sourceSha256": "766dfc5ecbf24ed09eec87fae6a3abb1c27ddf09dc44de50d3ad39cb26a3ecac"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/16p9jc2qteus5.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/16p9jc2qteus5.css",
+      "sha256": "3202a488bfe4ebfbad73437df4966e9949eba5d89b90a32ac64a1c67ee983d68",
+      "sourceSha256": "3202a488bfe4ebfbad73437df4966e9949eba5d89b90a32ac64a1c67ee983d68"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/35jo094as2mbn.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/35jo094as2mbn.css",
+      "sha256": "8c7df54aa56cb6bae0b6a39a55ee6b9780984c7d604b474961d13c23a0491971",
+      "sourceSha256": "8c7df54aa56cb6bae0b6a39a55ee6b9780984c7d604b474961d13c23a0491971"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/03vd5dr9686se.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/03vd5dr9686se.css",
+      "sha256": "27442cdc563138df1eddba7b7357670620c8c4c1b84b592cb150276011b40b0b",
+      "sourceSha256": "80afeed79b1cbe4ffbc2b6457cf70b7e01ac77f37f29e631828829f22e3079c0"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0bykp3y0dkmfb.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0bykp3y0dkmfb.css",
+      "sha256": "f55b8174d82693f43a5520e8592e9465c00831914a0d1f8c93a565a9b9f62594",
+      "sourceSha256": "f55b8174d82693f43a5520e8592e9465c00831914a0d1f8c93a565a9b9f62594"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3glkv-7z38s2z.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/3glkv-7z38s2z.css",
+      "sha256": "14bd70c7997713175389a82274941e2fda2d319e6336de27dc0cb7f54f784927",
+      "sourceSha256": "14bd70c7997713175389a82274941e2fda2d319e6336de27dc0cb7f54f784927"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0p8ob9ost0_t-.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/0p8ob9ost0_t-.css",
+      "sha256": "1856c364a4764b673c64bd819b4badc1809a1bea2844910ced428c836b832797",
+      "sourceSha256": "1856c364a4764b673c64bd819b4badc1809a1bea2844910ced428c836b832797"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1pb5nk92_qwci.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1pb5nk92_qwci.css",
+      "sha256": "cc032f47320a85b62d8eac67ed33e127200efcd117d76d3e0c711ed706ec31d3",
+      "sourceSha256": "cc032f47320a85b62d8eac67ed33e127200efcd117d76d3e0c711ed706ec31d3"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2vxvft1j6ucpe.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2vxvft1j6ucpe.css",
+      "sha256": "54d21211bdb62cffdd78165ad57938fb80214b3d1fe401d4192d5e633a315a08",
+      "sourceSha256": "54d21211bdb62cffdd78165ad57938fb80214b3d1fe401d4192d5e633a315a08"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3ws6s-63hssiy.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/3ws6s-63hssiy.css",
+      "sha256": "1e77678092b5bf4dc5fbe9be7155e1a704cc71369f9818224b2890652dbfdbab",
+      "sourceSha256": "1e77678092b5bf4dc5fbe9be7155e1a704cc71369f9818224b2890652dbfdbab"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/28wzqp0yyw6uz.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/28wzqp0yyw6uz.css",
+      "sha256": "da4268364dabcc5235b6085764cbb8f903b8a607de7db4f3a0758d10f3c83747",
+      "sourceSha256": "da4268364dabcc5235b6085764cbb8f903b8a607de7db4f3a0758d10f3c83747"
+    },
+    {
+      "file": "public/fonts/openai-sans/zh-hans.css",
+      "source": "https://openai.com/fonts/openai-sans/zh-hans.css",
+      "sha256": "9ebe0811f07d6128763a99faf781bcdf6f933465f788dfc169cb158858698985",
+      "sourceSha256": "edb5f47491f2b406fd1635d3e73619a222343c453acd0f92ca657abf236d8ec3"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1j6e90t10ba4d.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1j6e90t10ba4d.js",
+      "sha256": "488ea0ffb050db1204e4d7faca3debde030686e51f57706db843e968fd8d7df5",
+      "sourceSha256": "488ea0ffb050db1204e4d7faca3debde030686e51f57706db843e968fd8d7df5"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/10a3ewsg1bswp.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/10a3ewsg1bswp.js",
+      "sha256": "f93cb3537a6ce3b6ae4a5a02cce4605d619db88f891973ef2f4902fa7779bd10",
+      "sourceSha256": "f93cb3537a6ce3b6ae4a5a02cce4605d619db88f891973ef2f4902fa7779bd10"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1-3lobmg6uev-.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1-3lobmg6uev-.js",
+      "sha256": "8498d551461e0aa220797003ebbc9e329419f77ad71b4c1f88dfc3f2b2e7a7ec",
+      "sourceSha256": "8498d551461e0aa220797003ebbc9e329419f77ad71b4c1f88dfc3f2b2e7a7ec"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1g3r-tb2ttrjq.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1g3r-tb2ttrjq.js",
+      "sha256": "7e4097c1fa14ca8f05175d3bdf421329218e1020b8d5ed237fdc6e836ed10132",
+      "sourceSha256": "7e4097c1fa14ca8f05175d3bdf421329218e1020b8d5ed237fdc6e836ed10132"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/18unpa8m78lod.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/18unpa8m78lod.js",
+      "sha256": "8c1f200cdabcdfab9212a89f8b55d75ad9a0ebdbc8da7d6a3a595030717a7674",
+      "sourceSha256": "8c1f200cdabcdfab9212a89f8b55d75ad9a0ebdbc8da7d6a3a595030717a7674"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/turbopack-3h_ctkfaeun7f.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/turbopack-3h_ctkfaeun7f.js",
+      "sha256": "3f0ba0c36a0758d76b55b6717fd77e65f46ae1295bb22fa441476e1eb7854d51",
+      "sourceSha256": "3f0ba0c36a0758d76b55b6717fd77e65f46ae1295bb22fa441476e1eb7854d51"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/242h5nri1_0n5.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/242h5nri1_0n5.js",
+      "sha256": "a28b49f4245fc2ca27210b985324a94eb5474c70e4c8100d9b0f36dee21068c7",
+      "sourceSha256": "a28b49f4245fc2ca27210b985324a94eb5474c70e4c8100d9b0f36dee21068c7"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3xcddc4dbctw7.js",
+      "sha256": "3ca9ef7182d029ba93345d61faa30d95273404213bd9be8795e1a9008ac9f6ad",
+      "sourceSha256": "3ca9ef7182d029ba93345d61faa30d95273404213bd9be8795e1a9008ac9f6ad"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1htvgjfyn9srg.js",
+      "sha256": "41dafb29985f33eb2bd7802455e697a1fb939ed7df3d12eabfeaa2d2ae376343",
+      "sourceSha256": "41dafb29985f33eb2bd7802455e697a1fb939ed7df3d12eabfeaa2d2ae376343"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3vq1e8140roiz.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3vq1e8140roiz.js",
+      "sha256": "56111dd90afe89465e3beb5e5bf77bc67d631a912022f780fee0978958c90d52",
+      "sourceSha256": "56111dd90afe89465e3beb5e5bf77bc67d631a912022f780fee0978958c90d52"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/26odgfl76astl.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/26odgfl76astl.js",
+      "sha256": "65079a1c414c7bacc4b01f3b7ea5c4fe8d9b8c0fab75732760eb239b652d6424",
+      "sourceSha256": "65079a1c414c7bacc4b01f3b7ea5c4fe8d9b8c0fab75732760eb239b652d6424"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1dqf6y1rbgbeh.js",
+      "sha256": "758ca1bec9d3f49ad1a1385a1357e4da3a7f084d99bb19dba8ef243e18a6a1e0",
+      "sourceSha256": "758ca1bec9d3f49ad1a1385a1357e4da3a7f084d99bb19dba8ef243e18a6a1e0"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/19x67mkx356f0.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/19x67mkx356f0.js",
+      "sha256": "fcb9e96c88d013e98fd605b94a8f72fcbb302e09f9549c14f10d251cdc80adb2",
+      "sourceSha256": "fcb9e96c88d013e98fd605b94a8f72fcbb302e09f9549c14f10d251cdc80adb2"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2gsyvac6wws05.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2gsyvac6wws05.js",
+      "sha256": "726756ffa9410cb74c0b67048ed0d7752157db0e87fdfefc1b408fc6964a9e57",
+      "sourceSha256": "726756ffa9410cb74c0b67048ed0d7752157db0e87fdfefc1b408fc6964a9e57"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3nm9qmvyr61y-.js",
+      "sha256": "bd3862386e32a1251ad20c8c9d54d9916fa2be6b69699f4c8f3259f2497bf84f",
+      "sourceSha256": "bd3862386e32a1251ad20c8c9d54d9916fa2be6b69699f4c8f3259f2497bf84f"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1dqfr9kieeozu.js",
+      "sha256": "06a97dc7ba9a9c73b843762888ab1ad08c3d2fef1e0a6630fb4f5c98a67866f7",
+      "sourceSha256": "06a97dc7ba9a9c73b843762888ab1ad08c3d2fef1e0a6630fb4f5c98a67866f7"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/27am0wkazfxix.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/27am0wkazfxix.js",
+      "sha256": "52ed207774cd40e133ecfd79bea4177074ba91f839ae857dd712cae0192ff642",
+      "sourceSha256": "52ed207774cd40e133ecfd79bea4177074ba91f839ae857dd712cae0192ff642"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2irz8505_sa3k.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2irz8505_sa3k.js",
+      "sha256": "39a68fea1db1d7c90fbad3e77820b411ab807bfcacd211368b3f9a8de37b9603",
+      "sourceSha256": "39a68fea1db1d7c90fbad3e77820b411ab807bfcacd211368b3f9a8de37b9603"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3heo1ldqltkoa.js",
+      "sha256": "ef4d39010f71ceaf25e2569941ce754836c8e0bd90fd6462665b9a3ef54a799d",
+      "sourceSha256": "ef4d39010f71ceaf25e2569941ce754836c8e0bd90fd6462665b9a3ef54a799d"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2qvgidj_ahk_r.js",
+      "sha256": "46c31038e8e9d75d2407023581a55ca6b8219abd833fffe217a1d1405370e541",
+      "sourceSha256": "2ba5bbd68dfde1010adb5cf10744790f4421138af59782ae08775d68fe258281"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1rlbeca_poyc4.js",
+      "sha256": "3adb0d98990f438916c9326c2d1cc84157d44331eaf74c0b7ac0ec2c9117c3b6",
+      "sourceSha256": "3adb0d98990f438916c9326c2d1cc84157d44331eaf74c0b7ac0ec2c9117c3b6"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3f4bsa_t5t5zk.js",
+      "sha256": "9ae82e4afc9fc1028da579435fecc0a0299200a7565730ed9dd86c725dffe148",
+      "sourceSha256": "9ae82e4afc9fc1028da579435fecc0a0299200a7565730ed9dd86c725dffe148"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1xlk8ie9oslg_.js",
+      "sha256": "72ebf63ba4873d24dc605b1296cf5da74115aa3633d2ff502f132b994335d2ef",
+      "sourceSha256": "72ebf63ba4873d24dc605b1296cf5da74115aa3633d2ff502f132b994335d2ef"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/41_vdu43fx774.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/41_vdu43fx774.js",
+      "sha256": "6a3c62ea6fc18d546635e49f84709cf6d74850f01620a9cc45ff4d8ae69dff9d",
+      "sourceSha256": "6a3c62ea6fc18d546635e49f84709cf6d74850f01620a9cc45ff4d8ae69dff9d"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0e82kju1v28l1.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0e82kju1v28l1.js",
+      "sha256": "e2a217c901d04d69ebabfc0f5ca32b8f57d47fdbd3891f0c5a859ea55c444e92",
+      "sourceSha256": "235f189b1467f7ec1ba5843f9e1d237ca4eb1cdd076a3440af3fce08bd8fe72e"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3ysq7f-o1o7m5.js",
+      "sha256": "2230aaa00fde1bf0eeef70f5519e3c9f58f02b074d2349faa64a2dd2ce6dcc95",
+      "sourceSha256": "2230aaa00fde1bf0eeef70f5519e3c9f58f02b074d2349faa64a2dd2ce6dcc95"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/41d8ew7g8bo8o.js",
+      "sha256": "aef8d52d472c3389e844925dae4d1a68a24efd26825b6d3b4908f3b153c32134",
+      "sourceSha256": "aef8d52d472c3389e844925dae4d1a68a24efd26825b6d3b4908f3b153c32134"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0g-_ylpxdhe-9.js",
+      "sha256": "9576101de9df2944d9515a173a74825d14b01d4422a7e9a9003500d55aff2707",
+      "sourceSha256": "9576101de9df2944d9515a173a74825d14b01d4422a7e9a9003500d55aff2707"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2x3vcbmon7olg.js",
+      "sha256": "b2c182a2bcae86de2a5447dbc67b78963d7e8d1adf4bf7ed1a56e490090afaa3",
+      "sourceSha256": "b2c182a2bcae86de2a5447dbc67b78963d7e8d1adf4bf7ed1a56e490090afaa3"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/32_wjyvi83i2j.js",
+      "sha256": "eefdbca8c02924b6a67fce643e7c79ac9f916e92dcd0330304c03ded30fd5273",
+      "sourceSha256": "eefdbca8c02924b6a67fce643e7c79ac9f916e92dcd0330304c03ded30fd5273"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3ev0hrla2ulxs.js",
+      "sha256": "6bfcd7fb8bd66817d0b3ebe1f4c0548fbfba400da30313c1027ccc2bbf267954",
+      "sourceSha256": "6bfcd7fb8bd66817d0b3ebe1f4c0548fbfba400da30313c1027ccc2bbf267954"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3ryum6fjk379z.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3ryum6fjk379z.js",
+      "sha256": "cb6f78a030537b8e012a2d11ca1ccdd89b6f3679cd71410631efb80ec96b41da",
+      "sourceSha256": "cb6f78a030537b8e012a2d11ca1ccdd89b6f3679cd71410631efb80ec96b41da"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3t-c58ajcgtp3.js",
+      "sha256": "80e0d58b8aa2b98886c46aadd2a171d776be4eb9945a3530466ceeb84fed01bd",
+      "sourceSha256": "80e0d58b8aa2b98886c46aadd2a171d776be4eb9945a3530466ceeb84fed01bd"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2ksxljj4twdus.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2ksxljj4twdus.js",
+      "sha256": "b0a9bc2b103e0e86a9c644da648227785d0ad65101feebdd3df55df96622e8c5",
+      "sourceSha256": "b0a9bc2b103e0e86a9c644da648227785d0ad65101feebdd3df55df96622e8c5"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1i72xc8w2_0ee.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1i72xc8w2_0ee.js",
+      "sha256": "7ce844a17bc5e1fb636db37041b0fe93ec7242a9f4c34bf716436a901e7d7902",
+      "sourceSha256": "7ce844a17bc5e1fb636db37041b0fe93ec7242a9f4c34bf716436a901e7d7902"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1rsi9mjh4lth2.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1rsi9mjh4lth2.js",
+      "sha256": "21399187d0fbfdb0a90e47719c5ea6e6d9df1bf86129d7b8fbb9704383dc6810",
+      "sourceSha256": "21399187d0fbfdb0a90e47719c5ea6e6d9df1bf86129d7b8fbb9704383dc6810"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2x61r3rwij53l.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2x61r3rwij53l.js",
+      "sha256": "2cc361b7ea0370508b14b7e91d8a5a5ba15ef6bd7db5c27eacfc17c58f9700c1",
+      "sourceSha256": "2cc361b7ea0370508b14b7e91d8a5a5ba15ef6bd7db5c27eacfc17c58f9700c1"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/134-fh2g5kl9y.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/134-fh2g5kl9y.js",
+      "sha256": "d47a7a21f67fe97b342dce2733dc9b6a1823ae5e8b6136274db9bccbffa9a9ea",
+      "sourceSha256": "d47a7a21f67fe97b342dce2733dc9b6a1823ae5e8b6136274db9bccbffa9a9ea"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/10cpisem-fy6t.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/10cpisem-fy6t.js",
+      "sha256": "6616460b361b6f79c9fa972f88c8a0992fa842d22543dcc476d78626f6b126f6",
+      "sourceSha256": "6616460b361b6f79c9fa972f88c8a0992fa842d22543dcc476d78626f6b126f6"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2loucd2604f5t.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2loucd2604f5t.js",
+      "sha256": "3fd60e7b3834cc1e0adf58c6d361b8fd8825a66e47175d1bbc918f453d0e2623",
+      "sourceSha256": "3fd60e7b3834cc1e0adf58c6d361b8fd8825a66e47175d1bbc918f453d0e2623"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3bsgwztl8krkc.js",
+      "sha256": "432ffd68dda36e98bcb1414ec404f489a9a222f473b163cde1acce32e64ee5d8",
+      "sourceSha256": "432ffd68dda36e98bcb1414ec404f489a9a222f473b163cde1acce32e64ee5d8"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/00cm9phe8qz7p.js",
+      "sha256": "c23327242a1e5d173937b66993133726f506f9385231ca61d11cfcd001ae6022",
+      "sourceSha256": "c23327242a1e5d173937b66993133726f506f9385231ca61d11cfcd001ae6022"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2nepy2wmfqbd8.js",
+      "sha256": "9caa481ff5ed8811ea2552b1df662cae7a40cc7fd2e246203bfe4855926e013f",
+      "sourceSha256": "9caa481ff5ed8811ea2552b1df662cae7a40cc7fd2e246203bfe4855926e013f"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/087bnkoxxg6te.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/087bnkoxxg6te.js",
+      "sha256": "45953bbc8bda757e73420585545df750c731f9831a68f1f4d4f87edf7ce089cf",
+      "sourceSha256": "45953bbc8bda757e73420585545df750c731f9831a68f1f4d4f87edf7ce089cf"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2_myafymt28om.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2_myafymt28om.js",
+      "sha256": "3a1153fb39a815176b94ab7adad30eea7584c3c6741d39bdee7a588884d67ffe",
+      "sourceSha256": "3a1153fb39a815176b94ab7adad30eea7584c3c6741d39bdee7a588884d67ffe"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0cpdlnznjdqs2.js",
+      "sha256": "dc4673d41e7be6aa627b99192101f0ea990c7f87b8173501436e278538dabe50",
+      "sourceSha256": "dc4673d41e7be6aa627b99192101f0ea990c7f87b8173501436e278538dabe50"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1j8b6-uga25qr.js",
+      "sha256": "cc0f4bc462b460de26af75bded94b7a0eca11059aecdc50f1543c9ca8af1d0ce",
+      "sourceSha256": "cc0f4bc462b460de26af75bded94b7a0eca11059aecdc50f1543c9ca8af1d0ce"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3ad-5lfc9ia86.js",
+      "sha256": "ea56a1d50649acfad9dbf6658b2442c5fde6a0f1f9b0a1047db370a33bc41c04",
+      "sourceSha256": "ea56a1d50649acfad9dbf6658b2442c5fde6a0f1f9b0a1047db370a33bc41c04"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2y5zlqavofwi7.js",
+      "sha256": "38934d4e02562c6f91a215d60c83e9373f08f243746f4d96e50e12de2ea7b245",
+      "sourceSha256": "38934d4e02562c6f91a215d60c83e9373f08f243746f4d96e50e12de2ea7b245"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0_14uwjfqentb.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0_14uwjfqentb.js",
+      "sha256": "237aa170515de8924209daf7e90104fdd30660ef942f25924e4516c23efc2f54",
+      "sourceSha256": "237aa170515de8924209daf7e90104fdd30660ef942f25924e4516c23efc2f54"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3zhwfwj0p249q.js",
+      "sha256": "91c41bffa9b3b184ad98fccfe6e2b9812617268bc9918601b9e2ff575527a0d2",
+      "sourceSha256": "91c41bffa9b3b184ad98fccfe6e2b9812617268bc9918601b9e2ff575527a0d2"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/071dooty9c3cj.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/071dooty9c3cj.js",
+      "sha256": "ff8ee0d64e3fc2ab224cfdf0de5b7e50e1981798a64f068d3299b169e3e3dda6",
+      "sourceSha256": "ff8ee0d64e3fc2ab224cfdf0de5b7e50e1981798a64f068d3299b169e3e3dda6"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3ihzwl51i3--k.js",
+      "sha256": "6e8942222eeaff6d39b4bd6307b1929c309b26fc0d08570a071852da70bce806",
+      "sourceSha256": "6e8942222eeaff6d39b4bd6307b1929c309b26fc0d08570a071852da70bce806"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0-6inz0mqb3me.js",
+      "sha256": "88ee31ecee550b34ac0babd5a9d8b1d39c4eb9f5bc54d9f44f06bc52555f5b50",
+      "sourceSha256": "88ee31ecee550b34ac0babd5a9d8b1d39c4eb9f5bc54d9f44f06bc52555f5b50"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2xhpmo5p9hv4c.js",
+      "sha256": "82204cc264de162eaec1c5d2a61e74724314c3162a3462a5ad18e4415e32890f",
+      "sourceSha256": "82204cc264de162eaec1c5d2a61e74724314c3162a3462a5ad18e4415e32890f"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0t9f4nzynvk6e.js",
+      "sha256": "e78aaa61f1d59b4f78dc36230ce0480e2bae57c983d4a59832d3a31f44c128dd",
+      "sourceSha256": "e78aaa61f1d59b4f78dc36230ce0480e2bae57c983d4a59832d3a31f44c128dd"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/44tqaw31gwcj_.js",
+      "sha256": "17c3dea8242e720414a53d059e8ba8d60c8c9be9cd07a78766b693c1cb8b7656",
+      "sourceSha256": "17c3dea8242e720414a53d059e8ba8d60c8c9be9cd07a78766b693c1cb8b7656"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0wl4_aw_qjkxf.js",
+      "sha256": "c31f229ecef968f7add7353aefe912a62b761613848981d033780971b24831ed",
+      "sourceSha256": "c31f229ecef968f7add7353aefe912a62b761613848981d033780971b24831ed"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/444xd8q-ph1jw.js",
+      "sha256": "a09ae4d736ebc70c7021822f52dccea7e2d5aaeab9c8a472dfb3d83d94636840",
+      "sourceSha256": "a09ae4d736ebc70c7021822f52dccea7e2d5aaeab9c8a472dfb3d83d94636840"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1ri42j4r25q6g.js",
+      "sha256": "838197336c0680c99b77599f868d421352098843ace5a40f771e27aa5b8fabe2",
+      "sourceSha256": "838197336c0680c99b77599f868d421352098843ace5a40f771e27aa5b8fabe2"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/00neekpj_5416.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/00neekpj_5416.js",
+      "sha256": "257e29d675401671d001dfefde2622285f941e137b212aebeafa10db21f3dcba",
+      "sourceSha256": "257e29d675401671d001dfefde2622285f941e137b212aebeafa10db21f3dcba"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3qgfhp38pb4d5.js",
+      "sha256": "78f9e572a294fcd964b5b6854513192df6ed37db3589499833318c279c3a3599",
+      "sourceSha256": "78f9e572a294fcd964b5b6854513192df6ed37db3589499833318c279c3a3599"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3oeoi-etx_q1l.js",
+      "sha256": "7d9c617cbeb16647b1d117e2f86a38c808450794fb5f7ad539a93189abc88a7f",
+      "sourceSha256": "a9ade6314ce372cba1a0bb68c8fb8916f635f5a10fec9cc3881c7504a2f9f4c8"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2iexek6qzekqy.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2iexek6qzekqy.js",
+      "sha256": "796b9aa29cdcf5ffb9d68972536ad40de13fe43c99d699e21a3d4445f4d75570",
+      "sourceSha256": "796b9aa29cdcf5ffb9d68972536ad40de13fe43c99d699e21a3d4445f4d75570"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1gvxsdacd6ppi.js",
+      "sha256": "08d6e23a398462677370a61151d425c757c241223c3a72ce2427b4c2a5e28153",
+      "sourceSha256": "08d6e23a398462677370a61151d425c757c241223c3a72ce2427b4c2a5e28153"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/04mjx2d_93r93.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/04mjx2d_93r93.js",
+      "sha256": "c01b4e96d316ee5bce510ae4fd8f593680d5b469631633543c258948dba9823c",
+      "sourceSha256": "c01b4e96d316ee5bce510ae4fd8f593680d5b469631633543c258948dba9823c"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1nkgkmmth90gx.js",
+      "sha256": "47c360c59b22d6e57bac5e002f6d978bb01c0b3780b6cf35ef8909cb1774a7b4",
+      "sourceSha256": "273a10c563cf73174ee6cdd5b41931be07c69f230098adc5293c91b96828101e"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/37hos564ry7r0.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/37hos564ry7r0.js",
+      "sha256": "6cb1e604a6aa384491801bacd538a68f1d75d5b4e184ff7708e7accb41b1aa9c",
+      "sourceSha256": "bb0003187eec93bad8e3547296414522366f6bafb164b1c9622def8631173593"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/18ylvdxqnf7mg.js",
+      "sha256": "052259f627fab6d50005577f198c0f90444c1116bd0a449815fd1ef47d19bdbd",
+      "sourceSha256": "052259f627fab6d50005577f198c0f90444c1116bd0a449815fd1ef47d19bdbd"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3d0fzpt_dmup6.js",
+      "sha256": "135f5688284f61b3ec436badba33bacd433abeb06401b6002bdfc600ebd2bbe3",
+      "sourceSha256": "135f5688284f61b3ec436badba33bacd433abeb06401b6002bdfc600ebd2bbe3"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2ewtjr96g9p5l.js",
+      "sha256": "d39b4fc3d81693b278034b3e22e95c6ccc3eda2a27a00caa9dc2e02d9c6fd3f0",
+      "sourceSha256": "d39b4fc3d81693b278034b3e22e95c6ccc3eda2a27a00caa9dc2e02d9c6fd3f0"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0ufpjn2glcvg6.js",
+      "sha256": "f18ed7dfacf17ee4735f1017172e82ccd56198b8fe131c40204c3365db353a23",
+      "sourceSha256": "f18ed7dfacf17ee4735f1017172e82ccd56198b8fe131c40204c3365db353a23"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2_k-so_6q5uoc.js",
+      "sha256": "588be3c0af8c0bf2fdbf3e344ed3f6f2cc0e7bf066a39456914dcb1f9f530b3c",
+      "sourceSha256": "588be3c0af8c0bf2fdbf3e344ed3f6f2cc0e7bf066a39456914dcb1f9f530b3c"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2a7ssrxwj1baz.js",
+      "sha256": "bea47eaa2055d45e65b24e808bc875c8126127d2e02018b9aa52bf394c750c64",
+      "sourceSha256": "bea47eaa2055d45e65b24e808bc875c8126127d2e02018b9aa52bf394c750c64"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0675qnhhryj4j.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0675qnhhryj4j.js",
+      "sha256": "61804f08fb6fc406cf5169fa3630fd4a9cd3845c995dffe98236dc292979b438",
+      "sourceSha256": "61804f08fb6fc406cf5169fa3630fd4a9cd3845c995dffe98236dc292979b438"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/34wg8985s6a31.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/34wg8985s6a31.js",
+      "sha256": "adcaa545c7e933a321b3b53c24b2175357cc414405b114839aacf9379a7219c7",
+      "sourceSha256": "adcaa545c7e933a321b3b53c24b2175357cc414405b114839aacf9379a7219c7"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+      "sha256": "b4745d62c155a5b65a148ca53bd739a714b6eb15d047954d08398aa2060f5fa9",
+      "sourceSha256": "fd5c6433950ada22eadb6ea0023d1d5dc931d1da06a9f00466320727d91846bd"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/05u_qr_z4sblp.js",
+      "sha256": "3a13914843f931ac8a1868051a49d5f761bcb931b4edf4b2c9a58509b661801d",
+      "sourceSha256": "3a13914843f931ac8a1868051a49d5f761bcb931b4edf4b2c9a58509b661801d"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/340zpj7e61h2m.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/340zpj7e61h2m.js",
+      "sha256": "d24d63516ed573ac78280f79aebf6c461bb4ebc63f141849aa580ea826542704",
+      "sourceSha256": "d24d63516ed573ac78280f79aebf6c461bb4ebc63f141849aa580ea826542704"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3jqyrjv2a5qc3.js",
+      "sha256": "4386149c730ae95961a5c9103b87361792d7635b3e473447b962eadd6896c22b",
+      "sourceSha256": "4386149c730ae95961a5c9103b87361792d7635b3e473447b962eadd6896c22b"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1ac8vlrwtmnno.js",
+      "sha256": "97bdf795ca3b5205d065d24d6a539abd53e8da4834ed1470559e9a2e7fd9785e",
+      "sourceSha256": "97bdf795ca3b5205d065d24d6a539abd53e8da4834ed1470559e9a2e7fd9785e"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3fgcy3cjxh0rp.js",
+      "sha256": "0997ebd47fd997670ef118fba8c8c992b4b8f08bce5f9d6ef7d03c0b7ffc54ce",
+      "sourceSha256": "0997ebd47fd997670ef118fba8c8c992b4b8f08bce5f9d6ef7d03c0b7ffc54ce"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1qp3o142f-njv.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1qp3o142f-njv.js",
+      "sha256": "fd62b7435560eea8a25cbe80e95d0196a5fefa667746be5b636236af862df977",
+      "sourceSha256": "fd62b7435560eea8a25cbe80e95d0196a5fefa667746be5b636236af862df977"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/23o3qcqnthyne.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/23o3qcqnthyne.js",
+      "sha256": "250cbeaa80f549f3a940ec331fa63701d00be31b99eff1e880a0ee4510439a26",
+      "sourceSha256": "250cbeaa80f549f3a940ec331fa63701d00be31b99eff1e880a0ee4510439a26"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3oqg6euhw9m7s.js",
+      "sha256": "dcf5a0db14bbe5191895ce9c68c21e41ae864bf2523c4012413b44eef44121dd",
+      "sourceSha256": "dcf5a0db14bbe5191895ce9c68c21e41ae864bf2523c4012413b44eef44121dd"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2nom5lmfzm_8s.js",
+      "sha256": "02edb324ac71404778c4915dab00668f78a91c363b7f57c7e9eb78b587aba7fb",
+      "sourceSha256": "02edb324ac71404778c4915dab00668f78a91c363b7f57c7e9eb78b587aba7fb"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0cns-__0hrgrr.js",
+      "sha256": "bede5c5426bd73e7fae816e3815874575c9cb232fac4c00b2abc4f2d4ebf9d3c",
+      "sourceSha256": "bede5c5426bd73e7fae816e3815874575c9cb232fac4c00b2abc4f2d4ebf9d3c"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3fj6pft8ljfzv.js",
+      "sha256": "4bf8a943dc6da6c8f5a4d23834f61b8906e489460ee40c42b81e7d1ecf303e1c",
+      "sourceSha256": "4bf8a943dc6da6c8f5a4d23834f61b8906e489460ee40c42b81e7d1ecf303e1c"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/017vjrb_powg1.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/017vjrb_powg1.js",
+      "sha256": "816add64f9e0358cd34b0a146d4e00869c69dfbcce85442a43a337b2e2dd28b3",
+      "sourceSha256": "816add64f9e0358cd34b0a146d4e00869c69dfbcce85442a43a337b2e2dd28b3"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/29348mgx_jtld.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/29348mgx_jtld.js",
+      "sha256": "8771b9a7f74a7a928c15e2574b72dda602e073d393a788c561c9a8861693c916",
+      "sourceSha256": "8771b9a7f74a7a928c15e2574b72dda602e073d393a788c561c9a8861693c916"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0225yz0ymku_x.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0225yz0ymku_x.js",
+      "sha256": "e260b367eb92420c250671c24315916e23a9ab205e4429bdbe5734b50918ff21",
+      "sourceSha256": "e260b367eb92420c250671c24315916e23a9ab205e4429bdbe5734b50918ff21"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2gb1x1hhch0n6.js",
+      "sha256": "969de227578e9d5800eff20e15435bca642cb5cd4670a7885a792bfb51126c1d",
+      "sourceSha256": "969de227578e9d5800eff20e15435bca642cb5cd4670a7885a792bfb51126c1d"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0fq4jpcqg59_w.js",
+      "sha256": "dfa7b342c7b6d804951a2f5473c26e7a85fadbf8c0246ee1c1d07ff59c6180ec",
+      "sourceSha256": "dfa7b342c7b6d804951a2f5473c26e7a85fadbf8c0246ee1c1d07ff59c6180ec"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3jup5wiqbodud.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3jup5wiqbodud.js",
+      "sha256": "8755d9a12bc0d4c6630e0f2ac36671fcbaed60fa338a79adf9c7ed34a03fbc7f",
+      "sourceSha256": "8755d9a12bc0d4c6630e0f2ac36671fcbaed60fa338a79adf9c7ed34a03fbc7f"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1zqv6g02ay5-8.js",
+      "sha256": "9723f1069777163abeb0dd3808f92833293b651d8927d4054f77c1215d4f64e3",
+      "sourceSha256": "9723f1069777163abeb0dd3808f92833293b651d8927d4054f77c1215d4f64e3"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2j6qz74akm81j.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2j6qz74akm81j.js",
+      "sha256": "30c62e2bf64d9b341986a78e74bba89426b65e5d3b1ab508c8a5a4934bb104a9",
+      "sourceSha256": "30c62e2bf64d9b341986a78e74bba89426b65e5d3b1ab508c8a5a4934bb104a9"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0tzwnesl5-yi5.js",
+      "sha256": "557e776825a001d6bf26b5894c9cc73cca7a6fb55b85c69b5a0987878e0f243c",
+      "sourceSha256": "b70e09166664683c4211b721c7036dcefc9d73d73e339ce4db1ede2fd789511e"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1den392fqhgg7.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1den392fqhgg7.js",
+      "sha256": "4a080a563f833f4229635fcdd11703557312a344fc734278c9e3a3dbe9635511",
+      "sourceSha256": "4a080a563f833f4229635fcdd11703557312a344fc734278c9e3a3dbe9635511"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/37at5b_isz09s.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/37at5b_isz09s.js",
+      "sha256": "6e919e1c023654a983d2d1e60bf9edb4dae2d1f791714556f30c3d9c26f37c6e",
+      "sourceSha256": "6e919e1c023654a983d2d1e60bf9edb4dae2d1f791714556f30c3d9c26f37c6e"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/40hlx-d_npavg.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/40hlx-d_npavg.js",
+      "sha256": "da9eeff185f2a94c7b9b400a95258999e3a53c5e131687f186186ff784d8111a",
+      "sourceSha256": "da9eeff185f2a94c7b9b400a95258999e3a53c5e131687f186186ff784d8111a"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1kbyj7ubo8p77.js",
+      "sha256": "b5dbf327d83599de67c676a3eb95c2efe774839b29b2b4aefe54cd5aee808576",
+      "sourceSha256": "b5dbf327d83599de67c676a3eb95c2efe774839b29b2b4aefe54cd5aee808576"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2hxm2j77e3h1p.js",
+      "sha256": "fe8506d48c66dbe6377058d46826ae36b08bd636be98b3fb5e53e80ca062a85a",
+      "sourceSha256": "fe8506d48c66dbe6377058d46826ae36b08bd636be98b3fb5e53e80ca062a85a"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/194m67y5111t-.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/194m67y5111t-.js",
+      "sha256": "fed1e26c2f18435126f341cf2faca8bb0a21ed502c1018f95be534d3a98ab700",
+      "sourceSha256": "fed1e26c2f18435126f341cf2faca8bb0a21ed502c1018f95be534d3a98ab700"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1o_h3ul79t6vg.js",
+      "sha256": "4ecec2477b2c956f459d17490109dba0c1749c71f4ef523977a900d3e2b3fa95",
+      "sourceSha256": "4ecec2477b2c956f459d17490109dba0c1749c71f4ef523977a900d3e2b3fa95"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2_x75e9q09ucm.js",
+      "sha256": "d570711dbf0b41e32f33fd3c709f5a2a4c6485ed26c9a30460b34597189d75b8",
+      "sourceSha256": "d570711dbf0b41e32f33fd3c709f5a2a4c6485ed26c9a30460b34597189d75b8"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2bp7fscfeabdk.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2bp7fscfeabdk.js",
+      "sha256": "bdac8e37f7f7f5c74d99f9d01475b79f7fcd26bc9c60c63344f6af9a0cc1d2c3",
+      "sourceSha256": "4894129d2080970a9f17bd3d725f218e084ab9e7878852da06c95b7a4055127f"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1waagjimlgu-2.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1waagjimlgu-2.js",
+      "sha256": "e36fff1ec147ef6271a2fa05f6257aa5e1acf1f240fb3484fc50cfc80d33c9c4",
+      "sourceSha256": "e36fff1ec147ef6271a2fa05f6257aa5e1acf1f240fb3484fc50cfc80d33c9c4"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0v05sha4szh5i.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0v05sha4szh5i.js",
+      "sha256": "5b8fbe4464c6930518795ea6e790eae2ce287be7610052bfbec89263961a2666",
+      "sourceSha256": "5b8fbe4464c6930518795ea6e790eae2ce287be7610052bfbec89263961a2666"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2ix_2ij7b1i5h.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2ix_2ij7b1i5h.js",
+      "sha256": "a4c476345562bd224cc16031de45bce4ba0b778d5e26cb1a9296f32da73b5715",
+      "sourceSha256": "a4c476345562bd224cc16031de45bce4ba0b778d5e26cb1a9296f32da73b5715"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2koozwutfwkgy.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2koozwutfwkgy.js",
+      "sha256": "51d19676ea6c14cfe750351d7f8f7f6182c52deb796bf3ad08cb95a68bad980c",
+      "sourceSha256": "51d19676ea6c14cfe750351d7f8f7f6182c52deb796bf3ad08cb95a68bad980c"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2jidwq34v4y-m.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/2jidwq34v4y-m.js",
+      "sha256": "7cf5cbaebb431be90c8b0785719f19321b8febe84eb953eade3516c181d40f34",
+      "sourceSha256": "adee7cb92063b39649fe988e610cf88f5d1408a810e46d9149ed02c6be71af1f"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/39p7p61ccc_or.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/39p7p61ccc_or.js",
+      "sha256": "ed46b407239bdcf3645954132610ec4d27cfddb7e3d0e6b74ba112be891567d6",
+      "sourceSha256": "46821a69162e56c96006c5aff8e9694fef5011bee6a359d163c958cb03dc64d8"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0mj84_rqoqlza.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0mj84_rqoqlza.js",
+      "sha256": "9789beb19d46316a52d29eafee89d4d747c0f70d3322a6de6ba4f54f6ffec019",
+      "sourceSha256": "9789beb19d46316a52d29eafee89d4d747c0f70d3322a6de6ba4f54f6ffec019"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/43zi3enku1rnx.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/43zi3enku1rnx.js",
+      "sha256": "31fc689828f03838df23b1dff3da4976991a98eb2bd1f231b9886be6f121f101",
+      "sourceSha256": "f66257bc8d1e748aa970fc1bbcda5a96a65eead48782f237a38bf4e7cb45765f"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/3ylvghkwbct0w.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3ylvghkwbct0w.js",
+      "sha256": "781fb0f29a5294367551d83f9c60f2c57428338cb9b57298d920d759ec054dc3",
+      "sourceSha256": "781fb0f29a5294367551d83f9c60f2c57428338cb9b57298d920d759ec054dc3"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/041936cb-fbba-466a-855f-a9cfd1d9fbcb.d5c483ec.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/041936cb-fbba-466a-855f-a9cfd1d9fbcb.d5c483ec.webp",
+      "sha256": "d5c483ec7b7c96ff879769c4fc87e2375c15f541434208fb8335d5e24fad4ab5",
+      "sourceSha256": "d5c483ec7b7c96ff879769c4fc87e2375c15f541434208fb8335d5e24fad4ab5"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/b59a2019-0fe1-47ae-9c3c-7098ab149b00.28aa5203.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/b59a2019-0fe1-47ae-9c3c-7098ab149b00.28aa5203.webp",
+      "sha256": "28aa5203c439d2feb331f337a667fc8fb15588916986b5bec612882dc6a7871a",
+      "sourceSha256": "28aa5203c439d2feb331f337a667fc8fb15588916986b5bec612882dc6a7871a"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/af7264e9-a91f-4b4b-8b53-780acae76410.cdc6a967.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/af7264e9-a91f-4b4b-8b53-780acae76410.cdc6a967.webp",
+      "sha256": "cdc6a9673497272c142c371d5e317c48f81e55c24630ce7143b7363d85304267",
+      "sourceSha256": "cdc6a9673497272c142c371d5e317c48f81e55c24630ce7143b7363d85304267"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/75a698d7-8d37-4d5f-95a0-b182a0541cfa.c5670e84.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/75a698d7-8d37-4d5f-95a0-b182a0541cfa.c5670e84.webp",
+      "sha256": "c5670e84a6b69a53a92de02bd7db48ca6a85e6967dea1e8678d34051ad713d75",
+      "sourceSha256": "c5670e84a6b69a53a92de02bd7db48ca6a85e6967dea1e8678d34051ad713d75"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/magnifying-glass-lg.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/magnifying-glass-lg.svg",
+      "sha256": "d046d4530f0da7391e05d86a2585f6ff00ee5cf3e931e2c79ee279218d81d9da",
+      "sourceSha256": "d046d4530f0da7391e05d86a2585f6ff00ee5cf3e931e2c79ee279218d81d9da"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/xmark-lg.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/xmark-lg.svg",
+      "sha256": "f80d14d112df00eb18c9d3f85ef7132ef2e76940efd9afb62a353fb4c387dbed",
+      "sourceSha256": "f80d14d112df00eb18c9d3f85ef7132ef2e76940efd9afb62a353fb4c387dbed"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/sidebar.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/sidebar.svg",
+      "sha256": "969f3a5deddaa719c86a064023fed7fbe2aa3f1f20085b22de15a7fe5b290030",
+      "sourceSha256": "969f3a5deddaa719c86a064023fed7fbe2aa3f1f20085b22de15a7fe5b290030"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/arrow-left-lg.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/arrow-left-lg.svg",
+      "sha256": "b3e883500a573a70daee055e933f476fb30d90cbb470cbad0acaa39cd6fdcfd8",
+      "sourceSha256": "b3e883500a573a70daee055e933f476fb30d90cbb470cbad0acaa39cd6fdcfd8"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/arrow-right-lg.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/arrow-right-lg.svg",
+      "sha256": "b2ffc1c423b4134fe9aef9850c1f30bcfc46e63ed9989b00f49f37e51712e4e1",
+      "sourceSha256": "b2ffc1c423b4134fe9aef9850c1f30bcfc46e63ed9989b00f49f37e51712e4e1"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/arrow-curvedpath-left-md.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/arrow-curvedpath-left-md.svg",
+      "sha256": "66269f3bedac85bb0212e766c17a4f7ba480ec7ae15d73199913cddf5c124630",
+      "sourceSha256": "66269f3bedac85bb0212e766c17a4f7ba480ec7ae15d73199913cddf5c124630"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/x-logo.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/x-logo.svg",
+      "sha256": "74d53c9d1dd1c3516e6f0e1d145d2ff59362147d3d061b93c6ca793a960852d6",
+      "sourceSha256": "74d53c9d1dd1c3516e6f0e1d145d2ff59362147d3d061b93c6ca793a960852d6"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/youtube-logo.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/youtube-logo.svg",
+      "sha256": "c0019e86bedf0da30051e17a2aed6364d4d37dd3ca617524d0b923132cfb85f9",
+      "sourceSha256": "c0019e86bedf0da30051e17a2aed6364d4d37dd3ca617524d0b923132cfb85f9"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/linkedin-logo.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/linkedin-logo.svg",
+      "sha256": "136a7c9a1ab0c916003cd4b160d8b5db9d35116100eb8adf13e1080290da157e",
+      "sourceSha256": "136a7c9a1ab0c916003cd4b160d8b5db9d35116100eb8adf13e1080290da157e"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/github-logo.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/github-logo.svg",
+      "sha256": "69bf9cf3dc6bbd8d7890c842d5a60d45a14511605617ad9476286d34f788f2c7",
+      "sourceSha256": "69bf9cf3dc6bbd8d7890c842d5a60d45a14511605617ad9476286d34f788f2c7"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/instagram-logo.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/instagram-logo.svg",
+      "sha256": "a538e18b3c494b3ced4a6addafb1e1667033a2af4d4c63983ec65860068def38",
+      "sourceSha256": "a538e18b3c494b3ced4a6addafb1e1667033a2af4d4c63983ec65860068def38"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/tiktok-logo.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/tiktok-logo.svg",
+      "sha256": "2f234067ec625d434538769622384dddc0aa721003112ddde25a4214861ec124",
+      "sourceSha256": "2f234067ec625d434538769622384dddc0aa721003112ddde25a4214861ec124"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/imc-quote-logo.749a3315.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/imc-quote-logo.749a3315.png",
+      "sha256": "749a33158ad9b34294d24c9a8e0bf8bd77c18445f451145be1dfc9ba3432af9a",
+      "sourceSha256": "749a33158ad9b34294d24c9a8e0bf8bd77c18445f451145be1dfc9ba3432af9a"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/41104c38-087f-45d0-bbbb-d92a8a9a6435.86187730.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/41104c38-087f-45d0-bbbb-d92a8a9a6435.86187730.png",
+      "sha256": "861877306aeb4a90b49b4e1a07eef3addc220b98edb7b2bb6f919c13a098f1e5",
+      "sourceSha256": "861877306aeb4a90b49b4e1a07eef3addc220b98edb7b2bb6f919c13a098f1e5"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/harvey-quote-logo.4f2d3730.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/harvey-quote-logo.4f2d3730.png",
+      "sha256": "4f2d3730ce24d4e21b6fa3733983c7f1e4fc8916aab592cebaf2be19fbac7e89",
+      "sourceSha256": "4f2d3730ce24d4e21b6fa3733983c7f1e4fc8916aab592cebaf2be19fbac7e89"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/0041f84f-752c-4f8c-93bf-f0f4228e405e.46cfe310.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/0041f84f-752c-4f8c-93bf-f0f4228e405e.46cfe310.png",
+      "sha256": "46cfe31086204bf38434d202cff5fc931ac54ffc35457df82d8bb600a836d725",
+      "sourceSha256": "46cfe31086204bf38434d202cff5fc931ac54ffc35457df82d8bb600a836d725"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/ccf1cbef-8d20-47db-8418-063f428c3791.de591fec.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/ccf1cbef-8d20-47db-8418-063f428c3791.de591fec.png",
+      "sha256": "de591fec8608ddd2616b1f5f833d9eee89a83dfa0ea3b5725f8ce993e3b8267f",
+      "sourceSha256": "de591fec8608ddd2616b1f5f833d9eee89a83dfa0ea3b5725f8ce993e3b8267f"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-003.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-003.woff2",
+      "sha256": "ee710f03293ddde72265975274fbe026ed46ae7edfb91784d15a6f590f9f893b",
+      "sourceSha256": "ee710f03293ddde72265975274fbe026ed46ae7edfb91784d15a6f590f9f893b"
+    },
+    {
+      "file": "public/_next/static/immutable/media/sky-gradient.41yz1jpmosgz1.png",
+      "source": "https://openai.com/_next/static/immutable/media/sky-gradient.41yz1jpmosgz1.png",
+      "sha256": "65c38014483ed4cefc9a4935b7b3199b6409d43de6d2c0c9419aaa82cc00d15a",
+      "sourceSha256": "65c38014483ed4cefc9a4935b7b3199b6409d43de6d2c0c9419aaa82cc00d15a"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-Bold.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Bold.woff2",
+      "sha256": "2c23db1a93945fcb96f6826518848da0cc884787e4e308d9c099122c8c7e247e",
+      "sourceSha256": "2c23db1a93945fcb96f6826518848da0cc884787e4e308d9c099122c8c7e247e"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-Regular.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Regular.woff2",
+      "sha256": "6b99d0284d5ed15733ea855fdacc8503d1f5e1b3945b02317d27773daa21d9dc",
+      "sourceSha256": "6b99d0284d5ed15733ea855fdacc8503d1f5e1b3945b02317d27773daa21d9dc"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-Medium.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Medium.woff2",
+      "sha256": "507174d2e2c80f877d900e1346ba142509d303e2ef74424665e8493258c841e3",
+      "sourceSha256": "507174d2e2c80f877d900e1346ba142509d303e2ef74424665e8493258c841e3"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-000.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-000.woff2",
+      "sha256": "d67ef2bcf85571c4b19805372cff8f21c79fcbef1df8ea2cabe86f97a675815c",
+      "sourceSha256": "d67ef2bcf85571c4b19805372cff8f21c79fcbef1df8ea2cabe86f97a675815c"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-002.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-002.woff2",
+      "sha256": "eeeaec298e7d0b6915426426d3c1b0930716cf3504e1aa8c0a2fed8e363cbdf5",
+      "sourceSha256": "eeeaec298e7d0b6915426426d3c1b0930716cf3504e1aa8c0a2fed8e363cbdf5"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-001.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-001.woff2",
+      "sha256": "038e35aa454e1cc7cb916243018294b8124b4ef264a6d7971ac5fb99f7c0d812",
+      "sourceSha256": "038e35aa454e1cc7cb916243018294b8124b4ef264a6d7971ac5fb99f7c0d812"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/OpenAISans-RegularItalic.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-RegularItalic.woff2",
+      "sha256": "e53e89b8718aaa0527f7185561e40040ee6dbe66395e8abc2492da5bbbda588f",
+      "sourceSha256": "e53e89b8718aaa0527f7185561e40040ee6dbe66395e8abc2492da5bbbda588f"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-090.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-090.woff2",
+      "sha256": "314d745937ed856e5a6caf7b1e0126db701683daae27c633152bef25b3330ccd",
+      "sourceSha256": "314d745937ed856e5a6caf7b1e0126db701683daae27c633152bef25b3330ccd"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-082.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-082.woff2",
+      "sha256": "f795db4dfff944a70dd997582140fdb4377843897e4a5427e2b17ccf9fe0d6c7",
+      "sourceSha256": "f795db4dfff944a70dd997582140fdb4377843897e4a5427e2b17ccf9fe0d6c7"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-084.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-084.woff2",
+      "sha256": "cbee253d64a593c2caa7cacdc42425a20baf021ebd108e70ca805b542fb327ec",
+      "sourceSha256": "cbee253d64a593c2caa7cacdc42425a20baf021ebd108e70ca805b542fb327ec"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-091.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-091.woff2",
+      "sha256": "6c1f834f45e6aad79295e61cf8f90f6ea4aef9e9c9c25e10018fd24e2ea07878",
+      "sourceSha256": "6c1f834f45e6aad79295e61cf8f90f6ea4aef9e9c9c25e10018fd24e2ea07878"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-089.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-089.woff2",
+      "sha256": "f8afcc929218f43339a65b6311bc6c94ae01b85cb249fbc9f95496e8a9b26f18",
+      "sourceSha256": "f8afcc929218f43339a65b6311bc6c94ae01b85cb249fbc9f95496e8a9b26f18"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-086.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-086.woff2",
+      "sha256": "bc7c60fddc78c190f13cc0b9532cfcd86584bae5edeb902bfca68079af585c5e",
+      "sourceSha256": "bc7c60fddc78c190f13cc0b9532cfcd86584bae5edeb902bfca68079af585c5e"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-079.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-079.woff2",
+      "sha256": "20e6ab41fe23ead1e0cbe73c5e6fede09299e680d5d74342de73a7b9741e97ae",
+      "sourceSha256": "20e6ab41fe23ead1e0cbe73c5e6fede09299e680d5d74342de73a7b9741e97ae"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-081.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-081.woff2",
+      "sha256": "f97441714d96617400b095de14bf26ef0a5a993d19c1f47d55658e5ac75d929b",
+      "sourceSha256": "f97441714d96617400b095de14bf26ef0a5a993d19c1f47d55658e5ac75d929b"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-080.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-080.woff2",
+      "sha256": "1d98ff6aa51801db53ffa1c9f6ac6803d7c8d9e9a427714e974ed0be06f1d529",
+      "sourceSha256": "1d98ff6aa51801db53ffa1c9f6ac6803d7c8d9e9a427714e974ed0be06f1d529"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-040.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-040.woff2",
+      "sha256": "26032e7ffc542e2a9b9270ce0df1419339213315c7381b045706d073430815da",
+      "sourceSha256": "26032e7ffc542e2a9b9270ce0df1419339213315c7381b045706d073430815da"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-023.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-023.woff2",
+      "sha256": "b87e680ef616799aa2163682baedd927fe448e47cf48b26d938a8147019ec22e",
+      "sourceSha256": "b87e680ef616799aa2163682baedd927fe448e47cf48b26d938a8147019ec22e"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/basis-quote-logo.d3840a1a.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/basis-quote-logo.d3840a1a.png",
+      "sha256": "d3840a1a51d032b002d3043aabde2d85da307d9dfd06f0b3a423b0bca89d1918",
+      "sourceSha256": "d3840a1a51d032b002d3043aabde2d85da307d9dfd06f0b3a423b0bca89d1918"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/ramp-quote-logo.96a32a3f.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/ramp-quote-logo.96a32a3f.png",
+      "sha256": "96a32a3f8b95a6cc8abd3d3b67181d6d1ab0b6856ae855a59af6d5cf3c836348",
+      "sourceSha256": "96a32a3f8b95a6cc8abd3d3b67181d6d1ab0b6856ae855a59af6d5cf3c836348"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/jump-quote-logo.8925a054.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/jump-quote-logo.8925a054.png",
+      "sha256": "8925a054afad8c0bb1af6b0a40e8ff95d8ddba582fdc88699d190ae99818baf1",
+      "sourceSha256": "8925a054afad8c0bb1af6b0a40e8ff95d8ddba582fdc88699d190ae99818baf1"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/28ica5vft-yl_.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/28ica5vft-yl_.js",
+      "sha256": "9efec75c6fd147ddcacab42bb7227997c080fb13a9e27f410ec0c61c41d35dcf",
+      "sourceSha256": "9efec75c6fd147ddcacab42bb7227997c080fb13a9e27f410ec0c61c41d35dcf"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/30m2e9dm0htl_.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/30m2e9dm0htl_.js",
+      "sha256": "ad07194b54aaccbb90b3a718b99ab7c7618359dff43a2a2470a8068c8bd9c33a",
+      "sourceSha256": "ad07194b54aaccbb90b3a718b99ab7c7618359dff43a2a2470a8068c8bd9c33a"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1yhltgx5dve9x.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1yhltgx5dve9x.js",
+      "sha256": "720a7183571db6a0994197c660c8d2354bd1bd32c86032caaf8dc5af31a586c5",
+      "sourceSha256": "720a7183571db6a0994197c660c8d2354bd1bd32c86032caaf8dc5af31a586c5"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0ee5g8erou2lt.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0ee5g8erou2lt.js",
+      "sha256": "6945bf3ba7c9dff76bb53e702f1ad36db6d9b14489f4b69bd23f246c0ee77c59",
+      "sourceSha256": "6945bf3ba7c9dff76bb53e702f1ad36db6d9b14489f4b69bd23f246c0ee77c59"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1jpa0qu9yetzv.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/1jpa0qu9yetzv.css",
+      "sha256": "fc7d321cd50bd55dff18ae185b20b620663a61d7368acc2f6ac0caf056ef91ff",
+      "sourceSha256": "fc7d321cd50bd55dff18ae185b20b620663a61d7368acc2f6ac0caf056ef91ff"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/27thi55iq699g.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/27thi55iq699g.js",
+      "sha256": "0f3b42e3631a17a97449d2761dfe76d95ddb3c4e9fa4630502f27fc2181bec44",
+      "sourceSha256": "0f3b42e3631a17a97449d2761dfe76d95ddb3c4e9fa4630502f27fc2181bec44"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/06rr3j5f0d9ia.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/06rr3j5f0d9ia.js",
+      "sha256": "ba9e5a5d27943ea127ac5e13825382a43e2ecc5780bfe36e1bd2bfe4d7c2007d",
+      "sourceSha256": "3703dac5744385a62e2c592c5c143eeeb48ec237970a5f3df80c328b7c8a09eb"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/43ntclim11s-0.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/43ntclim11s-0.js",
+      "sha256": "7f6ea1908c38556e9fec0ecd43291bdf64cdbe64a4293996051163e7ed2a3b5a",
+      "sourceSha256": "71aed720b5986a0addd675a9fbcacb224cdd39d57098ccf898b4e3e19b4ac13f"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/play-sm-fill.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/play-sm-fill.svg",
+      "sha256": "e906cb7b125156700578e2ca558703e55c45f9ad09af2302869b631845b0babb",
+      "sourceSha256": "e906cb7b125156700578e2ca558703e55c45f9ad09af2302869b631845b0babb"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/arrow-up-right-arrow-down-left-md.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/arrow-up-right-arrow-down-left-md.svg",
+      "sha256": "70c1ae3e4ace0382f4210586ff13230c9d2c68bb9e6c02ba2a1ec95546d506fc",
+      "sourceSha256": "70c1ae3e4ace0382f4210586ff13230c9d2c68bb9e6c02ba2a1ec95546d506fc"
+    },
+    {
+      "file": "public/icons/cms/27bb77900ed6df73/ellipsis-horizontal.svg",
+      "source": "https://openai.com/icons/cms/27bb77900ed6df73/ellipsis-horizontal.svg",
+      "sha256": "7043be7a9d1141502c91c6abbe28d4a07fa709059104d21f0a9a1bfc670bd0c7",
+      "sourceSha256": "7043be7a9d1141502c91c6abbe28d4a07fa709059104d21f0a9a1bfc670bd0c7"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-088.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-088.woff2",
+      "sha256": "d07fcc88f2d60e19c51f5511a96f5c4e3f3132497681f3b29f459c3df34cfa12",
+      "sourceSha256": "d07fcc88f2d60e19c51f5511a96f5c4e3f3132497681f3b29f459c3df34cfa12"
+    },
+    {
+      "file": "public/_next/static/immutable/media/lens-dirt.404zfi-ylzle-.webp",
+      "source": "https://openai.com/_next/static/immutable/media/lens-dirt.404zfi-ylzle-.webp",
+      "sha256": "14a06bcc00c82cf920f3375c7b8b6963c2516939ca1706ef7e5a240d79826ba1",
+      "sourceSha256": "14a06bcc00c82cf920f3375c7b8b6963c2516939ca1706ef7e5a240d79826ba1"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/dfc3637f-e18c-4cad-9187-6e3f91ce4c7e.efe8559b.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/dfc3637f-e18c-4cad-9187-6e3f91ce4c7e.efe8559b.webp",
+      "sha256": "efe8559ba157432c5373e90d0688ee21fc781e6fd2cfceab927dccaf076119b8",
+      "sourceSha256": "efe8559ba157432c5373e90d0688ee21fc781e6fd2cfceab927dccaf076119b8"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/250mlilh8w-sn.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/250mlilh8w-sn.js",
+      "sha256": "d634c2fbd2466bc94f8a749532f8b9c59f370df21d33ce90f59840a29b1e039a",
+      "sourceSha256": "d634c2fbd2466bc94f8a749532f8b9c59f370df21d33ce90f59840a29b1e039a"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/9cd4f4e5-2bb8-4c6f-b050-2e89ca060443.5c6ce2ce.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/9cd4f4e5-2bb8-4c6f-b050-2e89ca060443.5c6ce2ce.webp",
+      "sha256": "5c6ce2ce83c103ce2a5db56f4fab9733d25fdcae5b20ebb34e3b7f69611ee873",
+      "sourceSha256": "5c6ce2ce83c103ce2a5db56f4fab9733d25fdcae5b20ebb34e3b7f69611ee873"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/8dc6f916-2ff9-4a15-8729-11dfb199d6ab.d0989e11.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/8dc6f916-2ff9-4a15-8729-11dfb199d6ab.d0989e11.webp",
+      "sha256": "d0989e117e114da9f589b04f3639c96586bba99aacb8e8895e6fda700d27e67e",
+      "sourceSha256": "d0989e117e114da9f589b04f3639c96586bba99aacb8e8895e6fda700d27e67e"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/c401b825-0783-4ff7-9d9b-bda7279d2f2f.4750ef34.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/c401b825-0783-4ff7-9d9b-bda7279d2f2f.4750ef34.webp",
+      "sha256": "4750ef341edd2701e9bce3a64b1b3c6461f4a6bb74bc5357b8358747b6705262",
+      "sourceSha256": "4750ef341edd2701e9bce3a64b1b3c6461f4a6bb74bc5357b8358747b6705262"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/d5f6549f-b1db-469d-9cd7-a903140c0653.348d2e9f.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/d5f6549f-b1db-469d-9cd7-a903140c0653.348d2e9f.webp",
+      "sha256": "348d2e9f78733626e467ee5fb9140bc99331d8d56c137354dbb167a7e654875d",
+      "sourceSha256": "348d2e9f78733626e467ee5fb9140bc99331d8d56c137354dbb167a7e654875d"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/b3803407-f2c2-4b44-beb7-903153ff77da.5108202e.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/b3803407-f2c2-4b44-beb7-903153ff77da.5108202e.webp",
+      "sha256": "5108202e5fbdb9868accb48a2ca7759cfcd85480f9379aace49d5211b170979a",
+      "sourceSha256": "5108202e5fbdb9868accb48a2ca7759cfcd85480f9379aace49d5211b170979a"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/6a3824bf-1352-4ac7-85bf-43cd3c2b1f93.22b240dd.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/6a3824bf-1352-4ac7-85bf-43cd3c2b1f93.22b240dd.webp",
+      "sha256": "22b240dd44c1b77a977332edf7eec300c5eb2cdf3b8ede6d30f78c368c27d3b1",
+      "sourceSha256": "22b240dd44c1b77a977332edf7eec300c5eb2cdf3b8ede6d30f78c368c27d3b1"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/04e9742e-7bbe-4936-b2c4-f26b35eb479f.3ab44063.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/04e9742e-7bbe-4936-b2c4-f26b35eb479f.3ab44063.webp",
+      "sha256": "3ab4406392f51d64d6b058598ab5ab130071dfe03a43bfc98ec888880e319a94",
+      "sourceSha256": "3ab4406392f51d64d6b058598ab5ab130071dfe03a43bfc98ec888880e319a94"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/f1f9d7cb-de6e-4182-a6e0-605c82531478.d5de57f9.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/f1f9d7cb-de6e-4182-a6e0-605c82531478.d5de57f9.webp",
+      "sha256": "d5de57f913c522c942bf36376cca57dd9de1b337b26ff83897242836fa29ae06",
+      "sourceSha256": "d5de57f913c522c942bf36376cca57dd9de1b337b26ff83897242836fa29ae06"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-087.woff2",
+      "source": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-087.woff2",
+      "sha256": "827b41114369b60b75a8e60bf7a41d642c179775e715f4aea59871c5de3f9980",
+      "sourceSha256": "827b41114369b60b75a8e60bf7a41d642c179775e715f4aea59871c5de3f9980"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/1xyeqyaxsfifo.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/1xyeqyaxsfifo.js",
+      "sha256": "7cdd4a41ac62d8fb639f348c48d386d97b3d124ec826967a97e663c857d33a08",
+      "sourceSha256": "7cdd4a41ac62d8fb639f348c48d386d97b3d124ec826967a97e663c857d33a08"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/2343ngrs0agp-.css",
+      "source": "https://openai.com/_next/static/immutable/chunks/2343ngrs0agp-.css",
+      "sha256": "c4a2f2f92bfa7cfc82d9a8de7f9bee546ce178fd1c9cfacda9bdbcffd18a9f95",
+      "sourceSha256": "c4a2f2f92bfa7cfc82d9a8de7f9bee546ce178fd1c9cfacda9bdbcffd18a9f95"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/c72ca706-f91d-50f1-b6e8-39135b414e20.f0ff4fd0.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/c72ca706-f91d-50f1-b6e8-39135b414e20.f0ff4fd0.webp",
+      "sha256": "f0ff4fd03b55709caf0d2528d6252093ab8b2ba7a30276713ebf809f8b21f09c",
+      "sourceSha256": "f0ff4fd03b55709caf0d2528d6252093ab8b2ba7a30276713ebf809f8b21f09c"
+    },
+    {
+      "file": "public/_next/static/immutable/media/pdf.worker.min.247osmm1hc_rv.mjs",
+      "source": "https://openai.com/_next/static/immutable/media/pdf.worker.min.247osmm1hc_rv.mjs",
+      "sha256": "90b49a1bf7b6c4d689d7d7bc0a52869bb3b1bc5935a0fa0ea6413b49f85ac8de",
+      "sourceSha256": "90b49a1bf7b6c4d689d7d7bc0a52869bb3b1bc5935a0fa0ea6413b49f85ac8de"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/5358d5e4-f11d-4ced-a273-4c515077b1d9.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/5358d5e4-f11d-4ced-a273-4c515077b1d9.pdf",
+      "sha256": "9966765618ef905c4fd81ef6cb9813a2fb00938a3767193bcf3985f18be0c8d2",
+      "sourceSha256": "9966765618ef905c4fd81ef6cb9813a2fb00938a3767193bcf3985f18be0c8d2"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/633bf2f5-0a61-41fa-bef7-1355335acce2.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/633bf2f5-0a61-41fa-bef7-1355335acce2.pdf",
+      "sha256": "b0327fd6bb63145b18b166f5979d05326f10bf6c6b214ff7cc95a02923e74620",
+      "sourceSha256": "b0327fd6bb63145b18b166f5979d05326f10bf6c6b214ff7cc95a02923e74620"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/c7768a84-f439-59ff-b838-c605cc4d233f.b587b8b0.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/c7768a84-f439-59ff-b838-c605cc4d233f.b587b8b0.webp",
+      "sha256": "b587b8b06e82356e48684f20c57e4e6f8e58e0741a8b4b92a120b4da74e73c74",
+      "sourceSha256": "b587b8b06e82356e48684f20c57e4e6f8e58e0741a8b4b92a120b4da74e73c74"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/633c2c8f-696f-5150-8c8c-c48348934422.57feb63d.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/633c2c8f-696f-5150-8c8c-c48348934422.57feb63d.webp",
+      "sha256": "57feb63d081c06dac6c4cd79289444334f58d34c8d34fa90023abd0194c1b6e8",
+      "sourceSha256": "57feb63d081c06dac6c4cd79289444334f58d34c8d34fa90023abd0194c1b6e8"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/4fa73f0d-f1a8-5a68-b350-814a9d1910e1.37aa4853.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/4fa73f0d-f1a8-5a68-b350-814a9d1910e1.37aa4853.webp",
+      "sha256": "37aa4853b6c22ca052f749f5e6277697548a37bb7e3cb58401f7e479107f37fd",
+      "sourceSha256": "37aa4853b6c22ca052f749f5e6277697548a37bb7e3cb58401f7e479107f37fd"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/d9e242ac-405e-5643-a211-8a006b7bd1ac.ad58d769.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/d9e242ac-405e-5643-a211-8a006b7bd1ac.ad58d769.webp",
+      "sha256": "ad58d769d24340986f8b7c006bf4350f3d689fcf2896ccecdbe13c0526ff7cc3",
+      "sourceSha256": "ad58d769d24340986f8b7c006bf4350f3d689fcf2896ccecdbe13c0526ff7cc3"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/0sr9d5zw_r01n.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/0sr9d5zw_r01n.js",
+      "sha256": "9d0f0c4a2201dd1a622d1bbb575be9fa26decf26de9768df204a6490eedd361d",
+      "sourceSha256": "9d0f0c4a2201dd1a622d1bbb575be9fa26decf26de9768df204a6490eedd361d"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/06-o_i_d9z9dc.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/06-o_i_d9z9dc.js",
+      "sha256": "78e170732e2c7ffc57099b72cdb6c5279beb96784350569d516c4968800df6af",
+      "sourceSha256": "12d4776e159878e53675a13534e7afe04fb3c937d0811479dd2c69ef68e590ca"
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
+      "sha256": "d3072be36bb2e00be18d4f2ef919bbe36b3ad2ba1815bca0f93549095401dfea",
+      "sourceSha256": "d3072be36bb2e00be18d4f2ef919bbe36b3ad2ba1815bca0f93549095401dfea",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/7a814a06-3d8b-4703-a24b-b1fb968ae1c8.eee9ea75.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/7a814a06-3d8b-4703-a24b-b1fb968ae1c8.eee9ea75.webp",
+      "sha256": "eee9ea7547d33184df81f5e39d87c0a7deef081003b0235dd3f782a1de04f6df",
+      "sourceSha256": "eee9ea7547d33184df81f5e39d87c0a7deef081003b0235dd3f782a1de04f6df",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/3c7f1b63-b79b-44fb-a069-0859b4c4cacf.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/3c7f1b63-b79b-44fb-a069-0859b4c4cacf.pdf",
+      "sha256": "23f8044ed3ec97e49fb477d8cb7abe49888859b0dc0aae6a2d777b6b8855072c",
+      "sourceSha256": "23f8044ed3ec97e49fb477d8cb7abe49888859b0dc0aae6a2d777b6b8855072c",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/b588f5f6-9473-44db-be71-b02ca2405c0b.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/b588f5f6-9473-44db-be71-b02ca2405c0b.pdf",
+      "sha256": "7519f87a4cc86f64ad0a2f32b75803b434dcd46147aa1d31bbf7b859c3460b79",
+      "sourceSha256": "7519f87a4cc86f64ad0a2f32b75803b434dcd46147aa1d31bbf7b859c3460b79",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/3fe9328e-b63c-44fe-ac99-0510c2711d2f.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/3fe9328e-b63c-44fe-ac99-0510c2711d2f.pdf",
+      "sha256": "7f4ca313b3cbaa278af7d10362f615955212cca7d9fca85ff65db26cea103cf9",
+      "sourceSha256": "7f4ca313b3cbaa278af7d10362f615955212cca7d9fca85ff65db26cea103cf9",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/9bfb64c1-db30-43bc-8cba-a65ffc09d0e8.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/9bfb64c1-db30-43bc-8cba-a65ffc09d0e8.pdf",
+      "sha256": "f6780c42a50953694d0bf52fcde6feb0d62ea4c0edc376c3097b816818cbf187",
+      "sourceSha256": "f6780c42a50953694d0bf52fcde6feb0d62ea4c0edc376c3097b816818cbf187",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/a907e5b2-a010-403f-9886-30a166d9deab.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/a907e5b2-a010-403f-9886-30a166d9deab.pdf",
+      "sha256": "7384cd16e622600c9cc3d1cc92c1e65e5e00f532242f727de3fbb34e63862e9a",
+      "sourceSha256": "7384cd16e622600c9cc3d1cc92c1e65e5e00f532242f727de3fbb34e63862e9a",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/02f4d536-0319-4b36-b7f5-c03b65bd79e7.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/02f4d536-0319-4b36-b7f5-c03b65bd79e7.pdf",
+      "sha256": "a726d268b38a5898eb69f24e2594b96c37e37b1dca173b85686625ea2c763ae7",
+      "sourceSha256": "a726d268b38a5898eb69f24e2594b96c37e37b1dca173b85686625ea2c763ae7",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/6efe405d-c510-41fa-9750-c73c19fbb2d4.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/6efe405d-c510-41fa-9750-c73c19fbb2d4.pdf",
+      "sha256": "2a8138a8e93ef21f7362d70076d14250ca98cbcea8bf27927eeab4bbb1c50fb1",
+      "sourceSha256": "2a8138a8e93ef21f7362d70076d14250ca98cbcea8bf27927eeab4bbb1c50fb1",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/9157d632-7d37-4f76-a81b-19d595036dbb.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/9157d632-7d37-4f76-a81b-19d595036dbb.pdf",
+      "sha256": "1588dc4911313830fd2460eb293ccf6a324f44aed8f31fa5494a9fcc950e9c0f",
+      "sourceSha256": "1588dc4911313830fd2460eb293ccf6a324f44aed8f31fa5494a9fcc950e9c0f",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/0cac987f-26be-407f-8676-f2d24658aa4d.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/0cac987f-26be-407f-8676-f2d24658aa4d.pdf",
+      "sha256": "c88a6cf091b8fc6630e97b2dd45846a1333b7608a040a59a47422e42149dd182",
+      "sourceSha256": "c88a6cf091b8fc6630e97b2dd45846a1333b7608a040a59a47422e42149dd182",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/fa58a02d-f8c1-426c-88f0-440536fc30ea.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/fa58a02d-f8c1-426c-88f0-440536fc30ea.pdf",
+      "sha256": "f0222b1c6a03cbc01d3a7ea5b0bbad6fa58fd8e2b33116b70508bb1e2ff8fd1f",
+      "sourceSha256": "f0222b1c6a03cbc01d3a7ea5b0bbad6fa58fd8e2b33116b70508bb1e2ff8fd1f",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/f9d668aa-6f44-4b42-911c-4e4cd83a969b.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/f9d668aa-6f44-4b42-911c-4e4cd83a969b.pdf",
+      "sha256": "08fd61c035863b813019ba5e1ecf180728816df6faf0a5871ef8b182c923db2c",
+      "sourceSha256": "08fd61c035863b813019ba5e1ecf180728816df6faf0a5871ef8b182c923db2c",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/0e768763-913c-4787-a29d-f6fce52938f9.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/0e768763-913c-4787-a29d-f6fce52938f9.pdf",
+      "sha256": "5f5a703794268b2f9ff17e7db4ba1ce7c221ad021741c61bbe99a9ebaf2c5d3b",
+      "sourceSha256": "5f5a703794268b2f9ff17e7db4ba1ce7c221ad021741c61bbe99a9ebaf2c5d3b",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/replit-quote-logo.259755bf.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/replit-quote-logo.259755bf.png",
+      "sha256": "259755bf91f873bd0f938c00a6b36fc2b347ae50178caa4966b3701ee5e221e2",
+      "sourceSha256": "259755bf91f873bd0f938c00a6b36fc2b347ae50178caa4966b3701ee5e221e2",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/8baf570f-a2b1-4dc1-9d21-63abadb153f8.4ed83b86.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/8baf570f-a2b1-4dc1-9d21-63abadb153f8.4ed83b86.png",
+      "sha256": "4ed83b86ac844b59b9520174fc5786df0ae4ceb12cd365f67b45c62a8284bc9a",
+      "sourceSha256": "4ed83b86ac844b59b9520174fc5786df0ae4ceb12cd365f67b45c62a8284bc9a",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/f48ceee3-ce12-44ad-b97e-5fca359640e8.3b20300d.png",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/f48ceee3-ce12-44ad-b97e-5fca359640e8.3b20300d.png",
+      "sha256": "3b20300d9ae4f907401cb6aefbcbf7b0172fe898961c5675d4dae871cb235177",
+      "sourceSha256": "3b20300d9ae4f907401cb6aefbcbf7b0172fe898961c5675d4dae871cb235177",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/a02f7aa0-a5ae-5ece-94f7-f230cf2807ff.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/a02f7aa0-a5ae-5ece-94f7-f230cf2807ff.pdf",
+      "sha256": "eb20cb5c08493c8c50c7204b0a0454430a39c793df8e76e37e227e5d0baa1000",
+      "sourceSha256": "eb20cb5c08493c8c50c7204b0a0454430a39c793df8e76e37e227e5d0baa1000",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/bb10f551-9265-5df9-bea9-574deea8276e.pdf",
+      "source": "https://cdn.openai.com/pdf/e193aefe-5e58-431c-8cd2-adadac0c1496/bb10f551-9265-5df9-bea9-574deea8276e.pdf",
+      "sha256": "9ce21c2a368837b3e2b7ae2370ace84a7911ee85d6cb520f33c66bda99ecb52c",
+      "sourceSha256": "9ce21c2a368837b3e2b7ae2370ace84a7911ee85d6cb520f33c66bda99ecb52c",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/17fdccec-bbf7-5fd8-9d93-62ff9a10d0ac.852f6380.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/17fdccec-bbf7-5fd8-9d93-62ff9a10d0ac.852f6380.webp",
+      "sha256": "852f63805948e32fb426734727573ee9834c56db0bd1be8870dc10615ed95791",
+      "sourceSha256": "852f63805948e32fb426734727573ee9834c56db0bd1be8870dc10615ed95791",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/456bb4c4-5bf0-47a6-af40-8739cc4cbb98.e7bc9b17.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/456bb4c4-5bf0-47a6-af40-8739cc4cbb98.e7bc9b17.webp",
+      "sha256": "e7bc9b17bbfd987afb426c11a9e1a6d5960ee99642852b89ac17584840fa66ab",
+      "sourceSha256": "e7bc9b17bbfd987afb426c11a9e1a6d5960ee99642852b89ac17584840fa66ab",
+      "supplemental": true
+    },
+    {
+      "file": "public/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/e4292636-fef5-5cc4-82dd-1ac0160fa066.31bba16c.webp",
+      "source": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/e4292636-fef5-5cc4-82dd-1ac0160fa066.31bba16c.webp",
+      "sha256": "31bba16cc53674b68450304f9e5ede0862d46673ba7d0096bc3031a6c0166985",
+      "sourceSha256": "31bba16cc53674b68450304f9e5ede0862d46673ba7d0096bc3031a6c0166985",
+      "supplemental": true
+    }
+  ]
+}

@@ -18,8 +18,9 @@ const write = async (file, content) => {
 await fs.cp('src/themes/openai', path.join(destination, 'src/themes/openai'), { recursive: true });
 const baseline = JSON.parse(await fs.readFile('rebuilds/openai-exact/port/manifest.json', 'utf8'));
 const native = JSON.parse(await fs.readFile('src/themes/openai/native/assets.json', 'utf8'));
+const launch = JSON.parse(await fs.readFile('src/themes/openai/astra-sol/manifest.json', 'utf8'));
 const records = new Map();
-for (const record of [...baseline.assets, ...baseline.supportFiles, ...native]) {
+for (const record of [...baseline.assets, ...baseline.supportFiles, ...native, ...launch.assets]) {
   if (!record.file.startsWith('public/')) continue;
   if (records.has(record.file) && records.get(record.file).sha256 !== record.sha256) throw new Error('Dependency collision: ' + record.file);
   records.set(record.file, { file: record.file, sha256: record.sha256 });
@@ -40,6 +41,7 @@ await write('tsconfig.json', JSON.stringify({ extends: 'astro/tsconfigs/strict',
 await write('src/pages/index.astro', "---\nimport ArticlePage from '../themes/openai/ArticlePage.astro';\n---\n<ArticlePage />\n");
 await write('src/pages/zh-Hans-CN/index/grid-protectors-program/index.astro', "---\nimport ArticlePage from '../../../../themes/openai/ArticlePage.astro';\n---\n<ArticlePage />\n");
 await write('src/pages/themes/openai/example.astro', await fs.readFile('src/pages/themes/openai/example.astro'));
+await fs.cp('src/pages/themes/openai/astra-sol', path.join(destination, 'src/pages/themes/openai/astra-sol'), { recursive: true });
 await write('README.md', await fs.readFile('src/themes/openai/README.md'));
 await write('asset-manifest.json', JSON.stringify({ source: baseline.source, baselineDocumentSha256: hash(await fs.readFile('rebuilds/openai-exact/port/document.html')), assets: [...records.values()] }, null, 2) + '\n');
 await write('.gitignore', 'node_modules/\ndist/\n.astro/\n');

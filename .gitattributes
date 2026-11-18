@@ -11,3 +11,5 @@
 /public/fonts/openai-sans/** -text -whitespace
 /src/themes/openai/blueprint/** -text -whitespace
 /src/themes/openai/native/** -text -whitespace
+/src/themes/openai/astra-sol/document.html -text -whitespace
+/src/themes/openai/astra-sol/components/*.json -text -whitespace

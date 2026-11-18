@@ -1,0 +1,9 @@
+---
+import Page from '../../../../../themes/openai/astra-sol/ComponentPage.astro';
+import { benchmarkChart } from '../../../../../themes/openai/astra-sol/catalog';
+const chart = benchmarkChart({id:'custom-benchmark',caption:'演示数据，仅用于说明如何替换评测指标。',spec:{
+  title:{text:'任务完成率'},data:{values:[{group:'初稿',score:.65},{group:'复核',score:.82},{group:'定稿',score:.94}]},
+  mark:{type:'bar',tooltip:true},encoding:{x:{field:'group',type:'nominal',sort:null,title:'阶段'},y:{field:'score',type:'quantitative',title:'完成率',scale:{domain:[0,1]},axis:{format:'.0%'}}},
+}});
+---
+<Page title="自定义评测图" components={[chart]}/>

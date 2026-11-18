@@ -1,0 +1,7 @@
+---
+import Page from '../../../../../themes/openai/astra-sol/ComponentPage.astro';
+import {catalog,launchComponent,type LaunchComponentId} from '../../../../../themes/openai/astra-sol/catalog';
+export const getStaticPaths=()=>Object.keys(catalog).map(id=>({params:{id}}));
+const id=Astro.params.id as LaunchComponentId;
+---
+<Page title={catalog[id]} components={[launchComponent(id)]}/>

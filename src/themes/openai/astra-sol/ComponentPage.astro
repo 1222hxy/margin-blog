@@ -1,0 +1,18 @@
+---
+import source from './document.html?raw';
+import {rewriteFlight} from '../lib/flight';
+import {escapeHtml} from '../lib/html';
+import type {NativeComponent} from '../types';
+interface Props {title:string;components:NativeComponent[]}
+const {title,components}=Astro.props;
+const modules=new Map<string,string>();
+for(const c of components) for(const m of c.modules){const row=`${m.id}:I${JSON.stringify(m.value)}\n`;if(modules.has(m.id)&&modules.get(m.id)!==row)throw Error('Module collision');modules.set(m.id,row);}
+const grid=/data-toc-content="" class="([^"]+)"/.exec(source)![1];
+const heading='mx-auto max-w-container px-6 text-h3';
+const section=`<h1 class="${heading}">${escapeHtml(title)}</h1><div class="${grid}">${components.map(c=>c.html).join('')}</div>`;
+const originalTitle='推出 GPT-6.2 Astra 和 Sol | OpenAI';
+const html=source.replace('<title>'+originalTitle+'</title>', '<title>'+escapeHtml(title)+'</title>').replace(/(<article\b[^>]*>)[\s\S]*?<\/article>/,(_,open)=>open+section+'</article>');
+const walk=(v:any):any=>{if(v===originalTitle)return title;if(Array.isArray(v)&&v[1]==='article')return [...v.slice(0,3),{...v[3],children:[['$','h1',null,{className:heading,children:title}],['$','div',null,{className:grid,children:components.map(c=>c.model)}]]}];if(Array.isArray(v))return v.map(walk);if(v&&typeof v==='object')return Object.fromEntries(Object.entries(v).map(([k,x])=>[k,walk(x)]));return v;};
+const document=rewriteFlight(html,walk,[...modules.values()].join(''));
+---
+<Fragment set:html={document} />
