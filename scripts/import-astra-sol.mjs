@@ -70,8 +70,13 @@ for (const e of entries) {
     sourceSha256: hash(raw),
   });
 }
-// Captured on-demand assets can be absent from a HAR. Use only public URLs
-// explicitly embedded in this document; pin their bytes with the same ledger.
+// Supplemental evidence is pinned by the existing release manifest. Imports
+// can be repeated without contacting the source or trusting arbitrary local bytes.
+const supplemental = new Map(
+  JSON.parse(await fs.readFile(out + "/manifest.json", "utf8")).assets
+    .filter((a) => a.supplemental)
+    .map((a) => [a.source, a]),
+);
 const media = [
   ...new Set(
     source.match(
@@ -83,26 +88,22 @@ for (const sourceUrl of media) {
   const file =
     "public" + aliases["cdn.openai.com"] + new URL(sourceUrl).pathname;
   if (assets.has(file)) continue;
-  let raw;
+  const pin = supplemental.get(sourceUrl);
+  if (!pin || pin.file !== file || !/^[a-f0-9]{64}$/.test(pin.sourceSha256))
+    throw Error("Missing pinned supplemental evidence: " + sourceUrl);
+  let raw, restore = false;
   try {
     raw = await fs.readFile(file);
   } catch (e) {
     if (e.code !== "ENOENT") throw e;
-    const response = await fetch(sourceUrl, {
-      redirect: "error",
-      signal: AbortSignal.timeout(30000),
-    });
-    if (!response.ok) throw Error(response.status + " " + sourceUrl);
-    raw = Buffer.from(await response.arrayBuffer());
-    const ext = file.split(".").pop(),
-      valid =
-        ext === "pdf"
-          ? raw.subarray(0, 4).toString() === "%PDF"
-          : ext === "webp"
-            ? raw.subarray(8, 12).toString() === "WEBP"
-            : ext === "png" &&
-              raw.subarray(0, 8).equals(Buffer.from("89504e470d0a1a0a", "hex"));
-    if (!valid) throw Error("Unexpected media response: " + file);
+    raw = await fs.readFile(
+      "reference-input/openai-astra-sol/supplement/" + pin.sourceSha256,
+    );
+    restore = true;
+  }
+  if (hash(raw) !== pin.sourceSha256)
+    throw Error("Changed supplemental evidence: " + sourceUrl);
+  if (restore) {
     await fs.mkdir(path.dirname(file), { recursive: true });
     await fs.writeFile(file, raw);
   }
@@ -114,15 +115,38 @@ for (const sourceUrl of media) {
     supplemental: true,
   });
 }
-// One lazy MdxImage normally calls Next's image optimizer. Static hosting
-// serves its original raster using the component's own unoptimized branch.
-const directMedia = (s) =>
-  s
-    .replaceAll('"provider":"next"', '"provider":"file"')
-    .replaceAll(
-      String.raw`\"provider\":\"next\"`,
-      String.raw`\"provider\":\"file\"`,
-    );
+// Keep MdxImage's original sizes, candidate widths, quality and rendering.
+// Only its URL builder changes for static hosting. Use captured response bytes
+// for known requests and the full source raster for unrecorded variants.
+const variants = {}, originals = new Map();
+for (const e of entries) {
+  const u = new URL(e.request.url), src = u.searchParams.get("url");
+  if (u.origin + u.pathname !== "https://openai.com/_next/image" ||
+      e.request.method !== "GET" || e.response.status !== 200 ||
+      !src || !media.includes(src) || !e.response.content.text) continue;
+  const raw = bytes(e), key = [src, u.searchParams.get("w"), u.searchParams.get("q")].join("|");
+  if (raw.toString("ascii", 0, 4) !== "RIFF" || raw.toString("ascii", 8, 12) !== "WEBP") throw Error("Unexpected optimizer response");
+  const file = `public/_openai/variants/${hash(raw)}.webp`;
+  await fs.mkdir(path.dirname(file), {recursive:true});
+  await fs.writeFile(file, raw);
+  assets.set(file, {file, source:u.href, sha256:hash(raw), sourceSha256:hash(raw)});
+  variants[key] = file.slice(6);
+  originals.set(src, local(src));
+}
+if (!originals.size) throw Error("Missing source optimizer response");
+const bundle = "3yay5oxmedkq2.js", bundlePath = "public/_next/static/immutable/chunks/";
+const loader = '`/_next/image?url=${encodeURIComponent(e)}&w=${t}&q=${i??n.DEFAULT_IMAGE_QUALITY}`';
+const parent = await fs.readFile(bundlePath + bundle, "utf8");
+if (parent.split(loader).length !== 2) throw Error("MdxImage loader source changed");
+const replacement = `(${JSON.stringify(variants)}[[e,t,i??n.DEFAULT_IMAGE_QUALITY].join("|")]??(${JSON.stringify(Object.fromEntries(originals))}[e]+"?w="+t+"&q="+(i??n.DEFAULT_IMAGE_QUALITY)))`;
+const patched = parent.replace(loader, () => replacement);
+const alias = hash(patched).slice(0, bundle.length - 3) + ".js";
+await fs.writeFile(bundlePath + alias, patched);
+assets.set(bundlePath + alias, {...assets.get(bundlePath + bundle), file:bundlePath + alias, sha256:hash(patched), adaptation:"static-mdx-image-loader"});
+const directMedia = (text) => {
+  for (const [src, mapped] of originals) text = text.replaceAll(mapped, src);
+  return text.replaceAll(bundle, alias);
+};
 const document = directMedia(local(source))
   .replace(
     /<script\b[^>]*src="[^"]*(?:cloudflareinsights|speed-insights)[^"]*"[^>]*>[\s\S]*?<\/script>/g,
@@ -172,7 +196,7 @@ const rows = readFlight(source),
 for (const r of rows.filter((r) => /^[a-f0-9]+:I/.test(r.raw)))
   imports.set(r.id, {
     id: (0x200000 + imports.size).toString(16),
-    value: JSON.parse(r.raw.slice(r.raw.indexOf(":I") + 2)),
+    value: JSON.parse(directMedia(r.raw.slice(r.raw.indexOf(":I") + 2))),
   });
 function resolve(v, stack = new Set(), used) {
   if (Array.isArray(v)) return v.map((x) => resolve(x, stack, used));

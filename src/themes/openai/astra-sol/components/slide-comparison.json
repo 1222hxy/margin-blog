@@ -528,13 +528,13 @@
                                                                                                               ".1",
                                                                                                               {
                                                                                                                 "image": {
-                                                                                                                  "src": "/__cdn_openai_com_____/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/17fdccec-bbf7-5fd8-9d93-62ff9a10d0ac.852f6380.webp",
+                                                                                                                  "src": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/17fdccec-bbf7-5fd8-9d93-62ff9a10d0ac.852f6380.webp",
                                                                                                                   "width": 1678,
                                                                                                                   "height": 937
                                                                                                                 },
                                                                                                                 "sizes": "(min-width: 1728px) 864px, (min-width: 768px) 50vw, 100vw",
                                                                                                                 "alt": "Alder Street Markets 客户回顾原始幻灯片，包含深蓝色页眉、店面插图和推进计划表。",
-                                                                                                                "provider": "file"
+                                                                                                                "provider": "next"
                                                                                                               }
                                                                                                             ]
                                                                                                           ]

@@ -10,7 +10,11 @@ const [
   origin = "http://127.0.0.1:4346",
   out = "artifacts/astra-sol-comparison",
   count = "4",
+  mode = "default",
 ] = process.argv.slice(2);
+if (!["default", "slide"].includes(mode))
+  throw Error("Unknown comparison mode: " + mode);
+const slide = mode === "slide";
 const har = JSON.parse(await fs.readFile(harFile, "utf8")),
   map = new Map();
 for (const e of har.log.entries) {
@@ -50,12 +54,17 @@ for (const [url, response] of map) {
     key = u.origin + u.pathname;
   if (!byPath.has(key)) byPath.set(key, response);
 }
+const optimized = manifest.assets.find((a) =>
+  a.source.startsWith("https://openai.com/_next/image?"),
+);
+if (slide && (!optimized || !map.has(optimized.source)))
+  throw Error("No captured optimizer response for slide comparison");
 const b = await chromium.launch();
 await fs.mkdir(out, { recursive: true });
 try {
   for (let r = 0; r < Number(count); r++) {
     for (const side of ["reference", "blog"])
-      for (const width of [1440, 390]) {
+      for (const width of slide ? [1600] : [1440, 390]) {
         const c = await b.newContext({
           viewport: { width, height: width === 1440 ? 1000 : 844 },
           deviceScaleFactor: 1,
@@ -66,8 +75,12 @@ try {
           if (side === "reference")
             await c.route("**/*", (route) => {
               const u = new URL(route.request().url());
+              // Optimizer variants are distinct assets; never substitute another w/q.
               const response =
-                map.get(u.href) || byPath.get(u.origin + u.pathname);
+                map.get(u.href) ||
+                (u.pathname === "/_next/image"
+                  ? undefined
+                  : byPath.get(u.origin + u.pathname));
               return response ? route.fulfill(response) : route.abort();
             });
           else
@@ -103,6 +116,31 @@ try {
               timeout: 15000,
             });
           };
+          if (slide) {
+            const tab = p.getByRole("tab", {
+              name: "幻灯片模板匹配",
+              exact: true,
+            });
+            await tab.click();
+            await expect(tab).toHaveAttribute("aria-selected", "true");
+            const img = p.getByAltText(
+              /^Alder Street Markets 客户回顾原始幻灯片/,
+            );
+            await img.scrollIntoViewIfNeeded();
+            const expected =
+              side === "reference"
+                ? optimized.source
+                : origin + optimized.file.slice("public".length);
+            await expect
+              .poll(() => img.evaluate((n) => n.currentSrc))
+              .toBe(expected);
+            await expect
+              .poll(() => img.evaluate((n) => n.naturalWidth))
+              .toBeGreaterThan(0);
+            await take("slide-image", img);
+            console.log(`Round ${r + 1}: ${width}px ${side}, captured 828w`);
+            continue;
+          }
           const chart = p.locator("#agents-last-exam");
           await expect(async () => {
             await chart.evaluate((n) =>

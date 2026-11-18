@@ -10,7 +10,14 @@ import rehypeAccessibility from "./scripts/rehype-accessibility.mjs";
 export default defineConfig({
   devToolbar: { enabled: false },
   site: process.env.SITE_URL || "https://margin-blog.yhl-3ca.workers.dev",
-  integrations: [react(), mdx(), sitemap()],
+  integrations: [
+    react(),
+    mdx(),
+    sitemap({
+      filter: (page) =>
+        !/^\/themes\/openai\/astra-sol(?:\/|$)/.test(new URL(page).pathname),
+    }),
+  ],
   vite: { plugins: [tailwind()] },
   markdown: {
     processor: unified({

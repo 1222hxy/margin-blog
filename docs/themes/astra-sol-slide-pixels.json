@@ -1,0 +1,51 @@
+{
+  "roundsPerSide": 4,
+  "viewports": [
+    [
+      1600,
+      844
+    ]
+  ],
+  "states": [
+    {
+      "width": 1600,
+      "state": "slide-image",
+      "cross": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "self": {
+        "reference": [
+          0,
+          0,
+          0
+        ],
+        "blog": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cropSize": [
+        565,
+        316
+      ],
+      "pngSha256": {
+        "reference": [
+          "79e6f8c04e287d73d44a87a88c2b59af6562063321ce97ba8d05cd1eac584508",
+          "79e6f8c04e287d73d44a87a88c2b59af6562063321ce97ba8d05cd1eac584508",
+          "79e6f8c04e287d73d44a87a88c2b59af6562063321ce97ba8d05cd1eac584508",
+          "79e6f8c04e287d73d44a87a88c2b59af6562063321ce97ba8d05cd1eac584508"
+        ],
+        "blog": [
+          "79e6f8c04e287d73d44a87a88c2b59af6562063321ce97ba8d05cd1eac584508",
+          "79e6f8c04e287d73d44a87a88c2b59af6562063321ce97ba8d05cd1eac584508",
+          "79e6f8c04e287d73d44a87a88c2b59af6562063321ce97ba8d05cd1eac584508",
+          "79e6f8c04e287d73d44a87a88c2b59af6562063321ce97ba8d05cd1eac584508"
+        ]
+      }
+    }
+  ]
+}

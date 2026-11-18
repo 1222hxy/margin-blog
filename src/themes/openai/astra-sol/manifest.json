@@ -1,7 +1,7 @@
 {
   "url": "https://openai.com/zh-Hans-CN/index/introducing-gpt-6-2-astra-sol/",
   "sourceSha256": "5d00d73c45b2a70b6b0616d891fc64b9e0ef2512a56795fee8f363d37eaca6c7",
-  "documentSha256": "c97f090a5eecf77a1079e4ee068a03261a320dc14d184aea63d076e88307f278",
+  "documentSha256": "55081ff83d9cca33bec2db7a8d460a13ea19bde032202925907ff4882a5d9e39",
   "components": [
     {
       "id": "astra-sol-hero",
@@ -2017,6 +2017,19 @@
       "sha256": "31bba16cc53674b68450304f9e5ede0862d46673ba7d0096bc3031a6c0166985",
       "sourceSha256": "31bba16cc53674b68450304f9e5ede0862d46673ba7d0096bc3031a6c0166985",
       "supplemental": true
+    },
+    {
+      "file": "public/_openai/variants/e4f42bb909cb771bc41f4b7993b29fc0f7a3f1b0ffc73e9dda6fe4adc9c6d318.webp",
+      "source": "https://openai.com/_next/image?url=https%3A%2F%2Fcdn.openai.com%2Fmdx-assets%2Fe193aefe-5e58-431c-8cd2-adadac0c1496%2F17fdccec-bbf7-5fd8-9d93-62ff9a10d0ac.852f6380.webp&w=828&q=90",
+      "sha256": "e4f42bb909cb771bc41f4b7993b29fc0f7a3f1b0ffc73e9dda6fe4adc9c6d318",
+      "sourceSha256": "e4f42bb909cb771bc41f4b7993b29fc0f7a3f1b0ffc73e9dda6fe4adc9c6d318"
+    },
+    {
+      "file": "public/_next/static/immutable/chunks/e945f289a28f3.js",
+      "source": "https://openai.com/_next/static/immutable/chunks/3yay5oxmedkq2.js",
+      "sha256": "e945f289a28f3fcd33df1f114b617e50173ca026d8012381769ef6900b6cad11",
+      "sourceSha256": "fd5c6433950ada22eadb6ea0023d1d5dc931d1da06a9f00466320727d91846bd",
+      "adaptation": "static-mdx-image-loader"
     }
   ]
 }
