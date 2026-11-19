@@ -1,4 +1,4 @@
-import {Tabs, type TabItem} from '../themes/openai/components/Tabs';
+import {MarkdownTabs, type TabItem} from '../themes/yhklab/components/MarkdownTabs';
 import {benchmarkChart} from '../themes/openai/astra-sol/catalog';
 import {proseHTML} from '../themes/yhklab/blocks';
 import {htmlModel} from '../themes/openai/lib/native';
@@ -10,7 +10,7 @@ export function nativeWidgets(widgets:Widget[]){
   const result:Record<string,NativeComponent>={};
   for(const w of widgets){
     if(w.type==='tabs'){
-      result[w.id]=Tabs({id:w.id,components:result,items:w.items.map(t=>({...t,html:proseHTML(t.html)}))});
+      result[w.id]=MarkdownTabs({id:w.id,components:result,items:w.items.map(t=>({...t,html:proseHTML(t.html)}))});
       continue;
     }
     const caption=w.label+(w.unit?`（${w.unit}）`:''),[category,value]=w.columns;
