@@ -1,3 +1,7 @@
+import {pdfAttributes,pdfWidget} from './pdf.mjs';
+import {embedAttributes,embedWidget} from './embed.mjs';
+import {videoAttributes,videoWidget} from './video.mjs';
+import {testimonialAttributes,lowerTestimonial,finishTestimonials} from './testimonials.mjs';
 import {renderFence,renderDisclosure,renderChecklist} from './prose-widgets.mjs';
 import { unified } from 'unified';
 import parse from 'remark-parse';
@@ -20,7 +24,7 @@ const metaSchema = z.strictObject({
 });
 const markdown = unified().use(parse).use(gfm).use(math).use(directives);
 const html = unified().use(toHast).use(katex,{trust:false,throwOnError:true}).use(stringify);
-const attrs = {tabs:[],tab:[],quote:['by'],details:[],video:['src','poster'],chart:['unit'],component:['use'],inventory:[]};
+const attrs = {tabs:[],tab:[],quote:['by'],details:[],video:videoAttributes,pdf:pdfAttributes,embed:embedAttributes,chart:['unit'],component:['use'],inventory:[],...testimonialAttributes};
 const element=(tag,props={},children=[])=>({type:'paragraph',data:{hName:tag,hProperties:props},children});
 const text=value=>({type:'text',value});
 const serializer=unified().use(stringify);
@@ -44,23 +48,43 @@ export function compileLab(source,file='<input>') {
     if(n.type==='heading'){
       if(n.depth===1)fail(n,'use title in frontmatter for the page heading');
       const title=toString(n),id='sec-'+slugger.slug(title||'section');n.data={hProperties:{id}};
-      if(parent?.type==='root'&&n.depth<=3)headings.push({id,text:title,headlineTag:'h'+n.depth});
+      if(parent?.type==='root'&&n.depth<=(meta.layout==='article'?5:3)){
+        headings.push({id,text:title,headlineTag:'h'+n.depth});
+        if(meta.layout==='article'&&n.depth>2)n.data.hProperties.className=['scroll-mt-[calc(var(--page-top-space,var(--header-h))+var(--toc-button-h)+var(--anchor-scroll-clearance))]'];
+      }
     }
     if(!n.type.endsWith('Directive')){if(n.children)n.children=n.children.map(c=>lower(c,n));return n;}
     const name=n.name,a=n.attributes||{};
     if(!Object.hasOwn(attrs,name))fail(n,'unknown directive '+name);
     for(const key of Object.keys(a))if(!attrs[name].includes(key))fail(n,`unknown ${name} attribute ${key}`);
-    const leaf=['video','component','inventory'].includes(name);
+    const leaf=['video','pdf','embed','component','inventory'].includes(name);
     if(n.type!==(leaf?'leafDirective':'containerDirective'))fail(n,`expected ${leaf?'::':':::'}${name}`);
     const labelNode=n.children.find(c=>c.data?.directiveLabel);const label=leaf?toString(n):labelNode?toString(labelNode):'';
     const kids=n.children.filter(c=>c!==labelNode);
+    if(Object.hasOwn(testimonialAttributes,name))return lowerTestimonial({
+      name,label,children:kids,parent,attributes:a,node:n,mediaUrl:url,fail,lower,element,nextId:()=>`lab-testimonials-${++serial}`,
+    });
     if(name==='component'||name==='inventory'){
       if(parent?.type!=='root'||meta.layout!=='product'||!meta.mock)fail(n,'component samples require a mock product and top-level placement');
       if(name==='component'&&!/^[a-z][a-z0-9-]*$/.test(a.use||''))fail(n,'expected use=component-id');
       const key=name==='inventory'?'inventory':a.use;if(demos.includes(key))fail(n,'duplicate sample '+key); demos.push(key);
       return element('div',{'data-lab-sample':key,'data-line':n.position.start.line});
     }
-    if(name==='video'){if(!label)fail(n,'video needs a descriptive label');return element('figure',{},[element('video',{src:url(n,a.src,true),...(a.poster?{poster:url(n,a.poster,true)}:{}),controls:true,playsInline:true,preload:'none',className:['w-full'],'aria-label':label}),element('figcaption',{},[text(label)])]);}
+    if(name==='pdf'){
+      const widget=pdfWidget(n,{id:`lab-pdf-${++serial}`,label,attributes:a,mediaUrl:url,fail});
+      widgets.push(widget);
+      return element('template',{'data-openai-component':widget.id});
+    }
+    if(name==='embed'){
+      const widget=embedWidget(n,{id:`lab-embed-${++serial}`,label,attributes:a,mediaUrl:url,fail});
+      widgets.push(widget);
+      return element('template',{'data-openai-component':widget.id});
+    }
+    if(name==='video'){
+      const widget=videoWidget(n,{id:`lab-video-${++serial}`,label,attributes:a,mediaUrl:url,fail});
+      widgets.push(widget);
+      return element('template',{'data-openai-component':widget.id});
+    }
     if(name==='chart'){
       const t=kids[0];if(!label||kids.length!==1||t?.type!=='table'||t.children.length<2||t.children.some(r=>r.children.length!==2))fail(n,'chart needs a caption and one two-column Markdown table');
       const rows=t.children.slice(1).map(r=>r.children.map(c=>toString(c).trim()));
@@ -86,6 +110,11 @@ export function compileLab(source,file='<input>') {
     if(n.tagName==='pre')return renderFence(n);
     if(n.tagName==='details')return renderDisclosure(n);
     if(n.tagName==='ul')return renderChecklist(n);
+    if(n.tagName==='lab-testimonials'){
+      const widget=finishTestimonials(n,root=>serializer.stringify(root));
+      widgets.push(widget);
+      return {type:'element',tagName:'template',properties:{'data-openai-component':widget.id},children:[]};
+    }
     if(n.tagName!=='lab-tabs')return n;
     const id=n.properties.id;
     widgets.push({type:'tabs',id,items:n.children.filter(c=>c.tagName==='section').map((panel,i)=>({

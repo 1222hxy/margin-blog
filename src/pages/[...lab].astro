@@ -6,4 +6,4 @@ import mathStyles from 'katex/dist/katex.min.css?url';
 export function getStaticPaths(){return pages.map(page=>({params:{lab:page.entry.path.slice(1,-1)},props:{page}}));}
 const {page:{entry,html,components,sections}}=Astro.props;
 ---
-{entry.layout==='product'?<Fragment set:html={productDocument(entry,html,components,new URL(entry.path,Astro.site).href,entry.mock,mathStyles)}/>:<ReadingPage components={components} entry={entry} sections={sections} mock={entry.mock}><link slot="head" rel="stylesheet" href={mathStyles}/><Fragment set:html={html}/></ReadingPage>}
+{entry.layout==='product'?<Fragment set:html={productDocument(entry,html,components,new URL(entry.path,Astro.site).href,entry.mock,mathStyles)}/>:<ReadingPage components={components} entry={entry} sections={sections} mock={entry.mock}><Fragment set:html={html}/></ReadingPage>}

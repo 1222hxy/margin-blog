@@ -1,0 +1,20 @@
+---
+import Page from '@/themes/openai/astra-sol/ComponentPage.astro';
+import { launchComponent } from '@/themes/openai/astra-sol/catalog';
+
+const component = launchComponent('intro-video');
+function visit(value: any) {
+  if (!value || typeof value !== 'object') return;
+  if (value[0] === '$' && value[1] === '$L200023') {
+    const props = value[3];
+    delete props.videoEmbedUrl;
+    props.assetUrl = '/yhklab/path.webm';
+    props.videoId = 'local-video-reference';
+    props.posterImageUrl = '/yhklab/graph.svg';
+    props.altText = 'Mock · 视频对照';
+  }
+  for (const child of Object.values(value)) visit(child);
+}
+visit(component.model);
+---
+<Page title="本地视频对照" components={[component]} />

@@ -1,0 +1,111 @@
+---
+export function getStaticPaths() {
+  return [
+    {
+      params: { demo: "design" },
+      props: { title: "设计过程交互预览", label: "显示节点数" },
+    },
+    {
+      params: { demo: "path" },
+      props: { title: "路径场景", label: "回放到第几个节点" },
+    },
+    {
+      params: { demo: "nodes" },
+      props: { title: "节点场景", label: "显示节点数" },
+    },
+  ];
+}
+const { title, label } = Astro.props;
+const xs = [40, 115, 190, 265, 340];
+---
+
+<!doctype html>
+<html lang="zh-Hans-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Mock · {title} | YhkLab</title>
+  </head>
+  <body>
+    <main>
+      <h1>Mock · {title}</h1>
+      <svg viewBox="0 0 380 170" aria-hidden="true">
+        {xs.slice(1).map((x, i) => (
+          <line
+            data-step={i + 2}
+            x1={xs[i]}
+            y1={i % 2 ? 105 : 66}
+            x2={x}
+            y2={i % 2 ? 66 : 105}
+          />
+        ))}
+        {xs.map((x, i) => (
+          <circle data-step={i + 1} cx={x} cy={i % 2 ? 105 : 66} r="12" />
+        ))}
+      </svg>
+      <label for="nodes">{label}</label>
+      <input id="nodes" type="range" min="1" max="5" value="3" />
+      <output for="nodes" aria-live="polite">
+        3 个节点
+      </output>
+    </main>
+    <script is:inline>
+      const control = document.getElementById("nodes");
+      const output = document.querySelector("output");
+      const shapes = document.querySelectorAll("[data-step]");
+      const update = () => {
+        const count = control.valueAsNumber;
+        for (const shape of shapes)
+          shape.style.opacity =
+            Number(shape.dataset.step) <= count ? "1" : ".16";
+        output.value = `${count} 个节点`;
+      };
+      control.addEventListener("input", update);
+      update();
+    </script>
+  </body>
+</html>
+<style>
+  html {
+    color-scheme: dark;
+  }
+  body {
+    margin: 0;
+    background: #101010;
+    color: #f4f4f4;
+    font:
+      16px system-ui,
+      sans-serif;
+  }
+  main {
+    max-width: 34rem;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+    padding-right: 2rem;
+  }
+  svg {
+    display: block;
+    width: 100%;
+    margin-block: 0.5rem;
+  }
+  line {
+    stroke: #a5dfd4;
+    stroke-width: 3;
+  }
+  circle {
+    fill: #a5dfd4;
+  }
+  input {
+    display: block;
+    width: 100%;
+    margin-block: 0.75rem;
+    accent-color: #a5dfd4;
+  }
+  output {
+    display: block;
+  }
+</style>

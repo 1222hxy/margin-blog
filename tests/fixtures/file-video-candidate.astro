@@ -1,0 +1,7 @@
+---
+import Page from '@/themes/openai/astra-sol/ComponentPage.astro';
+import { nativeVideo } from '@/themes/yhklab/components/NativeVideo';
+
+const component = nativeVideo({ id: 'local-video-reference', src: '/yhklab/path.webm', poster: '/yhklab/graph.svg', label: 'Mock · 视频对照' });
+---
+<Page title="本地视频对照" components={[component]} />

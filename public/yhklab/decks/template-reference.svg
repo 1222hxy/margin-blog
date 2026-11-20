@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1678" height="937" viewBox="0 0 1678 937">
+  <title>Mock YhkLab reference slide</title>
+  <rect width="1678" height="937" fill="#f6faf9"/>
+  <path fill="#37647f" d="M0 0h1678v28H0z"/>
+  <g font-family="system-ui,sans-serif">
+    <text x="140" y="141" fill="#37647f" font-size="32" letter-spacing="4">MOCK / YHKLAB</text>
+    <text x="140" y="258" fill="#142f39" font-size="80" font-weight="600">Research note review</text>
+    <text x="140" y="417" fill="#142f39" font-size="37">Evidence and changes</text>
+    <text x="1040" y="417" fill="#142f39" font-size="37">Review notes</text>
+    <text x="140" y="813" fill="#37647f" font-size="30">Reference layout / 01</text>
+  </g>
+  <path fill="#e3eeee" d="M140 465h780v204H140zM1040 465h498v204h-498z"/>
+  <path fill="#37647f" d="M182 515h474v13H182zM1082 515h290v13h-290z"/>
+  <path fill="#b4ccce" d="M182 560h630v13H182zM182 605h550v13H182zM1082 560h361v13h-361zM1082 605h316v13h-316z"/>
+</svg>

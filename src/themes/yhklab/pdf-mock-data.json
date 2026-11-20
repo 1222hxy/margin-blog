@@ -1,0 +1,90 @@
+[
+  {
+    "id": "records",
+    "kind": "workbook",
+    "tab": "工作簿",
+    "title": "整理记录",
+    "ratio": "4/3",
+    "labels": ["待整理", "已整理", "已复核"],
+    "before": [12, 8, 6],
+    "after": [12, 11, 9],
+    "note": "三条笔记尚未复核，保留在下一轮清单中。"
+  },
+  {
+    "id": "memo",
+    "kind": "workbook",
+    "tab": "备忘录",
+    "title": "复核备忘录",
+    "ratio": "800/517",
+    "labels": ["问题", "依据", "下一步"],
+    "before": [7, 5, 3],
+    "after": [7, 6, 5],
+    "note": "先核对原始记录，再补全缺失依据。"
+  },
+  {
+    "id": "experiment",
+    "kind": "workbook",
+    "tab": "实验记录",
+    "title": "实验结果记录",
+    "ratio": "4/5",
+    "labels": ["采集", "整理", "复核"],
+    "before": [15, 10, 6],
+    "after": [15, 12, 10],
+    "note": "两份记录使用同一批虚构样本。"
+  },
+  {
+    "id": "checklist",
+    "kind": "workbook",
+    "tab": "检查清单",
+    "title": "发布检查清单",
+    "ratio": "8/5",
+    "labels": ["草稿", "已检查", "可发布"],
+    "before": [8, 6, 4],
+    "after": [8, 7, 6],
+    "note": "未发布内容仍保留在草稿清单。"
+  },
+  {
+    "id": "overview",
+    "kind": "slide",
+    "tab": "概念稿",
+    "title": "研究笔记台概览",
+    "ratio": "16/9",
+    "labels": ["记录", "标引", "复核"],
+    "before": [4, 3, 2],
+    "after": [4, 4, 3],
+    "note": "先记录问题，再补上对应的依据。"
+  },
+  {
+    "id": "template",
+    "kind": "slide",
+    "tab": "模板匹配",
+    "title": "笔记模板对照",
+    "ratio": "16/9",
+    "labels": ["标题", "正文", "附录"],
+    "before": [6, 4, 2],
+    "after": [6, 5, 4],
+    "note": "两个稿件沿用同一组章节。"
+  },
+  {
+    "id": "map",
+    "kind": "slide",
+    "tab": "关系图",
+    "title": "记录关系图",
+    "ratio": "16/9",
+    "labels": ["节点", "连接", "标注"],
+    "before": [10, 7, 4],
+    "after": [10, 9, 7],
+    "note": "缺失的连接已补到复核稿。"
+  },
+  {
+    "id": "review",
+    "kind": "slide",
+    "tab": "阶段回顾",
+    "title": "阶段汇报",
+    "ratio": "16/9",
+    "labels": ["准备", "检查", "完成"],
+    "before": [12, 9, 6],
+    "after": [12, 11, 9],
+    "note": "这里只展示 Mock 的进度，不代表产品实际表现。"
+  }
+]

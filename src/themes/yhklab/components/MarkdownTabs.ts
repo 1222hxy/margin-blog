@@ -16,11 +16,16 @@ export interface TabItem {
   id: string;
   label: string;
   html: string;
+  videoId?: string;
+  linkAnchor?: string;
 }
 interface MarkdownTabsOptions {
   id: string;
   items: readonly TabItem[];
   components?: Record<string, NativeComponent>;
+  media?: boolean;
+  keepMounted?: boolean;
+  autoplay?: boolean;
 }
 
 const ArticleTabs = createArticleTabs(React);
@@ -34,6 +39,9 @@ export function MarkdownTabs({
   id,
   items,
   components = {},
+  media = false,
+  keepMounted = false,
+  autoplay = false,
 }: MarkdownTabsOptions): NativeComponent {
   if (
     !items.length ||
@@ -42,15 +50,22 @@ export function MarkdownTabs({
     throw new Error("Tabs need unique items.");
   }
   const panel = (html: string) =>
-    `<section class="${escapeHtml(tokens.tabContentGrid)}">${html}</section>`;
+    media
+      ? `<div class="${escapeHtml(tokens.tabContentGrid)} in-data-article-contained:flex in-data-article-contained:flex-col">${html}</div>`
+      : `<section class="${escapeHtml(tokens.tabContentGrid)}">${html}</section>`;
   const html = renderToString(
     React.createElement(ArticleTabs, {
       groupId: id,
+      anchorId: media ? id : undefined,
+      keepMounted,
+      autoplay,
       items: items.map(({ id, label, html }, index) => ({
         id,
         label,
         ssrHtml:
-          index === 0 ? panel(expandComponents(html, components)) : undefined,
+          index === 0 || keepMounted
+            ? panel(expandComponents(html, components))
+            : undefined,
       })),
     }),
   );
@@ -63,9 +78,14 @@ export function MarkdownTabs({
       null,
       {
         groupId: flightString(id),
-        items: items.map(({ id, label, html }) => ({
+        anchorId: media ? flightString(id) : undefined,
+        ...(keepMounted ? { keepMounted: true } : {}),
+        ...(autoplay ? { autoplay: true } : {}),
+        items: items.map(({ id, label, html, videoId, linkAnchor }) => ({
           id: flightString(id),
           label: flightString(label),
+          ...(videoId ? { videoId: flightString(videoId) } : {}),
+          ...(linkAnchor ? { linkAnchor: flightString(linkAnchor) } : {}),
           content: htmlModel(panel(html), components)[0],
         })),
       },

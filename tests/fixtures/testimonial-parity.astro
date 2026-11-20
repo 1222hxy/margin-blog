@@ -1,0 +1,23 @@
+---
+import Page from '@/themes/openai/astra-sol/ComponentPage.astro';
+import { catalog, launchComponent, type LaunchComponentId } from '@/themes/openai/astra-sol/catalog';
+import { testimonialComponent, type TestimonialItem } from '@/themes/yhklab/components/TestimonialCarousel';
+
+export const getStaticPaths = () => ['customer-carousel', 'customer-quote'].map(id => ({ params: { id } }));
+const id = Astro.params.id as LaunchComponentId;
+const component = launchComponent(id);
+const raw = component.model[3].children[3].testimonials;
+const items: TestimonialItem[] = raw.map((item: any) => ({
+  label: item.triggerLabel,
+  paragraphs: item.testimonial.map(([, tag, , props]: any) => {
+    if (tag !== 'p' || typeof props.children !== 'string') throw Error('Unsupported source fixture paragraph.');
+    return props.children;
+  }),
+  attribution: item.attribution,
+  image: item.image.file.url,
+  imageAlt: item.imageAlt,
+  imageDisplay: item.imageDisplay,
+  removeQuotes: item.removeQuotes,
+}));
+---
+<Page title={catalog[id]} components={[testimonialComponent(id, items)]} />

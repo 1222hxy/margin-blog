@@ -1,9 +1,23 @@
 ---
 // Use the same original native shell for the article's header, search and drawer.
-import {productDocument} from './productDocument';
-import mathCss from 'katex/dist/katex.min.css?url';
-const {title,description='',mock=false,components={}}=Astro.props;
-const body=await Astro.slots.render('default');
-const page=productDocument({title,description,date:'',path:Astro.url.pathname},body,components,new URL(Astro.url.pathname,Astro.site).href,mock,mathCss,true);
+import { productDocument } from "./productDocument";
+import mathCss from "katex/dist/katex.min.css?url";
+const {
+  title,
+  description = "",
+  mock = false,
+  components = {},
+  body,
+} = Astro.props;
+const page = productDocument(
+  { title, description, date: "", path: Astro.url.pathname },
+  body,
+  components,
+  new URL(Astro.url.pathname, Astro.site).href,
+  mock,
+  mathCss,
+  true,
+);
 ---
-<Fragment set:html={page}/>
+
+<Fragment set:html={page} />

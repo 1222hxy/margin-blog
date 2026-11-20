@@ -1,6 +1,6 @@
 export interface ThemeLink { name: string; slug: string; id?: string; __typename?: string; }
 export interface NativeComponent { id: string; html: string; model: any; modules: { id: string; value: any }[]; }
-export interface ArticleHeading { text: string; id: string; headlineTag: 'h2' | 'h3'; omitFromTableOfContents?: boolean; }
+export interface ArticleHeading { text: string; id: string; headlineTag: 'h2' | 'h3' | 'h4' | 'h5'; omitFromTableOfContents?: boolean; }
 export interface ArticleData {
   title: string;
   description: string;

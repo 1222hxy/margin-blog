@@ -1,0 +1,61 @@
+/* Scoped text positioning uses the metrics supplied by PDF.js TextLayer. */
+.yhklab-pdf-text {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 1;
+  line-height: 1;
+  text-size-adjust: none;
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.yhklab-pdf-text :is(span, br) {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  margin: 0;
+  transform-origin: 0 0;
+}
+.yhklab-pdf-text {
+  --min-font-size: 1;
+  --text-scale-factor: calc(var(--total-scale-factor) * var(--min-font-size));
+  --min-font-size-inv: calc(1 / var(--min-font-size));
+}
+.yhklab-pdf-text > :not(.markedContent),
+.yhklab-pdf-text .markedContent span:not(.markedContent) {
+  z-index: 1;
+  --font-height: 0;
+  font-size: calc(var(--text-scale-factor) * var(--font-height));
+  --scale-x: 1;
+  --rotate: 0deg;
+  transform: rotate(var(--rotate)) scaleX(var(--scale-x))
+    scale(var(--min-font-size-inv));
+}
+.yhklab-pdf-text .markedContent {
+  display: contents;
+}
+.yhklab-pdf-text ::selection {
+  background: #0d71ff45;
+}
+.yhklab-pdf-annotations {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+.yhklab-pdf-annotation {
+  position: absolute;
+  display: block;
+  pointer-events: auto;
+  min-height: 5px;
+  min-width: 5px;
+  cursor: pointer;
+}
+.yhklab-pdf-annotation:is(:hover, :focus-visible) {
+  background: #ffd94d44;
+  outline: 1px solid #8d771d;
+}
+.yhklab-pdf-frame:not([data-pdf-ready]) .yhklab-pdf-fallback {
+  visibility: visible;
+}

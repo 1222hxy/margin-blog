@@ -1,28 +1,107 @@
-import {catalog,benchmarkChart,type LaunchComponentId} from '../openai/astra-sol/catalog';
-import {Testimonial} from '../openai/components/Testimonial';
-import {section,para,proseHTML,localLink} from './blocks';
-import type {NativeComponent} from '../openai/types';
-const picture=(file:string,alt:string)=>`<img src="/yhklab/${file}.svg" width="640" height="360" loading="lazy" alt="${alt}" class="w-full rounded-md">`;
-const names:Record<LaunchComponentId,string>={ 'astra-sol-hero':'原版动态刊头','agents-last-exam':'检索成本与得分','science-benchmarks':'方法对照：双标签图','intelligence-benchmarks':'多指标标签图','frontier-code':'脚本执行时间',lifeval:'笔记覆盖率','harvey-lab':'文献标引质量',gdpval:'整理用时','workbook-comparison':'工作簿与备忘录','slide-comparison':'幻灯片对照','customer-carousel':'读者评价轮播','intro-video':'开场视频','driving-demo':'路径演示','mechanical-design':'结构演示','lamp-design':'设计过程','web-design':'页面设计','cad-showcase':'几何展示','interactive-worlds':'交互场景','customer-quote':'单条引语','workflow-comparison':'工作流对照','security-benchmarks':'校验覆盖率','patch-benchmarks':'修订通过率','alignment-benchmarks':'标注一致率'};
-export const inventory=Object.keys(catalog) as LaunchComponentId[];
-const labels=['采集','整理','复核'];
-const chartIds=['agents-last-exam','science-benchmarks','intelligence-benchmarks','frontier-code','lifeval','harvey-lab','gdpval','security-benchmarks','patch-benchmarks','alignment-benchmarks'];
-function switcher(id:string,items:[string,string][],carousel=false){return `<section data-switch="${id}"><nav aria-label="${names[id as LaunchComponentId]||'章节标签'}" class="flex flex-wrap gap-2">${items.map(([a],i)=>`<a href="#${id}-p${i}" data-pick="${i}" class="text-cta min-h-10 inline-flex items-center justify-center px-4 py-3 rounded-full">${a}</a>`).join('')}</nav>${items.map(([a,v],i)=>`<section id="${id}-p${i}" data-panel="${i}" aria-label="${a}">${v}</section>`).join('')}${carousel?'<button type="button" class="px-4 py-3 text-cta" data-step="-1" aria-label="上一条评价">← 上一条</button><button type="button" class="px-4 py-3 text-cta" data-step="1" aria-label="下一条评价">下一条 →</button>':''}</section>`;}
-export const articleTabs=()=>switcher('note-method',[['问题',para('Mock 问题：整理后的记录更容易回查吗？')],['方法',para('固定同一组 12 条虚构笔记，在三个阶段分别记录用时。')],['边界',para('样本为手工构造，不代表真实用户或产品表现。')]]);
-export const quote=(s:string,by:string)=>Testimonial({quote:s,attribution:by}).html;
-export function productSample(id:LaunchComponentId){const components:Record<string,NativeComponent>={};const marker=(id:string)=>`<template data-openai-component="${id}"></template>`;
- const chart=(id:string,index:number,extra=0)=>{const title=names[id as LaunchComponentId]||'阶段对照'; const key=`chart-${id}-${extra}`;components[key]=benchmarkChart({id:key,caption:`${title} · Mock 数据，单位为演示刻度。`,spec:{width:'container',height:200,mark:{type:index%2?'line':'bar',...(index%2?{point:true}:{})},data:{values:labels.map((stage,i)=>({stage,value:15+(index*11+i*17+extra*7)%69}))},encoding:{x:{field:'stage',type:'nominal',sort:labels,title:'阶段'},y:{field:'value',type:'quantitative',title:'Mock 刻度',scale:{domain:[0,100]}},tooltip:[{field:'stage',title:'阶段'},{field:'value',title:'Mock 值'}]}}});return marker(key)};
- const movie=`<video controls playsinline preload="none" width="640" height="360" poster="/yhklab/graph.svg" class="w-full rounded-md" aria-label="Mock：节点依次连成路径，无音轨"><source src="/yhklab/path.webm" type="video/webm"></video><figcaption>Mock · 无声演示：依次绘出节点与连接。</figcaption>`;
- const render=(id:LaunchComponentId,i:number)=>{if(chartIds.includes(id)){if(id==='science-benchmarks'||id==='intelligence-benchmarks'){
- // Native chart stays mounted; a separate, keyboard-accessible tab set exposes each data table.
- return chart(id,i)+proseHTML(switcher(id,[['记录 A',`<p>Mock · 采集 12，整理 9，复核 6。</p>`],['记录 B',`<p>Mock · 采集 15，整理 11，复核 8。</p>`],...(id==='intelligence-benchmarks'?[['记录 C','<p>Mock · 采集 18，整理 14，复核 10。</p>'] as [string,string]]:[])]));}return chart(id,i);}
- if(id==='customer-quote')return quote('每条结论都应该能回到它的原始记录。','Mock · 编辑手记');
- if(id==='customer-carousel')return proseHTML(switcher(id,[['记录者',quote('我先写问题，再放进第一条观察。','Mock · 记录者')],['复核者',quote('保留原始数值，才能解释两个版本为什么不同。','Mock · 复核者')],['编辑',quote('整理完毕之后，笔记还能重新打开。','Mock · 编辑')]],true));
- if(id==='intro-video'||id==='driving-demo')return proseHTML(movie);
- if(id==='interactive-worlds')return proseHTML(`<label>Mock 场景：选择显示的节点数 <input type="range" min="1" max="5" value="3" data-nodes></label><output aria-live="polite">3 个节点</output><svg viewBox="0 0 400 90" aria-hidden="true">${[0,1,2,3,4].map((n)=>`<circle cx="${40+80*n}" cy="45" r="12" fill="currentColor" opacity="${n<3?1:0.15}"/>`).join('')}</svg>`);
- if(id==='workbook-comparison')return proseHTML(switcher(id,[['工作簿','<table><caption>Mock · 整理记录</caption><thead><tr><th>阶段</th><th>条数</th></tr></thead><tbody><tr><td>整理前</td><td>12</td></tr><tr><td>已复核</td><td>9</td></tr></tbody></table>'],['备忘录','<p>Mock 备忘录：三条笔记尚未复核，保留在下一轮清单中。</p>']]));
- const files:Record<string,[string,string]>={'slide-comparison':['notes','matrix'],'workflow-comparison':['graph','notes'],'mechanical-design':['matrix','graph'],'lamp-design':['graph','matrix'],'web-design':['notes','graph'],'cad-showcase':['matrix','notes']};const [a,b]=files[id];return proseHTML(switcher(id,[['初稿',picture(a,`Mock ${names[id]}：初稿`)],['复核稿',picture(b,`Mock ${names[id]}：复核稿`)]]));};
- if(id==='astra-sol-hero'||!inventory.includes(id))throw Error('Unknown body component: '+id);
- return {html:section('demo-'+id,names[id]+' · Mock')+render(id,inventory.indexOf(id)),components};
+import { catalog, type LaunchComponentId } from "../openai/astra-sol/catalog";
+import { productChart, chartIds } from "./product-charts";
+import {
+  isBenchmarkGroup,
+  productBenchmarkTabs,
+} from "./product-benchmark-tabs";
+import { productTestimonial } from "./product-testimonials";
+import { productVideo } from "./product-video";
+import { productMediaDemo } from "./product-media";
+import { isDeckComparison, productDeckComparison } from "./product-decks";
+import { productWorkflow } from "./product-workflow";
+import { isMediaDemoId } from "./media-demo-ids";
+import { Testimonial } from "../openai/components/Testimonial";
+import { section, proseHTML, localLink } from "./blocks";
+import type { NativeComponent } from "../openai/types";
+const names: Record<LaunchComponentId, string> = {
+  "astra-sol-hero": "原版动态刊头",
+  "agents-last-exam": "检索成本与得分",
+  "science-benchmarks": "方法对照：双标签图",
+  "intelligence-benchmarks": "多指标标签图",
+  "frontier-code": "脚本执行时间",
+  lifeval: "笔记覆盖率",
+  "harvey-lab": "文献标引质量",
+  gdpval: "整理用时",
+  "workbook-comparison": "工作簿与备忘录",
+  "slide-comparison": "幻灯片对照",
+  "customer-carousel": "读者评价轮播",
+  "intro-video": "开场视频",
+  "driving-demo": "路径演示",
+  "mechanical-design": "结构演示",
+  "lamp-design": "设计过程",
+  "web-design": "页面设计",
+  "cad-showcase": "几何展示",
+  "interactive-worlds": "交互场景",
+  "customer-quote": "单条引语",
+  "workflow-comparison": "工作流对照",
+  "security-benchmarks": "校验覆盖率",
+  "patch-benchmarks": "修订通过率",
+  "alignment-benchmarks": "标注一致率",
+};
+export const inventory = Object.keys(catalog) as LaunchComponentId[];
+export const quote = (s: string, by: string) =>
+  Testimonial({ quote: s, attribution: by }).html;
+export function productSample(id: LaunchComponentId) {
+  const components: Record<string, NativeComponent> = {};
+  const marker = (id: string) =>
+    `<template data-openai-component="${id}"></template>`;
+  const chart = (id: LaunchComponentId, index: number) => {
+    const component = productChart(id, names[id], index);
+    components[component.id] = component;
+    return marker(component.id);
+  };
+  const render = (id: LaunchComponentId, i: number) => {
+    if (isBenchmarkGroup(id)) {
+      const group = productBenchmarkTabs(id, names[id], i);
+      Object.assign(components, group.components);
+      return group.html;
+    }
+    if (chartIds.includes(id)) return chart(id, i);
+    if (id === "customer-carousel" || id === "customer-quote") {
+      const component = productTestimonial(id);
+      components[component.id] = component;
+      return marker(component.id);
+    }
+    if (id === "intro-video" || id === "driving-demo") {
+      const component = productVideo(id);
+      components[component.id] = component;
+      return marker(component.id);
+    }
+    if (isMediaDemoId(id)) {
+      const demo = productMediaDemo(id);
+      Object.assign(components, demo.components);
+      return demo.html;
+    }
+    if (isDeckComparison(id) || id === "workflow-comparison") {
+      const comparison =
+        id === "workflow-comparison"
+          ? productWorkflow()
+          : productDeckComparison(id);
+      Object.assign(components, comparison.components);
+      return comparison.html;
+    }
+    throw Error("Unknown product demo: " + id);
+  };
+  if (id === "astra-sol-hero" || !inventory.includes(id))
+    throw Error("Unknown body component: " + id);
+  return {
+    html:
+      section("demo-" + id, names[id] + " · Mock") +
+      render(id, inventory.indexOf(id)),
+    components,
+  };
 }
-export function componentIndex(ids:string[]){return section('library','组件目录 · Mock')+proseHTML(`<ol>${inventory.filter(id=>id==='astra-sol-hero'||ids.includes(id)).map((id,i)=>`<li>${localLink(`${String(i+1).padStart(2,'0')} · ${names[id]}`,id==='astra-sol-hero'?'#product-hero':'#demo-'+id)}</li>`).join('')}</ol>`);}
+export function componentIndex(ids: string[]) {
+  return (
+    section("library", "组件目录 · Mock") +
+    proseHTML(
+      `<ol>${inventory
+        .filter((id) => id === "astra-sol-hero" || ids.includes(id))
+        .map(
+          (id, i) =>
+            `<li>${localLink(`${String(i + 1).padStart(2, "0")} · ${names[id]}`, id === "astra-sol-hero" ? "#product-hero" : "#demo-" + id)}</li>`,
+        )
+        .join("")}</ol>`,
+    )
+  );
+}

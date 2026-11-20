@@ -1,0 +1,80 @@
+---
+import Page from "@/themes/openai/astra-sol/ComponentPage.astro";
+import { launchComponent } from "@/themes/openai/astra-sol/catalog";
+import { productMediaDemo } from "@/themes/yhklab/product-media";
+import { mediaDemoIds, type MediaDemoId } from "@/themes/yhklab/media-demo-ids";
+import type { NativeComponent } from "@/themes/openai/types";
+
+export function getStaticPaths() {
+  return mediaDemoIds.flatMap((id) =>
+    ["reference", "candidate"].map((variant) => ({
+      params: { sample: `${variant}-${id}` },
+      props: { id, original: variant === "reference" },
+    })),
+  );
+}
+const { id, original } = Astro.props as { id: MediaDemoId; original: boolean };
+const labels: Partial<Record<MediaDemoId, string[]>> = {
+  "mechanical-design": ["初稿", "复核稿"],
+  "lamp-design": ["设计视频", "交互预览"],
+  "interactive-worlds": ["路径场景", "节点场景"],
+};
+const demoCaptions: Partial<Record<MediaDemoId, string[]>> = {
+  "mechanical-design": [
+    "Mock · 初稿：用节点和连线把零件关系画出来。",
+    "Mock · 复核稿：沿连接逐项复查结构。",
+  ],
+  "interactive-worlds": [
+    "Mock · 沿连线回放记录顺序。",
+    "Mock · 在场景里调整显示的节点数。",
+  ],
+};
+const mockIframe = "https://docs.google.com/yhklab-isolated-frame";
+function originalFixture(): NativeComponent {
+  const original = launchComponent(id);
+  let video = 0,
+    caption = 0;
+  function visit(value: any) {
+    if (!value || typeof value !== "object") return;
+    if (value[0] === "$") {
+      const props = value[3];
+      if (value[1] === "$L200023") {
+        delete props.videoEmbedUrl;
+        props.assetUrl = "/yhklab/path.webm";
+        props.videoId = `fixture-video-${++video}`;
+        props.posterImageUrl = "/yhklab/graph.svg";
+      }
+      if (value[1] === "$L20002b") {
+        props.tabs.forEach((tab: any, index: number) => {
+          tab.label = labels[id]?.[index] ?? tab.label;
+        });
+      }
+      if (value[1] === "$L200036") {
+        props.data.source = mockIframe;
+        props.data.accessibilityTitle = "Mock · 设计过程交互预览";
+      }
+      if (
+        value[1] === "em" &&
+        typeof props.children === "string" &&
+        demoCaptions[id]?.[caption]
+      ) {
+        props.children = demoCaptions[id]![caption++];
+      }
+    }
+    for (const child of Object.values(value)) visit(child);
+  }
+  visit(original.model);
+  return original;
+}
+function candidateFixture(): NativeComponent {
+  const { html, components } = productMediaDemo(id);
+  const root = /data-openai-component="([^"]+)"/.exec(html)![1];
+  return {
+    ...components[root],
+    modules: Object.values(components).flatMap((c) => c.modules),
+  };
+}
+const fixture = original ? originalFixture() : candidateFixture();
+---
+
+<Page title="Mock · 演示组件对照" components={[fixture]} />

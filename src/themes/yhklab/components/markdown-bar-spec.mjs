@@ -1,15 +1,15 @@
 // Source-derived Vega spec for the two-column Markdown bar directive. The
 // stack and clip groups also preserve the treatment of repeated categories.
-export const chartFont =
-  "OpenAI Sans, OpenAI Sans Variable Scripts, sans-serif";
-const foreground = "var(--dotcom-chart-color-foreground)";
-const keyline = "var(--dotcom-chart-theme-multi-1-keyline)";
-const boundedFill = "var(--dotcom-chart-theme-multi-1-bounded-fill)";
-const numberFormat = ".2~f";
-const signal = (expression) => ({ signal: expression });
-const value = (literal) => ({ value: literal });
-const groupField = (key) => ({ field: { group: key } });
-const update = (properties) => ({ update: properties });
+import { stackMarks } from "./markdown-bar-marks.mjs";
+import {
+  chartBarKeyline as keyline,
+  chartFont,
+  chartForeground as foreground,
+  numberFormat,
+  signal,
+  update,
+  value,
+} from "./markdown-bar-tokens.mjs";
 
 function wrapLabel(source, length) {
   const word = `regexp('([^§\\\\n]{1,${length}})(?:(?!\\\\u00A0)[\\\\s§]|$)', 'g')`;
@@ -19,7 +19,7 @@ function wrapLabel(source, length) {
   );
 }
 
-function axis(scale, title) {
+export function chartAxis(scale, title, squareDomain = true) {
   const horizontal = scale === "x";
   return {
     scale,
@@ -35,12 +35,16 @@ function axis(scale, title) {
           tickCount: signal("ceil(height/40)"),
         }),
     encode: {
-      domain: update({
-        ...(horizontal
-          ? { x: signal("-(4)") }
-          : { y: value(0), y2: signal("height + 4") }),
-        strokeCap: value("square"),
-      }),
+      ...(squareDomain
+        ? {
+            domain: update({
+              ...(horizontal
+                ? { x: signal("-(4)") }
+                : { y: value(0), y2: signal("height + 4") }),
+              strokeCap: value("square"),
+            }),
+          }
+        : {}),
       labels: update({
         text: wrapLabel("datum.value", 25),
         ...(horizontal ? {} : { font: value("SF Mono, monospace") }),
@@ -51,87 +55,13 @@ function axis(scale, title) {
   };
 }
 
-function responsiveSignal(name, index) {
+export function responsiveSignal(name, index) {
   const measure = `isFinite(containerSize()[${index}]) ? containerSize()[${index}] : 300`;
   return {
     name,
     init: measure,
     on: [{ update: measure, events: "window:resize" }],
   };
-}
-
-function stackMarks(categoryTitle, valueTitle) {
-  const stage = (separator) =>
-    `(isValid(datum["stage"]) ? isArray(datum["stage"]) ? join(datum["stage"], ${separator}) : datum["stage"] : ""+datum["stage"])`;
-  const numeric = `format(datum["value"], "${numberFormat}")`;
-  const tooltip = signal(
-    `{${JSON.stringify(categoryTitle)}: ${stage("'\\n'")}, ${JSON.stringify(valueTitle)}: ${numeric}}`,
-  );
-  const description = signal(
-    `${JSON.stringify(categoryTitle + ": ")} + ${stage("' '")} + ${JSON.stringify("; " + valueTitle + ": ")} + ${numeric}`,
-  );
-  const bar = {
-    name: "marks",
-    type: "rect",
-    style: ["bar"],
-    from: { data: "stack_group_main" },
-    encode: update({
-      tooltip,
-      fill: value(boundedFill),
-      stroke: value(keyline),
-      ariaRoleDescription: value("bar"),
-      description,
-      width: groupField("width"),
-      y: { scale: "y", field: "value_end" },
-      y2: { scale: "y", field: "value_start" },
-      cornerRadius: value(0),
-    }),
-  };
-  const inner = {
-    type: "group",
-    encode: update({
-      y: { ...groupField("y"), mult: -1 },
-      width: groupField("width"),
-    }),
-    marks: [bar],
-  };
-  const bounds = [
-    "min_value_start",
-    "max_value_start",
-    "min_value_end",
-    "max_value_end",
-  ]
-    .map((key) => `scale('y',datum["${key}"])`)
-    .join(",");
-  return [
-    {
-      type: "group",
-      from: {
-        facet: {
-          data: "data_0",
-          name: "stack_group_main",
-          groupby: ["stage"],
-          aggregate: {
-            fields: ["value_start", "value_start", "value_end", "value_end"],
-            ops: ["min", "max", "min", "max"],
-          },
-        },
-      },
-      encode: update({
-        x: { scale: "x", field: "stage" },
-        width: signal("max(0.25, bandwidth('x'))"),
-        y: signal(`min(${bounds})`),
-        y2: signal(`max(${bounds})`),
-        clip: value(true),
-        cornerRadius: value(2),
-        stroke: value(keyline),
-        strokeWidth: value(1),
-        strokeForeground: value(true),
-        strokeOffset: value(0),
-      }),
-      marks: [inner],
-    },
-  ];
 }
 
 export function markdownBarSpec({ caption, categoryTitle, valueTitle, rows }) {
@@ -189,35 +119,39 @@ export function markdownBarSpec({ caption, categoryTitle, valueTitle, rows }) {
         zero: true,
       },
     ],
-    axes: [axis("x", categoryTitle), axis("y", valueTitle)],
-    config: {
-      axis: {
-        labelColor: foreground,
-        titleColor: foreground,
-        domainColor: foreground,
-        tickColor: foreground,
-        gridColor: "var(--dotcom-chart-color-secondary-foreground)",
-        labelFontSize: 12,
-        labelLineHeight: 12 * 1.2,
-        titleFontSize: 14,
-        titleLineHeight: 14 * 1.2,
-        labelFontWeight: "normal",
-        titleFontWeight: "normal",
-        ticks: true,
-        grid: false,
-        labelFlush: false,
-        labelAngle: 0,
-        labelPadding: 10,
-        titlePadding: 20,
-        titleFont: chartFont,
-        labelLimit: 1000,
-      },
-      axisX: { labelFont: chartFont, offset: 4 },
-      axisY: { labelFont: chartFont, offset: 4 },
-      style: {
-        cell: { stroke: "transparent" },
-        bar: { stroke: keyline, strokeWidth: 1, cornerRadius: 2 },
-      },
+    axes: [chartAxis("x", categoryTitle), chartAxis("y", valueTitle)],
+    config: chartConfig(),
+  };
+}
+
+export function chartConfig(squareDomain = true) {
+  return {
+    axis: {
+      labelColor: foreground,
+      titleColor: foreground,
+      domainColor: foreground,
+      tickColor: foreground,
+      gridColor: "var(--dotcom-chart-color-secondary-foreground)",
+      labelFontSize: 12,
+      labelLineHeight: 12 * 1.2,
+      titleFontSize: 14,
+      titleLineHeight: 14 * 1.2,
+      labelFontWeight: "normal",
+      titleFontWeight: "normal",
+      ticks: true,
+      grid: false,
+      labelFlush: false,
+      labelAngle: 0,
+      labelPadding: 10,
+      titlePadding: 20,
+      titleFont: chartFont,
+      labelLimit: 1000,
+    },
+    axisX: { labelFont: chartFont, ...(squareDomain ? { offset: 4 } : {}) },
+    axisY: { labelFont: chartFont, ...(squareDomain ? { offset: 4 } : {}) },
+    style: {
+      cell: { stroke: "transparent" },
+      bar: { stroke: keyline, strokeWidth: 1, cornerRadius: 2 },
     },
   };
 }

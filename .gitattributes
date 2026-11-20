@@ -13,3 +13,7 @@
 /src/themes/openai/native/** -text -whitespace
 /src/themes/openai/astra-sol/document.html -text -whitespace
 /src/themes/openai/astra-sol/components/*.json -text -whitespace
+
+# Preserve the byte offsets in generated PDF decks and render fixtures.
+/public/yhklab/decks/*.pdf binary
+/tests/fixtures/pdf-*-parity.pdf binary

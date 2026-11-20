@@ -1,5 +1,10 @@
-import { test, expect, type Page } from "@playwright/test";
+import {
+  referenceChartDist,
+  useArchivedChartBuild,
+} from "./helpers/chart-source-build";
+import { test, expect } from "@playwright/test";
 import { resolve } from "node:path";
+import { chartId, openChartArticle } from "./helpers/chart-candidate";
 import { markdownBarSpec } from "../src/themes/yhklab/components/markdown-bar-spec.mjs";
 import { mountMarkdownBar } from "../src/themes/yhklab/components/markdown-bar-view.mjs";
 
@@ -26,31 +31,16 @@ const spec = markdownBarSpec({
   ],
 });
 
-async function revealChart(page: Page) {
-  // Flight can replace the server placeholder while the article hydrates.
-  // Resolve and scroll the current anchor in one browser task.
-  await page.waitForFunction(() => {
-    const anchor = document.getElementById("lab-chart-2");
-    if (!anchor?.getClientRects().length) return false;
-    anchor.scrollIntoView({ block: "center", behavior: "instant" });
-    return true;
-  });
-  return page.locator("#lab-chart-2");
-}
-
 for (const width of [390, 768, 1440]) {
   test(`standalone Vega bar plot matches archived chart at ${width}px`, async ({
     page,
   }) => {
+    test.skip(!referenceChartDist, "Build the archived chart comparator.");
+    await useArchivedChartBuild(page);
     await page.setViewportSize({ width, height: 900 });
-    await page.goto("/notes/reading-a-graph/");
-    const reject = page.getByRole("button", {
-      name: "拒绝非必要",
-      exact: true,
-    });
-    await reject.waitFor({ timeout: 2500 }).catch(() => {});
-    if (await reject.isVisible()) await reject.click();
-    const chart = await revealChart(page);
+    test.setTimeout(45_000);
+    await openChartArticle(page);
+    const chart = page.locator(`#${chartId}`);
     const host = chart.locator(".vega-embed");
     const plot = host.locator("svg.marks");
     await expect(plot.locator("[aria-roledescription=bar]")).toHaveCount(3);
@@ -75,12 +65,14 @@ for (const width of [390, 768, 1440]) {
     expect(await plot.screenshot({ animations: "disabled" })).toEqual(image);
   });
 }
-test("source chart frame and placeholder match the archived Markdown SSR byte for byte", async ({
+test("default chart build emits the source Flight slot and exact SSR placeholder", async ({
   request,
 }) => {
   const response = await request.get("/notes/reading-a-graph/");
   expect(response.ok()).toBeTruthy();
   const html = await response.text();
+  expect(html).toContain("/yhklab/article-chart.js");
+  expect(html).not.toContain("I[938962,");
   const root = parse(html, { sourceCodeLocationInfo: true });
   const stack: import("parse5").DefaultTreeAdapterTypes.Node[] = [root];
   const id = "lab-chart-2";
@@ -125,12 +117,12 @@ test("source chart frame and placeholder match the archived Markdown SSR byte fo
 test("standalone Vega SVG and PNG exports match the archived downloads", async ({
   page,
 }) => {
+  test.skip(!referenceChartDist, "Build the archived chart comparator.");
+  await useArchivedChartBuild(page);
   await page.setViewportSize({ width: 390, height: 900 });
-  await page.goto("/notes/reading-a-graph/");
-  const reject = page.getByRole("button", { name: "拒绝非必要", exact: true });
-  await reject.waitFor({ timeout: 2500 }).catch(() => {});
-  if (await reject.isVisible()) await reject.click();
-  const chart = await revealChart(page);
+  test.setTimeout(45_000);
+  await openChartArticle(page);
+  const chart = page.locator(`#${chartId}`);
   const host = chart.locator(".vega-embed");
   await expect(host.locator("svg [aria-roledescription=bar]")).toHaveCount(3);
   const trigger = chart.getByRole("button", { name: "Chart options" });

@@ -1,3 +1,6 @@
+import { createTabsAutoplay, tabsAutoplayMs } from "./tabs-autoplay.mjs";
+import { followTabAnchor } from "./tabs-deep-link.mjs";
+
 /** Primary, non-sticky Markdown tabs. This factory renders on the server and
  * in the browser; the surrounding Flight shell only supplies shared services. */
 export function createArticleTabs(React, { staging, analytics } = {}) {
@@ -13,8 +16,10 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
     useState,
   } = React;
   const PanelStage = staging ?? React.createContext(null);
+  const dormantStage = { staged: true, dormant: true, defer: () => () => {} };
+  const useAutoplay = createTabsAutoplay(React);
   const itemClass =
-    "text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium hover:bg-primary-12";
+    "text-cta min-h-10 inline-flex items-center justify-center gap-1 px-4 py-3 rounded-full whitespace-nowrap transition-[background-color,color] ease-curve-d duration-medium";
   const motion = () => window.matchMedia?.("(prefers-reduced-motion: reduce)");
 
   function PendingPanel() {
@@ -23,7 +28,7 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
     return null;
   }
 
-  function TabPanels({ item }) {
+  function TabPanels({ item, all, onReady }) {
     const parent = useContext(PanelStage);
     const deferParent = parent?.defer;
     const [pending, setPending] = useState(0);
@@ -41,6 +46,10 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
       };
     }, [deferParent]);
     const staged = useMemo(() => ({ defer, staged: true }), [defer]);
+    useLayoutEffect(() => {
+      if (!onReady || switching || pending || parent?.staged) return;
+      onReady(item.id);
+    }, [item.id, onReady, parent?.staged, pending, switching]);
 
     useLayoutEffect(() => {
       if (!switching) lastPanel.current = item;
@@ -112,14 +121,18 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
       };
     }, [parent?.staged, visible]);
 
-    const panel = (tab, concealed) =>
+    const panel = (tab, concealed, standby = false) =>
       h(
         PanelStage.Provider,
-        { key: tab.id, value: concealed ? staged : parent },
+        {
+          key: tab.id,
+          value: standby ? dormantStage : concealed ? staged : parent,
+        },
         h(
           "div",
           {
             "aria-hidden": concealed || undefined,
+            hidden: standby || undefined,
             inert: concealed || undefined,
             className: concealed
               ? "flow-root min-w-0 invisible absolute top-0 w-full"
@@ -146,9 +159,17 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
       h(
         "div",
         { ref: region, "aria-busy": switching, className: "relative min-w-0" },
-        switching
-          ? [panel(lastPanel.current, false), panel(item, true)]
-          : panel(item, false),
+        all
+          ? [
+              panel(switching ? lastPanel.current : item, false),
+              ...(switching ? [panel(item, true)] : []),
+              ...all
+                .filter((tab) => tab.id !== visible && tab.id !== item.id)
+                .map((tab) => panel(tab, true, true)),
+            ]
+          : switching
+            ? [panel(lastPanel.current, false), panel(item, true)]
+            : panel(item, false),
       ),
     );
   }
@@ -183,8 +204,45 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
       });
   }
 
-  return function ArticleTabs({ groupId, items }) {
+  return function ArticleTabs({
+    groupId,
+    anchorId,
+    items,
+    keepMounted,
+    autoplay,
+  }) {
     const [selected, select] = useState(0);
+    const [ready, setReady] = useState(null);
+    const root = useRef(null);
+    const activeKey = items[selected].id;
+    const hasLinkAnchors = items.some((item) => item.linkAnchor);
+    const advance = useCallback(
+      () => select((index) => (index + 1) % items.length),
+      [items.length],
+    );
+    const rotates = autoplay && items.length > 1;
+    const rotation = useAutoplay({
+      enabled: rotates,
+      group: root,
+      key: activeKey,
+      ready: ready === activeKey,
+      advance,
+    });
+    useEffect(() => {
+      const requested = new URLSearchParams(location.search).get("video");
+      if (!requested) return;
+      const index = items.findIndex((item) => item.videoId === requested);
+      if (index >= 0) select(index);
+    }, [items]);
+    const stopRotation = rotation.stop;
+    useEffect(
+      () =>
+        followTabAnchor(root.current, items, (index) => {
+          if (rotates) stopRotation();
+          select(index);
+        }),
+      [items, rotates, stopRotation],
+    );
     const scroller = useRef(null);
     const buttons = useRef([]);
     const seen = useRef(new Set());
@@ -209,6 +267,7 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
     }, [groupId, inView, items, selected]);
 
     function activate(index) {
+      if (rotates) rotation.stop();
       reveal(scroller.current, buttons.current[index]);
       history.replaceState(
         null,
@@ -222,6 +281,7 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
       });
     }
     function move(event) {
+      if (rotates) rotation.stop();
       const from = buttons.current.indexOf(event.target);
       if (from < 0) return;
       const direction =
@@ -238,8 +298,10 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
       buttons.current[index]?.focus({ preventScroll: true });
     }
 
-    const controls = items.map((item, index) =>
-      h(
+    const controls = items.map((item, index) => {
+      const active = selected === index;
+      const countdown = rotates && active;
+      return h(
         "button",
         {
           key: item.id,
@@ -248,15 +310,32 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
           },
           type: "button",
           role: "tab",
-          "aria-selected": selected === index,
+          "aria-selected": active,
           "aria-controls": `${item.id}-panel`,
           id: item.id,
-          className: itemClass + (selected === index ? " bg-primary-4" : ""),
+          className:
+            itemClass +
+            (countdown ? " relative isolate overflow-hidden" : "") +
+            " hover:bg-primary-12" +
+            (active ? " bg-primary-4" : ""),
           onClick: () => activate(index),
         },
+        countdown
+          ? h("span", {
+              key: rotation.elapsed,
+              "aria-hidden": true,
+              className:
+                "NIBANa_countdown absolute inset-0 -z-10 bg-primary-12",
+              style: {
+                animationDuration: `${tabsAutoplayMs}ms`,
+                animationDelay: `${-rotation.elapsed}ms`,
+                animationPlayState: rotation.running ? "running" : "paused",
+              },
+            })
+          : null,
         h("span", null, item.label),
-      ),
-    );
+      );
+    });
     const track = h(
       "div",
       { className: "relative min-w-fit R7Wy8a_track" },
@@ -302,9 +381,19 @@ export function createArticleTabs(React, { staging, analytics } = {}) {
       { className: "group col-span-full not-first:mt-16 not-last:mb-16" },
       h(
         "div",
-        { className: "flex flex-col gap-8", onKeyDown: move },
+        {
+          id: anchorId,
+          ref: rotates || hasLinkAnchors ? root : undefined,
+          className: "flex flex-col gap-8",
+          onFocusCapture: rotates ? rotation.onFocus : undefined,
+          onKeyDown: move,
+        },
         list,
-        h(TabPanels, { item: items[selected] }),
+        h(TabPanels, {
+          item: items[selected],
+          all: keepMounted ? items : undefined,
+          onReady: rotates ? setReady : undefined,
+        }),
       ),
     );
   };
